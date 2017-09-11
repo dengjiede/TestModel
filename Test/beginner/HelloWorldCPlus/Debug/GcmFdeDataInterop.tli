@@ -1,0 +1,356 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (56ffec47).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeDataInterop.tli
+//
+// Wrapper implementations for Win32 type library A28E1802-F3CC-4c22-8DD1-C434E90FEAB2
+// compiler-generated file created 09/08/17 at 15:13:00 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ILayerInfo wrapper method implementations
+//
+
+inline _bstr_t ILayerInfo::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IFieldInfoCollectionPtr ILayerInfo::GetFieldInfos ( ) {
+    struct IFieldInfoCollection * _result = 0;
+    HRESULT _hr = get_FieldInfos(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFieldInfoCollectionPtr(_result, false);
+}
+
+inline _bstr_t ILayerInfo::GetCrsWKT ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_CrsWKT(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface ILayerInfoCollection wrapper method implementations
+//
+
+inline long ILayerInfoCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ILayerInfoPtr ILayerInfoCollection::GetItem ( long n ) {
+    struct ILayerInfo * _result = 0;
+    HRESULT _hr = get_Item(n, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ILayerInfoPtr(_result, false);
+}
+
+//
+// interface IDataCopyParam wrapper method implementations
+//
+
+inline IQueryFilterPtr IDataCopyParam::GetFilter ( ) {
+    struct IQueryFilter * _result = 0;
+    HRESULT _hr = get_Filter(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IQueryFilterPtr(_result, false);
+}
+
+inline void IDataCopyParam::PutFilter ( struct IQueryFilter * pVal ) {
+    HRESULT _hr = put_Filter(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IDataCopyParam::GetKeepFid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_KeepFid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataCopyParam::PutKeepFid ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_KeepFid(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IDataCopyParam::GetFlushInterval ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FlushInterval(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataCopyParam::PutFlushInterval ( long pVal ) {
+    HRESULT _hr = put_FlushInterval(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IDataCopyParam::GetCalcTotalCount ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_CalcTotalCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataCopyParam::PutCalcTotalCount ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_CalcTotalCount(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviDomainCopyPolicy IDataCopyParam::GetDomainCopyPolicy ( ) {
+    enum gviDomainCopyPolicy _result;
+    HRESULT _hr = get_DomainCopyPolicy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataCopyParam::PutDomainCopyPolicy ( enum gviDomainCopyPolicy pVal ) {
+    HRESULT _hr = put_DomainCopyPolicy(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviResourceConflictPolicy IDataCopyParam::GetResourceConflictPolicy ( ) {
+    enum gviResourceConflictPolicy _result;
+    HRESULT _hr = get_ResourceConflictPolicy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataCopyParam::PutResourceConflictPolicy ( enum gviResourceConflictPolicy pVal ) {
+    HRESULT _hr = put_ResourceConflictPolicy(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviRebuildRenderIndexPolicy IDataCopyParam::GetRebuildRenderIndexPolicy ( ) {
+    enum gviRebuildRenderIndexPolicy _result;
+    HRESULT _hr = get_RebuildRenderIndexPolicy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataCopyParam::PutRebuildRenderIndexPolicy ( enum gviRebuildRenderIndexPolicy pVal ) {
+    HRESULT _hr = put_RebuildRenderIndexPolicy(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IDataCopyParam::SetFieldMapping ( struct IPropertySet * FieldMapping ) {
+    HRESULT _hr = raw_SetFieldMapping(FieldMapping);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IPropertySetPtr IDataCopyParam::GetFieldMapping ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = raw_GetFieldMapping(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+inline HRESULT IDataCopyParam::SetProcessingEventCallback ( IDispatch * newVal ) {
+    HRESULT _hr = raw_SetProcessingEventCallback(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataCopyParam::SetResRenameCallback ( IDispatch * newVal ) {
+    HRESULT _hr = raw_SetResRenameCallback(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDataCopy wrapper method implementations
+//
+
+inline long IDataCopy::CopyTable ( struct IDataSource * DestDS, _bstr_t DestTableName, struct IDataSource * SrcDS, _bstr_t SrcTableName, struct IDataCopyParam * Parameters ) {
+    long _result = 0;
+    HRESULT _hr = raw_CopyTable(DestDS, DestTableName, SrcDS, SrcTableName, Parameters, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IDataCopy::CopyClass ( struct IDataSource * DestDS, _bstr_t DestFDS, _bstr_t DestClassName, struct IDataSource * SrcDS, _bstr_t SrcFDS, _bstr_t SrcClassName, struct IDataCopyParam * Parameters ) {
+    long _result = 0;
+    HRESULT _hr = raw_CopyClass(DestDS, DestFDS, DestClassName, SrcDS, SrcFDS, SrcClassName, Parameters, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IDataCopy::CopySubType ( struct IDataSource * DestDS, _bstr_t DestFDS, _bstr_t DestClassName, _bstr_t DestSubTypeField, struct IDataSource * SrcDS, _bstr_t SrcFDS, _bstr_t SrcClassName ) {
+    long _result = 0;
+    HRESULT _hr = raw_CopySubType(DestDS, DestFDS, DestClassName, DestSubTypeField, SrcDS, SrcFDS, SrcClassName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IDataCopy::CopyDataset ( struct IDataSource * DestDS, _bstr_t DestFDS, struct IDataSource * SrcDS, _bstr_t SrcFDS, struct IDataCopyParam * Parameters ) {
+    long _result = 0;
+    HRESULT _hr = raw_CopyDataset(DestDS, DestFDS, SrcDS, SrcFDS, Parameters, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IRaster wrapper method implementations
+//
+
+inline _bstr_t IRaster::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IRaster::GetConnStr ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ConnStr(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IRasterSource wrapper method implementations
+//
+
+inline SAFEARRAY * IRasterSource::GetRasterNames ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetRasterNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRasterPtr IRasterSource::OpenRaster ( _bstr_t RasterName ) {
+    struct IRaster * _result = 0;
+    HRESULT _hr = raw_OpenRaster(RasterName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRasterPtr(_result, false);
+}
+
+//
+// interface IDataInterop wrapper method implementations
+//
+
+inline long IDataInterop::ImportLayer ( struct IObjectClass * OC, _bstr_t GeoName, struct IPropertySet * Fields ) {
+    long _result = 0;
+    HRESULT _hr = raw_ImportLayer(OC, GeoName, Fields, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IDataInterop::ImportLayers ( struct IFeatureDataSet * FDS, struct IPropertySet * Layers ) {
+    long _result = 0;
+    HRESULT _hr = raw_ImportLayers(FDS, Layers, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IDataInterop::ExportLayer ( struct IObjectClass * OC, struct IQueryFilter * Filter, _bstr_t GeoName ) {
+    long _result = 0;
+    HRESULT _hr = raw_ExportLayer(OC, Filter, GeoName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IDataInterop::ExportLayers ( struct IFeatureDataSet * FDS, SAFEARRAY * ClassNames ) {
+    long _result = 0;
+    HRESULT _hr = raw_ExportLayers(FDS, ClassNames, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataInterop::PutStepValue ( long pVal ) {
+    HRESULT _hr = put_StepValue(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IDataInterop::GetStepValue ( ) {
+    long _result = 0;
+    HRESULT _hr = get_StepValue(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataInterop::PutOnProcessing ( IDispatch * _arg1 ) {
+    HRESULT _hr = put_OnProcessing(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFdeCursorPtr IDataInterop::Search ( struct IQueryFilter * Filter, VARIANT_BOOL ReuseRow ) {
+    struct IFdeCursor * _result = 0;
+    HRESULT _hr = raw_Search(Filter, ReuseRow, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFdeCursorPtr(_result, false);
+}
+
+inline __int64 IDataInterop::GetCount ( struct IQueryFilter * Filter ) {
+    __int64 _result = 0;
+    HRESULT _hr = raw_GetCount(Filter, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum gviDataConnectionType IDataInterop::GetConnectionType ( ) {
+    enum gviDataConnectionType _result;
+    HRESULT _hr = get_ConnectionType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IDataInterop::GetConnectionString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ConnectionString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline ILayerInfoCollectionPtr IDataInterop::GetLayersInfo ( ) {
+    struct ILayerInfoCollection * _result = 0;
+    HRESULT _hr = get_LayersInfo(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ILayerInfoCollectionPtr(_result, false);
+}
+
+inline IPropertySetPtr IDataInterop::GetProperties ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = get_Properties(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+//
+// interface IDataInteropFactory wrapper method implementations
+//
+
+inline IDataInteropPtr IDataInteropFactory::CreateDataInterop ( enum gviDataConnectionType Type, struct IPropertySet * Params ) {
+    struct IDataInterop * _result = 0;
+    HRESULT _hr = raw_CreateDataInterop(Type, Params, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDataInteropPtr(_result, false);
+}
+
+//
+// interface IRasterSourceFactory wrapper method implementations
+//
+
+inline IRasterSourcePtr IRasterSourceFactory::OpenRasterSource ( _bstr_t RasterURL, enum gviRasterConnectionType RasterType ) {
+    struct IRasterSource * _result = 0;
+    HRESULT _hr = raw_OpenRasterSource(RasterURL, RasterType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRasterSourcePtr(_result, false);
+}
+
+//
+// interface IToolBox wrapper method implementations
+//
+
+inline long IToolBox::Execute ( struct IPropertySet * ParamsIn, struct IPropertySet * * ParamsOut ) {
+    long _result = 0;
+    HRESULT _hr = raw_Execute(ParamsIn, ParamsOut, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}

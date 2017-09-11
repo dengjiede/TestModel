@@ -1,0 +1,654 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (3700d534).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmResource.tli
+//
+// Wrapper implementations for Win32 type library BB54FCF7-F6C7-4588-9EC6-95C098E522DD
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IImage wrapper method implementations
+//
+
+inline __int64 IImage::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IImage::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IBinaryBufferPtr IImage::AsBinary ( ) {
+    struct IBinaryBuffer * _result = 0;
+    HRESULT _hr = raw_AsBinary(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IBinaryBufferPtr(_result, false);
+}
+
+inline VARIANT_BOOL IImage::WriteFile ( _bstr_t ImageFile ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_WriteFile(ImageFile, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IImage::GetWidth ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Width(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IImage::GetHeight ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Height(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IImage::GetHasAlpha ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasAlpha(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IImage::GetFrameNumber ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FrameNumber(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IImage::GetFrameInterval ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FrameInterval(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IImage::PutFrameInterval ( long pVal ) {
+    HRESULT _hr = put_FrameInterval(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviImageType IImage::GetImageType ( ) {
+    enum gviImageType _result;
+    HRESULT _hr = get_ImageType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum gviImageFormat IImage::GetImageFormat ( ) {
+    enum gviImageFormat _result;
+    HRESULT _hr = get_ImageFormat(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IImage::Flip ( ) {
+    HRESULT _hr = raw_Flip();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IImage::ConvertFormat ( enum gviImageFormat newVal ) {
+    HRESULT _hr = raw_ConvertFormat(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IImage::DownSize ( ) {
+    HRESULT _hr = raw_DownSize();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IImage::EmbedWatermark ( struct IImage * Watermark ) {
+    HRESULT _hr = raw_EmbedWatermark(Watermark);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDrawMaterial wrapper method implementations
+//
+
+inline _bstr_t IDrawMaterial::GetTextureName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_TextureName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IDrawMaterial::PutTextureName ( _bstr_t pVal ) {
+    HRESULT _hr = put_TextureName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline OLE_COLOR IDrawMaterial::GetDiffuseColor ( ) {
+    OLE_COLOR _result;
+    HRESULT _hr = get_DiffuseColor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawMaterial::PutDiffuseColor ( OLE_COLOR pVal ) {
+    HRESULT _hr = put_DiffuseColor(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline OLE_COLOR IDrawMaterial::GetSpecularColor ( ) {
+    OLE_COLOR _result;
+    HRESULT _hr = get_SpecularColor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawMaterial::PutSpecularColor ( OLE_COLOR pVal ) {
+    HRESULT _hr = put_SpecularColor(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviTextureWrapMode IDrawMaterial::GetWrapModeS ( ) {
+    enum gviTextureWrapMode _result;
+    HRESULT _hr = get_WrapModeS(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawMaterial::PutWrapModeS ( enum gviTextureWrapMode pVal ) {
+    HRESULT _hr = put_WrapModeS(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviTextureWrapMode IDrawMaterial::GetWrapModeT ( ) {
+    enum gviTextureWrapMode _result;
+    HRESULT _hr = get_WrapModeT(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawMaterial::PutWrapModeT ( enum gviTextureWrapMode pVal ) {
+    HRESULT _hr = put_WrapModeT(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviCullFaceMode IDrawMaterial::GetCullMode ( ) {
+    enum gviCullFaceMode _result;
+    HRESULT _hr = get_CullMode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawMaterial::PutCullMode ( enum gviCullFaceMode pVal ) {
+    HRESULT _hr = put_CullMode(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IDrawMaterial::GetEnableBlend ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_EnableBlend(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawMaterial::PutEnableBlend ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_EnableBlend(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IDrawMaterial::GetEnableLight ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_EnableLight(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawMaterial::PutEnableLight ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_EnableLight(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IDrawMaterial::GetDepthBias ( ) {
+    double _result = 0;
+    HRESULT _hr = get_DepthBias(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawMaterial::PutDepthBias ( double pVal ) {
+    HRESULT _hr = put_DepthBias(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IDrawPrimitive wrapper method implementations
+//
+
+inline IDrawMaterialPtr IDrawPrimitive::GetMaterial ( ) {
+    struct IDrawMaterial * _result = 0;
+    HRESULT _hr = get_Material(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDrawMaterialPtr(_result, false);
+}
+
+inline void IDrawPrimitive::PutMaterial ( struct IDrawMaterial * pVal ) {
+    HRESULT _hr = put_Material(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFloatArrayPtr IDrawPrimitive::GetVertexArray ( ) {
+    struct IFloatArray * _result = 0;
+    HRESULT _hr = get_VertexArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFloatArrayPtr(_result, false);
+}
+
+inline void IDrawPrimitive::PutVertexArray ( struct IFloatArray * pVal ) {
+    HRESULT _hr = put_VertexArray(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFloatArrayPtr IDrawPrimitive::GetNormalArray ( ) {
+    struct IFloatArray * _result = 0;
+    HRESULT _hr = get_NormalArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFloatArrayPtr(_result, false);
+}
+
+inline void IDrawPrimitive::PutNormalArray ( struct IFloatArray * pVal ) {
+    HRESULT _hr = put_NormalArray(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IUInt32ArrayPtr IDrawPrimitive::GetColorArray ( ) {
+    struct IUInt32Array * _result = 0;
+    HRESULT _hr = get_ColorArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUInt32ArrayPtr(_result, false);
+}
+
+inline void IDrawPrimitive::PutColorArray ( struct IUInt32Array * pVal ) {
+    HRESULT _hr = put_ColorArray(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFloatArrayPtr IDrawPrimitive::GetTexcoordArray ( ) {
+    struct IFloatArray * _result = 0;
+    HRESULT _hr = get_TexcoordArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFloatArrayPtr(_result, false);
+}
+
+inline void IDrawPrimitive::PutTexcoordArray ( struct IFloatArray * pVal ) {
+    HRESULT _hr = put_TexcoordArray(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFloatArrayPtr IDrawPrimitive::GetBakedTexcoordArray ( ) {
+    struct IFloatArray * _result = 0;
+    HRESULT _hr = get_BakedTexcoordArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFloatArrayPtr(_result, false);
+}
+
+inline void IDrawPrimitive::PutBakedTexcoordArray ( struct IFloatArray * pVal ) {
+    HRESULT _hr = put_BakedTexcoordArray(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IUInt16ArrayPtr IDrawPrimitive::GetIndexArray ( ) {
+    struct IUInt16Array * _result = 0;
+    HRESULT _hr = get_IndexArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUInt16ArrayPtr(_result, false);
+}
+
+inline void IDrawPrimitive::PutIndexArray ( struct IUInt16Array * pVal ) {
+    HRESULT _hr = put_IndexArray(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviPrimitiveType IDrawPrimitive::GetPrimitiveType ( ) {
+    enum gviPrimitiveType _result;
+    HRESULT _hr = get_PrimitiveType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawPrimitive::PutPrimitiveType ( enum gviPrimitiveType pVal ) {
+    HRESULT _hr = put_PrimitiveType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviPrimitiveMode IDrawPrimitive::GetPrimitiveMode ( ) {
+    enum gviPrimitiveMode _result;
+    HRESULT _hr = get_PrimitiveMode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawPrimitive::PutPrimitiveMode ( enum gviPrimitiveMode pVal ) {
+    HRESULT _hr = put_PrimitiveMode(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IDrawGroup wrapper method implementations
+//
+
+inline _bstr_t IDrawGroup::GetLightMapTextureName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LightMapTextureName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IDrawGroup::PutLightMapTextureName ( _bstr_t pVal ) {
+    HRESULT _hr = put_LightMapTextureName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IDrawGroup::GetCompleteMapTextureName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_CompleteMapTextureName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IDrawGroup::PutCompleteMapTextureName ( _bstr_t pVal ) {
+    HRESULT _hr = put_CompleteMapTextureName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IDrawGroup::GetPrimitiveCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_PrimitiveCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDrawPrimitivePtr IDrawGroup::GetPrimitive ( long Index ) {
+    struct IDrawPrimitive * _result = 0;
+    HRESULT _hr = raw_GetPrimitive(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDrawPrimitivePtr(_result, false);
+}
+
+inline VARIANT_BOOL IDrawGroup::AddPrimitive ( struct IDrawPrimitive * Primitive ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddPrimitive(Primitive, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IDrawGroup::SetPrimitive ( long Index, struct IDrawPrimitive * Primitive ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetPrimitive(Index, Primitive, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IDrawGroup::RemovePrimitive ( long Index, long Count ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RemovePrimitive(Index, Count, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IDrawGroup::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IDrawGroup::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IDrawGroup::InsertPrimitive ( long Index, struct IDrawPrimitive * Primitive ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_InsertPrimitive(Index, Primitive, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline float IDrawGroup::GetCompleteMapFactor ( ) {
+    float _result = 0;
+    HRESULT _hr = get_CompleteMapFactor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDrawGroup::PutCompleteMapFactor ( float pVal ) {
+    HRESULT _hr = put_CompleteMapFactor(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IDrawGroup::ComputeNormal ( ) {
+    HRESULT _hr = raw_ComputeNormal();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IModel wrapper method implementations
+//
+
+inline __int64 IModel::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IModel::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IModel::GetGroupCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_GroupCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IModel::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDrawGroupPtr IModel::GetGroup ( long Index ) {
+    struct IDrawGroup * _result = 0;
+    HRESULT _hr = raw_GetGroup(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDrawGroupPtr(_result, false);
+}
+
+inline VARIANT_BOOL IModel::AddGroup ( struct IDrawGroup * DrawGroup ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddGroup(DrawGroup, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IModel::SetGroup ( long Index, struct IDrawGroup * DrawGroup ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetGroup(Index, DrawGroup, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IModel::InsertGroup ( long Index, struct IDrawGroup * DrawGroup ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_InsertGroup(Index, DrawGroup, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IModel::RemoveGroup ( long Index, long Count ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RemoveGroup(Index, Count, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IBinaryBufferPtr IModel::AsBinary ( ) {
+    struct IBinaryBuffer * _result = 0;
+    HRESULT _hr = raw_AsBinary(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IBinaryBufferPtr(_result, false);
+}
+
+inline IEnvelopePtr IModel::GetEnvelope ( ) {
+    struct IEnvelope * _result = 0;
+    HRESULT _hr = get_Envelope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnvelopePtr(_result, false);
+}
+
+inline SAFEARRAY * IModel::GetImageNames ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetImageNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IModel::WriteFile ( _bstr_t FilePath, struct IPropertySet * Images ) {
+    HRESULT _hr = raw_WriteFile(FilePath, Images);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IModel::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IModel::GetSwitchSize ( ) {
+    long _result = 0;
+    HRESULT _hr = get_SwitchSize(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IModel::PutSwitchSize ( long pVal ) {
+    HRESULT _hr = put_SwitchSize(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IModel::GetSingleton ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Singleton(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IModel::PutSingleton ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_Singleton(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IModel::MultiplyMatrix ( struct IMatrix * M ) {
+    HRESULT _hr = raw_MultiplyMatrix(M);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IModelPtr IModel::CloneAndTransform ( struct IMatrix * M ) {
+    struct IModel * _result = 0;
+    HRESULT _hr = raw_CloneAndTransform(M, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IModelPtr(_result, false);
+}
+
+inline enum gviModelType IModel::GetModelType ( ) {
+    enum gviModelType _result;
+    HRESULT _hr = get_ModelType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IModel::CheckAndRebuild ( ) {
+    HRESULT _hr = raw_CheckAndRebuild();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IModel::Valid ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_Valid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IResourceFactory wrapper method implementations
+//
+
+inline IModelPtr IResourceFactory::InternalCreateModel ( __int64 Data, long Length ) {
+    struct IModel * _result = 0;
+    HRESULT _hr = raw_InternalCreateModel(Data, Length, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IModelPtr(_result, false);
+}
+
+inline IImagePtr IResourceFactory::InternalCreateImage ( __int64 Data, long Length ) {
+    struct IImage * _result = 0;
+    HRESULT _hr = raw_InternalCreateImage(Data, Length, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IImagePtr(_result, false);
+}
+
+inline IImagePtr IResourceFactory::CreateImageFromBinary ( struct IBinaryBuffer * BinaryBuffer ) {
+    struct IImage * _result = 0;
+    HRESULT _hr = raw_CreateImageFromBinary(BinaryBuffer, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IImagePtr(_result, false);
+}
+
+inline IImagePtr IResourceFactory::CreateImageFromFile ( _bstr_t ImageFile ) {
+    struct IImage * _result = 0;
+    HRESULT _hr = raw_CreateImageFromFile(ImageFile, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IImagePtr(_result, false);
+}
+
+inline IModelPtr IResourceFactory::CreateModelFromBinary ( struct IBinaryBuffer * BinaryBuffer ) {
+    struct IModel * _result = 0;
+    HRESULT _hr = raw_CreateModelFromBinary(BinaryBuffer, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IModelPtr(_result, false);
+}
+
+inline HRESULT IResourceFactory::CreateModelAndImageFromFile ( _bstr_t ModelFile, struct IPropertySet * * Images, struct IModel * * Model, struct IMatrix * * Mat ) {
+    HRESULT _hr = raw_CreateModelAndImageFromFile(ModelFile, Images, Model, Mat);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IResourceFactory::CreateModelAndImageFromFileEx ( _bstr_t ModelFile, struct IPropertySet * * Images, struct IModel * * SimplifiedModel, struct IModel * * Model, struct IMatrix * * Mat ) {
+    HRESULT _hr = raw_CreateModelAndImageFromFileEx(ModelFile, Images, SimplifiedModel, Model, Mat);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IModelPtr IResourceFactory::CreateModel ( ) {
+    struct IModel * _result = 0;
+    HRESULT _hr = raw_CreateModel(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IModelPtr(_result, false);
+}

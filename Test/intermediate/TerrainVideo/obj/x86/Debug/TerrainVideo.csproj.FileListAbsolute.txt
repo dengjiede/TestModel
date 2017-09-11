@@ -1,0 +1,9 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\TerrainVideo.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\TerrainVideo.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\TerrainVideo\obj\x86\Debug\TerrainVideo.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\TerrainVideo\obj\x86\Debug\TerrainVideo.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\TerrainVideo\obj\x86\Debug\TerrainVideo.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\TerrainVideo\obj\x86\Debug\TerrainVideo.PropertyFrm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\TerrainVideo\obj\x86\Debug\TerrainVideo.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\TerrainVideo\obj\x86\Debug\TerrainVideo.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\TerrainVideo\obj\x86\Debug\TerrainVideo.pdb

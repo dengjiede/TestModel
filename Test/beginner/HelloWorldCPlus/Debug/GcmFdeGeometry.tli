@@ -1,0 +1,2538 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (1ac03771).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeGeometry.tli
+//
+// Wrapper implementations for Win32 type library DD663C14-6AFC-47d0-AECE-7FE1DB27FB98
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ICoordinateReferenceSystem wrapper method implementations
+//
+
+inline __int64 ICoordinateReferenceSystem::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ICoordinateReferenceSystem::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t ICoordinateReferenceSystem::AsWKT ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_AsWKT(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline ICoordinateReferenceSystemPtr ICoordinateReferenceSystem::Clone ( ) {
+    struct ICoordinateReferenceSystem * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICoordinateReferenceSystemPtr(_result, false);
+}
+
+inline _bstr_t ICoordinateReferenceSystem::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ICoordinateReferenceSystem::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL ICoordinateReferenceSystem::IsSame ( struct ICoordinateReferenceSystem * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsSame(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum gviCoordinateReferenceSystemType ICoordinateReferenceSystem::GetCrsType ( ) {
+    enum gviCoordinateReferenceSystemType _result;
+    HRESULT _hr = get_CrsType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateReferenceSystem::IsProjected ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsProjected(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateReferenceSystem::IsGeographic ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsGeographic(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateReferenceSystem::IsVertical ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsVertical(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateReferenceSystem::IsUnknown ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsUnknown(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateReferenceSystem::IsTemporal ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsTemporal(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateReferenceSystem::IsENU ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsENU(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ISpatialCRS wrapper method implementations
+//
+
+inline HRESULT ISpatialCRS::GetXYDomain ( double * MinX, double * MaxX, double * MinY, double * MaxY ) {
+    HRESULT _hr = raw_GetXYDomain(MinX, MaxX, MinY, MaxY);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetXYDomain ( double MinX, double MaxX, double MinY, double MaxY ) {
+    HRESULT _hr = raw_SetXYDomain(MinX, MaxX, MinY, MaxY);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::GetXYFalseOriginAndUnits ( double * FalseX, double * FalseY, double * XYUnits ) {
+    HRESULT _hr = raw_GetXYFalseOriginAndUnits(FalseX, FalseY, XYUnits);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetXYFalseOriginAndUnits ( double FalseX, double FalseY, double XYUnits ) {
+    HRESULT _hr = raw_SetXYFalseOriginAndUnits(FalseX, FalseY, XYUnits);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::GetZDomain ( double * MinZ, double * MaxZ ) {
+    HRESULT _hr = raw_GetZDomain(MinZ, MaxZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetZDomain ( double MinZ, double MaxZ ) {
+    HRESULT _hr = raw_SetZDomain(MinZ, MaxZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::GetZFalseOriginAndUnits ( double * FalseZ, double * ZUnit ) {
+    HRESULT _hr = raw_GetZFalseOriginAndUnits(FalseZ, ZUnit);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetZFalseOriginAndUnits ( double FalseZ, double ZUnit ) {
+    HRESULT _hr = raw_SetZFalseOriginAndUnits(FalseZ, ZUnit);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::GetMDomain ( double * MinM, double * MaxM ) {
+    HRESULT _hr = raw_GetMDomain(MinM, MaxM);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetMDomain ( double MinM, double MaxM ) {
+    HRESULT _hr = raw_SetMDomain(MinM, MaxM);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::GetMFalseOriginAndUnits ( double * FalseM, double * MUnit ) {
+    HRESULT _hr = raw_GetMFalseOriginAndUnits(FalseM, MUnit);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetMFalseOriginAndUnits ( double FalseM, double MUnit ) {
+    HRESULT _hr = raw_SetMFalseOriginAndUnits(FalseM, MUnit);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::ConstructFromHorizon ( ) {
+    HRESULT _hr = raw_ConstructFromHorizon();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetDefaultXYTolerance ( ) {
+    HRESULT _hr = raw_SetDefaultXYTolerance();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetDefaultZTolerance ( ) {
+    HRESULT _hr = raw_SetDefaultZTolerance();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetDefaultMTolerance ( ) {
+    HRESULT _hr = raw_SetDefaultMTolerance();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline double ISpatialCRS::GetXYTolerance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_XYTolerance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISpatialCRS::PutXYTolerance ( double pVal ) {
+    HRESULT _hr = put_XYTolerance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double ISpatialCRS::GetZTolerance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_ZTolerance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISpatialCRS::PutZTolerance ( double pVal ) {
+    HRESULT _hr = put_ZTolerance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double ISpatialCRS::GetMTolerance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MTolerance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISpatialCRS::PutMTolerance ( double pVal ) {
+    HRESULT _hr = put_MTolerance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT ISpatialCRS::SetDefaultXYResolution ( ) {
+    HRESULT _hr = raw_SetDefaultXYResolution();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetDefaultZResolution ( ) {
+    HRESULT _hr = raw_SetDefaultZResolution();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISpatialCRS::SetDefaultMResolution ( ) {
+    HRESULT _hr = raw_SetDefaultMResolution();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline double ISpatialCRS::GetXYResolution ( ) {
+    double _result = 0;
+    HRESULT _hr = get_XYResolution(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISpatialCRS::PutXYResolution ( double pVal ) {
+    HRESULT _hr = put_XYResolution(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double ISpatialCRS::GetZResolution ( ) {
+    double _result = 0;
+    HRESULT _hr = get_ZResolution(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISpatialCRS::PutZResolution ( double pVal ) {
+    HRESULT _hr = put_ZResolution(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double ISpatialCRS::GetMResolution ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MResolution(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISpatialCRS::PutMResolution ( double pVal ) {
+    HRESULT _hr = put_MResolution(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL ISpatialCRS::IsPrecisionEqual ( struct ISpatialCRS * Src ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsPrecisionEqual(Src, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ISpatialCRS::GetHighPrecision ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HighPrecision(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISpatialCRS::PutHighPrecision ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_HighPrecision(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IGeometry wrapper method implementations
+//
+
+inline __int64 IGeometry::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGeometry::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviGeometryType IGeometry::GetGeometryType ( ) {
+    enum gviGeometryType _result;
+    HRESULT _hr = get_GeometryType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum gviGeometryDimension IGeometry::GetDimension ( ) {
+    enum gviGeometryDimension _result;
+    HRESULT _hr = get_Dimension(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IEnvelopePtr IGeometry::GetEnvelope ( ) {
+    struct IEnvelope * _result = 0;
+    HRESULT _hr = get_Envelope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnvelopePtr(_result, false);
+}
+
+inline VARIANT_BOOL IGeometry::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IGeometry::SetEmpty ( ) {
+    HRESULT _hr = raw_SetEmpty();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IGeometry::GetIsValid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsValid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IGeometryPtr IGeometry::Clone ( ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr IGeometry::Clone2 ( enum gviVertexAttribute VertexAttr ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Clone2(VertexAttr, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline _bstr_t IGeometry::AsWKT ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_AsWKT(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL IGeometry::HasM ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_HasM(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometry::HasId ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_HasId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometry::HasZ ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_HasZ(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum gviVertexAttribute IGeometry::GetVertexAttribute ( ) {
+    enum gviVertexAttribute _result;
+    HRESULT _hr = get_VertexAttribute(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IBinaryBufferPtr IGeometry::AsBinary ( ) {
+    struct IBinaryBuffer * _result = 0;
+    HRESULT _hr = raw_AsBinary(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IBinaryBufferPtr(_result, false);
+}
+
+inline ISpatialCRSPtr IGeometry::GetSpatialCRS ( ) {
+    struct ISpatialCRS * _result = 0;
+    HRESULT _hr = get_SpatialCRS(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISpatialCRSPtr(_result, false);
+}
+
+inline void IGeometry::PutSpatialCRS ( struct ISpatialCRS * pVal ) {
+    HRESULT _hr = put_SpatialCRS(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IGeometry::Project ( struct ISpatialCRS * SRSTarget ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Project(SRSTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IPoint wrapper method implementations
+//
+
+inline HRESULT IPoint::SetCoords ( double X, double Y, double Z, double M, long Id ) {
+    HRESULT _hr = raw_SetCoords(X, Y, Z, M, Id);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline double IPoint::GetX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_X(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPoint::PutX ( double pVal ) {
+    HRESULT _hr = put_X(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IPoint::GetY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Y(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPoint::PutY ( double pVal ) {
+    HRESULT _hr = put_Y(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IPoint::GetZ ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Z(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPoint::PutZ ( double pVal ) {
+    HRESULT _hr = put_Z(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IPoint::GetM ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPoint::PutM ( double pVal ) {
+    HRESULT _hr = put_M(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IPoint::GetId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Id(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPoint::PutId ( long pVal ) {
+    HRESULT _hr = put_Id(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IVector3Ptr IPoint::GetPosition ( ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = get_Position(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline void IPoint::PutPosition ( struct IVector3 * pVal ) {
+    HRESULT _hr = put_Position(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ICurve wrapper method implementations
+//
+
+inline IPointPtr ICurve::GetStartPoint ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_StartPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline void ICurve::PutStartPoint ( struct IPoint * pVal ) {
+    HRESULT _hr = put_StartPoint(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IPointPtr ICurve::GetEndPoint ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_EndPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline void ICurve::PutEndPoint ( struct IPoint * pVal ) {
+    HRESULT _hr = put_EndPoint(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double ICurve::GetLength ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICurve::GetIsClosed ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsClosed(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT ICurve::ReverseOrientation ( ) {
+    HRESULT _hr = raw_ReverseOrientation();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IPointPtr ICurve::GetMidpoint ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_Midpoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+//
+// interface IFdeSegment wrapper method implementations
+//
+
+inline enum gviCurveInterpolationType IFdeSegment::GetInterpolationType ( ) {
+    enum gviCurveInterpolationType _result;
+    HRESULT _hr = get_InterpolationType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ICompoundLine wrapper method implementations
+//
+
+inline long ICompoundLine::GetPointCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_PointCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPointPtr ICompoundLine::GetPoint ( long Index ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = raw_GetPoint(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline long ICompoundLine::GetSegmentCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_SegmentCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IFdeSegmentPtr ICompoundLine::GetSegment ( long Index ) {
+    struct IFdeSegment * _result = 0;
+    HRESULT _hr = raw_GetSegment(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFdeSegmentPtr(_result, false);
+}
+
+inline VARIANT_BOOL ICompoundLine::RemoveSegments ( long Index, long Count ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RemoveSegments(Index, Count, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICompoundLine::RemovePoints ( long Index, long Count ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RemovePoints(Index, Count, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICompoundLine::UpdatePoint ( long Index, struct IPoint * PointValue ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_UpdatePoint(Index, PointValue, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICompoundLine::UpdateSegment ( long Index, struct IFdeSegment * Segment ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_UpdateSegment(Index, Segment, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICompoundLine::AppendSegment ( struct IFdeSegment * Segment ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AppendSegment(Segment, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICompoundLine::AddSegmentAfter ( long Index, struct IFdeSegment * Segment ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddSegmentAfter(Index, Segment, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICompoundLine::AddSegmentBefore ( long Index, struct IFdeSegment * Segment ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddSegmentBefore(Index, Segment, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT ICompoundLine::AppendPoint ( struct IPoint * PointValue ) {
+    HRESULT _hr = raw_AppendPoint(PointValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL ICompoundLine::AddPointAfter ( long Index, struct IPoint * PointValue ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddPointAfter(Index, PointValue, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICompoundLine::AddPointBefore ( long Index, struct IPoint * PointValue ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddPointBefore(Index, PointValue, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT ICompoundLine::Generalize ( double MaxAllowOffset ) {
+    HRESULT _hr = raw_Generalize(MaxAllowOffset);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICompoundLine::Smooth ( double MaxAllowOffset ) {
+    HRESULT _hr = raw_Smooth(MaxAllowOffset);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICompoundLine::SmoothLocal ( long VertexIndex ) {
+    HRESULT _hr = raw_SmoothLocal(VertexIndex);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICompoundLine::SegmentsChanged ( ) {
+    HRESULT _hr = raw_SegmentsChanged();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IGeometryCollection wrapper method implementations
+//
+
+inline long IGeometryCollection::GetGeometryCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_GeometryCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IGeometryPtr IGeometryCollection::GetGeometry ( long Index ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_GetGeometry(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline VARIANT_BOOL IGeometryCollection::RemoveGeometry ( long Index ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RemoveGeometry(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryCollection::RemoveGeometries ( long Index, long Count ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RemoveGeometries(Index, Count, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryCollection::AddGeometry ( struct IGeometry * Geometry ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddGeometry(Geometry, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryCollection::GetIsOverlap ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsOverlap(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IGeometryCollection::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IMultiCurve wrapper method implementations
+//
+
+inline VARIANT_BOOL IMultiCurve::AddCurve ( struct ICurve * Curve ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddCurve(Curve, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IMultiCurve::GetLength ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ISurface wrapper method implementations
+//
+
+inline double ISurface::Area ( ) {
+    double _result = 0;
+    HRESULT _hr = raw_Area(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IMultiCurvePtr ISurface::GetBoundary ( ) {
+    struct IMultiCurve * _result = 0;
+    HRESULT _hr = raw_GetBoundary(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMultiCurvePtr(_result, false);
+}
+
+inline IPointPtr ISurface::GetCentroid ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_Centroid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline IPointPtr ISurface::GetPointOnSurface ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_PointOnSurface(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline VARIANT_BOOL ISurface::IsPointOnSurface ( struct IPoint * PointValue ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsPointOnSurface(PointValue, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ISurface::GetIsClosed ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsClosed(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ILine wrapper method implementations
+//
+
+inline VARIANT_BOOL ILine::GetIsPoint ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IRing wrapper method implementations
+//
+
+inline HRESULT IRing::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IRing::IsCCW3D ( struct IVector3 * Normal ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsCCW3D(Normal, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IMultiPolyline wrapper method implementations
+//
+
+inline VARIANT_BOOL IMultiPolyline::AddPolyline ( struct IPolyline * Polyline ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddPolyline(Polyline, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPolylinePtr IMultiPolyline::GetPolyline ( long Index ) {
+    struct IPolyline * _result = 0;
+    HRESULT _hr = raw_GetPolyline(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPolylinePtr(_result, false);
+}
+
+//
+// interface ITransform wrapper method implementations
+//
+
+inline HRESULT ITransform::Move3D ( double DX, double DY, double DZ ) {
+    HRESULT _hr = raw_Move3D(DX, DY, DZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITransform::Rotate3D ( double AxisX, double AxisY, double AxisZ, double CenterX, double CenterY, double CenterZ, double Angle ) {
+    HRESULT _hr = raw_Rotate3D(AxisX, AxisY, AxisZ, CenterX, CenterY, CenterZ, Angle);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITransform::Scale3D ( double ScaleX, double ScaleY, double ScaleZ, double CenterX, double CenterY, double CenterZ ) {
+    HRESULT _hr = raw_Scale3D(ScaleX, ScaleY, ScaleZ, CenterX, CenterY, CenterZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITransform::Move2D ( double DX, double DY ) {
+    HRESULT _hr = raw_Move2D(DX, DY);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITransform::Rotate2D ( double CenterX, double CenterY, double Angle ) {
+    HRESULT _hr = raw_Rotate2D(CenterX, CenterY, Angle);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITransform::Scale2D ( double ScaleX, double ScaleY, double CenterX, double CenterY ) {
+    HRESULT _hr = raw_Scale2D(ScaleX, ScaleY, CenterX, CenterY);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IRelationalOperator2D wrapper method implementations
+//
+
+inline VARIANT_BOOL IRelationalOperator2D::Equals2D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Equals2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator2D::Disjoint2D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Disjoint2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator2D::Intersects2D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Intersects2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator2D::Overlaps2D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Overlaps2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator2D::Crosses2D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Crosses2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator2D::Touches2D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Touches2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator2D::Within2D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Within2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator2D::Contains2D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Contains2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IRelationalOperator3D wrapper method implementations
+//
+
+inline VARIANT_BOOL IRelationalOperator3D::Equals3D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Equals3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator3D::Disjoint3D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Disjoint3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator3D::Intersects3D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Intersects3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator3D::Overlaps3D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Overlaps3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator3D::Crosses3D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Crosses3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator3D::Touches3D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Touches3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator3D::Within3D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Within3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IRelationalOperator3D::Contains3D ( struct IGeometry * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Contains3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IProximityOperator wrapper method implementations
+//
+
+inline double IProximityOperator::DistanceEx2D ( struct IGeometry * Other, struct IPoint * * SelfPoint, struct IPoint * * OtherPoint ) {
+    double _result = 0;
+    HRESULT _hr = raw_DistanceEx2D(Other, SelfPoint, OtherPoint, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IProximityOperator::Distance2D ( struct IGeometry * Other ) {
+    double _result = 0;
+    HRESULT _hr = raw_Distance2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPointPtr IProximityOperator::NearestPoint2D ( struct IPoint * Other ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = raw_NearestPoint2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline double IProximityOperator::DistanceEx3D ( struct IGeometry * Other, struct IPoint * * SelfPoint, struct IPoint * * OtherPoint ) {
+    double _result = 0;
+    HRESULT _hr = raw_DistanceEx3D(Other, SelfPoint, OtherPoint, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IProximityOperator::Distance3D ( struct IGeometry * Other ) {
+    double _result = 0;
+    HRESULT _hr = raw_Distance3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPointPtr IProximityOperator::NearestPoint3D ( struct IPoint * Other ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = raw_NearestPoint3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+//
+// interface ITopologicalOperator2D wrapper method implementations
+//
+
+inline IGeometryPtr ITopologicalOperator2D::Buffer2D ( double Dis, enum gviBufferStyle Style ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Buffer2D(Dis, Style, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator2D::ConvexHull2D ( ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_ConvexHull2D(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator2D::Difference2D ( struct IGeometry * Other ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Difference2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator2D::Intersection2D ( struct IGeometry * Other ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Intersection2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator2D::SymmetricDifference2D ( struct IGeometry * Other ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_SymmetricDifference2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator2D::Union2D ( struct IGeometry * Other ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Union2D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline VARIANT_BOOL ITopologicalOperator2D::IsSimple2D ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsSimple2D(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IGeometryPtr ITopologicalOperator2D::Simplify2D ( ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Simplify2D(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+//
+// interface ITopologicalOperator3D wrapper method implementations
+//
+
+inline IGeometryPtr ITopologicalOperator3D::Buffer3D ( double Dis ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Buffer3D(Dis, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator3D::ConvexHull3D ( ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_ConvexHull3D(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator3D::Difference3D ( struct IGeometry * Other ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Difference3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator3D::Intersection3D ( struct IGeometry * Other ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Intersection3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator3D::SymmetricDifference3D ( struct IGeometry * Other ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_SymmetricDifference3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr ITopologicalOperator3D::Union3D ( struct IGeometry * Other ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Union3D(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline VARIANT_BOOL ITopologicalOperator3D::IsSimple3D ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsSimple3D(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IGeometryPtr ITopologicalOperator3D::Simplify3D ( ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_Simplify3D(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+//
+// interface IPointCloud wrapper method implementations
+//
+
+inline IDoubleArrayPtr IPointCloud::GetPositions ( ) {
+    struct IDoubleArray * _result = 0;
+    HRESULT _hr = get_Positions(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDoubleArrayPtr(_result, false);
+}
+
+inline void IPointCloud::PutPositions ( struct IDoubleArray * pVal ) {
+    HRESULT _hr = put_Positions(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IUInt32ArrayPtr IPointCloud::GetColors ( ) {
+    struct IUInt32Array * _result = 0;
+    HRESULT _hr = get_Colors(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUInt32ArrayPtr(_result, false);
+}
+
+inline void IPointCloud::PutColors ( struct IUInt32Array * pVal ) {
+    HRESULT _hr = put_Colors(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IDoubleArrayPtr IPointCloud::GetMeasurements ( ) {
+    struct IDoubleArray * _result = 0;
+    HRESULT _hr = get_Measurements(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDoubleArrayPtr(_result, false);
+}
+
+inline void IPointCloud::PutMeasurements ( struct IDoubleArray * pVal ) {
+    HRESULT _hr = put_Measurements(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IUInt32ArrayPtr IPointCloud::GetIds ( ) {
+    struct IUInt32Array * _result = 0;
+    HRESULT _hr = get_Ids(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUInt32ArrayPtr(_result, false);
+}
+
+inline void IPointCloud::PutIds ( struct IUInt32Array * pVal ) {
+    HRESULT _hr = put_Ids(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ICircle wrapper method implementations
+//
+
+inline IPointPtr ICircle::GetCenterPoint ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_CenterPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline void ICircle::PutCenterPoint ( struct IPoint * pVal ) {
+    HRESULT _hr = put_CenterPoint(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double ICircle::GetRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Radius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ICircle::PutRadius ( double pVal ) {
+    HRESULT _hr = put_Radius(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IVector3Ptr ICircle::GetNormal ( ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = get_Normal(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline void ICircle::PutNormal ( struct IVector3 * pVal ) {
+    HRESULT _hr = put_Normal(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL ICircle::ConstructCenterAndRadius ( struct IPoint * Center, double Radius, struct IVector3 * Normal ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ConstructCenterAndRadius(Center, Radius, Normal, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IGeometryFactory wrapper method implementations
+//
+
+inline IGeometryPtr IGeometryFactory::CreateGeometry ( enum gviGeometryType GeometryType, enum gviVertexAttribute VertexAttribute ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_CreateGeometry(GeometryType, VertexAttribute, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr IGeometryFactory::CreateFromBinary ( struct IBinaryBuffer * BinaryBuffer ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_CreateFromBinary(BinaryBuffer, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IPointPtr IGeometryFactory::CreatePoint ( enum gviVertexAttribute VertexAttribute ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = raw_CreatePoint(VertexAttribute, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline IGeometryPtr IGeometryFactory::InternalCreateGeometry ( __int64 InternalObject ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_InternalCreateGeometry(InternalObject, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline IGeometryPtr IGeometryFactory::CreateFromWKT ( _bstr_t WKT ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_CreateFromWKT(WKT, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+//
+// interface IPOI wrapper method implementations
+//
+
+inline _bstr_t IPOI::GetImageName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ImageName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IPOI::PutImageName ( _bstr_t pVal ) {
+    HRESULT _hr = put_ImageName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IPOI::GetMinVisibleDistance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MinVisibleDistance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPOI::PutMinVisibleDistance ( double pVal ) {
+    HRESULT _hr = put_MinVisibleDistance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IPOI::GetMaxVisibleDistance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MaxVisibleDistance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPOI::PutMaxVisibleDistance ( double pVal ) {
+    HRESULT _hr = put_MaxVisibleDistance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IPOI::GetSize ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Size(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPOI::PutSize ( long pVal ) {
+    HRESULT _hr = put_Size(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IPOI::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IPOI::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IPOI::GetShowName ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_ShowName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IPOI::PutShowName ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_ShowName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IModelPoint wrapper method implementations
+//
+
+inline _bstr_t IModelPoint::GetModelName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ModelName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IModelPoint::PutModelName ( _bstr_t pVal ) {
+    HRESULT _hr = put_ModelName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IModelPoint::SelfRotate ( double AxisX, double AxisY, double AxisZ, double RotationAngle ) {
+    HRESULT _hr = raw_SelfRotate(AxisX, AxisY, AxisZ, RotationAngle);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IModelPoint::SelfScale ( double ScaleX, double ScaleY, double ScaleZ ) {
+    HRESULT _hr = raw_SelfScale(ScaleX, ScaleY, ScaleZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IModelPoint::ResetPose ( ) {
+    HRESULT _hr = raw_ResetPose();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IEnvelopePtr IModelPoint::GetModelEnvelope ( ) {
+    struct IEnvelope * _result = 0;
+    HRESULT _hr = get_ModelEnvelope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnvelopePtr(_result, false);
+}
+
+inline void IModelPoint::PutModelEnvelope ( struct IEnvelope * pVal ) {
+    HRESULT _hr = put_ModelEnvelope(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline SAFEARRAY * IModelPoint::GetMatrix33 ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_Matrix33(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IModelPoint::PutMatrix33 ( SAFEARRAY * pVal ) {
+    HRESULT _hr = put_Matrix33(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IMatrixPtr IModelPoint::AsMatrix ( ) {
+    struct IMatrix * _result = 0;
+    HRESULT _hr = raw_AsMatrix(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMatrixPtr(_result, false);
+}
+
+inline HRESULT IModelPoint::FromMatrix ( struct IMatrix * newVal ) {
+    HRESULT _hr = raw_FromMatrix(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IVector3Ptr IModelPoint::RayIntersect ( struct IModel * Model, struct IPoint * Start, struct IVector3 * Dir ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_RayIntersect(Model, Start, Dir, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+//
+// interface ICirculeArc wrapper method implementations
+//
+
+inline IPointPtr ICirculeArc::GetCenterPoint ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_CenterPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline double ICirculeArc::GetCentralAngle ( ) {
+    double _result = 0;
+    HRESULT _hr = get_CentralAngle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double ICirculeArc::GetChordHeight ( ) {
+    double _result = 0;
+    HRESULT _hr = get_ChordHeight(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double ICirculeArc::GetChordLength ( ) {
+    double _result = 0;
+    HRESULT _hr = get_ChordLength(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double ICirculeArc::GetRadius ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Radius(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICirculeArc::GetIsMinor ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsMinor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICirculeArc::GetIsLine ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsLine(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICirculeArc::GetIsPoint ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsPoint(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPointPtr ICirculeArc::GetPointOnArc ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_PointOnArc(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline void ICirculeArc::PutPointOnArc ( struct IPoint * pVal ) {
+    HRESULT _hr = put_PointOnArc(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT ICirculeArc::ConstructThreePoints ( struct IPoint * FromPoint, struct IPoint * ArcPoint, struct IPoint * ToPoint ) {
+    HRESULT _hr = raw_ConstructThreePoints(FromPoint, ArcPoint, ToPoint);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IMultiPoint wrapper method implementations
+//
+
+inline VARIANT_BOOL IMultiPoint::AddPoint ( struct IPoint * PointValue ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddPoint(PointValue, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPointPtr IMultiPoint::GetPoint ( long Index ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = raw_GetPoint(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+//
+// interface IGeographicCRS wrapper method implementations
+//
+
+inline VARIANT_BOOL IGeographicCRS::GetAngularUnit ( BSTR * Name, double * ToRadian ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetAngularUnit(Name, ToRadian, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeographicCRS::SetAngularUnit ( _bstr_t Name, double ToRadian ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetAngularUnit(Name, ToRadian, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IProjectedCRS wrapper method implementations
+//
+
+inline VARIANT_BOOL IProjectedCRS::GetLinearUnit ( BSTR * UnitsName, double * ToMeter ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetLinearUnit(UnitsName, ToMeter, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IProjectedCRS::SetLinearUnit ( _bstr_t UnitsName, double ToMeter ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetLinearUnit(UnitsName, ToMeter, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IProjectedCRS::GetParameter ( _bstr_t Name, double * Value ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetParameter(Name, Value, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IProjectedCRS::SetParameter ( _bstr_t Name, double Value ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetParameter(Name, Value, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IProjectedCRS::SetProjection ( _bstr_t Projection ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetProjection(Projection, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IGeographicCRSPtr IProjectedCRS::GetGeographicCRS ( ) {
+    struct IGeographicCRS * _result = 0;
+    HRESULT _hr = raw_GetGeographicCRS(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeographicCRSPtr(_result, false);
+}
+
+//
+// interface IEastNorthUpCRS wrapper method implementations
+//
+
+inline IGeographicCRSPtr IEastNorthUpCRS::GetGeographicCRS ( ) {
+    struct IGeographicCRS * _result = 0;
+    HRESULT _hr = raw_GetGeographicCRS(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeographicCRSPtr(_result, false);
+}
+
+inline VARIANT_BOOL IEastNorthUpCRS::SetENULocation ( _bstr_t Name, struct IVector3 * Value ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetENULocation(Name, Value, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEastNorthUpCRS::SetGEOLocation ( _bstr_t Name, struct IVector3 * Value ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetGEOLocation(Name, Value, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEastNorthUpCRS::GetENULocation ( BSTR * Name, struct IVector3 * * Location ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetENULocation(Name, Location, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEastNorthUpCRS::GetGEOLocation ( BSTR * Name, struct IVector3 * * Location ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetGEOLocation(Name, Location, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ICRSFactory wrapper method implementations
+//
+
+inline ICoordinateReferenceSystemPtr ICRSFactory::CreateFromWKT ( _bstr_t WKT ) {
+    struct ICoordinateReferenceSystem * _result = 0;
+    HRESULT _hr = raw_CreateFromWKT(WKT, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICoordinateReferenceSystemPtr(_result, false);
+}
+
+inline ICoordinateReferenceSystemPtr ICRSFactory::CreateFromWKID ( long WKID ) {
+    struct ICoordinateReferenceSystem * _result = 0;
+    HRESULT _hr = raw_CreateFromWKID(WKID, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICoordinateReferenceSystemPtr(_result, false);
+}
+
+inline ICoordinateReferenceSystemPtr ICRSFactory::CreateCRS ( enum gviCoordinateReferenceSystemType CrsType ) {
+    struct ICoordinateReferenceSystem * _result = 0;
+    HRESULT _hr = raw_CreateCRS(CrsType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICoordinateReferenceSystemPtr(_result, false);
+}
+
+inline IGeographicCRSPtr ICRSFactory::CreateWGS84 ( ) {
+    struct IGeographicCRS * _result = 0;
+    HRESULT _hr = raw_CreateWGS84(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeographicCRSPtr(_result, false);
+}
+
+inline IGeographicCRSPtr ICRSFactory::CreateCGCS2000 ( ) {
+    struct IGeographicCRS * _result = 0;
+    HRESULT _hr = raw_CreateCGCS2000(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeographicCRSPtr(_result, false);
+}
+
+//
+// interface ICoordinateTransformer wrapper method implementations
+//
+
+inline VARIANT_BOOL ICoordinateTransformer::TransformXYArray ( struct IDoubleArray * * VArray ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TransformXYArray(VArray, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateTransformer::TransformXY ( double * X, double * Y ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TransformXY(X, Y, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateTransformer::TransformXYZArray ( struct IDoubleArray * * VArray ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TransformXYZArray(VArray, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateTransformer::TransformXYZ ( double * X, double * Y, double * Z ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TransformXYZ(X, Y, Z, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateTransformer::InverseTransformXYArray ( struct IDoubleArray * * VArray ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_InverseTransformXYArray(VArray, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateTransformer::InverseTransformXY ( double * X, double * Y ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_InverseTransformXY(X, Y, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateTransformer::InverseTransformXYZArray ( struct IDoubleArray * * VArray ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_InverseTransformXYZArray(VArray, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICoordinateTransformer::InverseTransformXYZ ( double * X, double * Y, double * Z ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_InverseTransformXYZ(X, Y, Z, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IGeoTransformer wrapper method implementations
+//
+
+inline HRESULT IGeoTransformer::SetCRS ( struct ISpatialCRS * Source, struct ISpatialCRS * Target ) {
+    HRESULT _hr = raw_SetCRS(Source, Target);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IPolynomialTransformer wrapper method implementations
+//
+
+inline VARIANT_BOOL IPolynomialTransformer::SetMatchingPointPairs ( struct IDoubleArray * SrcArray, struct IDoubleArray * DstArray, long Degree ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetMatchingPointPairs(SrcArray, DstArray, Degree, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IPolynomialTransformer::SetCoefficient ( struct IDoubleArray * XArray, struct IDoubleArray * YArray ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetCoefficient(XArray, YArray, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IPolynomialTransformer::GetCoefficient ( struct IDoubleArray * * XArray, struct IDoubleArray * * YArray ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetCoefficient(XArray, YArray, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IPolynomialTransformer::SetInverseCoefficient ( struct IDoubleArray * XCoef, struct IDoubleArray * YCoef ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetInverseCoefficient(XCoef, YCoef, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IPolynomialTransformer::GetInverseCoefficient ( struct IDoubleArray * * XCoef, struct IDoubleArray * * YCoef ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetInverseCoefficient(XCoef, YCoef, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ISurfacePatch wrapper method implementations
+//
+
+inline ITriMeshPtr ISurfacePatch::Convert2Mesh ( ) {
+    struct ITriMesh * _result = 0;
+    HRESULT _hr = raw_Convert2Mesh(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITriMeshPtr(_result, false);
+}
+
+inline enum gviSurfaceInterpolationType ISurfacePatch::GetSurfaceInterpolationType ( ) {
+    enum gviSurfaceInterpolationType _result;
+    HRESULT _hr = get_SurfaceInterpolationType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IPolygon wrapper method implementations
+//
+
+inline long IPolygon::GetInteriorRingCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_InteriorRingCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRingPtr IPolygon::GetInteriorRing ( long Index ) {
+    struct IRing * _result = 0;
+    HRESULT _hr = raw_GetInteriorRing(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRingPtr(_result, false);
+}
+
+inline IRingPtr IPolygon::GetExteriorRing ( ) {
+    struct IRing * _result = 0;
+    HRESULT _hr = get_ExteriorRing(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRingPtr(_result, false);
+}
+
+inline VARIANT_BOOL IPolygon::GetIsCoplanar ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsCoplanar(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IPolygon::AddInteriorRing ( struct IRing * InteriorRing ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddInteriorRing(InteriorRing, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IPolygon::DeleteInteriorRing ( long Index ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DeleteInteriorRing(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IVector3Ptr IPolygon::QueryNormal ( ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_QueryNormal(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline HRESULT IPolygon::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IParametricModelling wrapper method implementations
+//
+
+inline VARIANT_BOOL IParametricModelling::PolygonToBuilding ( struct IPolygon * Polygon, struct IPropertySet * Params, struct IModelPoint * * ModelPoint, struct IModel * * Model ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_PolygonToBuilding(Polygon, Params, ModelPoint, Model, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ITriMesh wrapper method implementations
+//
+
+inline VARIANT_BOOL ITriMesh::BatchExport ( struct IDoubleArray * * VArray, struct IUInt16Array * * IndexArray, struct IFloatArray * * TextureArrayU1V1, struct IFloatArray * * TextureArrayU2V2, struct IDoubleArray * * Norms ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_BatchExport(VArray, IndexArray, TextureArrayU1V1, TextureArrayU2V2, Norms, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IVector3Ptr ITriMesh::LineSegmentIntersect ( struct ILine * Line ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_LineSegmentIntersect(Line, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline IVector3Ptr ITriMesh::RayIntersect ( struct IPoint * Start, struct IVector3 * Dir ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_RayIntersect(Start, Dir, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline ITopoNodePtr ITriMesh::AddPoint ( struct IPoint * Point ) {
+    struct ITopoNode * _result = 0;
+    HRESULT _hr = raw_AddPoint(Point, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoNodePtr(_result, false);
+}
+
+inline VARIANT_BOOL ITriMesh::SetPoint ( struct ITopoNode * Handle, struct IPoint * Point ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetPoint(Handle, Point, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPointPtr ITriMesh::GetPoint ( struct ITopoNode * Handle ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = raw_GetPoint(Handle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline ITopoFacetPtr ITriMesh::AddTriangle ( struct ITopoNode * Handlef, struct ITopoNode * Handles, struct ITopoNode * Handlet ) {
+    struct ITopoFacet * _result = 0;
+    HRESULT _hr = raw_AddTriangle(Handlef, Handles, Handlet, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoFacetPtr(_result, false);
+}
+
+inline ITopoFacetPtr ITriMesh::BeginFacet ( ) {
+    struct ITopoFacet * _result = 0;
+    HRESULT _hr = raw_BeginFacet(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoFacetPtr(_result, false);
+}
+
+inline ITopoFacetPtr ITriMesh::EndFacet ( ) {
+    struct ITopoFacet * _result = 0;
+    HRESULT _hr = raw_EndFacet(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoFacetPtr(_result, false);
+}
+
+inline ITopoNodePtr ITriMesh::BeginVertex ( ) {
+    struct ITopoNode * _result = 0;
+    HRESULT _hr = raw_BeginVertex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoNodePtr(_result, false);
+}
+
+inline ITopoNodePtr ITriMesh::EndVertex ( ) {
+    struct ITopoNode * _result = 0;
+    HRESULT _hr = raw_EndVertex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoNodePtr(_result, false);
+}
+
+inline ITopoDirectedEdgePtr ITriMesh::BeginEdge ( ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_BeginEdge(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline ITopoDirectedEdgePtr ITriMesh::EndEdge ( ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_EndEdge(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline long ITriMesh::get_VertexCount ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_get_VertexCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long ITriMesh::get_FacetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_get_FacetCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long ITriMesh::get_DirectedEdgeCount ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_get_DirectedEdgeCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITriMesh::EraseConnectedEdge ( struct ITopoDirectedEdge * Handle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EraseConnectedEdge(Handle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITriMesh::EraseConnectedFacet ( struct ITopoFacet * Handle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EraseConnectedFacet(Handle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITriMesh::RemoveUnconnectedVertices ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RemoveUnconnectedVertices(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITriMesh::EraseFacet ( struct ITopoFacet * Handle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EraseFacet(Handle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITopoFacetPtr ITriMesh::Locate ( struct IPoint * Point, enum gviLocateStatus * Locate, long * Index ) {
+    struct ITopoFacet * _result = 0;
+    HRESULT _hr = raw_Locate(Point, Locate, Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoFacetPtr(_result, false);
+}
+
+inline IGeometryCollectionPtr ITriMesh::IntersectPlane ( struct IVector3 * Normal, double Constant ) {
+    struct IGeometryCollection * _result = 0;
+    HRESULT _hr = raw_IntersectPlane(Normal, Constant, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryCollectionPtr(_result, false);
+}
+
+//
+// interface IClosedTriMesh wrapper method implementations
+//
+
+inline VARIANT_BOOL IClosedTriMesh::Close ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Close(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ITopoNode wrapper method implementations
+//
+
+inline IPointPtr ITopoNode::GetLocation ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = raw_GetLocation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline HRESULT ITopoNode::SetLocation ( struct IPoint * newVal ) {
+    HRESULT _hr = raw_SetLocation(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ITopoDirectedEdgePtr ITopoNode::GetEdge ( ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_GetEdge(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline VARIANT_BOOL ITopoNode::Equal ( struct ITopoNode * X ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Equal(X, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITopoNode::NotEqual ( struct ITopoNode * X ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_NotEqual(X, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITopoNodePtr ITopoNode::Next ( ) {
+    struct ITopoNode * _result = 0;
+    HRESULT _hr = raw_Next(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoNodePtr(_result, false);
+}
+
+inline long ITopoNode::GetBeginCirculatorVertexAround ( ) {
+    long _result = 0;
+    HRESULT _hr = get_BeginCirculatorVertexAround(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITopoNodePtr ITopoNode::CirculatorNext ( ) {
+    struct ITopoNode * _result = 0;
+    HRESULT _hr = raw_CirculatorNext(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoNodePtr(_result, false);
+}
+
+//
+// interface ITopoDirectedEdge wrapper method implementations
+//
+
+inline ILinePtr ITopoDirectedEdge::GetLocation ( ) {
+    struct ILine * _result = 0;
+    HRESULT _hr = get_Location(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ILinePtr(_result, false);
+}
+
+inline VARIANT_BOOL ITopoDirectedEdge::GetBorder ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Border(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITopoNodePtr ITopoDirectedEdge::GetTopoNode ( ) {
+    struct ITopoNode * _result = 0;
+    HRESULT _hr = raw_GetTopoNode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoNodePtr(_result, false);
+}
+
+inline ITopoFacetPtr ITopoDirectedEdge::GetFacet ( ) {
+    struct ITopoFacet * _result = 0;
+    HRESULT _hr = raw_GetFacet(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoFacetPtr(_result, false);
+}
+
+inline ITopoDirectedEdgePtr ITopoDirectedEdge::Next ( ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_Next(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline ITopoDirectedEdgePtr ITopoDirectedEdge::Prev ( ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_Prev(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline ITopoDirectedEdgePtr ITopoDirectedEdge::Opposite ( ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_Opposite(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline VARIANT_BOOL ITopoDirectedEdge::Equal ( struct ITopoDirectedEdge * X ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Equal(X, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITopoDirectedEdge::NotEqual ( struct ITopoDirectedEdge * X ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_NotEqual(X, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ITopoFacet wrapper method implementations
+//
+
+inline IPolygonPtr ITopoFacet::GetLocation ( ) {
+    struct IPolygon * _result = 0;
+    HRESULT _hr = get_Location(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPolygonPtr(_result, false);
+}
+
+inline long ITopoFacet::GetDegree ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Degree(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITopoFacet::Equal ( struct ITopoFacet * X ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Equal(X, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ITopoFacet::NotEqual ( struct ITopoFacet * X ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_NotEqual(X, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITopoFacetPtr ITopoFacet::Next ( ) {
+    struct ITopoFacet * _result = 0;
+    HRESULT _hr = raw_Next(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoFacetPtr(_result, false);
+}
+
+inline long ITopoFacet::GetBeginCirculatorEdgeAround ( ) {
+    long _result = 0;
+    HRESULT _hr = get_BeginCirculatorEdgeAround(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITopoDirectedEdgePtr ITopoFacet::CirculatorNext ( ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_CirculatorNext(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline ITopoDirectedEdgePtr ITopoFacet::GetEdge ( ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_GetEdge(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline ITopoDirectedEdgePtr ITopoFacet::LocateEdge ( long Index ) {
+    struct ITopoDirectedEdge * _result = 0;
+    HRESULT _hr = raw_LocateEdge(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoDirectedEdgePtr(_result, false);
+}
+
+inline ITopoNodePtr ITopoFacet::LocateTopoNode ( long Index ) {
+    struct ITopoNode * _result = 0;
+    HRESULT _hr = raw_LocateTopoNode(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITopoNodePtr(_result, false);
+}
+
+//
+// interface IMultiSurface wrapper method implementations
+//
+
+inline VARIANT_BOOL IMultiSurface::AddSurface ( struct ISurface * Surface ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddSurface(Surface, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IMultiTriMeshPtr IMultiSurface::Generalize ( double MaxAllowOffset ) {
+    struct IMultiTriMesh * _result = 0;
+    HRESULT _hr = raw_Generalize(MaxAllowOffset, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMultiTriMeshPtr(_result, false);
+}
+
+inline double IMultiSurface::GetArea ( ) {
+    double _result = 0;
+    HRESULT _hr = raw_GetArea(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IMultiTriMesh wrapper method implementations
+//
+
+inline IVector3Ptr IMultiTriMesh::LineSegmentIntersect ( struct ILine * Line ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_LineSegmentIntersect(Line, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline IVector3Ptr IMultiTriMesh::RayIntersect ( struct IPoint * Start, struct IVector3 * Dir ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_RayIntersect(Start, Dir, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline VARIANT_BOOL IMultiTriMesh::AddTriMesh ( struct ITriMesh * newVal ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddTriMesh(newVal, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITriMeshPtr IMultiTriMesh::GetTriMesh ( long Index ) {
+    struct ITriMesh * _result = 0;
+    HRESULT _hr = raw_GetTriMesh(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITriMeshPtr(_result, false);
+}
+
+//
+// interface IMultiPolygon wrapper method implementations
+//
+
+inline VARIANT_BOOL IMultiPolygon::AddPolygon ( struct IPolygon * Polygon ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddPolygon(Polygon, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPolygonPtr IMultiPolygon::GetPolygon ( long Index ) {
+    struct IPolygon * _result = 0;
+    HRESULT _hr = raw_GetPolygon(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPolygonPtr(_result, false);
+}
+
+//
+// interface IGeometryConvertor wrapper method implementations
+//
+
+inline IMultiTriMeshPtr IGeometryConvertor::ModelPointToTriMesh ( struct IModel * Model, struct IModelPoint * ModelPoint, VARIANT_BOOL UseTexture ) {
+    struct IMultiTriMesh * _result = 0;
+    HRESULT _hr = raw_ModelPointToTriMesh(Model, ModelPoint, UseTexture, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMultiTriMeshPtr(_result, false);
+}
+
+inline VARIANT_BOOL IGeometryConvertor::TriMeshToModelPoint ( struct IMultiTriMesh * MultiMesh, struct IModel * * Model, struct IModelPoint * * ModelPoint ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_TriMeshToModelPoint(MultiMesh, Model, ModelPoint, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IMultiPolygonPtr IGeometryConvertor::CutTriMeshToPolygon ( struct IMultiTriMesh * MultiMesh, double HeightSpec, double Tol ) {
+    struct IMultiPolygon * _result = 0;
+    HRESULT _hr = raw_CutTriMeshToPolygon(MultiMesh, HeightSpec, Tol, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMultiPolygonPtr(_result, false);
+}
+
+inline IMultiPointPtr IGeometryConvertor::MultiTriMeshToMultiPoint ( struct IMultiTriMesh * MultiMesh, double Tol ) {
+    struct IMultiPoint * _result = 0;
+    HRESULT _hr = raw_MultiTriMeshToMultiPoint(MultiMesh, Tol, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMultiPointPtr(_result, false);
+}
+
+inline ITriMeshPtr IGeometryConvertor::ExtrudePolygonToTriMesh ( struct IPolygon * Polygon, double Height, VARIANT_BOOL Closed ) {
+    struct ITriMesh * _result = 0;
+    HRESULT _hr = raw_ExtrudePolygonToTriMesh(Polygon, Height, Closed, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITriMeshPtr(_result, false);
+}
+
+inline ITriMeshPtr IGeometryConvertor::PolygonToTriMesh ( struct IPolygon * Polygon ) {
+    struct ITriMesh * _result = 0;
+    HRESULT _hr = raw_PolygonToTriMesh(Polygon, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITriMeshPtr(_result, false);
+}
+
+inline VARIANT_BOOL IGeometryConvertor::PolygonToModelPoint ( struct IPolygon * Polygon, struct IModel * * Model, struct IModelPoint * * ModelPoint ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_PolygonToModelPoint(Polygon, Model, ModelPoint, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IMultiPolygonPtr IGeometryConvertor::ProjectTriMeshToPolygon ( struct IMultiTriMesh * MultiMesh, double Tol ) {
+    struct IMultiPolygon * _result = 0;
+    HRESULT _hr = raw_ProjectTriMeshToPolygon(MultiMesh, Tol, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMultiPolygonPtr(_result, false);
+}
+
+inline IMultiPolygonPtr IGeometryConvertor::ProjectModelPointToPolygon ( struct IModelPoint * ModelPoint, struct IModel * Model, double Tol ) {
+    struct IMultiPolygon * _result = 0;
+    HRESULT _hr = raw_ProjectModelPointToPolygon(ModelPoint, Model, Tol, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMultiPolygonPtr(_result, false);
+}
+
+inline VARIANT_BOOL IGeometryConvertor::ProjectTrimeshToXYPlane ( struct IMultiTriMesh * MultiMesh, struct IMultiPolygon * * Polygon, struct IMultiPolyline * * Polyline ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ProjectTrimeshToXYPlane(MultiMesh, Polygon, Polyline, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryConvertor::ProjectModelPointToXYPlane ( struct IModelPoint * ModelPoint, struct IModel * Model, struct IMultiPolygon * * Polygon, struct IMultiPolyline * * Polyline ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ProjectModelPointToXYPlane(ModelPoint, Model, Polygon, Polyline, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryConvertor::ExtrudePolygonToModel ( struct IPolygon * Polygon, long FloorNumber, double FloorHeight, double SlopeAngle, enum gviRoofType RoofType, _bstr_t FacadeTextureName, _bstr_t RoofTextureName, struct IModelPoint * * ModelPoint, struct IModel * * Model ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ExtrudePolygonToModel(Polygon, FloorNumber, FloorHeight, SlopeAngle, RoofType, FacadeTextureName, RoofTextureName, ModelPoint, Model, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryConvertor::CutModelPointByPolygon2D ( struct IMultiPolygon * MultiPolygon, struct IModel * ModelSrc, struct IModelPoint * ModelPointSrc, struct IModel * * Model, struct IModelPoint * * ModelPoint ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CutModelPointByPolygon2D(MultiPolygon, ModelSrc, ModelPointSrc, Model, ModelPoint, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryConvertor::CutModelPointByPolygon2DWithZ ( struct IMultiPolygon * MultiPolygon, struct IModel * ModelSrc, struct IModelPoint * ModelPointSrc, double MinZ, double MaxZ, struct IModel * * Model, struct IModelPoint * * ModelPoint ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CutModelPointByPolygon2DWithZ(MultiPolygon, ModelSrc, ModelPointSrc, MinZ, MaxZ, Model, ModelPoint, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryConvertor::SplitModelPointByPolygon2D ( struct IMultiPolygon * MultiPolygon, struct IModel * ModelSrc, struct IModelPoint * ModelPointSrc, struct IModel * * ModelInterior, struct IModelPoint * * ModelPointInterior, struct IModel * * ModelExterior, struct IModelPoint * * ModelPointExterior ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SplitModelPointByPolygon2D(MultiPolygon, ModelSrc, ModelPointSrc, ModelInterior, ModelPointInterior, ModelExterior, ModelPointExterior, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryConvertor::SplitModelPointByPolygon2DWithZ ( struct IMultiPolygon * MultiPolygon, struct IModel * ModelSrc, struct IModelPoint * ModelPointSrc, double MinZ, double MaxZ, struct IModel * * ModelInterior, struct IModelPoint * * ModelPointInterior, struct IModel * * ModelExterior, struct IModelPoint * * ModelPointExterior ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SplitModelPointByPolygon2DWithZ(MultiPolygon, ModelSrc, ModelPointSrc, MinZ, MaxZ, ModelInterior, ModelPointInterior, ModelExterior, ModelPointExterior, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryConvertor::GetSolidProfile ( struct ITriMesh * ClosedTriMesh, struct IPolygon * Polygon, struct IMultiPolygon * * Rectangle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetSolidProfile(ClosedTriMesh, Polygon, Rectangle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ITerrainAnalyse wrapper method implementations
+//
+
+inline double ITerrainAnalyse::GetSurfaceArea ( struct IPolygon * Domain, double Tolerance ) {
+    double _result = 0;
+    HRESULT _hr = raw_GetSurfaceArea(Domain, Tolerance, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IMultiPolygonPtr ITerrainAnalyse::FindWaterSinkBoundary ( struct IPolygon * Domain, double Tolerance, double WaterDepth ) {
+    struct IMultiPolygon * _result = 0;
+    HRESULT _hr = raw_FindWaterSinkBoundary(Domain, Tolerance, WaterDepth, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMultiPolygonPtr(_result, false);
+}
+
+inline HRESULT ITerrainAnalyse::CalculateCutFill ( struct IPolygon * Domain, double Tolerance, double ReferenceHeight, struct IMultiPolygon * * CutPolygon, struct IMultiPolygon * * FillPolygon, double * CutVolume, double * FillVolume ) {
+    HRESULT _hr = raw_CalculateCutFill(Domain, Tolerance, ReferenceHeight, CutPolygon, FillPolygon, CutVolume, FillVolume);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline void ITerrainAnalyse::PutOnProcessing ( IDispatch * _arg1 ) {
+    HRESULT _hr = put_OnProcessing(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IModelPtr ITerrainAnalyse::EstimateLandslideVolumeEx ( struct IModel * ModelHill, struct IModel * ModelSlope, double Resolution, double * Volume ) {
+    struct IModel * _result = 0;
+    HRESULT _hr = raw_EstimateLandslideVolumeEx(ModelHill, ModelSlope, Resolution, Volume, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IModelPtr(_result, false);
+}

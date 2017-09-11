@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\TableLabelSample.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\TableLabelSample.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TableLabelSample\obj\x86\Debug\TableLabelSample.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TableLabelSample\obj\x86\Debug\TableLabelSample.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TableLabelSample\obj\x86\Debug\TableLabelSample.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TableLabelSample\obj\x86\Debug\TableLabelSample.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TableLabelSample\obj\x86\Debug\TableLabelSample.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TableLabelSample\obj\x86\Debug\TableLabelSample.pdb

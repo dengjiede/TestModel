@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\TemporalManager.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\TemporalManager.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TemporalManager\obj\x86\Debug\TemporalManager.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TemporalManager\obj\x86\Debug\TemporalManager.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TemporalManager\obj\x86\Debug\TemporalManager.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TemporalManager\obj\x86\Debug\TemporalManager.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TemporalManager\obj\x86\Debug\TemporalManager.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\TemporalManager\obj\x86\Debug\TemporalManager.pdb

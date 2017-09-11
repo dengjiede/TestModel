@@ -1,0 +1,7 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\Flood.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\Flood.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\Flood\obj\x86\Debug\Flood.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\Flood\obj\x86\Debug\Flood.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\Flood\obj\x86\Debug\Flood.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\Flood\obj\x86\Debug\Flood.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\Flood\obj\x86\Debug\Flood.pdb

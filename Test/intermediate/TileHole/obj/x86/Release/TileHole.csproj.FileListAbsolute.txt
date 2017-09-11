@@ -1,0 +1,10 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\TileHole.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\TileHole.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileHole\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileHole\obj\x86\Release\TileHole.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileHole\obj\x86\Release\TileHole.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileHole\obj\x86\Release\TileHole.TileHoleSettingForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileHole\obj\x86\Release\TileHole.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileHole\obj\x86\Release\TileHole.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileHole\obj\x86\Release\TileHole.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileHole\obj\x86\Release\TileHole.pdb

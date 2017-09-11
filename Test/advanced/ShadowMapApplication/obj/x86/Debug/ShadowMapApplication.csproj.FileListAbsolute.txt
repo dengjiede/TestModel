@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\ShadowMapApplication.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\ShadowMapApplication.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowMapApplication\obj\x86\Debug\ShadowMapApplication.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowMapApplication\obj\x86\Debug\ShadowMapApplication.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowMapApplication\obj\x86\Debug\ShadowMapApplication.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowMapApplication\obj\x86\Debug\ShadowMapApplication.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowMapApplication\obj\x86\Debug\ShadowMapApplication.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowMapApplication\obj\x86\Debug\ShadowMapApplication.pdb

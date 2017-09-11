@@ -1,0 +1,274 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (c9307529).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeUndoRedo.tlh
+//
+// C++ source equivalent of Win32 type library 40672E54-89C1-485c-BD76-EA16D8FD31D5
+// compiler-generated file created 09/08/17 at 15:13:00 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("40672e54-89c1-485c-bd76-ea16d8fd31d5"))
+/* LIBID */ __GcmFdeUndoRedo;
+struct __declspec(uuid("ab813f00-7dc0-4dec-8b1b-1a955387150f"))
+/* dual interface */ IUndoRedoResultCollection;
+struct __declspec(uuid("6651f392-58eb-4c26-84b4-aa768aad2521"))
+/* dual interface */ IUndoRedoResult;
+enum gviCommandType;
+struct __declspec(uuid("653d8a2f-839e-47b8-88ff-6fa5574e4af9"))
+/* dispinterface */ _ICommandManagerEvents;
+struct __declspec(uuid("2da438c3-7fb3-487a-92d6-eb69ae799c2c"))
+/* dual interface */ ICommandManager;
+struct __declspec(uuid("19800948-c4b5-412a-9839-a1b0132b1063"))
+/* dual interface */ ICommandManagerFactory;
+struct /* coclass */ CommandManager;
+struct /* coclass */ CommandManagerFactory;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IUndoRedoResult, __uuidof(IUndoRedoResult));
+_COM_SMARTPTR_TYPEDEF(IUndoRedoResultCollection, __uuidof(IUndoRedoResultCollection));
+_COM_SMARTPTR_TYPEDEF(_ICommandManagerEvents, __uuidof(_ICommandManagerEvents));
+_COM_SMARTPTR_TYPEDEF(ICommandManager, __uuidof(ICommandManager));
+_COM_SMARTPTR_TYPEDEF(ICommandManagerFactory, __uuidof(ICommandManagerFactory));
+
+//
+// Type library items
+//
+
+enum gviCommandType
+{
+    gviCommandStart = 0,
+    gviCommandInsert = 1,
+    gviCommandDelete = 2,
+    gviCommandUpdate = 3
+};
+
+struct __declspec(uuid("6651f392-58eb-4c26-84b4-aa768aad2521"))
+IUndoRedoResult : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetType))
+    enum gviCommandType Type;
+    __declspec(property(get=GetObjectClass))
+    IObjectClassPtr ObjectClass;
+    __declspec(property(get=GetFidArray))
+    SAFEARRAY * FidArray;
+    __declspec(property(get=GetRowBuffers))
+    IRowBufferCollectionPtr RowBuffers;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    enum gviCommandType GetType ( );
+    IObjectClassPtr GetObjectClass ( );
+    SAFEARRAY * GetFidArray ( );
+    IRowBufferCollectionPtr GetRowBuffers ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Type (
+        /*[out,retval]*/ enum gviCommandType * pVal ) = 0;
+      virtual HRESULT __stdcall get_ObjectClass (
+        /*[out,retval]*/ struct IObjectClass * * pVal ) = 0;
+      virtual HRESULT __stdcall get_FidArray (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall get_RowBuffers (
+        /*[out,retval]*/ struct IRowBufferCollection * * pVal ) = 0;
+};
+
+struct __declspec(uuid("ab813f00-7dc0-4dec-8b1b-1a955387150f"))
+IUndoRedoResultCollection : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetItem))
+    IUndoRedoResultPtr Item[];
+    __declspec(property(get=GetCount))
+    long Count;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCount ( );
+    IUndoRedoResultPtr GetItem (
+        long n );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_Item (
+        /*[in]*/ long n,
+        /*[out,retval]*/ struct IUndoRedoResult * * pVal ) = 0;
+};
+
+struct __declspec(uuid("653d8a2f-839e-47b8-88ff-6fa5574e4af9"))
+_ICommandManagerEvents : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    HRESULT UndoStart (
+        struct IUndoRedoResultCollection * Coll );
+    HRESULT RedoStart (
+        struct IUndoRedoResultCollection * Coll );
+};
+
+struct __declspec(uuid("2da438c3-7fb3-487a-92d6-eb69ae799c2c"))
+ICommandManager : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCanUndo))
+    VARIANT_BOOL CanUndo;
+    __declspec(property(get=GetCanRedo))
+    VARIANT_BOOL CanRedo;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT StartCommand ( );
+    HRESULT DeleteFeatures (
+        struct IObjectClass * ObjectClass,
+        SAFEARRAY * Ids );
+    HRESULT InsertFeatures (
+        struct IObjectClass * ObjectClass,
+        struct IRowBufferCollection * RowBuffers );
+    HRESULT UpdateFeatures (
+        struct IObjectClass * ObjectClass,
+        struct IRowBufferCollection * RowBuffs );
+    HRESULT Undo ( );
+    HRESULT Redo ( );
+    HRESULT DeleteFeature (
+        struct IObjectClass * ObjectClass,
+        long OID );
+    HRESULT InsertFeature (
+        struct IObjectClass * ObjectClass,
+        struct IRowBuffer * RowBuffer );
+    HRESULT UpdateFeature (
+        struct IObjectClass * ObjectClass,
+        struct IRowBuffer * RowBuffer );
+    VARIANT_BOOL GetCanUndo ( );
+    VARIANT_BOOL GetCanRedo ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_StartCommand ( ) = 0;
+      virtual HRESULT __stdcall raw_DeleteFeatures (
+        struct IObjectClass * ObjectClass,
+        SAFEARRAY * Ids ) = 0;
+      virtual HRESULT __stdcall raw_InsertFeatures (
+        struct IObjectClass * ObjectClass,
+        struct IRowBufferCollection * RowBuffers ) = 0;
+      virtual HRESULT __stdcall raw_UpdateFeatures (
+        struct IObjectClass * ObjectClass,
+        struct IRowBufferCollection * RowBuffs ) = 0;
+      virtual HRESULT __stdcall raw_Undo ( ) = 0;
+      virtual HRESULT __stdcall raw_Redo ( ) = 0;
+      virtual HRESULT __stdcall raw_DeleteFeature (
+        struct IObjectClass * ObjectClass,
+        long OID ) = 0;
+      virtual HRESULT __stdcall raw_InsertFeature (
+        struct IObjectClass * ObjectClass,
+        struct IRowBuffer * RowBuffer ) = 0;
+      virtual HRESULT __stdcall raw_UpdateFeature (
+        struct IObjectClass * ObjectClass,
+        struct IRowBuffer * RowBuffer ) = 0;
+      virtual HRESULT __stdcall get_CanUndo (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_CanRedo (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("19800948-c4b5-412a-9839-a1b0132b1063"))
+ICommandManagerFactory : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    ICommandManagerPtr CreateCommandManager (
+        struct IFeatureDataSet * EditDataSet,
+        _bstr_t BackupDSFile );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_CreateCommandManager (
+        struct IFeatureDataSet * EditDataSet,
+        BSTR BackupDSFile,
+        /*[out,retval]*/ struct ICommandManager * * pVal ) = 0;
+};
+
+struct __declspec(uuid("4b6127bd-5b20-43de-8743-1185ef6d3af0"))
+CommandManager;
+    // [ default ] interface IDispatch
+    // [ default, source ] dispinterface _ICommandManagerEvents
+    // interface ICommandManager
+
+struct __declspec(uuid("2e3dec50-d870-451b-9b17-3356dd9cf3f9"))
+CommandManagerFactory;
+    // [ default ] interface IDispatch
+    // interface ICommandManagerFactory
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_GcmFdeUndoRedo =
+    {0x40672e54,0x89c1,0x485c,{0xbd,0x76,0xea,0x16,0xd8,0xfd,0x31,0xd5}};
+extern "C" const GUID __declspec(selectany) IID_IUndoRedoResult =
+    {0x6651f392,0x58eb,0x4c26,{0x84,0xb4,0xaa,0x76,0x8a,0xad,0x25,0x21}};
+extern "C" const GUID __declspec(selectany) IID_IUndoRedoResultCollection =
+    {0xab813f00,0x7dc0,0x4dec,{0x8b,0x1b,0x1a,0x95,0x53,0x87,0x15,0x0f}};
+extern "C" const GUID __declspec(selectany) DIID__ICommandManagerEvents =
+    {0x653d8a2f,0x839e,0x47b8,{0x88,0xff,0x6f,0xa5,0x57,0x4e,0x4a,0xf9}};
+extern "C" const GUID __declspec(selectany) IID_ICommandManager =
+    {0x2da438c3,0x7fb3,0x487a,{0x92,0xd6,0xeb,0x69,0xae,0x79,0x9c,0x2c}};
+extern "C" const GUID __declspec(selectany) IID_ICommandManagerFactory =
+    {0x19800948,0xc4b5,0x412a,{0x98,0x39,0xa1,0xb0,0x13,0x2b,0x10,0x63}};
+extern "C" const GUID __declspec(selectany) CLSID_CommandManager =
+    {0x4b6127bd,0x5b20,0x43de,{0x87,0x43,0x11,0x85,0xef,0x6d,0x3a,0xf0}};
+extern "C" const GUID __declspec(selectany) CLSID_CommandManagerFactory =
+    {0x2e3dec50,0xd870,0x451b,{0x9b,0x17,0x33,0x56,0xdd,0x9c,0xf3,0xf9}};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeUndoRedo.tli"
+
+#pragma pack(pop)

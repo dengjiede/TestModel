@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Revit.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Revit.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Revit\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Revit\obj\x86\Release\Revit.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Revit\obj\x86\Release\Revit.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Revit\obj\x86\Release\Revit.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Revit\obj\x86\Release\Revit.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Revit\obj\x86\Release\Revit.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Revit\obj\x86\Release\Revit.pdb

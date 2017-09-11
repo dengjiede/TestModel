@@ -1,0 +1,8 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Ocean.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Ocean.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\Ocean\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\Ocean\obj\x86\Release\Ocean.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\Ocean\obj\x86\Release\Ocean.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\Ocean\obj\x86\Release\Ocean.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\Ocean\obj\x86\Release\Ocean.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\Ocean\obj\x86\Release\Ocean.pdb

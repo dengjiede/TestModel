@@ -1,0 +1,10 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\TerrainModifier.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\TerrainModifier.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TerrainModifier\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TerrainModifier\obj\x86\Release\TerrainModifier.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TerrainModifier\obj\x86\Release\TerrainModifier.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TerrainModifier\obj\x86\Release\TerrainModifier.TerrainModifierSettingForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TerrainModifier\obj\x86\Release\TerrainModifier.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TerrainModifier\obj\x86\Release\TerrainModifier.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TerrainModifier\obj\x86\Release\TerrainModifier.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TerrainModifier\obj\x86\Release\TerrainModifier.pdb

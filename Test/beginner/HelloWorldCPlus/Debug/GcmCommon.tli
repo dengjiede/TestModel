@@ -1,0 +1,466 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (616dce0c).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmCommon.tli
+//
+// Wrapper implementations for Win32 type library B037CE21-208A-477e-A307-0BB72611F55C
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IBinaryBuffer wrapper method implementations
+//
+
+inline __int64 IBinaryBuffer::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IBinaryBuffer::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IBinaryBuffer::PutInternalLength ( long _arg1 ) {
+    HRESULT _hr = put_InternalLength(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IBinaryBuffer::FromByteArray ( SAFEARRAY * ArrayValue ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_FromByteArray(ArrayValue, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IBinaryBuffer::AsByteArray ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_AsByteArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IBinaryBuffer::GetLength ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IBinaryBuffer::FromString ( _bstr_t StringValue ) {
+    HRESULT _hr = raw_FromString(StringValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IBinaryBuffer::AsString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_AsString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IBinaryBuffer::AsStringBase64 ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_AsStringBase64(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IBinaryBuffer::FromStringBase64 ( _bstr_t StringValue ) {
+    HRESULT _hr = raw_FromStringBase64(StringValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IFloatArray wrapper method implementations
+//
+
+inline __int64 IFloatArray::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFloatArray::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IFloatArray::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IFloatArray::GetLength ( ) {
+    unsigned long _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IFloatArray::GetArray ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_Array(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFloatArray::PutArray ( SAFEARRAY * pVal ) {
+    HRESULT _hr = put_Array(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IFloatArray::Append ( float Value ) {
+    HRESULT _hr = raw_Append(Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline float IFloatArray::Get ( long Index ) {
+    float _result = 0;
+    HRESULT _hr = raw_Get(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IFloatArray::Set ( long Index, float newVal ) {
+    HRESULT _hr = raw_Set(Index, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFloatArray::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDoubleArray wrapper method implementations
+//
+
+inline __int64 IDoubleArray::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDoubleArray::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IDoubleArray::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IDoubleArray::GetLength ( ) {
+    unsigned long _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IDoubleArray::GetArray ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_Array(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDoubleArray::PutArray ( SAFEARRAY * pVal ) {
+    HRESULT _hr = put_Array(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IDoubleArray::Append ( double Value ) {
+    HRESULT _hr = raw_Append(Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline double IDoubleArray::Get ( long Index ) {
+    double _result = 0;
+    HRESULT _hr = raw_Get(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IDoubleArray::Set ( long Index, double newVal ) {
+    HRESULT _hr = raw_Set(Index, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDoubleArray::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IUInt16Array wrapper method implementations
+//
+
+inline __int64 IUInt16Array::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IUInt16Array::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IUInt16Array::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IUInt16Array::GetLength ( ) {
+    unsigned long _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IUInt16Array::GetArray ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_Array(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IUInt16Array::PutArray ( SAFEARRAY * pVal ) {
+    HRESULT _hr = put_Array(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IUInt16Array::Append ( unsigned short Value ) {
+    HRESULT _hr = raw_Append(Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline unsigned short IUInt16Array::Get ( long Index ) {
+    unsigned short _result = 0;
+    HRESULT _hr = raw_Get(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IUInt16Array::Set ( long Index, unsigned short newVal ) {
+    HRESULT _hr = raw_Set(Index, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IUInt16Array::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IUInt32Array wrapper method implementations
+//
+
+inline __int64 IUInt32Array::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IUInt32Array::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IUInt32Array::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IUInt32Array::GetLength ( ) {
+    unsigned long _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IUInt32Array::GetArray ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_Array(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IUInt32Array::PutArray ( SAFEARRAY * pVal ) {
+    HRESULT _hr = put_Array(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IUInt32Array::Append ( unsigned long Value ) {
+    HRESULT _hr = raw_Append(Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline unsigned long IUInt32Array::Get ( long Index ) {
+    unsigned long _result = 0;
+    HRESULT _hr = raw_Get(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IUInt32Array::Set ( long Index, unsigned long newVal ) {
+    HRESULT _hr = raw_Set(Index, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IUInt32Array::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ICoordSysDialog wrapper method implementations
+//
+
+inline _bstr_t ICoordSysDialog::ShowDialog ( enum gviLanguage Language ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_ShowDialog(Language, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IPropertySet wrapper method implementations
+//
+
+inline long IPropertySet::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IPropertySet::SetProperty ( _bstr_t Key, const _variant_t & Value ) {
+    HRESULT _hr = raw_SetProperty(Key, Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IPropertySet::GetProperty ( _bstr_t Name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetProperty(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline VARIANT_BOOL IPropertySet::GetAllProperties ( SAFEARRAY * * Names, SAFEARRAY * * Values ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetAllProperties(Names, Values, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IPropertySet::GetAllKeys ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetAllKeys(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IRestParams wrapper method implementations
+//
+
+inline HRESULT IRestParams::AddToken ( _bstr_t Server, _bstr_t Token ) {
+    HRESULT _hr = raw_AddToken(Server, Token);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IRestParams::GetToken ( _bstr_t Server ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetToken(Server, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface ILicenseServer wrapper method implementations
+//
+
+inline HRESULT ILicenseServer::SetHost ( _bstr_t Server, unsigned long Port, _bstr_t Password ) {
+    HRESULT _hr = raw_SetHost(Server, Port, Password);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ILicenseServer::InternalGetData ( __int64 * pVal1, VARIANT_BOOL * pVal2 ) {
+    HRESULT _hr = raw_InternalGetData(pVal1, pVal2);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long ILicenseServer::GetRemainingLicenses ( ) {
+    long _result = 0;
+    HRESULT _hr = get_RemainingLicenses(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t ILicenseServer::GetSignatureCode ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetSignatureCode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IRuntimeInfo wrapper method implementations
+//
+
+inline _bstr_t IRuntimeInfo::GetVersion ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Version(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IRuntimeInfo::GetInstallDate ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_InstallDate(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IRuntimeInfo::GetInstallPath ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_InstallPath(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}

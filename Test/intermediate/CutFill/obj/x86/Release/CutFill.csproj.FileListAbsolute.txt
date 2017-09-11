@@ -1,0 +1,8 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\CutFill.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\CutFill.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CutFill\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CutFill\obj\x86\Release\CutFill.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CutFill\obj\x86\Release\CutFill.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CutFill\obj\x86\Release\CutFill.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CutFill\obj\x86\Release\CutFill.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CutFill\obj\x86\Release\CutFill.pdb

@@ -1,0 +1,9 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\DataImport.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\DataImport.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\DataImport\obj\x86\Debug\DataImport.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\DataImport\obj\x86\Debug\DataImport.DataImportProgressDlg.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\DataImport\obj\x86\Debug\DataImport.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\DataImport\obj\x86\Debug\DataImport.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\DataImport\obj\x86\Debug\DataImport.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\DataImport\obj\x86\Debug\DataImport.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\DataImport\obj\x86\Debug\DataImport.pdb

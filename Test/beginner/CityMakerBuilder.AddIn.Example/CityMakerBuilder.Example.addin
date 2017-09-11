@@ -1,0 +1,38 @@
+﻿<AddIn name        = "CityMakerBuilder Application"
+       author      = "YDH"
+       url         = "http://www.gvitech.com"
+       description = "Base addIn of CityMakerBuilder"
+       addInManagerHidden = "true">
+
+	<Manifest>
+		<Identity name = "CityMakerBuilder.AddIn.Example"/>
+	</Manifest>
+
+  <Runtime>
+    <Import assembly = "CityMakerBuilder.AddIn.Example.dll">
+      <ConditionEvaluator name="AddTerrainConditionExample" class="CityMakerBuilder.AddIn.Example.AddTerrainConditionEvaluator"/>
+      <ConditionEvaluator name="ShowTerrainConditionExample" class="CityMakerBuilder.AddIn.Example.ShowTerrainConditionEvaluator"/>
+    </Import>
+  </Runtime>
+  
+  <!--Builder版-->
+	<Path name = "/Workbench/MainMenu">
+		<!--地形操作-->
+    <MenuItem     id = "ExamplePage"       type = "RibbonPage"       label = "插件示例" insertafter="mapPage" >
+      <MenuItem   id = "ExampleGroup1"    type = "RibbonPageGroup"  label = "创建图层">
+        <Condition name = "AddTerrainConditionExample"  action="Disable">
+          <MenuItem id = "add"   label = "添加地形"  type="ButtonCommand"  icon="AddTerainLayer"  class="CityMakerBuilder.AddIn.Example.AddTerrainCommand" />
+        </Condition>
+      </MenuItem>
+
+      <MenuItem   id = "ExampleGroup2"       type = "RibbonPageGroup"          label = "地形设置">
+        <Condition name="ShowTerrainConditionExample" action="Disable">
+          <MenuItem id = "showT"       label = "隐藏地形"   type="CheckCommand" class="CityMakerBuilder.AddIn.Example.ShowTerrainCommand" icon="m_terrainhide"/>
+          <MenuItem id = "showE"       label = "关闭高程"   type="CheckCommand" class="CityMakerBuilder.AddIn.Example.ShowDEMCommand" checked="true" icon="P_showterrain"/>
+          <MenuItem id = "tOpacity"       label = "地形透明度设置"   type="MenuTrackBarCommand" class="CityMakerBuilder.AddIn.Example.TerrainOpacityCommand" icon="P_showterrain" defaultValue="100" minimum="0" maximum="100" tickFrequency="1"/>
+        </Condition>
+      </MenuItem>
+    </MenuItem>  
+	</Path>
+  
+</AddIn>

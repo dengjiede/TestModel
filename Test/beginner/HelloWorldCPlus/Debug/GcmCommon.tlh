@@ -1,0 +1,657 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (616dce0c).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmCommon.tlh
+//
+// C++ source equivalent of Win32 type library B037CE21-208A-477e-A307-0BB72611F55C
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("b037ce21-208a-477e-a307-0bb72611f55c"))
+/* LIBID */ __GcmCommon;
+enum gviLanguage;
+struct __declspec(uuid("f2a1dec4-48ca-4ffa-8fea-4ec1009beba2"))
+/* dual interface */ IBinaryBuffer;
+struct __declspec(uuid("e317b2d8-6c2b-4a71-b955-d266988bc06a"))
+/* dual interface */ IFloatArray;
+struct __declspec(uuid("8e092995-447b-48cc-97b6-dfabde135e20"))
+/* dual interface */ IDoubleArray;
+struct __declspec(uuid("53d0b9b4-8395-410c-ac04-1a0600aaaae1"))
+/* dual interface */ IUInt16Array;
+struct __declspec(uuid("1e03f43b-152b-4b88-ab8c-b38f57b26e34"))
+/* dual interface */ IUInt32Array;
+struct __declspec(uuid("2fa006ff-3c8a-4264-b7f2-22ffce32c9e2"))
+/* dual interface */ ICoordSysDialog;
+struct __declspec(uuid("478da1a3-3492-4e60-9445-1356ff455b42"))
+/* dual interface */ IPropertySet;
+struct __declspec(uuid("b65986e9-8b0c-4e95-88b7-58e847fb4789"))
+/* dual interface */ IRestParams;
+struct __declspec(uuid("f34dcce6-bdee-4931-8b7e-f3d185635620"))
+/* dual interface */ ILicenseServer;
+struct __declspec(uuid("1da2faea-9495-4fd7-b322-f39860766359"))
+/* dual interface */ IRuntimeInfo;
+struct /* coclass */ BinaryBuffer;
+struct /* coclass */ CoordSysDialog;
+struct /* coclass */ FloatArray;
+struct /* coclass */ UInt16Array;
+struct /* coclass */ UInt32Array;
+struct /* coclass */ DoubleArray;
+struct /* coclass */ PropertySet;
+struct /* coclass */ RestParams;
+struct /* coclass */ LicenseServer;
+struct /* coclass */ RuntimeInfo;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IBinaryBuffer, __uuidof(IBinaryBuffer));
+_COM_SMARTPTR_TYPEDEF(IFloatArray, __uuidof(IFloatArray));
+_COM_SMARTPTR_TYPEDEF(IDoubleArray, __uuidof(IDoubleArray));
+_COM_SMARTPTR_TYPEDEF(IUInt16Array, __uuidof(IUInt16Array));
+_COM_SMARTPTR_TYPEDEF(IUInt32Array, __uuidof(IUInt32Array));
+_COM_SMARTPTR_TYPEDEF(ICoordSysDialog, __uuidof(ICoordSysDialog));
+_COM_SMARTPTR_TYPEDEF(IPropertySet, __uuidof(IPropertySet));
+_COM_SMARTPTR_TYPEDEF(IRestParams, __uuidof(IRestParams));
+_COM_SMARTPTR_TYPEDEF(ILicenseServer, __uuidof(ILicenseServer));
+_COM_SMARTPTR_TYPEDEF(IRuntimeInfo, __uuidof(IRuntimeInfo));
+
+//
+// Type library items
+//
+
+enum gviLanguage
+{
+    gviLanguageChineseSimple = 0,
+    gviLanguageChineseTraditional = 1,
+    gviLanguageEnglish = 2
+};
+
+struct __declspec(uuid("f2a1dec4-48ca-4ffa-8fea-4ec1009beba2"))
+IBinaryBuffer : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetLength))
+    long Length;
+    __declspec(property(put=PutInternalLength))
+    long InternalLength;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    void PutInternalLength (
+        long _arg1 );
+    VARIANT_BOOL FromByteArray (
+        SAFEARRAY * ArrayValue );
+    SAFEARRAY * AsByteArray ( );
+    long GetLength ( );
+    HRESULT FromString (
+        _bstr_t StringValue );
+    _bstr_t AsString ( );
+    _bstr_t AsStringBase64 ( );
+    HRESULT FromStringBase64 (
+        _bstr_t StringValue );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalLength (
+        /*[in]*/ long _arg1 ) = 0;
+      virtual HRESULT __stdcall raw_FromByteArray (
+        SAFEARRAY * ArrayValue,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AsByteArray (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Length (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_FromString (
+        BSTR StringValue ) = 0;
+      virtual HRESULT __stdcall raw_AsString (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AsStringBase64 (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_FromStringBase64 (
+        BSTR StringValue ) = 0;
+};
+
+struct __declspec(uuid("e317b2d8-6c2b-4a71-b955-d266988bc06a"))
+IFloatArray : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetIsEmpty))
+    VARIANT_BOOL IsEmpty;
+    __declspec(property(get=GetLength))
+    unsigned long Length;
+    __declspec(property(get=GetArray,put=PutArray))
+    SAFEARRAY * Array;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    VARIANT_BOOL GetIsEmpty ( );
+    unsigned long GetLength ( );
+    SAFEARRAY * GetArray ( );
+    void PutArray (
+        SAFEARRAY * pVal );
+    HRESULT Append (
+        float Value );
+    float Get (
+        long Index );
+    HRESULT Set (
+        long Index,
+        float newVal );
+    HRESULT Clear ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall get_IsEmpty (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Length (
+        /*[out,retval]*/ unsigned long * pVal ) = 0;
+      virtual HRESULT __stdcall get_Array (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Array (
+        /*[in]*/ SAFEARRAY * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Append (
+        float Value ) = 0;
+      virtual HRESULT __stdcall raw_Get (
+        long Index,
+        /*[out,retval]*/ float * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Set (
+        long Index,
+        float newVal ) = 0;
+      virtual HRESULT __stdcall raw_Clear ( ) = 0;
+};
+
+struct __declspec(uuid("8e092995-447b-48cc-97b6-dfabde135e20"))
+IDoubleArray : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetIsEmpty))
+    VARIANT_BOOL IsEmpty;
+    __declspec(property(get=GetLength))
+    unsigned long Length;
+    __declspec(property(get=GetArray,put=PutArray))
+    SAFEARRAY * Array;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    VARIANT_BOOL GetIsEmpty ( );
+    unsigned long GetLength ( );
+    SAFEARRAY * GetArray ( );
+    void PutArray (
+        SAFEARRAY * pVal );
+    HRESULT Append (
+        double Value );
+    double Get (
+        long Index );
+    HRESULT Set (
+        long Index,
+        double newVal );
+    HRESULT Clear ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall get_IsEmpty (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Length (
+        /*[out,retval]*/ unsigned long * pVal ) = 0;
+      virtual HRESULT __stdcall get_Array (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Array (
+        /*[in]*/ SAFEARRAY * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Append (
+        double Value ) = 0;
+      virtual HRESULT __stdcall raw_Get (
+        long Index,
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Set (
+        long Index,
+        double newVal ) = 0;
+      virtual HRESULT __stdcall raw_Clear ( ) = 0;
+};
+
+struct __declspec(uuid("53d0b9b4-8395-410c-ac04-1a0600aaaae1"))
+IUInt16Array : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetIsEmpty))
+    VARIANT_BOOL IsEmpty;
+    __declspec(property(get=GetLength))
+    unsigned long Length;
+    __declspec(property(get=GetArray,put=PutArray))
+    SAFEARRAY * Array;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    VARIANT_BOOL GetIsEmpty ( );
+    unsigned long GetLength ( );
+    SAFEARRAY * GetArray ( );
+    void PutArray (
+        SAFEARRAY * pVal );
+    HRESULT Append (
+        unsigned short Value );
+    unsigned short Get (
+        long Index );
+    HRESULT Set (
+        long Index,
+        unsigned short newVal );
+    HRESULT Clear ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall get_IsEmpty (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Length (
+        /*[out,retval]*/ unsigned long * pVal ) = 0;
+      virtual HRESULT __stdcall get_Array (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Array (
+        /*[in]*/ SAFEARRAY * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Append (
+        unsigned short Value ) = 0;
+      virtual HRESULT __stdcall raw_Get (
+        long Index,
+        /*[out,retval]*/ unsigned short * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Set (
+        long Index,
+        unsigned short newVal ) = 0;
+      virtual HRESULT __stdcall raw_Clear ( ) = 0;
+};
+
+struct __declspec(uuid("1e03f43b-152b-4b88-ab8c-b38f57b26e34"))
+IUInt32Array : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetIsEmpty))
+    VARIANT_BOOL IsEmpty;
+    __declspec(property(get=GetLength))
+    unsigned long Length;
+    __declspec(property(get=GetArray,put=PutArray))
+    SAFEARRAY * Array;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    VARIANT_BOOL GetIsEmpty ( );
+    unsigned long GetLength ( );
+    SAFEARRAY * GetArray ( );
+    void PutArray (
+        SAFEARRAY * pVal );
+    HRESULT Append (
+        unsigned long Value );
+    unsigned long Get (
+        long Index );
+    HRESULT Set (
+        long Index,
+        unsigned long newVal );
+    HRESULT Clear ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall get_IsEmpty (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Length (
+        /*[out,retval]*/ unsigned long * pVal ) = 0;
+      virtual HRESULT __stdcall get_Array (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Array (
+        /*[in]*/ SAFEARRAY * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Append (
+        unsigned long Value ) = 0;
+      virtual HRESULT __stdcall raw_Get (
+        long Index,
+        /*[out,retval]*/ unsigned long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Set (
+        long Index,
+        unsigned long newVal ) = 0;
+      virtual HRESULT __stdcall raw_Clear ( ) = 0;
+};
+
+struct __declspec(uuid("2fa006ff-3c8a-4264-b7f2-22ffce32c9e2"))
+ICoordSysDialog : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t ShowDialog (
+        enum gviLanguage Language );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_ShowDialog (
+        enum gviLanguage Language,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+};
+
+struct __declspec(uuid("478da1a3-3492-4e60-9445-1356ff455b42"))
+IPropertySet : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCount))
+    long Count;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCount ( );
+    HRESULT SetProperty (
+        _bstr_t Key,
+        const _variant_t & Value );
+    _variant_t GetProperty (
+        _bstr_t Name );
+    VARIANT_BOOL GetAllProperties (
+        SAFEARRAY * * Names,
+        SAFEARRAY * * Values );
+    SAFEARRAY * GetAllKeys ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetProperty (
+        BSTR Key,
+        VARIANT Value ) = 0;
+      virtual HRESULT __stdcall raw_GetProperty (
+        BSTR Name,
+        /*[out,retval]*/ VARIANT * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetAllProperties (
+        /*[out]*/ SAFEARRAY * * Names,
+        /*[out]*/ SAFEARRAY * * Values,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetAllKeys (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+};
+
+struct __declspec(uuid("b65986e9-8b0c-4e95-88b7-58e847fb4789"))
+IRestParams : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT AddToken (
+        _bstr_t Server,
+        _bstr_t Token );
+    _bstr_t GetToken (
+        _bstr_t Server );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_AddToken (
+        BSTR Server,
+        BSTR Token ) = 0;
+      virtual HRESULT __stdcall raw_GetToken (
+        BSTR Server,
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+};
+
+struct __declspec(uuid("f34dcce6-bdee-4931-8b7e-f3d185635620"))
+ILicenseServer : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetRemainingLicenses))
+    long RemainingLicenses;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT SetHost (
+        _bstr_t Server,
+        unsigned long Port,
+        _bstr_t Password );
+    HRESULT InternalGetData (
+        __int64 * pVal1,
+        VARIANT_BOOL * pVal2 );
+    long GetRemainingLicenses ( );
+    _bstr_t GetSignatureCode ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_SetHost (
+        BSTR Server,
+        unsigned long Port,
+        BSTR Password ) = 0;
+      virtual HRESULT __stdcall raw_InternalGetData (
+        /*[out]*/ __int64 * pVal1,
+        /*[out]*/ VARIANT_BOOL * pVal2 ) = 0;
+      virtual HRESULT __stdcall get_RemainingLicenses (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetSignatureCode (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+};
+
+struct __declspec(uuid("1da2faea-9495-4fd7-b322-f39860766359"))
+IRuntimeInfo : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetVersion))
+    _bstr_t Version;
+    __declspec(property(get=GetInstallDate))
+    _bstr_t InstallDate;
+    __declspec(property(get=GetInstallPath))
+    _bstr_t InstallPath;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetVersion ( );
+    _bstr_t GetInstallDate ( );
+    _bstr_t GetInstallPath ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Version (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_InstallDate (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_InstallPath (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+};
+
+struct __declspec(uuid("e4c5d54e-f1c3-49a6-a71b-d911fe24ddeb"))
+BinaryBuffer;
+    // [ default ] interface IDispatch
+    // interface IBinaryBuffer
+
+struct __declspec(uuid("681a7e88-9617-49f8-ad7d-3f561a1fcbfc"))
+CoordSysDialog;
+    // [ default ] interface ICoordSysDialog
+
+struct __declspec(uuid("8cd5fa3f-8368-4943-bf0d-e9b54dd8fabb"))
+FloatArray;
+    // [ default ] interface IDispatch
+    // interface IFloatArray
+
+struct __declspec(uuid("6b773659-6686-4cbd-9711-57b34cf00610"))
+UInt16Array;
+    // [ default ] interface IDispatch
+    // interface IUInt16Array
+
+struct __declspec(uuid("1b6cdba5-64db-416c-9c1c-93459e3b6019"))
+UInt32Array;
+    // [ default ] interface IDispatch
+    // interface IUInt32Array
+
+struct __declspec(uuid("d0f5d0e9-b7d2-47e7-99e2-613d3a167377"))
+DoubleArray;
+    // [ default ] interface IDispatch
+    // interface IDoubleArray
+
+struct __declspec(uuid("ada4aece-f8b1-4ac8-bf04-d644fe03be7f"))
+PropertySet;
+    // [ default ] interface IDispatch
+    // interface IPropertySet
+
+struct __declspec(uuid("5bdd8609-ad02-4193-b5e8-7c5bd9e01fc7"))
+RestParams;
+    // [ default ] interface IRestParams
+
+struct __declspec(uuid("91f75a13-4e84-4e5f-b5c1-8d1d9f53f885"))
+LicenseServer;
+    // [ default ] interface ILicenseServer
+
+struct __declspec(uuid("6f7e6008-5ae3-4a10-8504-6c1540560217"))
+RuntimeInfo;
+    // [ default ] interface IRuntimeInfo
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_GcmCommon =
+    {0xb037ce21,0x208a,0x477e,{0xa3,0x07,0x0b,0xb7,0x26,0x11,0xf5,0x5c}};
+extern "C" const GUID __declspec(selectany) IID_IBinaryBuffer =
+    {0xf2a1dec4,0x48ca,0x4ffa,{0x8f,0xea,0x4e,0xc1,0x00,0x9b,0xeb,0xa2}};
+extern "C" const GUID __declspec(selectany) IID_IFloatArray =
+    {0xe317b2d8,0x6c2b,0x4a71,{0xb9,0x55,0xd2,0x66,0x98,0x8b,0xc0,0x6a}};
+extern "C" const GUID __declspec(selectany) IID_IDoubleArray =
+    {0x8e092995,0x447b,0x48cc,{0x97,0xb6,0xdf,0xab,0xde,0x13,0x5e,0x20}};
+extern "C" const GUID __declspec(selectany) IID_IUInt16Array =
+    {0x53d0b9b4,0x8395,0x410c,{0xac,0x04,0x1a,0x06,0x00,0xaa,0xaa,0xe1}};
+extern "C" const GUID __declspec(selectany) IID_IUInt32Array =
+    {0x1e03f43b,0x152b,0x4b88,{0xab,0x8c,0xb3,0x8f,0x57,0xb2,0x6e,0x34}};
+extern "C" const GUID __declspec(selectany) IID_ICoordSysDialog =
+    {0x2fa006ff,0x3c8a,0x4264,{0xb7,0xf2,0x22,0xff,0xce,0x32,0xc9,0xe2}};
+extern "C" const GUID __declspec(selectany) IID_IPropertySet =
+    {0x478da1a3,0x3492,0x4e60,{0x94,0x45,0x13,0x56,0xff,0x45,0x5b,0x42}};
+extern "C" const GUID __declspec(selectany) IID_IRestParams =
+    {0xb65986e9,0x8b0c,0x4e95,{0x88,0xb7,0x58,0xe8,0x47,0xfb,0x47,0x89}};
+extern "C" const GUID __declspec(selectany) IID_ILicenseServer =
+    {0xf34dcce6,0xbdee,0x4931,{0x8b,0x7e,0xf3,0xd1,0x85,0x63,0x56,0x20}};
+extern "C" const GUID __declspec(selectany) IID_IRuntimeInfo =
+    {0x1da2faea,0x9495,0x4fd7,{0xb3,0x22,0xf3,0x98,0x60,0x76,0x63,0x59}};
+extern "C" const GUID __declspec(selectany) CLSID_BinaryBuffer =
+    {0xe4c5d54e,0xf1c3,0x49a6,{0xa7,0x1b,0xd9,0x11,0xfe,0x24,0xdd,0xeb}};
+extern "C" const GUID __declspec(selectany) CLSID_CoordSysDialog =
+    {0x681a7e88,0x9617,0x49f8,{0xad,0x7d,0x3f,0x56,0x1a,0x1f,0xcb,0xfc}};
+extern "C" const GUID __declspec(selectany) CLSID_FloatArray =
+    {0x8cd5fa3f,0x8368,0x4943,{0xbf,0x0d,0xe9,0xb5,0x4d,0xd8,0xfa,0xbb}};
+extern "C" const GUID __declspec(selectany) CLSID_UInt16Array =
+    {0x6b773659,0x6686,0x4cbd,{0x97,0x11,0x57,0xb3,0x4c,0xf0,0x06,0x10}};
+extern "C" const GUID __declspec(selectany) CLSID_UInt32Array =
+    {0x1b6cdba5,0x64db,0x416c,{0x9c,0x1c,0x93,0x45,0x9e,0x3b,0x60,0x19}};
+extern "C" const GUID __declspec(selectany) CLSID_DoubleArray =
+    {0xd0f5d0e9,0xb7d2,0x47e7,{0x99,0xe2,0x61,0x3d,0x3a,0x16,0x73,0x77}};
+extern "C" const GUID __declspec(selectany) CLSID_PropertySet =
+    {0xada4aece,0xf8b1,0x4ac8,{0xbf,0x04,0xd6,0x44,0xfe,0x03,0xbe,0x7f}};
+extern "C" const GUID __declspec(selectany) CLSID_RestParams =
+    {0x5bdd8609,0xad02,0x4193,{0xb5,0xe8,0x7c,0x5b,0xd9,0xe0,0x1f,0xc7}};
+extern "C" const GUID __declspec(selectany) CLSID_LicenseServer =
+    {0x91f75a13,0x4e84,0x4e5f,{0xb5,0xc1,0x8d,0x1d,0x9f,0x53,0xf8,0x85}};
+extern "C" const GUID __declspec(selectany) CLSID_RuntimeInfo =
+    {0x6f7e6008,0x5ae3,0x4a10,{0x85,0x04,0x6c,0x15,0x40,0x56,0x02,0x17}};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmCommon.tli"
+
+#pragma pack(pop)

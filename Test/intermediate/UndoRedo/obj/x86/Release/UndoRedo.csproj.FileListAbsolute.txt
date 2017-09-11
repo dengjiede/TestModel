@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\UndoRedo.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\UndoRedo.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UndoRedo\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UndoRedo\obj\x86\Release\UndoRedo.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UndoRedo\obj\x86\Release\UndoRedo.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UndoRedo\obj\x86\Release\UndoRedo.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UndoRedo\obj\x86\Release\UndoRedo.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UndoRedo\obj\x86\Release\UndoRedo.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UndoRedo\obj\x86\Release\UndoRedo.pdb

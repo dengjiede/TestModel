@@ -1,0 +1,9 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\FeatureLayerVisualize.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\FeatureLayerVisualize.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FeatureLayerVisualize\obj\x86\Debug\FeatureLayerVisualize.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FeatureLayerVisualize\obj\x86\Debug\FeatureLayerVisualize.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FeatureLayerVisualize\obj\x86\Debug\FeatureLayerVisualize.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FeatureLayerVisualize\obj\x86\Debug\FeatureLayerVisualize.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FeatureLayerVisualize\obj\x86\Debug\FeatureLayerVisualize.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FeatureLayerVisualize\obj\x86\Debug\FeatureLayerVisualize.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FeatureLayerVisualize\obj\x86\Debug\FeatureLayerVisualize.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeaturelayerHole.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeaturelayerHole.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeaturelayerHole\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeaturelayerHole\obj\x86\Release\FeaturelayerHole.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeaturelayerHole\obj\x86\Release\FeaturelayerHole.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeaturelayerHole\obj\x86\Release\FeaturelayerHole.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeaturelayerHole\obj\x86\Release\FeaturelayerHole.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeaturelayerHole\obj\x86\Release\FeaturelayerHole.pdb

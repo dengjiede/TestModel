@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\SightlineAnalysis.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\SightlineAnalysis.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\SightlineAnalysis\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\SightlineAnalysis\obj\x86\Release\SightlineAnalysis.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\SightlineAnalysis\obj\x86\Release\SightlineAnalysis.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\SightlineAnalysis\obj\x86\Release\SightlineAnalysis.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\SightlineAnalysis\obj\x86\Release\SightlineAnalysis.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\SightlineAnalysis\obj\x86\Release\SightlineAnalysis.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\SightlineAnalysis\obj\x86\Release\SightlineAnalysis.pdb

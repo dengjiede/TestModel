@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\DynamicViewshed.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\DynamicViewshed.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DynamicViewshed\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DynamicViewshed\obj\x86\Release\DynamicViewshed.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DynamicViewshed\obj\x86\Release\DynamicViewshed.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DynamicViewshed\obj\x86\Release\DynamicViewshed.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DynamicViewshed\obj\x86\Release\DynamicViewshed.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DynamicViewshed\obj\x86\Release\DynamicViewshed.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DynamicViewshed\obj\x86\Release\DynamicViewshed.pdb

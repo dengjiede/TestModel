@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\DynamicPipe.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\DynamicPipe.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\DynamicPipe\obj\x86\Debug\DynamicPipe.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\DynamicPipe\obj\x86\Debug\DynamicPipe.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\DynamicPipe\obj\x86\Debug\DynamicPipe.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\DynamicPipe\obj\x86\Debug\DynamicPipe.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\DynamicPipe\obj\x86\Debug\DynamicPipe.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\DynamicPipe\obj\x86\Debug\DynamicPipe.pdb

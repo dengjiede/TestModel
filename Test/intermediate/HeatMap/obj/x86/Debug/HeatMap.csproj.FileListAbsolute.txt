@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\HeatMap.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\HeatMap.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\HeatMap\obj\x86\Debug\HeatMap.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\HeatMap\obj\x86\Debug\HeatMap.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\HeatMap\obj\x86\Debug\HeatMap.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\HeatMap\obj\x86\Debug\HeatMap.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\HeatMap\obj\x86\Debug\HeatMap.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\HeatMap\obj\x86\Debug\HeatMap.pdb

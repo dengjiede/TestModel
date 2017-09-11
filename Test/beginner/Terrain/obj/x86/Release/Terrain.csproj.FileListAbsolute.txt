@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Terrain.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Terrain.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Terrain\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Terrain\obj\x86\Release\Terrain.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Terrain\obj\x86\Release\Terrain.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Terrain\obj\x86\Release\Terrain.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Terrain\obj\x86\Release\Terrain.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Terrain\obj\x86\Release\Terrain.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Terrain\obj\x86\Release\Terrain.pdb

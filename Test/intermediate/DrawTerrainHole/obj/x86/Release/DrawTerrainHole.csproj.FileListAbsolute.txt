@@ -1,0 +1,8 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\DrawTerrainHole.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\DrawTerrainHole.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\DrawTerrainHole\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\DrawTerrainHole\obj\x86\Release\DrawTerrainHole.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\DrawTerrainHole\obj\x86\Release\DrawTerrainHole.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\DrawTerrainHole\obj\x86\Release\DrawTerrainHole.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\DrawTerrainHole\obj\x86\Release\DrawTerrainHole.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\DrawTerrainHole\obj\x86\Release\DrawTerrainHole.pdb

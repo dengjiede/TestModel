@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\MouseSnap.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\MouseSnap.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MouseSnap\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MouseSnap\obj\x86\Release\MouseSnap.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MouseSnap\obj\x86\Release\MouseSnap.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MouseSnap\obj\x86\Release\MouseSnap.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MouseSnap\obj\x86\Release\MouseSnap.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MouseSnap\obj\x86\Release\MouseSnap.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MouseSnap\obj\x86\Release\MouseSnap.csproj.GenerateResource.Cache

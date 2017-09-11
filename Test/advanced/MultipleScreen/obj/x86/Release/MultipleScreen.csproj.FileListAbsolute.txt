@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\MultipleScreen.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\MultipleScreen.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultipleScreen\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultipleScreen\obj\x86\Release\MultipleScreen.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultipleScreen\obj\x86\Release\MultipleScreen.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultipleScreen\obj\x86\Release\MultipleScreen.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultipleScreen\obj\x86\Release\MultipleScreen.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultipleScreen\obj\x86\Release\MultipleScreen.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultipleScreen\obj\x86\Release\MultipleScreen.pdb

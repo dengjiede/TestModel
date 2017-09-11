@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\ViewshedAnalysis.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\ViewshedAnalysis.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ViewshedAnalysis\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ViewshedAnalysis\obj\x86\Release\ViewshedAnalysis.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ViewshedAnalysis\obj\x86\Release\ViewshedAnalysis.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ViewshedAnalysis\obj\x86\Release\ViewshedAnalysis.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ViewshedAnalysis\obj\x86\Release\ViewshedAnalysis.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ViewshedAnalysis\obj\x86\Release\ViewshedAnalysis.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ViewshedAnalysis\obj\x86\Release\ViewshedAnalysis.pdb

@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\IfcTree.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\IfcTree.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\IfcTree\obj\x86\Debug\IfcTree.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\IfcTree\obj\x86\Debug\IfcTree.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\IfcTree\obj\x86\Debug\IfcTree.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\IfcTree\obj\x86\Debug\IfcTree.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\IfcTree\obj\x86\Debug\IfcTree.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\IfcTree\obj\x86\Debug\IfcTree.pdb

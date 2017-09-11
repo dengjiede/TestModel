@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\TemporalOldSummerPalace.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\TemporalOldSummerPalace.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\TemporalOldSummerPalace\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\TemporalOldSummerPalace\obj\x86\Release\TemporalOldSummerPalace.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\TemporalOldSummerPalace\obj\x86\Release\TemporalOldSummerPalace.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\TemporalOldSummerPalace\obj\x86\Release\TemporalOldSummerPalace.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\TemporalOldSummerPalace\obj\x86\Release\TemporalOldSummerPalace.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\TemporalOldSummerPalace\obj\x86\Release\TemporalOldSummerPalace.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\TemporalOldSummerPalace\obj\x86\Release\TemporalOldSummerPalace.pdb

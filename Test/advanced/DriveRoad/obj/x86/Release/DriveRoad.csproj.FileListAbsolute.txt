@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\DriveRoad.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\DriveRoad.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DriveRoad\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DriveRoad\obj\x86\Release\DriveRoad.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DriveRoad\obj\x86\Release\DriveRoad.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DriveRoad\obj\x86\Release\DriveRoad.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DriveRoad\obj\x86\Release\DriveRoad.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DriveRoad\obj\x86\Release\DriveRoad.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DriveRoad\obj\x86\Release\DriveRoad.pdb

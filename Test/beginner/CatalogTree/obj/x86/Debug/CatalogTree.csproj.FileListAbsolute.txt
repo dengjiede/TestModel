@@ -1,0 +1,12 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\CatalogTree.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\CatalogTree.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.DataSourceForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.FieldInfoForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\CatalogTree\obj\x86\Debug\CatalogTree.csprojResolveAssemblyReference.cache

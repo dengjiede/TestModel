@@ -1,0 +1,12 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Domain.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Domain.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.EditDomainDlg.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.FeatureAttrEditDlg.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.FieldsDlg.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\Domain\obj\x86\Release\Domain.pdb

@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\GeometryConvert3.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\GeometryConvert3.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryConvert3\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryConvert3\obj\x86\Release\GeometryConvert3.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryConvert3\obj\x86\Release\GeometryConvert3.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryConvert3\obj\x86\Release\GeometryConvert3.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryConvert3\obj\x86\Release\GeometryConvert3.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryConvert3\obj\x86\Release\GeometryConvert3.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryConvert3\obj\x86\Release\GeometryConvert3.pdb

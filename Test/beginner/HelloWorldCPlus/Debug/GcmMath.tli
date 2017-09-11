@@ -1,0 +1,691 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (53134c35).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmMath.tli
+//
+// Wrapper implementations for Win32 type library 210A14BF-0F96-400A-BC6A-04572FE3E2BB
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IVector3 wrapper method implementations
+//
+
+inline double IVector3::GetX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_X(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IVector3::PutX ( double pVal ) {
+    HRESULT _hr = put_X(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IVector3::GetY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Y(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IVector3::PutY ( double pVal ) {
+    HRESULT _hr = put_Y(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IVector3::GetZ ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Z(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IVector3::PutZ ( double pVal ) {
+    HRESULT _hr = put_Z(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IVector3::GetLength ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IVector3::Set ( double X, double Y, double Z ) {
+    HRESULT _hr = raw_Set(X, Y, Z);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IVector3::Valid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Valid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IVector3::DotProduct ( struct IVector3 * R ) {
+    double _result = 0;
+    HRESULT _hr = raw_DotProduct(R, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IVector3Ptr IVector3::CrossProduct ( struct IVector3 * R ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_CrossProduct(R, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline HRESULT IVector3::MultiplyByScalar ( double R ) {
+    HRESULT _hr = raw_MultiplyByScalar(R);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IVector3Ptr IVector3::Add ( struct IVector3 * R ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_Add(R, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline HRESULT IVector3::Normalize ( ) {
+    HRESULT _hr = raw_Normalize();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IVector3Ptr IVector3::Clone ( ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline HRESULT IVector3::SetByVector ( struct IVector3 * newVal ) {
+    HRESULT _hr = raw_SetByVector(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IEulerAngle wrapper method implementations
+//
+
+inline HRESULT IEulerAngle::Set ( double Heading, double Tilt, double Roll ) {
+    HRESULT _hr = raw_Set(Heading, Tilt, Roll);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IEulerAngle::Valid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Valid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IEulerAngle::GetHeading ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Heading(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEulerAngle::PutHeading ( double pVal ) {
+    HRESULT _hr = put_Heading(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IEulerAngle::GetTilt ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Tilt(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEulerAngle::PutTilt ( double pVal ) {
+    HRESULT _hr = put_Tilt(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IEulerAngle::GetRoll ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Roll(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEulerAngle::PutRoll ( double pVal ) {
+    HRESULT _hr = put_Roll(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IEulerAnglePtr IEulerAngle::Clone ( ) {
+    struct IEulerAngle * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEulerAnglePtr(_result, false);
+}
+
+inline HRESULT IEulerAngle::SetByEulerAngle ( struct IEulerAngle * newVal ) {
+    HRESULT _hr = raw_SetByEulerAngle(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IEnvelope wrapper method implementations
+//
+
+inline HRESULT IEnvelope::Set ( double MinX, double MaxX, double MinY, double MaxY, double MinZ, double MaxZ ) {
+    HRESULT _hr = raw_Set(MinX, MaxX, MinY, MaxY, MinZ, MaxZ);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline double IEnvelope::GetWidth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Width(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IEnvelope::GetHeight ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Height(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IEnvelope::GetDepth ( ) {
+    double _result = 0;
+    HRESULT _hr = get_Depth(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IEnvelope::GetMaxX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MaxX(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEnvelope::PutMaxX ( double pVal ) {
+    HRESULT _hr = put_MaxX(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IEnvelope::GetMinX ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MinX(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEnvelope::PutMinX ( double pVal ) {
+    HRESULT _hr = put_MinX(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IEnvelope::GetMaxY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MaxY(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEnvelope::PutMaxY ( double pVal ) {
+    HRESULT _hr = put_MaxY(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IEnvelope::GetMinY ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MinY(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEnvelope::PutMinY ( double pVal ) {
+    HRESULT _hr = put_MinY(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IEnvelope::GetMaxZ ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MaxZ(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEnvelope::PutMaxZ ( double pVal ) {
+    HRESULT _hr = put_MaxZ(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IEnvelope::GetMinZ ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MinZ(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEnvelope::PutMinZ ( double pVal ) {
+    HRESULT _hr = put_MinZ(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IEnvelopePtr IEnvelope::Intersect ( struct IEnvelope * Envelope ) {
+    struct IEnvelope * _result = 0;
+    HRESULT _hr = raw_Intersect(Envelope, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnvelopePtr(_result, false);
+}
+
+inline VARIANT_BOOL IEnvelope::IsIntersect ( struct IEnvelope * Envelope ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsIntersect(Envelope, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEnvelope::Valid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Valid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IVector3Ptr IEnvelope::GetCenter ( ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = get_Center(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline HRESULT IEnvelope::ExpandByVector ( struct IVector3 * Val ) {
+    HRESULT _hr = raw_ExpandByVector(Val);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnvelope::ExpandByEnvelope ( struct IEnvelope * Val ) {
+    HRESULT _hr = raw_ExpandByEnvelope(Val);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IEnvelope::Contain ( struct IVector3 * Val ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Contain(Val, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IEnvelopePtr IEnvelope::Clone ( ) {
+    struct IEnvelope * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnvelopePtr(_result, false);
+}
+
+inline HRESULT IEnvelope::SetByEnvelope ( struct IEnvelope * Val ) {
+    HRESULT _hr = raw_SetByEnvelope(Val);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IMatrix wrapper method implementations
+//
+
+inline __int64 IMatrix::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IMatrix::GetIsIdentity ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsIdentity(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double IMatrix::GetM11 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M11(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM11 ( double pVal ) {
+    HRESULT _hr = put_M11(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM12 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M12(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM12 ( double pVal ) {
+    HRESULT _hr = put_M12(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM13 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M13(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM13 ( double pVal ) {
+    HRESULT _hr = put_M13(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM14 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M14(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM14 ( double pVal ) {
+    HRESULT _hr = put_M14(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM21 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M21(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM21 ( double pVal ) {
+    HRESULT _hr = put_M21(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM22 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M22(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM22 ( double pVal ) {
+    HRESULT _hr = put_M22(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM23 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M23(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM23 ( double pVal ) {
+    HRESULT _hr = put_M23(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM24 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M24(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM24 ( double pVal ) {
+    HRESULT _hr = put_M24(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM31 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M31(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM31 ( double pVal ) {
+    HRESULT _hr = put_M31(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM32 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M32(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM32 ( double pVal ) {
+    HRESULT _hr = put_M32(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM33 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M33(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM33 ( double pVal ) {
+    HRESULT _hr = put_M33(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM34 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M34(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM34 ( double pVal ) {
+    HRESULT _hr = put_M34(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM41 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M41(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM41 ( double pVal ) {
+    HRESULT _hr = put_M41(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM42 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M42(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM42 ( double pVal ) {
+    HRESULT _hr = put_M42(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM43 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M43(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM43 ( double pVal ) {
+    HRESULT _hr = put_M43(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IMatrix::GetM44 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_M44(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IMatrix::PutM44 ( double pVal ) {
+    HRESULT _hr = put_M44(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IMatrix::Valid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Valid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IMatrix::Transpose ( ) {
+    HRESULT _hr = raw_Transpose();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::Inverse ( ) {
+    HRESULT _hr = raw_Inverse();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::Set ( double A00, double A01, double A02, double A03, double A10, double A11, double A12, double A13, double A20, double A21, double A22, double A23, double A30, double A31, double A32, double A33 ) {
+    HRESULT _hr = raw_Set(A00, A01, A02, A03, A10, A11, A12, A13, A20, A21, A22, A23, A30, A31, A32, A33);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::MakeIdentity ( ) {
+    HRESULT _hr = raw_MakeIdentity();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::SetTranslate ( struct IVector3 * newVal ) {
+    HRESULT _hr = raw_SetTranslate(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::SetScale ( struct IVector3 * newVal ) {
+    HRESULT _hr = raw_SetScale(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::SetRotation ( struct IEulerAngle * newVal ) {
+    HRESULT _hr = raw_SetRotation(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IVector3Ptr IMatrix::GetTranslate ( ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_GetTranslate(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline IVector3Ptr IMatrix::GetScale ( ) {
+    struct IVector3 * _result = 0;
+    HRESULT _hr = raw_GetScale(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IVector3Ptr(_result, false);
+}
+
+inline IEulerAnglePtr IMatrix::GetRotation ( ) {
+    struct IEulerAngle * _result = 0;
+    HRESULT _hr = raw_GetRotation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEulerAnglePtr(_result, false);
+}
+
+inline HRESULT IMatrix::Decompose ( struct IVector3 * * Trans, struct IVector3 * * Scale, struct IEulerAngle * * Euler ) {
+    HRESULT _hr = raw_Decompose(Trans, Scale, Euler);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::Compose ( struct IVector3 * Trans, struct IVector3 * Scale, struct IEulerAngle * Euler ) {
+    HRESULT _hr = raw_Compose(Trans, Scale, Euler);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::Compose2 ( struct IVector3 * Trans, struct IVector3 * Scale, double RotationAngle, struct IVector3 * RotationDir, double ShearAngle, struct IVector3 * ShearDir ) {
+    HRESULT _hr = raw_Compose2(Trans, Scale, RotationAngle, RotationDir, ShearAngle, ShearDir);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IMatrixPtr IMatrix::Clone ( ) {
+    struct IMatrix * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMatrixPtr(_result, false);
+}
+
+inline HRESULT IMatrix::SetByMatrix ( struct IMatrix * Val ) {
+    HRESULT _hr = raw_SetByMatrix(Val);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IMatrix::GetHasMirror ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasMirror(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IMatrix::GetHasShear ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasShear(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IMatrix::MultiplyVector ( struct IVector3 * Src, struct IVector3 * * pVal ) {
+    HRESULT _hr = raw_MultiplyVector(Src, pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::InterpolatePosition ( struct IMatrix * Mat1, double Velocity1, double Time1, struct IMatrix * Mat2, double Velocity2, double Time2, double Time ) {
+    HRESULT _hr = raw_InterpolatePosition(Mat1, Velocity1, Time1, Mat2, Velocity2, Time2, Time);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMatrix::Decompose2 ( struct IVector3 * * Trans, struct IVector3 * * Scale, double * RotationAngle, struct IVector3 * * RotationDir ) {
+    HRESULT _hr = raw_Decompose2(Trans, Scale, RotationAngle, RotationDir);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

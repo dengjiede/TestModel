@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\StereoDisplay.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\StereoDisplay.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\StereoDisplay\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\StereoDisplay\obj\x86\Release\StereoDisplay.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\StereoDisplay\obj\x86\Release\StereoDisplay.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\StereoDisplay\obj\x86\Release\StereoDisplay.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\StereoDisplay\obj\x86\Release\StereoDisplay.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\StereoDisplay\obj\x86\Release\StereoDisplay.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\StereoDisplay\obj\x86\Release\StereoDisplay.pdb

@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\ShadowAnalysis.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\ShadowAnalysis.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowAnalysis\obj\x86\Debug\ShadowAnalysis.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowAnalysis\obj\x86\Debug\ViewshedAnalysis.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowAnalysis\obj\x86\Debug\ShadowAnalysis.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowAnalysis\obj\x86\Debug\ShadowAnalysis.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowAnalysis\obj\x86\Debug\ShadowAnalysis.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ShadowAnalysis\obj\x86\Debug\ShadowAnalysis.pdb

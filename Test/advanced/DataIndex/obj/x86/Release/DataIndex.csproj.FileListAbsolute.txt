@@ -1,0 +1,11 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\DataIndex.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\DataIndex.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\DataIndex.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\DataIndex.CreateDBIndexDlg.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\DataIndex.FeatureClassIndexDlg.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\DataIndex.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\DataIndex.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\DataIndex.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\DataIndex.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\DataIndex\obj\x86\Release\DataIndex.pdb

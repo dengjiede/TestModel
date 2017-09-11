@@ -1,0 +1,159 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (c9307529).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeUndoRedo.tli
+//
+// Wrapper implementations for Win32 type library 40672E54-89C1-485c-BD76-EA16D8FD31D5
+// compiler-generated file created 09/08/17 at 15:13:00 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IUndoRedoResult wrapper method implementations
+//
+
+inline enum gviCommandType IUndoRedoResult::GetType ( ) {
+    enum gviCommandType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IObjectClassPtr IUndoRedoResult::GetObjectClass ( ) {
+    struct IObjectClass * _result = 0;
+    HRESULT _hr = get_ObjectClass(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IObjectClassPtr(_result, false);
+}
+
+inline SAFEARRAY * IUndoRedoResult::GetFidArray ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_FidArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRowBufferCollectionPtr IUndoRedoResult::GetRowBuffers ( ) {
+    struct IRowBufferCollection * _result = 0;
+    HRESULT _hr = get_RowBuffers(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRowBufferCollectionPtr(_result, false);
+}
+
+//
+// interface IUndoRedoResultCollection wrapper method implementations
+//
+
+inline long IUndoRedoResultCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IUndoRedoResultPtr IUndoRedoResultCollection::GetItem ( long n ) {
+    struct IUndoRedoResult * _result = 0;
+    HRESULT _hr = get_Item(n, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUndoRedoResultPtr(_result, false);
+}
+
+//
+// dispinterface _ICommandManagerEvents wrapper method implementations
+//
+
+inline HRESULT _ICommandManagerEvents::UndoStart ( struct IUndoRedoResultCollection * Coll ) {
+    HRESULT _result = 0;
+    _com_dispatch_method(this, 0x1, DISPATCH_METHOD, VT_ERROR, (void*)&_result, 
+        L"\x0009", Coll);
+    return _result;
+}
+
+inline HRESULT _ICommandManagerEvents::RedoStart ( struct IUndoRedoResultCollection * Coll ) {
+    HRESULT _result = 0;
+    _com_dispatch_method(this, 0x2, DISPATCH_METHOD, VT_ERROR, (void*)&_result, 
+        L"\x0009", Coll);
+    return _result;
+}
+
+//
+// interface ICommandManager wrapper method implementations
+//
+
+inline HRESULT ICommandManager::StartCommand ( ) {
+    HRESULT _hr = raw_StartCommand();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICommandManager::DeleteFeatures ( struct IObjectClass * ObjectClass, SAFEARRAY * Ids ) {
+    HRESULT _hr = raw_DeleteFeatures(ObjectClass, Ids);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICommandManager::InsertFeatures ( struct IObjectClass * ObjectClass, struct IRowBufferCollection * RowBuffers ) {
+    HRESULT _hr = raw_InsertFeatures(ObjectClass, RowBuffers);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICommandManager::UpdateFeatures ( struct IObjectClass * ObjectClass, struct IRowBufferCollection * RowBuffs ) {
+    HRESULT _hr = raw_UpdateFeatures(ObjectClass, RowBuffs);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICommandManager::Undo ( ) {
+    HRESULT _hr = raw_Undo();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICommandManager::Redo ( ) {
+    HRESULT _hr = raw_Redo();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICommandManager::DeleteFeature ( struct IObjectClass * ObjectClass, long OID ) {
+    HRESULT _hr = raw_DeleteFeature(ObjectClass, OID);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICommandManager::InsertFeature ( struct IObjectClass * ObjectClass, struct IRowBuffer * RowBuffer ) {
+    HRESULT _hr = raw_InsertFeature(ObjectClass, RowBuffer);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICommandManager::UpdateFeature ( struct IObjectClass * ObjectClass, struct IRowBuffer * RowBuffer ) {
+    HRESULT _hr = raw_UpdateFeature(ObjectClass, RowBuffer);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL ICommandManager::GetCanUndo ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_CanUndo(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ICommandManager::GetCanRedo ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_CanRedo(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ICommandManagerFactory wrapper method implementations
+//
+
+inline ICommandManagerPtr ICommandManagerFactory::CreateCommandManager ( struct IFeatureDataSet * EditDataSet, _bstr_t BackupDSFile ) {
+    struct ICommandManager * _result = 0;
+    HRESULT _hr = raw_CreateCommandManager(EditDataSet, BackupDSFile, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICommandManagerPtr(_result, false);
+}

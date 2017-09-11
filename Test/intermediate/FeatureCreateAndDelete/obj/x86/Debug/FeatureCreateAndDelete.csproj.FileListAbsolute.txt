@@ -1,0 +1,12 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\FeatureCreateAndDelete.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\FeatureCreateAndDelete.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.DataSourceForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.FieldInfoForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.AttributeFrm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.QueryFilterDlg.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureCreateAndDelete\obj\x86\Debug\FeatureCreateAndDelete.pdb

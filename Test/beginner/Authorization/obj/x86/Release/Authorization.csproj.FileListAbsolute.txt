@@ -1,0 +1,11 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Authorization.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\Authorization.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\Authorization.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\Authorization.AccountForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\Authorization.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\Authorization.NetworkOptionDlg.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\Authorization.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\Authorization.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\Authorization.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\Authorization\obj\x86\Release\Authorization.pdb

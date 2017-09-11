@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\LogicGroupTree.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\LogicGroupTree.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\LogicGroupTree\obj\x86\Debug\LogicGroupTree.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\LogicGroupTree\obj\x86\Debug\LogicGroupTree.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\LogicGroupTree\obj\x86\Debug\LogicGroupTree.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\LogicGroupTree\obj\x86\Debug\LogicGroupTree.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\LogicGroupTree\obj\x86\Debug\LogicGroupTree.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\LogicGroupTree\obj\x86\Debug\LogicGroupTree.pdb

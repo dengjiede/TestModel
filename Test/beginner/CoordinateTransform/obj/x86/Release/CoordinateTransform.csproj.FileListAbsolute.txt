@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\CoordinateTransform.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\CoordinateTransform.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CoordinateTransform\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CoordinateTransform\obj\x86\Release\CoordinateTransform.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CoordinateTransform\obj\x86\Release\CoordinateTransform.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CoordinateTransform\obj\x86\Release\CoordinateTransform.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CoordinateTransform\obj\x86\Release\CoordinateTransform.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CoordinateTransform\obj\x86\Release\CoordinateTransform.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CoordinateTransform\obj\x86\Release\CoordinateTransform.pdb

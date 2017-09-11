@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\TileLayerSelect.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\TileLayerSelect.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileLayerSelect\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileLayerSelect\obj\x86\Release\TileLayerSelect.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileLayerSelect\obj\x86\Release\TileLayerSelect.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileLayerSelect\obj\x86\Release\TileLayerSelect.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileLayerSelect\obj\x86\Release\TileLayerSelect.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileLayerSelect\obj\x86\Release\TileLayerSelect.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\TileLayerSelect\obj\x86\Release\TileLayerSelect.pdb

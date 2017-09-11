@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/9/8 15:12:54。
+     1>项目“D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\HelloWorldCPlus\HelloWorldCPlus.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\HelloWorldCPlus.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\HelloWorldCPlus.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AboutDlg.cpp HelloWorldCPlus.cpp HelloWorldCPlusDlg.cpp
+         HelloWorldCPlusDlg.cpp
+     1>d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\helloworldcplusdlg.cpp(199): warning C4101: “e”: 未引用的局部变量
+     1>d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\helloworldcplusdlg.cpp(411): warning C4101: “e”: 未引用的局部变量
+         HelloWorldCPlus.cpp
+         AboutDlg.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\HelloWorldCPlus.res" HelloWorldCPlus.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\HelloWorldCPlus\..\..\bin\HelloWorldCPlus.exe) does not match the Linker's OutputFile property value (D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\HelloWorldCPlus_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(HelloWorldCPlus) does not match the Linker's OutputFile property value (HelloWorldCPlus_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\HelloWorldCPlus_d.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\..\bin\HelloWorldCPlus.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\HelloWorldCPlus.lib" /MACHINE:X86 /SAFESEH Debug\HelloWorldCPlus.res
+         Debug\AboutDlg.obj
+         Debug\HelloWorldCPlus.obj
+         Debug\HelloWorldCPlusDlg.obj
+         Debug\stdafx.obj
+     1>AboutDlg.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         HelloWorldCPlus.vcxproj -> D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\HelloWorldCPlus\..\..\bin\HelloWorldCPlus.exe
+     1>已完成生成项目“D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\HelloWorldCPlus\HelloWorldCPlus.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.70

@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\MultiSpatialColumns.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\MultiSpatialColumns.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultiSpatialColumns\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultiSpatialColumns\obj\x86\Release\MultiSpatialColumns.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultiSpatialColumns\obj\x86\Release\MultiSpatialColumns.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultiSpatialColumns\obj\x86\Release\MultiSpatialColumns.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultiSpatialColumns\obj\x86\Release\MultiSpatialColumns.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultiSpatialColumns\obj\x86\Release\MultiSpatialColumns.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\MultiSpatialColumns\obj\x86\Release\MultiSpatialColumns.pdb

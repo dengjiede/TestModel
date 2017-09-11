@@ -1,0 +1,11 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\HelloWorld.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\HelloWorld.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\HelloWorld.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\HelloWorld.AboutDialog.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\HelloWorld.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\HelloWorld.ProcessDialog.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\HelloWorld.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\HelloWorld.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\HelloWorld.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HelloWorld\obj\x86\Release\HelloWorld.pdb

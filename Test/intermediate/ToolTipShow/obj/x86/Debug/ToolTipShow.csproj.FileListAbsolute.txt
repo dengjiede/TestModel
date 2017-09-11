@@ -1,0 +1,11 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\ToolTipShow.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\ToolTipShow.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.EditForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.SelectFieldForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.TextRenderForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\ToolTipShow\obj\x86\Debug\ToolTipShow.pdb

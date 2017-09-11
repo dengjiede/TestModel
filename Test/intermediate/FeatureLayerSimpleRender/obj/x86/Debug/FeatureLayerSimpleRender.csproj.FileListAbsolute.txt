@@ -1,0 +1,15 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\FeatureLayerSimpleRender.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\FeatureLayerSimpleRender.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.EditForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.ModelPointRenderForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.PointRenderForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.PolygonRenderForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.PolylineRenderForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.SelectPointStyleForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.TextRenderForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Debug\FeatureLayerSimpleRender.pdb

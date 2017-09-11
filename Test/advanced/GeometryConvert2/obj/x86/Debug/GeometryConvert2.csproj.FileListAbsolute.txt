@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometryConvert2\obj\x86\Debug\GeometryConvert2.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\GeometryConvert2.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\GeometryConvert2.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometryConvert2\obj\x86\Debug\GeometryConvert2.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometryConvert2\obj\x86\Debug\GeometryConvert2.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometryConvert2\obj\x86\Debug\GeometryConvert2.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometryConvert2\obj\x86\Debug\GeometryConvert2.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometryConvert2\obj\x86\Debug\GeometryConvert2.pdb

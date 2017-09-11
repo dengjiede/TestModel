@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\GeometrySymbolScript.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\GeometrySymbolScript.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometrySymbolScript\obj\x86\Debug\GeometrySymbolScript.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometrySymbolScript\obj\x86\Debug\GeometrySymbolScript.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometrySymbolScript\obj\x86\Debug\GeometrySymbolScript.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometrySymbolScript\obj\x86\Debug\GeometrySymbolScript.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometrySymbolScript\obj\x86\Debug\GeometrySymbolScript.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\GeometrySymbolScript\obj\x86\Debug\GeometrySymbolScript.pdb

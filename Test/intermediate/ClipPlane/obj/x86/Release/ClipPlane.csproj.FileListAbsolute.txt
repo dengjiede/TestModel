@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\ClipPlane.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\ClipPlane.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\ClipPlane\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\ClipPlane\obj\x86\Release\ClipPlane.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\ClipPlane\obj\x86\Release\ClipPlane.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\ClipPlane\obj\x86\Release\ClipPlane.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\ClipPlane\obj\x86\Release\ClipPlane.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\ClipPlane\obj\x86\Release\ClipPlane.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\ClipPlane\obj\x86\Release\ClipPlane.pdb

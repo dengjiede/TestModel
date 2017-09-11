@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\HTMLWindow.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\HTMLWindow.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HTMLWindow\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HTMLWindow\obj\x86\Release\HTMLWindow.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HTMLWindow\obj\x86\Release\HTMLWindow.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HTMLWindow\obj\x86\Release\HTMLWindow.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HTMLWindow\obj\x86\Release\HTMLWindow.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HTMLWindow\obj\x86\Release\HTMLWindow.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\HTMLWindow\obj\x86\Release\HTMLWindow.pdb

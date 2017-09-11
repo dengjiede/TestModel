@@ -1,0 +1,708 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (53134c35).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmMath.tlh
+//
+// C++ source equivalent of Win32 type library 210A14BF-0F96-400A-BC6A-04572FE3E2BB
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("210a14bf-0f96-400a-bc6a-04572fe3e2bb"))
+/* LIBID */ __GcmMath;
+struct __declspec(uuid("ebc3800d-f480-4ae3-8d7d-470e997eed91"))
+/* dual interface */ IVector3;
+struct __declspec(uuid("f6bcc5ee-5610-43c8-b7f7-528d9b9a9580"))
+/* dual interface */ IEulerAngle;
+struct __declspec(uuid("b7c292c3-99f4-4a60-9971-a2e7cc3a139e"))
+/* dual interface */ IEnvelope;
+struct __declspec(uuid("7c70de6d-5fb2-473f-8e26-c423724e500d"))
+/* dual interface */ IMatrix;
+struct /* coclass */ Envelope;
+struct /* coclass */ EulerAngle;
+struct /* coclass */ Vector3;
+struct /* coclass */ Matrix;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IVector3, __uuidof(IVector3));
+_COM_SMARTPTR_TYPEDEF(IEulerAngle, __uuidof(IEulerAngle));
+_COM_SMARTPTR_TYPEDEF(IEnvelope, __uuidof(IEnvelope));
+_COM_SMARTPTR_TYPEDEF(IMatrix, __uuidof(IMatrix));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("ebc3800d-f480-4ae3-8d7d-470e997eed91"))
+IVector3 : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetX,put=PutX))
+    double X;
+    __declspec(property(get=GetY,put=PutY))
+    double Y;
+    __declspec(property(get=GetZ,put=PutZ))
+    double Z;
+    __declspec(property(get=GetLength))
+    double Length;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    double GetX ( );
+    void PutX (
+        double pVal );
+    double GetY ( );
+    void PutY (
+        double pVal );
+    double GetZ ( );
+    void PutZ (
+        double pVal );
+    double GetLength ( );
+    HRESULT Set (
+        double X,
+        double Y,
+        double Z );
+    VARIANT_BOOL Valid ( );
+    double DotProduct (
+        struct IVector3 * R );
+    IVector3Ptr CrossProduct (
+        struct IVector3 * R );
+    HRESULT MultiplyByScalar (
+        double R );
+    IVector3Ptr Add (
+        struct IVector3 * R );
+    HRESULT Normalize ( );
+    IVector3Ptr Clone ( );
+    HRESULT SetByVector (
+        struct IVector3 * newVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_X (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_X (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Y (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Y (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Z (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Z (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Length (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Set (
+        double X,
+        double Y,
+        double Z ) = 0;
+      virtual HRESULT __stdcall raw_Valid (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_DotProduct (
+        struct IVector3 * R,
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CrossProduct (
+        struct IVector3 * R,
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_MultiplyByScalar (
+        double R ) = 0;
+      virtual HRESULT __stdcall raw_Add (
+        struct IVector3 * R,
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Normalize ( ) = 0;
+      virtual HRESULT __stdcall raw_Clone (
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetByVector (
+        struct IVector3 * newVal ) = 0;
+};
+
+struct __declspec(uuid("f6bcc5ee-5610-43c8-b7f7-528d9b9a9580"))
+IEulerAngle : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetHeading,put=PutHeading))
+    double Heading;
+    __declspec(property(get=GetTilt,put=PutTilt))
+    double Tilt;
+    __declspec(property(get=GetRoll,put=PutRoll))
+    double Roll;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Set (
+        double Heading,
+        double Tilt,
+        double Roll );
+    VARIANT_BOOL Valid ( );
+    double GetHeading ( );
+    void PutHeading (
+        double pVal );
+    double GetTilt ( );
+    void PutTilt (
+        double pVal );
+    double GetRoll ( );
+    void PutRoll (
+        double pVal );
+    IEulerAnglePtr Clone ( );
+    HRESULT SetByEulerAngle (
+        struct IEulerAngle * newVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Set (
+        double Heading,
+        double Tilt,
+        double Roll ) = 0;
+      virtual HRESULT __stdcall raw_Valid (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Heading (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Heading (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Tilt (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Tilt (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Roll (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Roll (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall raw_Clone (
+        /*[out,retval]*/ struct IEulerAngle * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetByEulerAngle (
+        struct IEulerAngle * newVal ) = 0;
+};
+
+struct __declspec(uuid("b7c292c3-99f4-4a60-9971-a2e7cc3a139e"))
+IEnvelope : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetWidth))
+    double Width;
+    __declspec(property(get=GetHeight))
+    double Height;
+    __declspec(property(get=GetDepth))
+    double Depth;
+    __declspec(property(get=GetMaxX,put=PutMaxX))
+    double MaxX;
+    __declspec(property(get=GetMinY,put=PutMinY))
+    double MinY;
+    __declspec(property(get=GetMaxY,put=PutMaxY))
+    double MaxY;
+    __declspec(property(get=GetMinZ,put=PutMinZ))
+    double MinZ;
+    __declspec(property(get=GetMaxZ,put=PutMaxZ))
+    double MaxZ;
+    __declspec(property(get=GetMinX,put=PutMinX))
+    double MinX;
+    __declspec(property(get=GetCenter))
+    IVector3Ptr Center;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Set (
+        double MinX,
+        double MaxX,
+        double MinY,
+        double MaxY,
+        double MinZ,
+        double MaxZ );
+    double GetWidth ( );
+    double GetHeight ( );
+    double GetDepth ( );
+    double GetMaxX ( );
+    void PutMaxX (
+        double pVal );
+    double GetMinX ( );
+    void PutMinX (
+        double pVal );
+    double GetMaxY ( );
+    void PutMaxY (
+        double pVal );
+    double GetMinY ( );
+    void PutMinY (
+        double pVal );
+    double GetMaxZ ( );
+    void PutMaxZ (
+        double pVal );
+    double GetMinZ ( );
+    void PutMinZ (
+        double pVal );
+    IEnvelopePtr Intersect (
+        struct IEnvelope * Envelope );
+    VARIANT_BOOL IsIntersect (
+        struct IEnvelope * Envelope );
+    VARIANT_BOOL Valid ( );
+    IVector3Ptr GetCenter ( );
+    HRESULT ExpandByVector (
+        struct IVector3 * Val );
+    HRESULT ExpandByEnvelope (
+        struct IEnvelope * Val );
+    VARIANT_BOOL Contain (
+        struct IVector3 * Val );
+    IEnvelopePtr Clone ( );
+    HRESULT SetByEnvelope (
+        struct IEnvelope * Val );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Set (
+        double MinX,
+        double MaxX,
+        double MinY,
+        double MaxY,
+        double MinZ,
+        double MaxZ ) = 0;
+      virtual HRESULT __stdcall get_Width (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall get_Height (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall get_Depth (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall get_MaxX (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MaxX (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_MinX (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MinX (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_MaxY (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MaxY (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_MinY (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MinY (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_MaxZ (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MaxZ (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_MinZ (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MinZ (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall raw_Intersect (
+        struct IEnvelope * Envelope,
+        /*[out,retval]*/ struct IEnvelope * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsIntersect (
+        struct IEnvelope * Envelope,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Valid (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Center (
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ExpandByVector (
+        struct IVector3 * Val ) = 0;
+      virtual HRESULT __stdcall raw_ExpandByEnvelope (
+        struct IEnvelope * Val ) = 0;
+      virtual HRESULT __stdcall raw_Contain (
+        struct IVector3 * Val,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Clone (
+        /*[out,retval]*/ struct IEnvelope * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetByEnvelope (
+        struct IEnvelope * Val ) = 0;
+};
+
+struct __declspec(uuid("7c70de6d-5fb2-473f-8e26-c423724e500d"))
+IMatrix : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetIsIdentity))
+    VARIANT_BOOL IsIdentity;
+    __declspec(property(get=GetM11,put=PutM11))
+    double M11;
+    __declspec(property(get=GetM12,put=PutM12))
+    double M12;
+    __declspec(property(get=GetM13,put=PutM13))
+    double M13;
+    __declspec(property(get=GetM14,put=PutM14))
+    double M14;
+    __declspec(property(get=GetM21,put=PutM21))
+    double M21;
+    __declspec(property(get=GetM22,put=PutM22))
+    double M22;
+    __declspec(property(get=GetM23,put=PutM23))
+    double M23;
+    __declspec(property(get=GetM24,put=PutM24))
+    double M24;
+    __declspec(property(get=GetM31,put=PutM31))
+    double M31;
+    __declspec(property(get=GetM32,put=PutM32))
+    double M32;
+    __declspec(property(get=GetM33,put=PutM33))
+    double M33;
+    __declspec(property(get=GetM34,put=PutM34))
+    double M34;
+    __declspec(property(get=GetM41,put=PutM41))
+    double M41;
+    __declspec(property(get=GetM42,put=PutM42))
+    double M42;
+    __declspec(property(get=GetM43,put=PutM43))
+    double M43;
+    __declspec(property(get=GetM44,put=PutM44))
+    double M44;
+    __declspec(property(get=GetHasMirror))
+    VARIANT_BOOL HasMirror;
+    __declspec(property(get=GetHasShear))
+    VARIANT_BOOL HasShear;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    VARIANT_BOOL GetIsIdentity ( );
+    double GetM11 ( );
+    void PutM11 (
+        double pVal );
+    double GetM12 ( );
+    void PutM12 (
+        double pVal );
+    double GetM13 ( );
+    void PutM13 (
+        double pVal );
+    double GetM14 ( );
+    void PutM14 (
+        double pVal );
+    double GetM21 ( );
+    void PutM21 (
+        double pVal );
+    double GetM22 ( );
+    void PutM22 (
+        double pVal );
+    double GetM23 ( );
+    void PutM23 (
+        double pVal );
+    double GetM24 ( );
+    void PutM24 (
+        double pVal );
+    double GetM31 ( );
+    void PutM31 (
+        double pVal );
+    double GetM32 ( );
+    void PutM32 (
+        double pVal );
+    double GetM33 ( );
+    void PutM33 (
+        double pVal );
+    double GetM34 ( );
+    void PutM34 (
+        double pVal );
+    double GetM41 ( );
+    void PutM41 (
+        double pVal );
+    double GetM42 ( );
+    void PutM42 (
+        double pVal );
+    double GetM43 ( );
+    void PutM43 (
+        double pVal );
+    double GetM44 ( );
+    void PutM44 (
+        double pVal );
+    VARIANT_BOOL Valid ( );
+    HRESULT Transpose ( );
+    HRESULT Inverse ( );
+    HRESULT Set (
+        double A00,
+        double A01,
+        double A02,
+        double A03,
+        double A10,
+        double A11,
+        double A12,
+        double A13,
+        double A20,
+        double A21,
+        double A22,
+        double A23,
+        double A30,
+        double A31,
+        double A32,
+        double A33 );
+    HRESULT MakeIdentity ( );
+    HRESULT SetTranslate (
+        struct IVector3 * newVal );
+    HRESULT SetScale (
+        struct IVector3 * newVal );
+    HRESULT SetRotation (
+        struct IEulerAngle * newVal );
+    IVector3Ptr GetTranslate ( );
+    IVector3Ptr GetScale ( );
+    IEulerAnglePtr GetRotation ( );
+    HRESULT Decompose (
+        struct IVector3 * * Trans,
+        struct IVector3 * * Scale,
+        struct IEulerAngle * * Euler );
+    HRESULT Compose (
+        struct IVector3 * Trans,
+        struct IVector3 * Scale,
+        struct IEulerAngle * Euler );
+    HRESULT Compose2 (
+        struct IVector3 * Trans,
+        struct IVector3 * Scale,
+        double RotationAngle,
+        struct IVector3 * RotationDir,
+        double ShearAngle,
+        struct IVector3 * ShearDir );
+    IMatrixPtr Clone ( );
+    HRESULT SetByMatrix (
+        struct IMatrix * Val );
+    VARIANT_BOOL GetHasMirror ( );
+    VARIANT_BOOL GetHasShear ( );
+    HRESULT MultiplyVector (
+        struct IVector3 * Src,
+        struct IVector3 * * pVal );
+    HRESULT InterpolatePosition (
+        struct IMatrix * Mat1,
+        double Velocity1,
+        double Time1,
+        struct IMatrix * Mat2,
+        double Velocity2,
+        double Time2,
+        double Time );
+    HRESULT Decompose2 (
+        struct IVector3 * * Trans,
+        struct IVector3 * * Scale,
+        double * RotationAngle,
+        struct IVector3 * * RotationDir );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall get_IsIdentity (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_M11 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M11 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M12 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M12 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M13 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M13 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M14 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M14 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M21 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M21 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M22 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M22 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M23 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M23 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M24 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M24 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M31 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M31 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M32 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M32 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M33 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M33 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M34 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M34 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M41 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M41 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M42 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M42 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M43 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M43 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M44 (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M44 (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall raw_Valid (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Transpose ( ) = 0;
+      virtual HRESULT __stdcall raw_Inverse ( ) = 0;
+      virtual HRESULT __stdcall raw_Set (
+        double A00,
+        double A01,
+        double A02,
+        double A03,
+        double A10,
+        double A11,
+        double A12,
+        double A13,
+        double A20,
+        double A21,
+        double A22,
+        double A23,
+        double A30,
+        double A31,
+        double A32,
+        double A33 ) = 0;
+      virtual HRESULT __stdcall raw_MakeIdentity ( ) = 0;
+      virtual HRESULT __stdcall raw_SetTranslate (
+        struct IVector3 * newVal ) = 0;
+      virtual HRESULT __stdcall raw_SetScale (
+        struct IVector3 * newVal ) = 0;
+      virtual HRESULT __stdcall raw_SetRotation (
+        struct IEulerAngle * newVal ) = 0;
+      virtual HRESULT __stdcall raw_GetTranslate (
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetScale (
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetRotation (
+        /*[out,retval]*/ struct IEulerAngle * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Decompose (
+        struct IVector3 * * Trans,
+        struct IVector3 * * Scale,
+        struct IEulerAngle * * Euler ) = 0;
+      virtual HRESULT __stdcall raw_Compose (
+        struct IVector3 * Trans,
+        struct IVector3 * Scale,
+        struct IEulerAngle * Euler ) = 0;
+      virtual HRESULT __stdcall raw_Compose2 (
+        struct IVector3 * Trans,
+        struct IVector3 * Scale,
+        double RotationAngle,
+        struct IVector3 * RotationDir,
+        double ShearAngle,
+        struct IVector3 * ShearDir ) = 0;
+      virtual HRESULT __stdcall raw_Clone (
+        /*[out,retval]*/ struct IMatrix * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetByMatrix (
+        struct IMatrix * Val ) = 0;
+      virtual HRESULT __stdcall get_HasMirror (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_HasShear (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_MultiplyVector (
+        struct IVector3 * Src,
+        struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InterpolatePosition (
+        struct IMatrix * Mat1,
+        double Velocity1,
+        double Time1,
+        struct IMatrix * Mat2,
+        double Velocity2,
+        double Time2,
+        double Time ) = 0;
+      virtual HRESULT __stdcall raw_Decompose2 (
+        struct IVector3 * * Trans,
+        struct IVector3 * * Scale,
+        double * RotationAngle,
+        struct IVector3 * * RotationDir ) = 0;
+};
+
+struct __declspec(uuid("a19aad08-4b39-4694-a2eb-03d0dfbc6b96"))
+Envelope;
+    // [ default ] interface IDispatch
+    // interface IEnvelope
+
+struct __declspec(uuid("89173e97-c4ca-41b2-ac5b-7f9246dd5791"))
+EulerAngle;
+    // [ default ] interface IDispatch
+    // interface IEulerAngle
+
+struct __declspec(uuid("7dbd5e02-9ea4-4883-9995-9b2fa11ef563"))
+Vector3;
+    // [ default ] interface IDispatch
+    // interface IVector3
+
+struct __declspec(uuid("4f63a2ca-e6c2-4ba8-b099-b9081ba5cc94"))
+Matrix;
+    // [ default ] interface IDispatch
+    // interface IMatrix
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_GcmMath =
+    {0x210a14bf,0x0f96,0x400a,{0xbc,0x6a,0x04,0x57,0x2f,0xe3,0xe2,0xbb}};
+extern "C" const GUID __declspec(selectany) IID_IVector3 =
+    {0xebc3800d,0xf480,0x4ae3,{0x8d,0x7d,0x47,0x0e,0x99,0x7e,0xed,0x91}};
+extern "C" const GUID __declspec(selectany) IID_IEulerAngle =
+    {0xf6bcc5ee,0x5610,0x43c8,{0xb7,0xf7,0x52,0x8d,0x9b,0x9a,0x95,0x80}};
+extern "C" const GUID __declspec(selectany) IID_IEnvelope =
+    {0xb7c292c3,0x99f4,0x4a60,{0x99,0x71,0xa2,0xe7,0xcc,0x3a,0x13,0x9e}};
+extern "C" const GUID __declspec(selectany) IID_IMatrix =
+    {0x7c70de6d,0x5fb2,0x473f,{0x8e,0x26,0xc4,0x23,0x72,0x4e,0x50,0x0d}};
+extern "C" const GUID __declspec(selectany) CLSID_Envelope =
+    {0xa19aad08,0x4b39,0x4694,{0xa2,0xeb,0x03,0xd0,0xdf,0xbc,0x6b,0x96}};
+extern "C" const GUID __declspec(selectany) CLSID_EulerAngle =
+    {0x89173e97,0xc4ca,0x41b2,{0xac,0x5b,0x7f,0x92,0x46,0xdd,0x57,0x91}};
+extern "C" const GUID __declspec(selectany) CLSID_Vector3 =
+    {0x7dbd5e02,0x9ea4,0x4883,{0x99,0x95,0x9b,0x2f,0xa1,0x1e,0xf5,0x63}};
+extern "C" const GUID __declspec(selectany) CLSID_Matrix =
+    {0x4f63a2ca,0xe6c2,0x4ba8,{0xb0,0x99,0xb9,0x08,0x1b,0xa5,0xcc,0x94}};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmMath.tli"
+
+#pragma pack(pop)

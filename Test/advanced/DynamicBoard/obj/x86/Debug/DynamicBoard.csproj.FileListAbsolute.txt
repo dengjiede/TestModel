@@ -1,0 +1,10 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\DynamicBoard.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\DynamicBoard.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\DynamicBoard\obj\x86\Debug\DynamicBoard.csprojResolveAssemblyReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\DynamicBoard\obj\x86\Debug\DynamicBoard.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\DynamicBoard\obj\x86\Debug\DynamicBoard.DXForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\DynamicBoard\obj\x86\Debug\DynamicBoard.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\DynamicBoard\obj\x86\Debug\DynamicBoard.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\DynamicBoard\obj\x86\Debug\DynamicBoard.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\DynamicBoard\obj\x86\Debug\DynamicBoard.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\DynamicBoard\obj\x86\Debug\DynamicBoard.pdb

@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\ScreenToWorld.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\ScreenToWorld.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ScreenToWorld\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ScreenToWorld\obj\x86\Release\ScreenToWorld.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ScreenToWorld\obj\x86\Release\ScreenToWorld.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ScreenToWorld\obj\x86\Release\ScreenToWorld.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ScreenToWorld\obj\x86\Release\ScreenToWorld.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ScreenToWorld\obj\x86\Release\ScreenToWorld.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ScreenToWorld\obj\x86\Release\ScreenToWorld.pdb

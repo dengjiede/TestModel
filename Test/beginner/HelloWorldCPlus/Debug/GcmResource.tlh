@@ -1,0 +1,749 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (3700d534).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmResource.tlh
+//
+// C++ source equivalent of Win32 type library BB54FCF7-F6C7-4588-9EC6-95C098E522DD
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("bb54fcf7-f6c7-4588-9ec6-95c098e522dd"))
+/* LIBID */ __GcmResource;
+struct __declspec(uuid("33b61e41-355d-443c-b24d-3a72c65a9b2f"))
+/* dual interface */ IImage;
+enum gviImageType;
+enum gviImageFormat;
+struct __declspec(uuid("39059756-5a18-46ae-ba96-a9a32490d490"))
+/* dual interface */ IDrawGroup;
+struct __declspec(uuid("65874351-b00a-48bd-a7e3-ee2ccef71385"))
+/* dual interface */ IDrawPrimitive;
+struct __declspec(uuid("03282db3-6705-4f68-8572-2710bb3f6101"))
+/* dual interface */ IDrawMaterial;
+enum gviTextureWrapMode;
+enum gviCullFaceMode;
+enum gviPrimitiveType;
+enum gviPrimitiveMode;
+struct __declspec(uuid("9e8e3faf-2a72-4c6a-8aba-0360e7361310"))
+/* dual interface */ IModel;
+enum gviModelType;
+struct __declspec(uuid("29343c2a-efa5-4f46-b5ba-8c42a77dce89"))
+/* dual interface */ ISkinnedModel;
+struct __declspec(uuid("1c040609-2462-4e6c-9c44-2ec4fd6a310d"))
+/* dual interface */ IResourceFactory;
+struct /* coclass */ DrawGroup;
+struct /* coclass */ DrawPrimitive;
+struct /* coclass */ DrawMaterial;
+struct /* coclass */ ResourceFactory;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IImage, __uuidof(IImage));
+_COM_SMARTPTR_TYPEDEF(IDrawMaterial, __uuidof(IDrawMaterial));
+_COM_SMARTPTR_TYPEDEF(IDrawPrimitive, __uuidof(IDrawPrimitive));
+_COM_SMARTPTR_TYPEDEF(IDrawGroup, __uuidof(IDrawGroup));
+_COM_SMARTPTR_TYPEDEF(IModel, __uuidof(IModel));
+_COM_SMARTPTR_TYPEDEF(ISkinnedModel, __uuidof(ISkinnedModel));
+_COM_SMARTPTR_TYPEDEF(IResourceFactory, __uuidof(IResourceFactory));
+
+//
+// Type library items
+//
+
+enum gviImageType
+{
+    gviImageStatic = 0,
+    gviImageDynamic = 1,
+    gviImageCube = 2
+};
+
+enum gviImageFormat
+{
+    gviImageUnknown = 0,
+    gviImageDDS = 1,
+    gviImagePNG = 2,
+    gviImageJPG = 3,
+    gviImagePVR = 4
+};
+
+struct __declspec(uuid("33b61e41-355d-443c-b24d-3a72c65a9b2f"))
+IImage : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetWidth))
+    long Width;
+    __declspec(property(get=GetHeight))
+    long Height;
+    __declspec(property(get=GetHasAlpha))
+    VARIANT_BOOL HasAlpha;
+    __declspec(property(get=GetFrameNumber))
+    long FrameNumber;
+    __declspec(property(get=GetFrameInterval,put=PutFrameInterval))
+    long FrameInterval;
+    __declspec(property(get=GetImageType))
+    enum gviImageType ImageType;
+    __declspec(property(get=GetImageFormat))
+    enum gviImageFormat ImageFormat;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    IBinaryBufferPtr AsBinary ( );
+    VARIANT_BOOL WriteFile (
+        _bstr_t ImageFile );
+    long GetWidth ( );
+    long GetHeight ( );
+    VARIANT_BOOL GetHasAlpha ( );
+    long GetFrameNumber ( );
+    long GetFrameInterval ( );
+    void PutFrameInterval (
+        long pVal );
+    enum gviImageType GetImageType ( );
+    enum gviImageFormat GetImageFormat ( );
+    HRESULT Flip ( );
+    HRESULT ConvertFormat (
+        enum gviImageFormat newVal );
+    HRESULT DownSize ( );
+    HRESULT EmbedWatermark (
+        struct IImage * Watermark );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall raw_AsBinary (
+        /*[out,retval]*/ struct IBinaryBuffer * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_WriteFile (
+        BSTR ImageFile,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Width (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_Height (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_HasAlpha (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_FrameNumber (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_FrameInterval (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall put_FrameInterval (
+        /*[in]*/ long pVal ) = 0;
+      virtual HRESULT __stdcall get_ImageType (
+        /*[out,retval]*/ enum gviImageType * pVal ) = 0;
+      virtual HRESULT __stdcall get_ImageFormat (
+        /*[out,retval]*/ enum gviImageFormat * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Flip ( ) = 0;
+      virtual HRESULT __stdcall raw_ConvertFormat (
+        enum gviImageFormat newVal ) = 0;
+      virtual HRESULT __stdcall raw_DownSize ( ) = 0;
+      virtual HRESULT __stdcall raw_EmbedWatermark (
+        struct IImage * Watermark ) = 0;
+};
+
+enum gviTextureWrapMode
+{
+    gviTextureWrapRepeat = 0,
+    gviTextureWrapClampToEdge = 1
+};
+
+enum gviCullFaceMode
+{
+    gviCullNone = 0,
+    gviCullBack = 1,
+    gviCullFront = 2
+};
+
+struct __declspec(uuid("03282db3-6705-4f68-8572-2710bb3f6101"))
+IDrawMaterial : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetTextureName,put=PutTextureName))
+    _bstr_t TextureName;
+    __declspec(property(get=GetDiffuseColor,put=PutDiffuseColor))
+    OLE_COLOR DiffuseColor;
+    __declspec(property(get=GetSpecularColor,put=PutSpecularColor))
+    OLE_COLOR SpecularColor;
+    __declspec(property(get=GetWrapModeS,put=PutWrapModeS))
+    enum gviTextureWrapMode WrapModeS;
+    __declspec(property(get=GetWrapModeT,put=PutWrapModeT))
+    enum gviTextureWrapMode WrapModeT;
+    __declspec(property(get=GetCullMode,put=PutCullMode))
+    enum gviCullFaceMode CullMode;
+    __declspec(property(get=GetEnableBlend,put=PutEnableBlend))
+    VARIANT_BOOL EnableBlend;
+    __declspec(property(get=GetEnableLight,put=PutEnableLight))
+    VARIANT_BOOL EnableLight;
+    __declspec(property(get=GetDepthBias,put=PutDepthBias))
+    double DepthBias;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetTextureName ( );
+    void PutTextureName (
+        _bstr_t pVal );
+    OLE_COLOR GetDiffuseColor ( );
+    void PutDiffuseColor (
+        OLE_COLOR pVal );
+    OLE_COLOR GetSpecularColor ( );
+    void PutSpecularColor (
+        OLE_COLOR pVal );
+    enum gviTextureWrapMode GetWrapModeS ( );
+    void PutWrapModeS (
+        enum gviTextureWrapMode pVal );
+    enum gviTextureWrapMode GetWrapModeT ( );
+    void PutWrapModeT (
+        enum gviTextureWrapMode pVal );
+    enum gviCullFaceMode GetCullMode ( );
+    void PutCullMode (
+        enum gviCullFaceMode pVal );
+    VARIANT_BOOL GetEnableBlend ( );
+    void PutEnableBlend (
+        VARIANT_BOOL pVal );
+    VARIANT_BOOL GetEnableLight ( );
+    void PutEnableLight (
+        VARIANT_BOOL pVal );
+    double GetDepthBias ( );
+    void PutDepthBias (
+        double pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_TextureName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_TextureName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_DiffuseColor (
+        /*[out,retval]*/ OLE_COLOR * pVal ) = 0;
+      virtual HRESULT __stdcall put_DiffuseColor (
+        /*[in]*/ OLE_COLOR pVal ) = 0;
+      virtual HRESULT __stdcall get_SpecularColor (
+        /*[out,retval]*/ OLE_COLOR * pVal ) = 0;
+      virtual HRESULT __stdcall put_SpecularColor (
+        /*[in]*/ OLE_COLOR pVal ) = 0;
+      virtual HRESULT __stdcall get_WrapModeS (
+        /*[out,retval]*/ enum gviTextureWrapMode * pVal ) = 0;
+      virtual HRESULT __stdcall put_WrapModeS (
+        /*[in]*/ enum gviTextureWrapMode pVal ) = 0;
+      virtual HRESULT __stdcall get_WrapModeT (
+        /*[out,retval]*/ enum gviTextureWrapMode * pVal ) = 0;
+      virtual HRESULT __stdcall put_WrapModeT (
+        /*[in]*/ enum gviTextureWrapMode pVal ) = 0;
+      virtual HRESULT __stdcall get_CullMode (
+        /*[out,retval]*/ enum gviCullFaceMode * pVal ) = 0;
+      virtual HRESULT __stdcall put_CullMode (
+        /*[in]*/ enum gviCullFaceMode pVal ) = 0;
+      virtual HRESULT __stdcall get_EnableBlend (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_EnableBlend (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+      virtual HRESULT __stdcall get_EnableLight (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_EnableLight (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+      virtual HRESULT __stdcall get_DepthBias (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_DepthBias (
+        /*[in]*/ double pVal ) = 0;
+};
+
+enum gviPrimitiveType
+{
+    gviPrimitiveNormal = 0,
+    gviPrimitiveBillboardZ = 1,
+    gviPrimitiveWater = 2,
+    gviPrimitiveGlass = 3,
+    gviPrimitive3DTree = 4,
+    gviPrimitiveNone = 5
+};
+
+enum gviPrimitiveMode
+{
+    gviPrimitiveModeTriangleList = 0,
+    gviPrimitiveModeLineList = 1,
+    gviPrimitiveModePointList = 2,
+    gviPrimitiveModeNone = 3
+};
+
+struct __declspec(uuid("65874351-b00a-48bd-a7e3-ee2ccef71385"))
+IDrawPrimitive : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetMaterial,put=PutMaterial))
+    IDrawMaterialPtr Material;
+    __declspec(property(get=GetVertexArray,put=PutVertexArray))
+    IFloatArrayPtr VertexArray;
+    __declspec(property(get=GetNormalArray,put=PutNormalArray))
+    IFloatArrayPtr NormalArray;
+    __declspec(property(get=GetColorArray,put=PutColorArray))
+    IUInt32ArrayPtr ColorArray;
+    __declspec(property(get=GetTexcoordArray,put=PutTexcoordArray))
+    IFloatArrayPtr TexcoordArray;
+    __declspec(property(get=GetBakedTexcoordArray,put=PutBakedTexcoordArray))
+    IFloatArrayPtr BakedTexcoordArray;
+    __declspec(property(get=GetIndexArray,put=PutIndexArray))
+    IUInt16ArrayPtr IndexArray;
+    __declspec(property(get=GetPrimitiveType,put=PutPrimitiveType))
+    enum gviPrimitiveType PrimitiveType;
+    __declspec(property(get=GetPrimitiveMode,put=PutPrimitiveMode))
+    enum gviPrimitiveMode PrimitiveMode;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDrawMaterialPtr GetMaterial ( );
+    void PutMaterial (
+        struct IDrawMaterial * pVal );
+    IFloatArrayPtr GetVertexArray ( );
+    void PutVertexArray (
+        struct IFloatArray * pVal );
+    IFloatArrayPtr GetNormalArray ( );
+    void PutNormalArray (
+        struct IFloatArray * pVal );
+    IUInt32ArrayPtr GetColorArray ( );
+    void PutColorArray (
+        struct IUInt32Array * pVal );
+    IFloatArrayPtr GetTexcoordArray ( );
+    void PutTexcoordArray (
+        struct IFloatArray * pVal );
+    IFloatArrayPtr GetBakedTexcoordArray ( );
+    void PutBakedTexcoordArray (
+        struct IFloatArray * pVal );
+    IUInt16ArrayPtr GetIndexArray ( );
+    void PutIndexArray (
+        struct IUInt16Array * pVal );
+    enum gviPrimitiveType GetPrimitiveType ( );
+    void PutPrimitiveType (
+        enum gviPrimitiveType pVal );
+    enum gviPrimitiveMode GetPrimitiveMode ( );
+    void PutPrimitiveMode (
+        enum gviPrimitiveMode pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Material (
+        /*[out,retval]*/ struct IDrawMaterial * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Material (
+        /*[in]*/ struct IDrawMaterial * pVal ) = 0;
+      virtual HRESULT __stdcall get_VertexArray (
+        /*[out,retval]*/ struct IFloatArray * * pVal ) = 0;
+      virtual HRESULT __stdcall put_VertexArray (
+        /*[in]*/ struct IFloatArray * pVal ) = 0;
+      virtual HRESULT __stdcall get_NormalArray (
+        /*[out,retval]*/ struct IFloatArray * * pVal ) = 0;
+      virtual HRESULT __stdcall put_NormalArray (
+        /*[in]*/ struct IFloatArray * pVal ) = 0;
+      virtual HRESULT __stdcall get_ColorArray (
+        /*[out,retval]*/ struct IUInt32Array * * pVal ) = 0;
+      virtual HRESULT __stdcall put_ColorArray (
+        /*[in]*/ struct IUInt32Array * pVal ) = 0;
+      virtual HRESULT __stdcall get_TexcoordArray (
+        /*[out,retval]*/ struct IFloatArray * * pVal ) = 0;
+      virtual HRESULT __stdcall put_TexcoordArray (
+        /*[in]*/ struct IFloatArray * pVal ) = 0;
+      virtual HRESULT __stdcall get_BakedTexcoordArray (
+        /*[out,retval]*/ struct IFloatArray * * pVal ) = 0;
+      virtual HRESULT __stdcall put_BakedTexcoordArray (
+        /*[in]*/ struct IFloatArray * pVal ) = 0;
+      virtual HRESULT __stdcall get_IndexArray (
+        /*[out,retval]*/ struct IUInt16Array * * pVal ) = 0;
+      virtual HRESULT __stdcall put_IndexArray (
+        /*[in]*/ struct IUInt16Array * pVal ) = 0;
+      virtual HRESULT __stdcall get_PrimitiveType (
+        /*[out,retval]*/ enum gviPrimitiveType * pVal ) = 0;
+      virtual HRESULT __stdcall put_PrimitiveType (
+        /*[in]*/ enum gviPrimitiveType pVal ) = 0;
+      virtual HRESULT __stdcall get_PrimitiveMode (
+        /*[out,retval]*/ enum gviPrimitiveMode * pVal ) = 0;
+      virtual HRESULT __stdcall put_PrimitiveMode (
+        /*[in]*/ enum gviPrimitiveMode pVal ) = 0;
+};
+
+struct __declspec(uuid("39059756-5a18-46ae-ba96-a9a32490d490"))
+IDrawGroup : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetLightMapTextureName,put=PutLightMapTextureName))
+    _bstr_t LightMapTextureName;
+    __declspec(property(get=GetCompleteMapTextureName,put=PutCompleteMapTextureName))
+    _bstr_t CompleteMapTextureName;
+    __declspec(property(get=GetPrimitiveCount))
+    long PrimitiveCount;
+    __declspec(property(get=GetIsEmpty))
+    VARIANT_BOOL IsEmpty;
+    __declspec(property(get=GetCompleteMapFactor,put=PutCompleteMapFactor))
+    float CompleteMapFactor;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetLightMapTextureName ( );
+    void PutLightMapTextureName (
+        _bstr_t pVal );
+    _bstr_t GetCompleteMapTextureName ( );
+    void PutCompleteMapTextureName (
+        _bstr_t pVal );
+    long GetPrimitiveCount ( );
+    IDrawPrimitivePtr GetPrimitive (
+        long Index );
+    VARIANT_BOOL AddPrimitive (
+        struct IDrawPrimitive * Primitive );
+    VARIANT_BOOL SetPrimitive (
+        long Index,
+        struct IDrawPrimitive * Primitive );
+    VARIANT_BOOL RemovePrimitive (
+        long Index,
+        long Count );
+    HRESULT Clear ( );
+    VARIANT_BOOL GetIsEmpty ( );
+    VARIANT_BOOL InsertPrimitive (
+        long Index,
+        struct IDrawPrimitive * Primitive );
+    float GetCompleteMapFactor ( );
+    void PutCompleteMapFactor (
+        float pVal );
+    HRESULT ComputeNormal ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_LightMapTextureName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_LightMapTextureName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_CompleteMapTextureName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_CompleteMapTextureName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_PrimitiveCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetPrimitive (
+        long Index,
+        /*[out,retval]*/ struct IDrawPrimitive * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddPrimitive (
+        struct IDrawPrimitive * Primitive,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetPrimitive (
+        long Index,
+        struct IDrawPrimitive * Primitive,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RemovePrimitive (
+        long Index,
+        long Count,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Clear ( ) = 0;
+      virtual HRESULT __stdcall get_IsEmpty (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InsertPrimitive (
+        long Index,
+        struct IDrawPrimitive * Primitive,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_CompleteMapFactor (
+        /*[out,retval]*/ float * pVal ) = 0;
+      virtual HRESULT __stdcall put_CompleteMapFactor (
+        /*[in]*/ float pVal ) = 0;
+      virtual HRESULT __stdcall raw_ComputeNormal ( ) = 0;
+};
+
+enum gviModelType
+{
+    gviModelStatic = 1,
+    gviModelSkinning = 2
+};
+
+struct __declspec(uuid("9e8e3faf-2a72-4c6a-8aba-0360e7361310"))
+IModel : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetGroupCount))
+    long GroupCount;
+    __declspec(property(get=GetIsEmpty))
+    VARIANT_BOOL IsEmpty;
+    __declspec(property(get=GetEnvelope))
+    IEnvelopePtr Envelope;
+    __declspec(property(get=GetSwitchSize,put=PutSwitchSize))
+    long SwitchSize;
+    __declspec(property(get=GetSingleton,put=PutSingleton))
+    VARIANT_BOOL Singleton;
+    __declspec(property(get=GetModelType))
+    enum gviModelType ModelType;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    long GetGroupCount ( );
+    VARIANT_BOOL GetIsEmpty ( );
+    IDrawGroupPtr GetGroup (
+        long Index );
+    VARIANT_BOOL AddGroup (
+        struct IDrawGroup * DrawGroup );
+    VARIANT_BOOL SetGroup (
+        long Index,
+        struct IDrawGroup * DrawGroup );
+    VARIANT_BOOL InsertGroup (
+        long Index,
+        struct IDrawGroup * DrawGroup );
+    VARIANT_BOOL RemoveGroup (
+        long Index,
+        long Count );
+    IBinaryBufferPtr AsBinary ( );
+    IEnvelopePtr GetEnvelope ( );
+    SAFEARRAY * GetImageNames ( );
+    HRESULT WriteFile (
+        _bstr_t FilePath,
+        struct IPropertySet * Images );
+    HRESULT Clear ( );
+    long GetSwitchSize ( );
+    void PutSwitchSize (
+        long pVal );
+    VARIANT_BOOL GetSingleton ( );
+    void PutSingleton (
+        VARIANT_BOOL pVal );
+    HRESULT MultiplyMatrix (
+        struct IMatrix * M );
+    IModelPtr CloneAndTransform (
+        struct IMatrix * M );
+    enum gviModelType GetModelType ( );
+    HRESULT CheckAndRebuild ( );
+    long Valid ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall get_GroupCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsEmpty (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetGroup (
+        long Index,
+        /*[out,retval]*/ struct IDrawGroup * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddGroup (
+        struct IDrawGroup * DrawGroup,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetGroup (
+        long Index,
+        struct IDrawGroup * DrawGroup,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InsertGroup (
+        long Index,
+        struct IDrawGroup * DrawGroup,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RemoveGroup (
+        long Index,
+        long Count,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AsBinary (
+        /*[out,retval]*/ struct IBinaryBuffer * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Envelope (
+        /*[out,retval]*/ struct IEnvelope * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetImageNames (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_WriteFile (
+        BSTR FilePath,
+        struct IPropertySet * Images ) = 0;
+      virtual HRESULT __stdcall raw_Clear ( ) = 0;
+      virtual HRESULT __stdcall get_SwitchSize (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall put_SwitchSize (
+        /*[in]*/ long pVal ) = 0;
+      virtual HRESULT __stdcall get_Singleton (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_Singleton (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+      virtual HRESULT __stdcall raw_MultiplyMatrix (
+        struct IMatrix * M ) = 0;
+      virtual HRESULT __stdcall raw_CloneAndTransform (
+        struct IMatrix * M,
+        /*[out,retval]*/ struct IModel * * pVal ) = 0;
+      virtual HRESULT __stdcall get_ModelType (
+        /*[out,retval]*/ enum gviModelType * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CheckAndRebuild ( ) = 0;
+      virtual HRESULT __stdcall raw_Valid (
+        /*[out,retval]*/ long * pVal ) = 0;
+};
+
+struct __declspec(uuid("29343c2a-efa5-4f46-b5ba-8c42a77dce89"))
+ISkinnedModel : IModel
+{};
+
+struct __declspec(uuid("1c040609-2462-4e6c-9c44-2ec4fd6a310d"))
+IResourceFactory : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IModelPtr InternalCreateModel (
+        __int64 Data,
+        long Length );
+    IImagePtr InternalCreateImage (
+        __int64 Data,
+        long Length );
+    IImagePtr CreateImageFromBinary (
+        struct IBinaryBuffer * BinaryBuffer );
+    IImagePtr CreateImageFromFile (
+        _bstr_t ImageFile );
+    IModelPtr CreateModelFromBinary (
+        struct IBinaryBuffer * BinaryBuffer );
+    HRESULT CreateModelAndImageFromFile (
+        _bstr_t ModelFile,
+        struct IPropertySet * * Images,
+        struct IModel * * Model,
+        struct IMatrix * * Mat );
+    HRESULT CreateModelAndImageFromFileEx (
+        _bstr_t ModelFile,
+        struct IPropertySet * * Images,
+        struct IModel * * SimplifiedModel,
+        struct IModel * * Model,
+        struct IMatrix * * Mat );
+    IModelPtr CreateModel ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_InternalCreateModel (
+        __int64 Data,
+        long Length,
+        /*[out,retval]*/ struct IModel * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InternalCreateImage (
+        __int64 Data,
+        long Length,
+        /*[out,retval]*/ struct IImage * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateImageFromBinary (
+        struct IBinaryBuffer * BinaryBuffer,
+        /*[out,retval]*/ struct IImage * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateImageFromFile (
+        BSTR ImageFile,
+        /*[out,retval]*/ struct IImage * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateModelFromBinary (
+        struct IBinaryBuffer * BinaryBuffer,
+        /*[out,retval]*/ struct IModel * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateModelAndImageFromFile (
+        BSTR ModelFile,
+        /*[out]*/ struct IPropertySet * * Images,
+        /*[out]*/ struct IModel * * Model,
+        /*[out]*/ struct IMatrix * * Mat ) = 0;
+      virtual HRESULT __stdcall raw_CreateModelAndImageFromFileEx (
+        BSTR ModelFile,
+        /*[out]*/ struct IPropertySet * * Images,
+        /*[out]*/ struct IModel * * SimplifiedModel,
+        /*[out]*/ struct IModel * * Model,
+        /*[out]*/ struct IMatrix * * Mat ) = 0;
+      virtual HRESULT __stdcall raw_CreateModel (
+        /*[out,retval]*/ struct IModel * * pVal ) = 0;
+};
+
+struct __declspec(uuid("42993e64-73b1-4868-b2d5-7474afe743fe"))
+DrawGroup;
+    // [ default ] interface IDispatch
+    // interface IDrawGroup
+
+struct __declspec(uuid("aae407cf-bbfb-4ee1-b859-79e635160785"))
+DrawPrimitive;
+    // [ default ] interface IDispatch
+    // interface IDrawPrimitive
+
+struct __declspec(uuid("e009b520-1af5-4abf-bee6-2ccbc2aa4276"))
+DrawMaterial;
+    // [ default ] interface IDispatch
+    // interface IDrawMaterial
+
+struct __declspec(uuid("6e0bfa6c-8c64-48bd-abde-0fcde19b4bce"))
+ResourceFactory;
+    // [ default ] interface IDispatch
+    // interface IResourceFactory
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_GcmResource =
+    {0xbb54fcf7,0xf6c7,0x4588,{0x9e,0xc6,0x95,0xc0,0x98,0xe5,0x22,0xdd}};
+extern "C" const GUID __declspec(selectany) IID_IImage =
+    {0x33b61e41,0x355d,0x443c,{0xb2,0x4d,0x3a,0x72,0xc6,0x5a,0x9b,0x2f}};
+extern "C" const GUID __declspec(selectany) IID_IDrawMaterial =
+    {0x03282db3,0x6705,0x4f68,{0x85,0x72,0x27,0x10,0xbb,0x3f,0x61,0x01}};
+extern "C" const GUID __declspec(selectany) IID_IDrawPrimitive =
+    {0x65874351,0xb00a,0x48bd,{0xa7,0xe3,0xee,0x2c,0xce,0xf7,0x13,0x85}};
+extern "C" const GUID __declspec(selectany) IID_IDrawGroup =
+    {0x39059756,0x5a18,0x46ae,{0xba,0x96,0xa9,0xa3,0x24,0x90,0xd4,0x90}};
+extern "C" const GUID __declspec(selectany) IID_IModel =
+    {0x9e8e3faf,0x2a72,0x4c6a,{0x8a,0xba,0x03,0x60,0xe7,0x36,0x13,0x10}};
+extern "C" const GUID __declspec(selectany) IID_ISkinnedModel =
+    {0x29343c2a,0xefa5,0x4f46,{0xb5,0xba,0x8c,0x42,0xa7,0x7d,0xce,0x89}};
+extern "C" const GUID __declspec(selectany) IID_IResourceFactory =
+    {0x1c040609,0x2462,0x4e6c,{0x9c,0x44,0x2e,0xc4,0xfd,0x6a,0x31,0x0d}};
+extern "C" const GUID __declspec(selectany) CLSID_DrawGroup =
+    {0x42993e64,0x73b1,0x4868,{0xb2,0xd5,0x74,0x74,0xaf,0xe7,0x43,0xfe}};
+extern "C" const GUID __declspec(selectany) CLSID_DrawPrimitive =
+    {0xaae407cf,0xbbfb,0x4ee1,{0xb8,0x59,0x79,0xe6,0x35,0x16,0x07,0x85}};
+extern "C" const GUID __declspec(selectany) CLSID_DrawMaterial =
+    {0xe009b520,0x1af5,0x4abf,{0xbe,0xe6,0x2c,0xcb,0xc2,0xaa,0x42,0x76}};
+extern "C" const GUID __declspec(selectany) CLSID_ResourceFactory =
+    {0x6e0bfa6c,0x8c64,0x48bd,{0xab,0xde,0x0f,0xcd,0xe1,0x9b,0x4b,0xce}};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmResource.tli"
+
+#pragma pack(pop)

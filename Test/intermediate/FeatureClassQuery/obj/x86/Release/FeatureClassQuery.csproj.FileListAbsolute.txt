@@ -1,0 +1,13 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeatureClassQuery.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeatureClassQuery.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.DataSourceForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.FieldInfoForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.AttributeFrm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.QueryFilterDlg.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureClassQuery\obj\x86\Release\FeatureClassQuery.pdb

@@ -1,0 +1,10 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\AttachmentManager.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\AttachmentManager.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\AttachmentManager\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\AttachmentManager\obj\x86\Release\AttachmentManager.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\AttachmentManager\obj\x86\Release\AttachmentManager.AttachmentMangerForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\AttachmentManager\obj\x86\Release\AttachmentManager.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\AttachmentManager\obj\x86\Release\AttachmentManager.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\AttachmentManager\obj\x86\Release\AttachmentManager.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\AttachmentManager\obj\x86\Release\AttachmentManager.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\AttachmentManager\obj\x86\Release\AttachmentManager.pdb

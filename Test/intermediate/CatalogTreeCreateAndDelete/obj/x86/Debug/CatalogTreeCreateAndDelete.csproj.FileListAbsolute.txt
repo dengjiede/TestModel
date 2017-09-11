@@ -1,0 +1,15 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\CatalogTreeCreateAndDelete.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\CatalogTreeCreateAndDelete.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.DataSetForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.CreateDataSourceForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.EditForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.OpenDataSourceForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.FeatureClassForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.OperateFieldInfoForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.ViewFieldInfoForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\CatalogTreeCreateAndDelete\obj\x86\Debug\CatalogTreeCreateAndDelete.pdb

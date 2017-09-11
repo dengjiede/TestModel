@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeatureLayerValueMapRender.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeatureLayerValueMapRender.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\FeatureLayerValueMapRender\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\FeatureLayerValueMapRender\obj\x86\Release\FeatureLayerValueMapRender.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\FeatureLayerValueMapRender\obj\x86\Release\FeatureLayerValueMapRender.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\FeatureLayerValueMapRender\obj\x86\Release\FeatureLayerValueMapRender.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\FeatureLayerValueMapRender\obj\x86\Release\FeatureLayerValueMapRender.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\FeatureLayerValueMapRender\obj\x86\Release\FeatureLayerValueMapRender.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\FeatureLayerValueMapRender\obj\x86\Release\FeatureLayerValueMapRender.pdb

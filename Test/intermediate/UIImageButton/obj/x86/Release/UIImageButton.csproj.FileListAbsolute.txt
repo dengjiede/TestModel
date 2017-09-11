@@ -1,0 +1,10 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\UIImageButton.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\UIImageButton.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UIImageButton\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UIImageButton\obj\x86\Release\UIImageButton.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UIImageButton\obj\x86\Release\UIImageButton.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UIImageButton\obj\x86\Release\UIImageButton.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UIImageButton\obj\x86\Release\UIImageButton.SettingForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UIImageButton\obj\x86\Release\UIImageButton.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UIImageButton\obj\x86\Release\UIImageButton.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\UIImageButton\obj\x86\Release\UIImageButton.pdb

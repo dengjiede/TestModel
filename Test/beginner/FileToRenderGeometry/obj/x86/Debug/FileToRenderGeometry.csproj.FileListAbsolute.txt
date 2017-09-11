@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\FileToRenderGeometry.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\FileToRenderGeometry.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Debug\FileToRenderGeometry.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Debug\FileToRenderGeometry.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Debug\FileToRenderGeometry.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Debug\FileToRenderGeometry.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Debug\FileToRenderGeometry.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Debug\FileToRenderGeometry.pdb

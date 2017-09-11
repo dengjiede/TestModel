@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeatureLocateAndGlow.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeatureLocateAndGlow.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLocateAndGlow\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLocateAndGlow\obj\x86\Release\FeatureLocateAndGlow.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLocateAndGlow\obj\x86\Release\FeatureLocateAndGlow.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLocateAndGlow\obj\x86\Release\FeatureLocateAndGlow.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLocateAndGlow\obj\x86\Release\FeatureLocateAndGlow.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLocateAndGlow\obj\x86\Release\FeatureLocateAndGlow.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLocateAndGlow\obj\x86\Release\FeatureLocateAndGlow.pdb

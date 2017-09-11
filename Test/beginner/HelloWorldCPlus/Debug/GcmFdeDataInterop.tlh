@@ -1,0 +1,633 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (56ffec47).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeDataInterop.tlh
+//
+// C++ source equivalent of Win32 type library A28E1802-F3CC-4c22-8DD1-C434E90FEAB2
+// compiler-generated file created 09/08/17 at 15:13:00 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("a28e1802-f3cc-4c22-8dd1-c434e90feab2"))
+/* LIBID */ __GcmFdeDataInterop;
+enum gviDataConnectionType;
+enum gviResourceConflictPolicy;
+enum gviDomainCopyPolicy;
+enum gviRebuildRenderIndexPolicy;
+enum gviRasterConnectionType;
+struct __declspec(uuid("31a39def-6917-4573-a4fc-e2e3e4803778"))
+/* dual interface */ ILayerInfoCollection;
+struct __declspec(uuid("6f659e4b-809a-451e-a0d0-b6c8939921af"))
+/* dual interface */ ILayerInfo;
+struct __declspec(uuid("92450a99-e5b8-4b5d-833b-aa8e1deb919d"))
+/* dual interface */ IDataCopyParam;
+struct __declspec(uuid("1b9c595a-58c2-4252-9b7f-1f85c7aea4aa"))
+/* dual interface */ IDataCopy;
+struct __declspec(uuid("3d754b8b-aaf7-4173-a06c-cb65328be3bf"))
+/* dual interface */ IRasterSource;
+struct __declspec(uuid("abd2bc69-79f9-4695-9a11-bd486fa0be9a"))
+/* dual interface */ IRaster;
+struct __declspec(uuid("41a54cf1-134a-418a-beb4-f52695ffb052"))
+/* dual interface */ IDataInterop;
+struct __declspec(uuid("9a34f494-dd93-4e90-a52b-758bf5181b6d"))
+/* dual interface */ IDataInteropFactory;
+struct __declspec(uuid("258d0a50-d8cc-4b6a-9368-9ee004cf12fb"))
+/* dual interface */ IRasterSourceFactory;
+struct /* coclass */ DataInteropFactory;
+struct /* coclass */ DataCopy;
+struct /* coclass */ DataCopyParam;
+struct /* coclass */ RasterSourceFactory;
+struct __declspec(uuid("f56120c9-b852-40ba-88a3-2a9b1a0588fe"))
+/* dual interface */ IToolBox;
+struct /* coclass */ ToolBox;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ILayerInfo, __uuidof(ILayerInfo));
+_COM_SMARTPTR_TYPEDEF(ILayerInfoCollection, __uuidof(ILayerInfoCollection));
+_COM_SMARTPTR_TYPEDEF(IDataCopyParam, __uuidof(IDataCopyParam));
+_COM_SMARTPTR_TYPEDEF(IDataCopy, __uuidof(IDataCopy));
+_COM_SMARTPTR_TYPEDEF(IRaster, __uuidof(IRaster));
+_COM_SMARTPTR_TYPEDEF(IRasterSource, __uuidof(IRasterSource));
+_COM_SMARTPTR_TYPEDEF(IDataInterop, __uuidof(IDataInterop));
+_COM_SMARTPTR_TYPEDEF(IDataInteropFactory, __uuidof(IDataInteropFactory));
+_COM_SMARTPTR_TYPEDEF(IRasterSourceFactory, __uuidof(IRasterSourceFactory));
+_COM_SMARTPTR_TYPEDEF(IToolBox, __uuidof(IToolBox));
+
+//
+// Type library items
+//
+    const int _FDE_DATAINTEROPERA_VECTOR_OPENDATASOURCE_FAILED = -2147215503;
+
+enum gviDataConnectionType
+{
+    gviOgrConnectionUnknown = 0,
+    gviOgrConnectionDWG = 1,
+    gviOgrConnectionShp = -2147483647,
+    gviOgrConnectionSDE = -2147483646,
+    gviOgrConnectionOCI = -2147483645,
+    gviOgrConnectionMS = -2147483644,
+    gviOgrConnectionPG = -2147483643,
+    gviOgrConnectionPGEO = -2147483642,
+    gviOgrConnectionWFS = -2147483641,
+    gviOgrConnectionFileGDB = -2147483640,
+    gviOgrConnectionSKP = -2147483639,
+    gviOgrConnectionLAS = -2147483632,
+    gviOgrConnectionFBX = -2147483631,
+    gviOgrConnectionIFC = -2147483628
+};
+
+enum gviResourceConflictPolicy
+{
+    gviResourceIgnore = 1,
+    gviResourceUserExists = 2,
+    gviResourceOverWrite = 3,
+    gviResourceRenameToNew = 4
+};
+
+enum gviDomainCopyPolicy
+{
+    gviDomainIgnor = 1,
+    gviDomainCopy = 2
+};
+
+enum gviRebuildRenderIndexPolicy
+{
+    gviRebuildNone = 1,
+    gviRebuildOnlyFlag = 2,
+    gviRebuildWithData = 3
+};
+
+enum gviRasterConnectionType
+{
+    gviRasterConnectionUnknown = 0,
+    gviRasterConnectionFile = 1,
+    gviRasterConnectionWMS = 2,
+    gviRasterConnectionOCI = 3,
+    gviRasterConnectionWMTS = 4,
+    gviRasterConnectionMapServer = 5
+};
+
+struct __declspec(uuid("6f659e4b-809a-451e-a0d0-b6c8939921af"))
+ILayerInfo : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetName))
+    _bstr_t Name;
+    __declspec(property(get=GetFieldInfos))
+    IFieldInfoCollectionPtr FieldInfos;
+    __declspec(property(get=GetCrsWKT))
+    _bstr_t CrsWKT;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetName ( );
+    IFieldInfoCollectionPtr GetFieldInfos ( );
+    _bstr_t GetCrsWKT ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_FieldInfos (
+        /*[out,retval]*/ struct IFieldInfoCollection * * pVal ) = 0;
+      virtual HRESULT __stdcall get_CrsWKT (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+};
+
+struct __declspec(uuid("31a39def-6917-4573-a4fc-e2e3e4803778"))
+ILayerInfoCollection : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetItem))
+    ILayerInfoPtr Item[];
+    __declspec(property(get=GetCount))
+    long Count;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCount ( );
+    ILayerInfoPtr GetItem (
+        long n );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall get_Item (
+        /*[in]*/ long n,
+        /*[out,retval]*/ struct ILayerInfo * * pVal ) = 0;
+};
+
+struct __declspec(uuid("92450a99-e5b8-4b5d-833b-aa8e1deb919d"))
+IDataCopyParam : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetFilter,put=PutFilter))
+    IQueryFilterPtr Filter;
+    __declspec(property(get=GetKeepFid,put=PutKeepFid))
+    VARIANT_BOOL KeepFid;
+    __declspec(property(get=GetFlushInterval,put=PutFlushInterval))
+    long FlushInterval;
+    __declspec(property(get=GetCalcTotalCount,put=PutCalcTotalCount))
+    VARIANT_BOOL CalcTotalCount;
+    __declspec(property(get=GetDomainCopyPolicy,put=PutDomainCopyPolicy))
+    enum gviDomainCopyPolicy DomainCopyPolicy;
+    __declspec(property(get=GetResourceConflictPolicy,put=PutResourceConflictPolicy))
+    enum gviResourceConflictPolicy ResourceConflictPolicy;
+    __declspec(property(get=GetRebuildRenderIndexPolicy,put=PutRebuildRenderIndexPolicy))
+    enum gviRebuildRenderIndexPolicy RebuildRenderIndexPolicy;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IQueryFilterPtr GetFilter ( );
+    void PutFilter (
+        struct IQueryFilter * pVal );
+    VARIANT_BOOL GetKeepFid ( );
+    void PutKeepFid (
+        VARIANT_BOOL pVal );
+    long GetFlushInterval ( );
+    void PutFlushInterval (
+        long pVal );
+    VARIANT_BOOL GetCalcTotalCount ( );
+    void PutCalcTotalCount (
+        VARIANT_BOOL pVal );
+    enum gviDomainCopyPolicy GetDomainCopyPolicy ( );
+    void PutDomainCopyPolicy (
+        enum gviDomainCopyPolicy pVal );
+    enum gviResourceConflictPolicy GetResourceConflictPolicy ( );
+    void PutResourceConflictPolicy (
+        enum gviResourceConflictPolicy pVal );
+    enum gviRebuildRenderIndexPolicy GetRebuildRenderIndexPolicy ( );
+    void PutRebuildRenderIndexPolicy (
+        enum gviRebuildRenderIndexPolicy pVal );
+    HRESULT SetFieldMapping (
+        struct IPropertySet * FieldMapping );
+    IPropertySetPtr GetFieldMapping ( );
+    HRESULT SetProcessingEventCallback (
+        IDispatch * newVal );
+    HRESULT SetResRenameCallback (
+        IDispatch * newVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Filter (
+        /*[out,retval]*/ struct IQueryFilter * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Filter (
+        /*[in]*/ struct IQueryFilter * pVal ) = 0;
+      virtual HRESULT __stdcall get_KeepFid (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_KeepFid (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+      virtual HRESULT __stdcall get_FlushInterval (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall put_FlushInterval (
+        /*[in]*/ long pVal ) = 0;
+      virtual HRESULT __stdcall get_CalcTotalCount (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_CalcTotalCount (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+      virtual HRESULT __stdcall get_DomainCopyPolicy (
+        /*[out,retval]*/ enum gviDomainCopyPolicy * pVal ) = 0;
+      virtual HRESULT __stdcall put_DomainCopyPolicy (
+        /*[in]*/ enum gviDomainCopyPolicy pVal ) = 0;
+      virtual HRESULT __stdcall get_ResourceConflictPolicy (
+        /*[out,retval]*/ enum gviResourceConflictPolicy * pVal ) = 0;
+      virtual HRESULT __stdcall put_ResourceConflictPolicy (
+        /*[in]*/ enum gviResourceConflictPolicy pVal ) = 0;
+      virtual HRESULT __stdcall get_RebuildRenderIndexPolicy (
+        /*[out,retval]*/ enum gviRebuildRenderIndexPolicy * pVal ) = 0;
+      virtual HRESULT __stdcall put_RebuildRenderIndexPolicy (
+        /*[in]*/ enum gviRebuildRenderIndexPolicy pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetFieldMapping (
+        struct IPropertySet * FieldMapping ) = 0;
+      virtual HRESULT __stdcall raw_GetFieldMapping (
+        /*[out,retval]*/ struct IPropertySet * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetProcessingEventCallback (
+        IDispatch * newVal ) = 0;
+      virtual HRESULT __stdcall raw_SetResRenameCallback (
+        IDispatch * newVal ) = 0;
+};
+
+struct __declspec(uuid("1b9c595a-58c2-4252-9b7f-1f85c7aea4aa"))
+IDataCopy : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long CopyTable (
+        struct IDataSource * DestDS,
+        _bstr_t DestTableName,
+        struct IDataSource * SrcDS,
+        _bstr_t SrcTableName,
+        struct IDataCopyParam * Parameters );
+    long CopyClass (
+        struct IDataSource * DestDS,
+        _bstr_t DestFDS,
+        _bstr_t DestClassName,
+        struct IDataSource * SrcDS,
+        _bstr_t SrcFDS,
+        _bstr_t SrcClassName,
+        struct IDataCopyParam * Parameters );
+    long CopySubType (
+        struct IDataSource * DestDS,
+        _bstr_t DestFDS,
+        _bstr_t DestClassName,
+        _bstr_t DestSubTypeField,
+        struct IDataSource * SrcDS,
+        _bstr_t SrcFDS,
+        _bstr_t SrcClassName );
+    long CopyDataset (
+        struct IDataSource * DestDS,
+        _bstr_t DestFDS,
+        struct IDataSource * SrcDS,
+        _bstr_t SrcFDS,
+        struct IDataCopyParam * Parameters );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_CopyTable (
+        struct IDataSource * DestDS,
+        BSTR DestTableName,
+        struct IDataSource * SrcDS,
+        BSTR SrcTableName,
+        struct IDataCopyParam * Parameters,
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CopyClass (
+        struct IDataSource * DestDS,
+        BSTR DestFDS,
+        BSTR DestClassName,
+        struct IDataSource * SrcDS,
+        BSTR SrcFDS,
+        BSTR SrcClassName,
+        struct IDataCopyParam * Parameters,
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CopySubType (
+        struct IDataSource * DestDS,
+        BSTR DestFDS,
+        BSTR DestClassName,
+        BSTR DestSubTypeField,
+        struct IDataSource * SrcDS,
+        BSTR SrcFDS,
+        BSTR SrcClassName,
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CopyDataset (
+        struct IDataSource * DestDS,
+        BSTR DestFDS,
+        struct IDataSource * SrcDS,
+        BSTR SrcFDS,
+        struct IDataCopyParam * Parameters,
+        /*[out,retval]*/ long * pVal ) = 0;
+};
+
+struct __declspec(uuid("abd2bc69-79f9-4695-9a11-bd486fa0be9a"))
+IRaster : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetName))
+    _bstr_t Name;
+    __declspec(property(get=GetConnStr))
+    _bstr_t ConnStr;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetName ( );
+    _bstr_t GetConnStr ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_ConnStr (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+};
+
+struct __declspec(uuid("3d754b8b-aaf7-4173-a06c-cb65328be3bf"))
+IRasterSource : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    SAFEARRAY * GetRasterNames ( );
+    IRasterPtr OpenRaster (
+        _bstr_t RasterName );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetRasterNames (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_OpenRaster (
+        BSTR RasterName,
+        /*[out,retval]*/ struct IRaster * * pVal ) = 0;
+};
+
+struct __declspec(uuid("41a54cf1-134a-418a-beb4-f52695ffb052"))
+IDataInterop : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(put=PutOnProcessing))
+    IDispatchPtr OnProcessing;
+    __declspec(property(get=GetConnectionType))
+    enum gviDataConnectionType ConnectionType;
+    __declspec(property(get=GetConnectionString))
+    _bstr_t ConnectionString;
+    __declspec(property(get=GetLayersInfo))
+    ILayerInfoCollectionPtr LayersInfo;
+    __declspec(property(get=GetProperties))
+    IPropertySetPtr Properties;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long ImportLayer (
+        struct IObjectClass * OC,
+        _bstr_t GeoName,
+        struct IPropertySet * Fields );
+    long ImportLayers (
+        struct IFeatureDataSet * FDS,
+        struct IPropertySet * Layers );
+    long ExportLayer (
+        struct IObjectClass * OC,
+        struct IQueryFilter * Filter,
+        _bstr_t GeoName );
+    long ExportLayers (
+        struct IFeatureDataSet * FDS,
+        SAFEARRAY * ClassNames );
+    void PutStepValue (
+        long pVal );
+    long GetStepValue ( );
+    void PutOnProcessing (
+        IDispatch * _arg1 );
+    IFdeCursorPtr Search (
+        struct IQueryFilter * Filter,
+        VARIANT_BOOL ReuseRow );
+    __int64 GetCount (
+        struct IQueryFilter * Filter );
+    enum gviDataConnectionType GetConnectionType ( );
+    _bstr_t GetConnectionString ( );
+    ILayerInfoCollectionPtr GetLayersInfo ( );
+    IPropertySetPtr GetProperties ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_ImportLayer (
+        struct IObjectClass * OC,
+        BSTR GeoName,
+        struct IPropertySet * Fields,
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ImportLayers (
+        struct IFeatureDataSet * FDS,
+        struct IPropertySet * Layers,
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ExportLayer (
+        struct IObjectClass * OC,
+        struct IQueryFilter * Filter,
+        BSTR GeoName,
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ExportLayers (
+        struct IFeatureDataSet * FDS,
+        SAFEARRAY * ClassNames,
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall put_StepValue (
+        long pVal ) = 0;
+      virtual HRESULT __stdcall get_StepValue (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall put_OnProcessing (
+        /*[in]*/ IDispatch * _arg1 ) = 0;
+      virtual HRESULT __stdcall raw_Search (
+        struct IQueryFilter * Filter,
+        VARIANT_BOOL ReuseRow,
+        /*[out,retval]*/ struct IFdeCursor * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetCount (
+        struct IQueryFilter * Filter,
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall get_ConnectionType (
+        /*[out,retval]*/ enum gviDataConnectionType * pVal ) = 0;
+      virtual HRESULT __stdcall get_ConnectionString (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_LayersInfo (
+        /*[out,retval]*/ struct ILayerInfoCollection * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Properties (
+        /*[out,retval]*/ struct IPropertySet * * pVal ) = 0;
+};
+
+struct __declspec(uuid("9a34f494-dd93-4e90-a52b-758bf5181b6d"))
+IDataInteropFactory : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDataInteropPtr CreateDataInterop (
+        enum gviDataConnectionType Type,
+        struct IPropertySet * Params );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_CreateDataInterop (
+        enum gviDataConnectionType Type,
+        struct IPropertySet * Params,
+        /*[out,retval]*/ struct IDataInterop * * pVal ) = 0;
+};
+
+struct __declspec(uuid("258d0a50-d8cc-4b6a-9368-9ee004cf12fb"))
+IRasterSourceFactory : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IRasterSourcePtr OpenRasterSource (
+        _bstr_t RasterURL,
+        enum gviRasterConnectionType RasterType );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_OpenRasterSource (
+        BSTR RasterURL,
+        enum gviRasterConnectionType RasterType,
+        /*[out,retval]*/ struct IRasterSource * * pVal ) = 0;
+};
+
+struct __declspec(uuid("7f370cfb-b108-4958-83d6-ab5dfec732a8"))
+DataInteropFactory;
+    // [ default ] interface IDataInteropFactory
+
+struct __declspec(uuid("99c7eaac-8a4f-45dc-a990-d47dac05cc20"))
+DataCopy;
+    // [ default ] interface IDataCopy
+
+struct __declspec(uuid("c97bfb15-b10e-437c-a869-81d341cba584"))
+DataCopyParam;
+    // [ default ] interface IDataCopyParam
+
+struct __declspec(uuid("11b53221-c2d5-47e2-bb5f-be2dee5fbcfa"))
+RasterSourceFactory;
+    // [ default ] interface IRasterSourceFactory
+
+struct __declspec(uuid("f56120c9-b852-40ba-88a3-2a9b1a0588fe"))
+IToolBox : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long Execute (
+        struct IPropertySet * ParamsIn,
+        struct IPropertySet * * ParamsOut );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Execute (
+        struct IPropertySet * ParamsIn,
+        /*[out]*/ struct IPropertySet * * ParamsOut,
+        /*[out,retval]*/ long * pVal ) = 0;
+};
+
+struct __declspec(uuid("8b7ec6ad-8903-4c98-a4b6-4393d3fd9555"))
+ToolBox;
+    // [ default ] interface IToolBox
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_GcmFdeDataInterop =
+    {0xa28e1802,0xf3cc,0x4c22,{0x8d,0xd1,0xc4,0x34,0xe9,0x0f,0xea,0xb2}};
+extern "C" const GUID __declspec(selectany) IID_ILayerInfo =
+    {0x6f659e4b,0x809a,0x451e,{0xa0,0xd0,0xb6,0xc8,0x93,0x99,0x21,0xaf}};
+extern "C" const GUID __declspec(selectany) IID_ILayerInfoCollection =
+    {0x31a39def,0x6917,0x4573,{0xa4,0xfc,0xe2,0xe3,0xe4,0x80,0x37,0x78}};
+extern "C" const GUID __declspec(selectany) IID_IDataCopyParam =
+    {0x92450a99,0xe5b8,0x4b5d,{0x83,0x3b,0xaa,0x8e,0x1d,0xeb,0x91,0x9d}};
+extern "C" const GUID __declspec(selectany) IID_IDataCopy =
+    {0x1b9c595a,0x58c2,0x4252,{0x9b,0x7f,0x1f,0x85,0xc7,0xae,0xa4,0xaa}};
+extern "C" const GUID __declspec(selectany) IID_IRaster =
+    {0xabd2bc69,0x79f9,0x4695,{0x9a,0x11,0xbd,0x48,0x6f,0xa0,0xbe,0x9a}};
+extern "C" const GUID __declspec(selectany) IID_IRasterSource =
+    {0x3d754b8b,0xaaf7,0x4173,{0xa0,0x6c,0xcb,0x65,0x32,0x8b,0xe3,0xbf}};
+extern "C" const GUID __declspec(selectany) IID_IDataInterop =
+    {0x41a54cf1,0x134a,0x418a,{0xbe,0xb4,0xf5,0x26,0x95,0xff,0xb0,0x52}};
+extern "C" const GUID __declspec(selectany) IID_IDataInteropFactory =
+    {0x9a34f494,0xdd93,0x4e90,{0xa5,0x2b,0x75,0x8b,0xf5,0x18,0x1b,0x6d}};
+extern "C" const GUID __declspec(selectany) IID_IRasterSourceFactory =
+    {0x258d0a50,0xd8cc,0x4b6a,{0x93,0x68,0x9e,0xe0,0x04,0xcf,0x12,0xfb}};
+extern "C" const GUID __declspec(selectany) CLSID_DataInteropFactory =
+    {0x7f370cfb,0xb108,0x4958,{0x83,0xd6,0xab,0x5d,0xfe,0xc7,0x32,0xa8}};
+extern "C" const GUID __declspec(selectany) CLSID_DataCopy =
+    {0x99c7eaac,0x8a4f,0x45dc,{0xa9,0x90,0xd4,0x7d,0xac,0x05,0xcc,0x20}};
+extern "C" const GUID __declspec(selectany) CLSID_DataCopyParam =
+    {0xc97bfb15,0xb10e,0x437c,{0xa8,0x69,0x81,0xd3,0x41,0xcb,0xa5,0x84}};
+extern "C" const GUID __declspec(selectany) CLSID_RasterSourceFactory =
+    {0x11b53221,0xc2d5,0x47e2,{0xbb,0x5f,0xbe,0x2d,0xee,0x5f,0xbc,0xfa}};
+extern "C" const GUID __declspec(selectany) IID_IToolBox =
+    {0xf56120c9,0xb852,0x40ba,{0x88,0xa3,0x2a,0x9b,0x1a,0x05,0x88,0xfe}};
+extern "C" const GUID __declspec(selectany) CLSID_ToolBox =
+    {0x8b7ec6ad,0x8903,0x4c98,{0xa4,0xb6,0x43,0x93,0xd3,0xfd,0x95,0x55}};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeDataInterop.tli"
+
+#pragma pack(pop)

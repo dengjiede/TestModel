@@ -1,0 +1,16 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeatureLayerSimpleRender.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FeatureLayerSimpleRender.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.EditForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.ModelPointRenderForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.PointRenderForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.PolygonRenderForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.PolylineRenderForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.SelectPointStyleForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.TextRenderForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\FeatureLayerSimpleRender\obj\x86\Release\FeatureLayerSimpleRender.pdb

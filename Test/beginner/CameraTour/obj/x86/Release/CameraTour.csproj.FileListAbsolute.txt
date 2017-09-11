@@ -1,0 +1,10 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\CameraTour.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\CameraTour.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CameraTour\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CameraTour\obj\x86\Release\CameraTour.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CameraTour\obj\x86\Release\CameraTour.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CameraTour\obj\x86\Release\CameraTour.ProcessDialog.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CameraTour\obj\x86\Release\CameraTour.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CameraTour\obj\x86\Release\CameraTour.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CameraTour\obj\x86\Release\CameraTour.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\CameraTour\obj\x86\Release\CameraTour.pdb

@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\EmbedWatermark.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\EmbedWatermark.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\EmbedWatermark\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\EmbedWatermark\obj\x86\Release\EmbedWatermark.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\EmbedWatermark\obj\x86\Release\EmbedWatermark.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\EmbedWatermark\obj\x86\Release\EmbedWatermark.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\EmbedWatermark\obj\x86\Release\EmbedWatermark.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\EmbedWatermark\obj\x86\Release\EmbedWatermark.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\EmbedWatermark\obj\x86\Release\EmbedWatermark.pdb

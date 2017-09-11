@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\HideSelectedArea.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\HideSelectedArea.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HideSelectedArea\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HideSelectedArea\obj\x86\Release\HideSelectedArea.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HideSelectedArea\obj\x86\Release\HideSelectedArea.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HideSelectedArea\obj\x86\Release\HideSelectedArea.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HideSelectedArea\obj\x86\Release\HideSelectedArea.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HideSelectedArea\obj\x86\Release\HideSelectedArea.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HideSelectedArea\obj\x86\Release\HideSelectedArea.pdb

@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\CreateGeometry.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\CreateGeometry.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CreateGeometry\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CreateGeometry\obj\x86\Release\CreateGeometry.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CreateGeometry\obj\x86\Release\CreateGeometry.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CreateGeometry\obj\x86\Release\CreateGeometry.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CreateGeometry\obj\x86\Release\CreateGeometry.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CreateGeometry\obj\x86\Release\CreateGeometry.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\intermediate\CreateGeometry\obj\x86\Release\CreateGeometry.pdb

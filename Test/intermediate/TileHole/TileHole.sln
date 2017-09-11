@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileHole", "TileHole.csproj", "{7AAAC134-2CDD-4423-841A-9C05B70DAF15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AAAC134-2CDD-4423-841A-9C05B70DAF15}.Debug|x86.ActiveCfg = Debug|x86
+		{7AAAC134-2CDD-4423-841A-9C05B70DAF15}.Debug|x86.Build.0 = Debug|x86
+		{7AAAC134-2CDD-4423-841A-9C05B70DAF15}.Release|x86.ActiveCfg = Release|x86
+		{7AAAC134-2CDD-4423-841A-9C05B70DAF15}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

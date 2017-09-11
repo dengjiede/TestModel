@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FileToRenderGeometry.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\FileToRenderGeometry.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Release\FileToRenderGeometry.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Release\FileToRenderGeometry.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Release\FileToRenderGeometry.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Release\FileToRenderGeometry.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Release\FileToRenderGeometry.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\FileToRenderGeometry\obj\x86\Release\FileToRenderGeometry.pdb

@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\GeometryEdit.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\GeometryEdit.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryEdit\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryEdit\obj\x86\Release\GeometryEdit.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryEdit\obj\x86\Release\GeometryEdit.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryEdit\obj\x86\Release\GeometryEdit.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryEdit\obj\x86\Release\GeometryEdit.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryEdit\obj\x86\Release\GeometryEdit.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\GeometryEdit\obj\x86\Release\GeometryEdit.pdb

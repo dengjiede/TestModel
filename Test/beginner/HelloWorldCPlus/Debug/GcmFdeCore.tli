@@ -1,0 +1,4882 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (b1145db4).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeCore.tli
+//
+// Wrapper implementations for Win32 type library 52B162AE-72E4-47ec-9E4B-E25671B70B9B
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IDomain wrapper method implementations
+//
+
+inline _bstr_t IDomain::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IDomain::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviDomainType IDomain::GetDomainType ( ) {
+    enum gviDomainType _result;
+    HRESULT _hr = get_DomainType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IDomain::GetOwner ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Owner(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IDomain::PutOwner ( _bstr_t pVal ) {
+    HRESULT _hr = put_Owner(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IDomain::GetDescription ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Description(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IDomain::PutDescription ( _bstr_t pVal ) {
+    HRESULT _hr = put_Description(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IDomain::IsMemberOf ( const _variant_t & Value, VARIANT_BOOL * pVal ) {
+    HRESULT _hr = raw_IsMemberOf(Value, pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IDomainPtr IDomain::Clone ( ) {
+    struct IDomain * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDomainPtr(_result, false);
+}
+
+inline enum gviFieldType IDomain::GetFieldType ( ) {
+    enum gviFieldType _result;
+    HRESULT _hr = get_FieldType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPropertySetPtr IDomain::GetCustomData ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = get_CustomData(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+inline void IDomain::PutCustomData ( struct IPropertySet * pVal ) {
+    HRESULT _hr = put_CustomData(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IGeometryDef wrapper method implementations
+//
+
+inline IGeometryDefPtr IGeometryDef::Clone ( ) {
+    struct IGeometryDef * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryDefPtr(_result, false);
+}
+
+inline long IGeometryDef::GetAvgNumPoints ( ) {
+    long _result = 0;
+    HRESULT _hr = get_AvgNumPoints(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum gviGeometryColumnType IGeometryDef::GetGeometryColumnType ( ) {
+    enum gviGeometryColumnType _result;
+    HRESULT _hr = get_GeometryColumnType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGeometryDef::PutGeometryColumnType ( enum gviGeometryColumnType pVal ) {
+    HRESULT _hr = put_GeometryColumnType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IGeometryDef::GetHasM ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasM(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGeometryDef::PutHasM ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_HasM(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IGeometryDef::GetHasZ ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasZ(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGeometryDef::PutHasZ ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_HasZ(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IEnvelopePtr IGeometryDef::GetEnvelope ( ) {
+    struct IEnvelope * _result = 0;
+    HRESULT _hr = get_Envelope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnvelopePtr(_result, false);
+}
+
+inline double IGeometryDef::GetMaxM ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MaxM(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGeometryDef::PutMaxM ( double pVal ) {
+    HRESULT _hr = put_MaxM(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IGeometryDef::GetMinM ( ) {
+    double _result = 0;
+    HRESULT _hr = get_MinM(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGeometryDef::PutMinM ( double pVal ) {
+    HRESULT _hr = put_MinM(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IGeometryDef::GetHasSpatialIndex ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasSpatialIndex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryDef::GetHasRenderIndex ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasRenderIndex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IGeometryDef::GetHasId ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGeometryDef::PutHasId ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_HasId(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviVertexAttribute IGeometryDef::GetVertexAttribute ( ) {
+    enum gviVertexAttribute _result;
+    HRESULT _hr = get_VertexAttribute(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IFieldInfo wrapper method implementations
+//
+
+inline IFieldInfoPtr IFieldInfo::Clone ( ) {
+    struct IFieldInfo * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFieldInfoPtr(_result, false);
+}
+
+inline _bstr_t IFieldInfo::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IFieldInfo::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IFieldInfo::GetAlias ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Alias(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IFieldInfo::PutAlias ( _bstr_t pVal ) {
+    HRESULT _hr = put_Alias(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviFieldType IFieldInfo::GetFieldType ( ) {
+    enum gviFieldType _result;
+    HRESULT _hr = get_FieldType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfo::PutFieldType ( enum gviFieldType pVal ) {
+    HRESULT _hr = put_FieldType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IFieldInfo::GetDefaultValue ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_DefaultValue(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IFieldInfo::PutDefaultValue ( const _variant_t & pVal ) {
+    HRESULT _hr = put_DefaultValue(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IDomainPtr IFieldInfo::GetDomain ( ) {
+    struct IDomain * _result = 0;
+    HRESULT _hr = get_Domain(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDomainPtr(_result, false);
+}
+
+inline void IFieldInfo::PutDomain ( struct IDomain * pVal ) {
+    HRESULT _hr = put_Domain(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IFieldInfo::GetDomainFixed ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_DomainFixed(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IFieldInfo::GetEditable ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Editable(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfo::PutEditable ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_Editable(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IFieldInfo::GetNullable ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Nullable(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfo::PutNullable ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_Nullable(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IFieldInfo::GetLength ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfo::PutLength ( long pVal ) {
+    HRESULT _hr = put_Length(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IFieldInfo::GetPrecision ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Precision(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfo::PutPrecision ( long pVal ) {
+    HRESULT _hr = put_Precision(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IFieldInfo::GetScale ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Scale(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfo::PutScale ( long pVal ) {
+    HRESULT _hr = put_Scale(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IGeometryDefPtr IFieldInfo::GetGeometryDef ( ) {
+    struct IGeometryDef * _result = 0;
+    HRESULT _hr = get_GeometryDef(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryDefPtr(_result, false);
+}
+
+inline void IFieldInfo::PutGeometryDef ( struct IGeometryDef * pVal ) {
+    HRESULT _hr = put_GeometryDef(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IFieldInfo::GetRegisteredRenderIndex ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_RegisteredRenderIndex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfo::PutRegisteredRenderIndex ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_RegisteredRenderIndex(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IFieldInfo::GetIsSystemField ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsSystemField(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IFieldInfo::Equal ( struct IFieldInfo * Other ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Equal(Other, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IFieldInfo::GetSupportRenderField ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_SupportRenderField(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IFieldInfo::GetRequired ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Required(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfo::PutRequired ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_Required(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IPropertySetPtr IFieldInfo::GetCustomData ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = get_CustomData(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+inline void IFieldInfo::PutCustomData ( struct IPropertySet * pVal ) {
+    HRESULT _hr = put_CustomData(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IFieldInfoCollection wrapper method implementations
+//
+
+inline __int64 IFieldInfoCollection::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldInfoCollection::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFieldInfoCollectionPtr IFieldInfoCollection::Clone ( ) {
+    struct IFieldInfoCollection * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFieldInfoCollectionPtr(_result, false);
+}
+
+inline IFieldInfoPtr IFieldInfoCollection::Get ( long Index ) {
+    struct IFieldInfo * _result = 0;
+    HRESULT _hr = raw_Get(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFieldInfoPtr(_result, false);
+}
+
+inline HRESULT IFieldInfoCollection::Set ( long Index, struct IFieldInfo * Value ) {
+    HRESULT _hr = raw_Set(Index, Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFieldInfoCollection::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IFieldInfoCollection::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IFieldInfoCollection::Add ( struct IFieldInfo * newVal ) {
+    HRESULT _hr = raw_Add(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IFieldInfoCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IFieldInfoCollection::TrimToSize ( ) {
+    HRESULT _hr = raw_TrimToSize();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IFieldInfoCollection::IndexOf ( _bstr_t Name ) {
+    long _result = 0;
+    HRESULT _hr = raw_IndexOf(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IFieldInfoCollection::RemoveAt ( long Index ) {
+    HRESULT _hr = raw_RemoveAt(Index);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFieldInfoCollection::Insert ( long Index, struct IFieldInfo * newVal ) {
+    HRESULT _hr = raw_Insert(Index, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IIndexInfo wrapper method implementations
+//
+
+inline __int64 IIndexInfo::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IIndexInfo::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviIndexType IIndexInfo::GetIndexType ( ) {
+    enum gviIndexType _result;
+    HRESULT _hr = get_IndexType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IDbIndexInfo wrapper method implementations
+//
+
+inline VARIANT_BOOL IDbIndexInfo::GetUnique ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Unique(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDbIndexInfo::PutUnique ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_Unique(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IDbIndexInfo::GetFieldCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FieldCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IDbIndexInfo::GetFieldName ( long Position ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetFieldName(Position, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL IDbIndexInfo::GetFieldAscending ( long Position ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetFieldAscending(Position, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IDbIndexInfo::AppendFieldDefine ( _bstr_t Field, VARIANT_BOOL SortAsc ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AppendFieldDefine(Field, SortAsc, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IDbIndexInfo::SetSortAsc ( _bstr_t Field, VARIANT_BOOL SortAsc ) {
+    HRESULT _hr = raw_SetSortAsc(Field, SortAsc);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDbIndexInfo::DeleteFieldDefine ( _bstr_t Field ) {
+    HRESULT _hr = raw_DeleteFieldDefine(Field);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IDbIndexInfo::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IDbIndexInfo::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IDbIndexInfoCollection wrapper method implementations
+//
+
+inline long IDbIndexInfoCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDbIndexInfoPtr IDbIndexInfoCollection::GetItem ( long n ) {
+    struct IDbIndexInfo * _result = 0;
+    HRESULT _hr = get_Item(n, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDbIndexInfoPtr(_result, false);
+}
+
+//
+// interface IRowBuffer wrapper method implementations
+//
+
+inline __int64 IRowBuffer::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IRowBuffer::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFieldInfoCollectionPtr IRowBuffer::GetFields ( ) {
+    struct IFieldInfoCollection * _result = 0;
+    HRESULT _hr = get_Fields(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFieldInfoCollectionPtr(_result, false);
+}
+
+inline long IRowBuffer::FieldIndex ( _bstr_t FieldName ) {
+    long _result = 0;
+    HRESULT _hr = raw_FieldIndex(FieldName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IRowBuffer::SetNull ( long Position ) {
+    HRESULT _hr = raw_SetNull(Position);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IRowBuffer::IsNull ( long Position ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsNull(Position, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IRowBuffer::GetFieldCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FieldCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRowBufferPtr IRowBuffer::Clone ( VARIANT_BOOL CloneIsChangedFlag ) {
+    struct IRowBuffer * _result = 0;
+    HRESULT _hr = raw_Clone(CloneIsChangedFlag, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRowBufferPtr(_result, false);
+}
+
+inline HRESULT IRowBuffer::CopyTo ( struct IRowBuffer * Other, VARIANT_BOOL CloneIsChangedFlag ) {
+    HRESULT _hr = raw_CopyTo(Other, CloneIsChangedFlag);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IRowBuffer::IsChanged ( long Position ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsChanged(Position, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _variant_t IRowBuffer::GetValue ( long Position ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetValue(Position, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT IRowBuffer::SetValue ( long Position, const _variant_t & newVal ) {
+    HRESULT _hr = raw_SetValue(Position, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IRowBuffer::InternalGetValue ( long ValueType ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_InternalGetValue(ValueType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+//
+// interface IQueryFilter wrapper method implementations
+//
+
+inline __int64 IQueryFilter::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IQueryFilter::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IQueryFilter::GetSubFields ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_SubFields(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IQueryFilter::PutSubFields ( _bstr_t pVal ) {
+    HRESULT _hr = put_SubFields(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IQueryFilter::AddSubField ( _bstr_t SubField ) {
+    HRESULT _hr = raw_AddSubField(SubField);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IQueryFilter::GetWhereClause ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_WhereClause(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IQueryFilter::PutWhereClause ( _bstr_t pVal ) {
+    HRESULT _hr = put_WhereClause(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IQueryFilter::GetPostfixClause ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PostfixClause(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IQueryFilter::PutPostfixClause ( _bstr_t pVal ) {
+    HRESULT _hr = put_PostfixClause(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IQueryFilter::GetResultBeginIndex ( ) {
+    long _result = 0;
+    HRESULT _hr = get_ResultBeginIndex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IQueryFilter::PutResultBeginIndex ( long pVal ) {
+    HRESULT _hr = put_ResultBeginIndex(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IQueryFilter::GetResultLimit ( ) {
+    long _result = 0;
+    HRESULT _hr = get_ResultLimit(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IQueryFilter::PutResultLimit ( long pVal ) {
+    HRESULT _hr = put_ResultLimit(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IQueryFilter::GetTables ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Tables(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IQueryFilter::PutTables ( _bstr_t pVal ) {
+    HRESULT _hr = put_Tables(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IQueryFilter::GetPrefixClause ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PrefixClause(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IQueryFilter::PutPrefixClause ( _bstr_t pVal ) {
+    HRESULT _hr = put_PrefixClause(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline SAFEARRAY * IQueryFilter::GetIdsFilter ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_IdsFilter(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IQueryFilter::PutIdsFilter ( SAFEARRAY * pVal ) {
+    HRESULT _hr = put_IdsFilter(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviFilterType IQueryFilter::GetFilterType ( ) {
+    enum gviFilterType _result;
+    HRESULT _hr = get_FilterType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IFdeCursor wrapper method implementations
+//
+
+inline __int64 IFdeCursor::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFdeCursor::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFieldInfoCollectionPtr IFdeCursor::GetFields ( ) {
+    struct IFieldInfoCollection * _result = 0;
+    HRESULT _hr = raw_GetFields(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFieldInfoCollectionPtr(_result, false);
+}
+
+inline IRowBufferPtr IFdeCursor::NextRow ( ) {
+    struct IRowBuffer * _result = 0;
+    HRESULT _hr = raw_NextRow(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRowBufferPtr(_result, false);
+}
+
+inline HRESULT IFdeCursor::InsertRow ( struct IRowBuffer * RowBuffer ) {
+    HRESULT _hr = raw_InsertRow(RowBuffer);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFdeCursor::UpdateRow ( struct IRowBuffer * Row ) {
+    HRESULT _hr = raw_UpdateRow(Row);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFdeCursor::DeleteRow ( ) {
+    HRESULT _hr = raw_DeleteRow();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFdeCursor::Flush ( ) {
+    HRESULT _hr = raw_Flush();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IFdeCursor::FindField ( _bstr_t FieldName ) {
+    long _result = 0;
+    HRESULT _hr = raw_FindField(FieldName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IFdeCursor::GetLastInsertId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_LastInsertId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IFdeCursor::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IRowBufferCollection wrapper method implementations
+//
+
+inline __int64 IRowBufferCollection::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IRowBufferCollection::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IRowBufferPtr IRowBufferCollection::Get ( long Index ) {
+    struct IRowBuffer * _result = 0;
+    HRESULT _hr = raw_Get(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRowBufferPtr(_result, false);
+}
+
+inline HRESULT IRowBufferCollection::Set ( long Index, struct IRowBuffer * Value ) {
+    HRESULT _hr = raw_Set(Index, Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IRowBufferCollection::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IRowBufferCollection::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IRowBufferCollection::Add ( struct IRowBuffer * Value ) {
+    HRESULT _hr = raw_Add(Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IRowBufferCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IRowBufferCollection::TrimToSize ( ) {
+    HRESULT _hr = raw_TrimToSize();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IRowBufferCollection::RemoveAt ( long Index ) {
+    HRESULT _hr = raw_RemoveAt(Index);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IConnectionInfo wrapper method implementations
+//
+
+inline _bstr_t IConnectionInfo::ToConnectionString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_ToConnectionString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL IConnectionInfo::FromConnectionString ( _bstr_t ConnectionString ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_FromConnectionString(ConnectionString, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IConnectionInfo::GetProviderName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ProviderName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline enum gviConnectionType IConnectionInfo::GetConnectionType ( ) {
+    enum gviConnectionType _result;
+    HRESULT _hr = get_ConnectionType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IConnectionInfo::PutConnectionType ( enum gviConnectionType pVal ) {
+    HRESULT _hr = put_ConnectionType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IConnectionInfo::GetServer ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Server(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IConnectionInfo::PutServer ( _bstr_t pVal ) {
+    HRESULT _hr = put_Server(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IConnectionInfo::GetPort ( ) {
+    unsigned long _result = 0;
+    HRESULT _hr = get_Port(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IConnectionInfo::PutPort ( unsigned long pVal ) {
+    HRESULT _hr = put_Port(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IConnectionInfo::GetInstance ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Instance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IConnectionInfo::PutInstance ( _bstr_t pVal ) {
+    HRESULT _hr = put_Instance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IConnectionInfo::GetDatabase ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Database(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IConnectionInfo::PutDatabase ( _bstr_t pVal ) {
+    HRESULT _hr = put_Database(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IConnectionInfo::GetUserName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_UserName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IConnectionInfo::PutUserName ( _bstr_t pVal ) {
+    HRESULT _hr = put_UserName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IConnectionInfo::GetPassword ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Password(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IConnectionInfo::PutPassword ( _bstr_t pVal ) {
+    HRESULT _hr = put_Password(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IConnectionInfo::GetVersion ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Version(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IConnectionInfo::PutVersion ( _bstr_t pVal ) {
+    HRESULT _hr = put_Version(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IConnectionInfo::GetTimeout ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Timeout(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IConnectionInfo::PutTimeout ( long pVal ) {
+    HRESULT _hr = put_Timeout(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IConnectionInfo::SetProperty ( _bstr_t Key, const _variant_t & Value ) {
+    HRESULT _hr = raw_SetProperty(Key, Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IConnectionInfo::GetProperty ( _bstr_t Name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetProperty(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+//
+// interface IFieldDomainInfo wrapper method implementations
+//
+
+inline _bstr_t IFieldDomainInfo::GetFieldName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FieldName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IFieldDomainInfo::PutFieldName ( _bstr_t pVal ) {
+    HRESULT _hr = put_FieldName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IFieldDomainInfo::GetDefaultValue ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_DefaultValue(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IFieldDomainInfo::PutDefaultValue ( const _variant_t & pVal ) {
+    HRESULT _hr = put_DefaultValue(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IDomainPtr IFieldDomainInfo::GetDomain ( ) {
+    struct IDomain * _result = 0;
+    HRESULT _hr = get_Domain(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDomainPtr(_result, false);
+}
+
+inline void IFieldDomainInfo::PutDomain ( struct IDomain * pVal ) {
+    HRESULT _hr = put_Domain(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IFieldDomainInfo::GetInherited ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Inherited(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFieldDomainInfo::PutInherited ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_Inherited(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ISubTypeInfo wrapper method implementations
+//
+
+inline long ISubTypeInfo::GetCode ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Code(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISubTypeInfo::PutCode ( long pVal ) {
+    HRESULT _hr = put_Code(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t ISubTypeInfo::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ISubTypeInfo::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFieldDomainInfoPtr ISubTypeInfo::GetFieldDomainInfo ( long Index ) {
+    struct IFieldDomainInfo * _result = 0;
+    HRESULT _hr = raw_GetFieldDomainInfo(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFieldDomainInfoPtr(_result, false);
+}
+
+inline HRESULT ISubTypeInfo::AddFieldDomainInfo ( struct IFieldDomainInfo * newVal ) {
+    HRESULT _hr = raw_AddFieldDomainInfo(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long ISubTypeInfo::GetFieldDomainInfoCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FieldDomainInfoCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IAttachment wrapper method implementations
+//
+
+inline long IAttachment::GetId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Id(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IAttachment::GetFeatureId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FeatureId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IAttachment::PutFeatureId ( long pVal ) {
+    HRESULT _hr = put_FeatureId(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IAttachment::GetMimeType ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_MimeType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IAttachment::PutMimeType ( _bstr_t pVal ) {
+    HRESULT _hr = put_MimeType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IAttachment::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IAttachment::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IBinaryBufferPtr IAttachment::GetData ( ) {
+    struct IBinaryBuffer * _result = 0;
+    HRESULT _hr = get_Data(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IBinaryBufferPtr(_result, false);
+}
+
+inline void IAttachment::PutData ( struct IBinaryBuffer * pVal ) {
+    HRESULT _hr = put_Data(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IAttachment::GetDataLength ( ) {
+    long _result = 0;
+    HRESULT _hr = get_DataLength(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline GUID IAttachment::GetGuid ( ) {
+    GUID _result;
+    HRESULT _hr = get_Guid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IAttachmentCollection wrapper method implementations
+//
+
+inline long IAttachmentCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IAttachmentPtr IAttachmentCollection::GetItem ( long n ) {
+    struct IAttachment * _result = 0;
+    HRESULT _hr = get_Item(n, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAttachmentPtr(_result, false);
+}
+
+//
+// interface IAttachmentManager wrapper method implementations
+//
+
+inline HRESULT IAttachmentManager::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IAttachmentManager::IsClosed ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsClosed(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IAttachmentManager::AddAttachment ( struct IAttachment * newVal ) {
+    long _result = 0;
+    HRESULT _hr = raw_AddAttachment(newVal, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IAttachmentManager::UpdateAttachment ( struct IAttachment * Attachment ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_UpdateAttachment(Attachment, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IAttachmentManager::DeleteAttachment ( long AttachmentId ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DeleteAttachment(AttachmentId, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IAttachmentManager::DeleteAttachmentsByFeatureId ( long FeatureId ) {
+    long _result = 0;
+    HRESULT _hr = raw_DeleteAttachmentsByFeatureId(FeatureId, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IAttachmentPtr IAttachmentManager::GetAttachment ( long AttachmentId ) {
+    struct IAttachment * _result = 0;
+    HRESULT _hr = raw_GetAttachment(AttachmentId, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAttachmentPtr(_result, false);
+}
+
+inline IAttachmentCollectionPtr IAttachmentManager::GetAttachmentsByIds ( SAFEARRAY * Ids ) {
+    struct IAttachmentCollection * _result = 0;
+    HRESULT _hr = raw_GetAttachmentsByIds(Ids, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAttachmentCollectionPtr(_result, false);
+}
+
+inline IAttachmentCollectionPtr IAttachmentManager::GetAttachmentsByFeatureId ( long FeatureId ) {
+    struct IAttachmentCollection * _result = 0;
+    HRESULT _hr = raw_GetAttachmentsByFeatureId(FeatureId, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAttachmentCollectionPtr(_result, false);
+}
+
+inline IAttachmentCollectionPtr IAttachmentManager::GetAttachmentsByFeatureIds ( SAFEARRAY * FeatureIds ) {
+    struct IAttachmentCollection * _result = 0;
+    HRESULT _hr = raw_GetAttachmentsByFeatureIds(FeatureIds, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAttachmentCollectionPtr(_result, false);
+}
+
+inline IAttachmentCollectionPtr IAttachmentManager::GetAllAttachments ( ) {
+    struct IAttachmentCollection * _result = 0;
+    HRESULT _hr = raw_GetAllAttachments(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAttachmentCollectionPtr(_result, false);
+}
+
+inline long IAttachmentManager::DeleteAllAttachments ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_DeleteAllAttachments(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ISpatialFilter wrapper method implementations
+//
+
+inline IGeometryPtr ISpatialFilter::GetGeometry ( ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = get_Geometry(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline void ISpatialFilter::PutGeometry ( struct IGeometry * pVal ) {
+    HRESULT _hr = put_Geometry(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t ISpatialFilter::GetGeometryField ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_GeometryField(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ISpatialFilter::PutGeometryField ( _bstr_t pVal ) {
+    HRESULT _hr = put_GeometryField(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviSpatialRel ISpatialFilter::GetSpatialRel ( ) {
+    enum gviSpatialRel _result;
+    HRESULT _hr = get_SpatialRel(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISpatialFilter::PutSpatialRel ( enum gviSpatialRel pVal ) {
+    HRESULT _hr = put_SpatialRel(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ITemporalFilter wrapper method implementations
+//
+
+inline DATE ITemporalFilter::GetStartDatetime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_StartDatetime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ITemporalFilter::PutStartDatetime ( DATE pVal ) {
+    HRESULT _hr = put_StartDatetime(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline DATE ITemporalFilter::GetEndDatetime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_EndDatetime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ITemporalFilter::PutEndDatetime ( DATE pVal ) {
+    HRESULT _hr = put_EndDatetime(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ITemporalInstance wrapper method implementations
+//
+
+inline IRowBufferPtr ITemporalInstance::GetRowBuffer ( ) {
+    struct IRowBuffer * _result = 0;
+    HRESULT _hr = raw_GetRowBuffer(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRowBufferPtr(_result, false);
+}
+
+inline DATE ITemporalInstance::GetStartDatetime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_StartDatetime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline DATE ITemporalInstance::GetEndDatetime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_EndDatetime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ITemporalInstanceCursor wrapper method implementations
+//
+
+inline ITemporalInstancePtr ITemporalInstanceCursor::NextInstance ( ) {
+    struct ITemporalInstance * _result = 0;
+    HRESULT _hr = raw_NextInstance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITemporalInstancePtr(_result, false);
+}
+
+inline HRESULT ITemporalInstanceCursor::Delete ( ) {
+    HRESULT _hr = raw_Delete();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITemporalInstanceCursor::Update ( struct IRowBuffer * Row ) {
+    HRESULT _hr = raw_Update(Row);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ITemporalCursor wrapper method implementations
+//
+
+inline VARIANT_BOOL ITemporalCursor::MoveNext ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_MoveNext(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long ITemporalCursor::GetCurrentId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_CurrentId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT ITemporalCursor::Insert ( DATE StartDatetime, struct IRowBuffer * Row ) {
+    HRESULT _hr = raw_Insert(StartDatetime, Row);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITemporalCursor::Dead ( DATE DeathDatetime ) {
+    HRESULT _hr = raw_Dead(DeathDatetime);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITemporalCursor::ResetBirthDatetime ( DATE NewBirthDatetime ) {
+    HRESULT _hr = raw_ResetBirthDatetime(NewBirthDatetime);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ITemporalInstanceCursorPtr ITemporalCursor::GetTemporalInstances ( VARIANT_BOOL ReuseTemporalInstance ) {
+    struct ITemporalInstanceCursor * _result = 0;
+    HRESULT _hr = raw_GetTemporalInstances(ReuseTemporalInstance, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITemporalInstanceCursorPtr(_result, false);
+}
+
+//
+// interface ITemporalManager wrapper method implementations
+//
+
+inline SAFEARRAY * ITemporalManager::GetKeyDatetimes ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetKeyDatetimes(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long ITemporalManager::Insert ( DATE BirthDate, struct IRowBuffer * Row ) {
+    long _result = 0;
+    HRESULT _hr = raw_Insert(BirthDate, Row, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITemporalCursorPtr ITemporalManager::Search ( struct ITemporalFilter * Filter ) {
+    struct ITemporalCursor * _result = 0;
+    HRESULT _hr = raw_Search(Filter, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITemporalCursorPtr(_result, false);
+}
+
+inline DATE ITemporalManager::GetInfinityDatetime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_InfinityDatetime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IIndexInfoCollection wrapper method implementations
+//
+
+inline long IIndexInfoCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IIndexInfoPtr IIndexInfoCollection::GetItem ( long n ) {
+    struct IIndexInfo * _result = 0;
+    HRESULT _hr = get_Item(n, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IIndexInfoPtr(_result, false);
+}
+
+//
+// interface IRenderIndexInfo wrapper method implementations
+//
+
+inline _bstr_t IRenderIndexInfo::GetGeoColumnName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_GeoColumnName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IRenderIndexInfo::PutGeoColumnName ( _bstr_t pVal ) {
+    HRESULT _hr = put_GeoColumnName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IRenderIndexInfo::GetL1 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_L1(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IRenderIndexInfo::PutL1 ( double pVal ) {
+    HRESULT _hr = put_L1(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IGridIndexInfo wrapper method implementations
+//
+
+inline _bstr_t IGridIndexInfo::GetGeoColumnName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_GeoColumnName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IGridIndexInfo::PutGeoColumnName ( _bstr_t pVal ) {
+    HRESULT _hr = put_GeoColumnName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IGridIndexInfo::GetL1 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_L1(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGridIndexInfo::PutL1 ( double pVal ) {
+    HRESULT _hr = put_L1(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IGridIndexInfo::GetL2 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_L2(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGridIndexInfo::PutL2 ( double pVal ) {
+    HRESULT _hr = put_L2(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IGridIndexInfo::GetL3 ( ) {
+    double _result = 0;
+    HRESULT _hr = get_L3(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IGridIndexInfo::PutL3 ( double pVal ) {
+    HRESULT _hr = put_L3(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetworkEvaluator wrapper method implementations
+//
+
+inline _bstr_t INetworkEvaluator::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkEvaluator::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviEvaluatorType INetworkEvaluator::GetType ( ) {
+    enum gviEvaluatorType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkEvaluatorPtr INetworkEvaluator::Clone ( ) {
+    struct INetworkEvaluator * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEvaluatorPtr(_result, false);
+}
+
+//
+// interface INetworkSource wrapper method implementations
+//
+
+inline _bstr_t INetworkSource::GetSourceName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_SourceName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkSource::PutSourceName ( _bstr_t pVal ) {
+    HRESULT _hr = put_SourceName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetworkSource::GetGeoColumnName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_GeoColumnName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkSource::PutGeoColumnName ( _bstr_t pVal ) {
+    HRESULT _hr = put_GeoColumnName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetworkSource::GetIsUseSubtypes ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsUseSubtypes(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkSource::PutIsUseSubtypes ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsUseSubtypes(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviNetworkElementType INetworkSource::GetType ( ) {
+    enum gviNetworkElementType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface INetworkAttribute wrapper method implementations
+//
+
+inline enum gviFieldType INetworkAttribute::GetFieldType ( ) {
+    enum gviFieldType _result;
+    HRESULT _hr = get_FieldType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkAttribute::PutFieldType ( enum gviFieldType pVal ) {
+    HRESULT _hr = put_FieldType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetworkAttribute::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkAttribute::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviNetworkAttributeUsageType INetworkAttribute::GetUsageType ( ) {
+    enum gviNetworkAttributeUsageType _result;
+    HRESULT _hr = get_UsageType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkAttribute::PutUsageType ( enum gviNetworkAttributeUsageType pVal ) {
+    HRESULT _hr = put_UsageType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetworkAttribute::GetIsUseByDefault ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsUseByDefault(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkAttribute::PutIsUseByDefault ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsUseByDefault(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline INetworkEvaluatorPtr INetworkAttribute::GetDefaultEvaluator ( enum gviNetworkElementType ElementType ) {
+    struct INetworkEvaluator * _result = 0;
+    HRESULT _hr = raw_GetDefaultEvaluator(ElementType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEvaluatorPtr(_result, false);
+}
+
+inline HRESULT INetworkAttribute::SetDefaultEvaluator ( enum gviNetworkElementType ElementType, struct INetworkEvaluator * Evaluator ) {
+    HRESULT _hr = raw_SetDefaultEvaluator(ElementType, Evaluator);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline INetworkEvaluatorPtr INetworkAttribute::GetEvaluator ( struct INetworkSource * NetworkSource, enum gviEdgeDirection EdgeDirection ) {
+    struct INetworkEvaluator * _result = 0;
+    HRESULT _hr = raw_GetEvaluator(NetworkSource, EdgeDirection, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEvaluatorPtr(_result, false);
+}
+
+inline HRESULT INetworkAttribute::SetEvaluator ( struct INetworkSource * NetworkSource, enum gviEdgeDirection EdgeDirection, struct INetworkEvaluator * NetworkEvaluator ) {
+    HRESULT _hr = raw_SetEvaluator(NetworkSource, EdgeDirection, NetworkEvaluator);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface INetworkLoader wrapper method implementations
+//
+
+inline void INetworkLoader::PutName ( _bstr_t _arg1 ) {
+    HRESULT _hr = put_Name(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double INetworkLoader::GetDefaultXYTolerance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_DefaultXYTolerance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkLoader::PutXYTolerance ( double _arg1 ) {
+    HRESULT _hr = put_XYTolerance(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetworkLoader::CanUseFeatureClass ( _bstr_t FeatureClassName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CanUseFeatureClass(FeatureClassName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetworkLoader::LoadNetwork ( ) {
+    HRESULT _hr = raw_LoadNetwork();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkLoader::AddNetworkAttribute ( struct INetworkAttribute * NetworkAttribute ) {
+    HRESULT _hr = raw_AddNetworkAttribute(NetworkAttribute);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkLoader::AddSource ( struct INetworkSource * NetworkSource ) {
+    HRESULT _hr = raw_AddSource(NetworkSource);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline void INetworkLoader::PutType ( enum gviNetworkType _arg1 ) {
+    HRESULT _hr = put_Type(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void INetworkLoader::PutEdgeDirection ( enum gviEdgeDirection _arg1 ) {
+    HRESULT _hr = put_EdgeDirection(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void INetworkLoader::PutElevationModel ( enum gviNetworkElevationModel _arg1 ) {
+    HRESULT _hr = put_ElevationModel(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetworkBarrier wrapper method implementations
+//
+
+inline enum gviNetworkBarrierType INetworkBarrier::GetType ( ) {
+    enum gviNetworkBarrierType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkBarrierPtr INetworkBarrier::Clone ( ) {
+    struct INetworkBarrier * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkBarrierPtr(_result, false);
+}
+
+inline _bstr_t INetworkBarrier::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkBarrier::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IGeometryPtr INetworkBarrier::GetShape ( ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = get_Shape(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline void INetworkBarrier::PutShape ( struct IGeometry * pVal ) {
+    HRESULT _hr = put_Shape(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviConstraintBarrierType INetworkBarrier::GetConstraintBarrierType ( ) {
+    enum gviConstraintBarrierType _result;
+    HRESULT _hr = get_ConstraintBarrierType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkBarrier::PutConstraintBarrierType ( enum gviConstraintBarrierType pVal ) {
+    HRESULT _hr = put_ConstraintBarrierType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT INetworkBarrier::SetCost ( _bstr_t Impedance, const _variant_t & newVal ) {
+    HRESULT _hr = raw_SetCost(Impedance, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t INetworkBarrier::GetCost ( _bstr_t Impedance ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetCost(Impedance, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+//
+// interface INetworkLocation wrapper method implementations
+//
+
+inline _bstr_t INetworkLocation::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkLocation::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviNetworkLocationType INetworkLocation::GetType ( ) {
+    enum gviNetworkLocationType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkLocationPtr INetworkLocation::Clone ( ) {
+    struct INetworkLocation * _result = 0;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkLocationPtr(_result, false);
+}
+
+inline IPointPtr INetworkLocation::GetPosition ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_Position(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+inline void INetworkLocation::PutPosition ( struct IPoint * pVal ) {
+    HRESULT _hr = put_Position(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT INetworkLocation::SetCost ( _bstr_t Impedance, const _variant_t & newVal ) {
+    HRESULT _hr = raw_SetCost(Impedance, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t INetworkLocation::GetCost ( _bstr_t Impedance ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetCost(Impedance, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT INetworkLocation::SetEarlistArriveCost ( _bstr_t Impedance, const _variant_t & newVal ) {
+    HRESULT _hr = raw_SetEarlistArriveCost(Impedance, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t INetworkLocation::GetEarlistArriveCost ( _bstr_t Impedance ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetEarlistArriveCost(Impedance, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT INetworkLocation::SetLatestArriveCost ( _bstr_t Impedance, const _variant_t & newVal ) {
+    HRESULT _hr = raw_SetLatestArriveCost(Impedance, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t INetworkLocation::GetLatestArriveCost ( _bstr_t Impedance ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetLatestArriveCost(Impedance, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline IPointPtr INetworkLocation::GetNetworkPosition ( ) {
+    struct IPoint * _result = 0;
+    HRESULT _hr = get_NetworkPosition(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPointPtr(_result, false);
+}
+
+//
+// interface INetworkSolver wrapper method implementations
+//
+
+inline double INetworkSolver::GetLocationSearchTolerance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_LocationSearchTolerance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkSolver::PutLocationSearchTolerance ( double pVal ) {
+    HRESULT _hr = put_LocationSearchTolerance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetworkSolver::GetHierarchyAttributeName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_HierarchyAttributeName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkSolver::PutHierarchyAttributeName ( _bstr_t pVal ) {
+    HRESULT _hr = put_HierarchyAttributeName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetworkSolver::GetImpedanceAttributeName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ImpedanceAttributeName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkSolver::PutImpedanceAttributeName ( _bstr_t pVal ) {
+    HRESULT _hr = put_ImpedanceAttributeName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetworkSolver::GetIsUseHierarchy ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsUseHierarchy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkSolver::PutIsUseHierarchy ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsUseHierarchy(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetworkSolver::GetIsBuildRouteLine ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsBuildRouteLine(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkSolver::PutIsBuildRouteLine ( VARIANT_BOOL pVal ) {
+    HRESULT _hr = put_IsBuildRouteLine(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT INetworkSolver::LoadNetworkData ( ) {
+    HRESULT _hr = raw_LoadNetworkData();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL INetworkSolver::Solve ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Solve(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * INetworkSolver::GetRestrictionAttributeNames ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetRestrictionAttributeNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetworkSolver::SetRestrictionAttributeName ( _bstr_t AttributeName ) {
+    HRESULT _hr = raw_SetRestrictionAttributeName(AttributeName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkSolver::AddBarrier ( struct INetworkBarrier * NetworkBarrier ) {
+    HRESULT _hr = raw_AddBarrier(NetworkBarrier);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long INetworkSolver::GetBarrierCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_BarrierCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkBarrierPtr INetworkSolver::GetBarrier ( long Index ) {
+    struct INetworkBarrier * _result = 0;
+    HRESULT _hr = raw_GetBarrier(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkBarrierPtr(_result, false);
+}
+
+inline HRESULT INetworkSolver::ClearBarriers ( ) {
+    HRESULT _hr = raw_ClearBarriers();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkSolver::AddLocation ( struct INetworkLocation * NetworkLocation ) {
+    HRESULT _hr = raw_AddLocation(NetworkLocation);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long INetworkSolver::GetLocationCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_LocationCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkLocationPtr INetworkSolver::GetLocation ( long Index ) {
+    struct INetworkLocation * _result = 0;
+    HRESULT _hr = raw_GetLocation(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkLocationPtr(_result, false);
+}
+
+inline HRESULT INetworkSolver::ClearLocations ( ) {
+    HRESULT _hr = raw_ClearLocations();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface INetworkElement wrapper method implementations
+//
+
+inline enum gviNetworkElementType INetworkElement::GetType ( ) {
+    enum gviNetworkElementType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long INetworkElement::GetFeatureClassId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FeatureClassId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long INetworkElement::GetFeatureId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FeatureId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long INetworkElement::GetElementId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_ElementId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface INetworkElementCollection wrapper method implementations
+//
+
+inline INetworkElementPtr INetworkElementCollection::Get ( long Index ) {
+    struct INetworkElement * _result = 0;
+    HRESULT _hr = raw_Get(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkElementPtr(_result, false);
+}
+
+inline HRESULT INetworkElementCollection::Set ( long Index, struct INetworkElement * Value ) {
+    HRESULT _hr = raw_Set(Index, Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkElementCollection::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL INetworkElementCollection::GetIsEmpty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEmpty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetworkElementCollection::Add ( struct INetworkElement * Value ) {
+    HRESULT _hr = raw_Add(Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long INetworkElementCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetworkElementCollection::TrimToSize ( ) {
+    HRESULT _hr = raw_TrimToSize();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkElementCollection::RemoveAt ( long Index ) {
+    HRESULT _hr = raw_RemoveAt(Index);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface INetworkRouteSegment wrapper method implementations
+//
+
+inline INetworkLocationPtr INetworkRouteSegment::GetStartLocation ( ) {
+    struct INetworkLocation * _result = 0;
+    HRESULT _hr = get_StartLocation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkLocationPtr(_result, false);
+}
+
+inline INetworkLocationPtr INetworkRouteSegment::GetEndLocation ( ) {
+    struct INetworkLocation * _result = 0;
+    HRESULT _hr = get_EndLocation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkLocationPtr(_result, false);
+}
+
+inline INetworkElementCollectionPtr INetworkRouteSegment::GetNetworkElements ( ) {
+    struct INetworkElementCollection * _result = 0;
+    HRESULT _hr = raw_GetNetworkElements(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkElementCollectionPtr(_result, false);
+}
+
+//
+// interface INetworkRoute wrapper method implementations
+//
+
+inline long INetworkRoute::GetLocationCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_LocationCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkLocationPtr INetworkRoute::GetLocation ( long Index ) {
+    struct INetworkLocation * _result = 0;
+    HRESULT _hr = raw_GetLocation(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkLocationPtr(_result, false);
+}
+
+inline _variant_t INetworkRoute::GetTotalCost ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_TotalCost(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline IGeometryPtr INetworkRoute::GetRouteGeometry ( ) {
+    struct IGeometry * _result = 0;
+    HRESULT _hr = raw_GetRouteGeometry(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGeometryPtr(_result, false);
+}
+
+inline long INetworkRoute::GetSegmentCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_SegmentCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkRouteSegmentPtr INetworkRoute::GetSegment ( long Index ) {
+    struct INetworkRouteSegment * _result = 0;
+    HRESULT _hr = raw_GetSegment(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkRouteSegmentPtr(_result, false);
+}
+
+//
+// interface INetworkRouteSolver wrapper method implementations
+//
+
+inline enum gviNetworkLocationOrderPolicy INetworkRouteSolver::GetLocationOrderPolicy ( ) {
+    enum gviNetworkLocationOrderPolicy _result;
+    HRESULT _hr = get_LocationOrderPolicy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkRouteSolver::PutLocationOrderPolicy ( enum gviNetworkLocationOrderPolicy pVal ) {
+    HRESULT _hr = put_LocationOrderPolicy(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline INetworkRoutePtr INetworkRouteSolver::GetRoute ( ) {
+    struct INetworkRoute * _result = 0;
+    HRESULT _hr = raw_GetRoute(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkRoutePtr(_result, false);
+}
+
+//
+// interface INetworkEventLocation wrapper method implementations
+//
+
+inline HRESULT INetworkEventLocation::SetCutoff ( _bstr_t Impedance, const _variant_t & newVal ) {
+    HRESULT _hr = raw_SetCutoff(Impedance, newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t INetworkEventLocation::GetCutoff ( _bstr_t Impedance ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetCutoff(Impedance, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline long INetworkEventLocation::GetTargetFacilityCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_TargetFacilityCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetworkEventLocation::PutTargetFacilityCount ( long pVal ) {
+    HRESULT _hr = put_TargetFacilityCount(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetworkTraceResult wrapper method implementations
+//
+
+inline _variant_t INetworkTraceResult::GetTotalCost ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_TotalCost(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline long INetworkTraceResult::GetNetworkElementCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_NetworkElementCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkElementPtr INetworkTraceResult::GetNetworkElement ( long Index ) {
+    struct INetworkElement * _result = 0;
+    HRESULT _hr = raw_GetNetworkElement(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkElementPtr(_result, false);
+}
+
+//
+// interface INetworkFindConnectedSolver wrapper method implementations
+//
+
+inline long INetworkFindConnectedSolver::GetNetworkTraceResultCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_NetworkTraceResultCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkTraceResultPtr INetworkFindConnectedSolver::GetNetworkTraceResult ( long Index ) {
+    struct INetworkTraceResult * _result = 0;
+    HRESULT _hr = raw_GetNetworkTraceResult(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkTraceResultPtr(_result, false);
+}
+
+//
+// interface INetworkFindDisconnectedSolver wrapper method implementations
+//
+
+inline long INetworkFindDisconnectedSolver::GetNetworkTraceResultCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_NetworkTraceResultCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkTraceResultPtr INetworkFindDisconnectedSolver::GetNetworkTraceResult ( long Index ) {
+    struct INetworkTraceResult * _result = 0;
+    HRESULT _hr = raw_GetNetworkTraceResult(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkTraceResultPtr(_result, false);
+}
+
+//
+// interface INetworkFindAncestorsSolver wrapper method implementations
+//
+
+inline long INetworkFindAncestorsSolver::GetNetworkTraceResultCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_NetworkTraceResultCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkTraceResultPtr INetworkFindAncestorsSolver::GetNetworkTraceResult ( long Index ) {
+    struct INetworkTraceResult * _result = 0;
+    HRESULT _hr = raw_GetNetworkTraceResult(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkTraceResultPtr(_result, false);
+}
+
+//
+// interface INetworkFindLoopsSolver wrapper method implementations
+//
+
+inline long INetworkFindLoopsSolver::GetNetworkTraceResultCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_NetworkTraceResultCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkTraceResultPtr INetworkFindLoopsSolver::GetNetworkTraceResult ( long Index ) {
+    struct INetworkTraceResult * _result = 0;
+    HRESULT _hr = raw_GetNetworkTraceResult(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkTraceResultPtr(_result, false);
+}
+
+//
+// interface INetworkTraceUpstreamSolver wrapper method implementations
+//
+
+inline long INetworkTraceUpstreamSolver::GetNetworkTraceResultCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_NetworkTraceResultCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkTraceResultPtr INetworkTraceUpstreamSolver::GetNetworkTraceResult ( long Index ) {
+    struct INetworkTraceResult * _result = 0;
+    HRESULT _hr = raw_GetNetworkTraceResult(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkTraceResultPtr(_result, false);
+}
+
+//
+// interface INetworkTraceDownstreamSolver wrapper method implementations
+//
+
+inline long INetworkTraceDownstreamSolver::GetNetworkTraceResultCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_NetworkTraceResultCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkTraceResultPtr INetworkTraceDownstreamSolver::GetNetworkTraceResult ( long Index ) {
+    struct INetworkTraceResult * _result = 0;
+    HRESULT _hr = raw_GetNetworkTraceResult(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkTraceResultPtr(_result, false);
+}
+
+//
+// interface IQueryDef wrapper method implementations
+//
+
+inline SAFEARRAY * IQueryDef::GetSubFields ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_SubFields(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IQueryDef::PutSubFields ( SAFEARRAY * pVal ) {
+    HRESULT _hr = put_SubFields(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IQueryDef::AddSubField ( _bstr_t FieldName ) {
+    HRESULT _hr = raw_AddSubField(FieldName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline SAFEARRAY * IQueryDef::GetTables ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_Tables(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IQueryDef::PutTables ( SAFEARRAY * pVal ) {
+    HRESULT _hr = put_Tables(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IQueryDef::GetWhereClause ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_WhereClause(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IQueryDef::PutWhereClause ( _bstr_t pVal ) {
+    HRESULT _hr = put_WhereClause(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IQueryDef::GetPostfixClause ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PostfixClause(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IQueryDef::PutPostfixClause ( _bstr_t pVal ) {
+    HRESULT _hr = put_PostfixClause(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFdeCursorPtr IQueryDef::Execute ( VARIANT_BOOL ReuseRow ) {
+    struct IFdeCursor * _result = 0;
+    HRESULT _hr = raw_Execute(ReuseRow, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFdeCursorPtr(_result, false);
+}
+
+inline enum gviResultStoreLocation IQueryDef::GetStoreLocation ( ) {
+    enum gviResultStoreLocation _result;
+    HRESULT _hr = get_StoreLocation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IQueryDef::PutStoreLocation ( enum gviResultStoreLocation pVal ) {
+    HRESULT _hr = put_StoreLocation(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFdeCursorPtr IQueryDef::ExecuteQuery ( _bstr_t SQL, SAFEARRAY * Params, long BulkSize, enum gviResultStoreLocation Location, VARIANT_BOOL ReuseRow ) {
+    struct IFdeCursor * _result = 0;
+    HRESULT _hr = raw_ExecuteQuery(SQL, Params, BulkSize, Location, ReuseRow, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFdeCursorPtr(_result, false);
+}
+
+inline _bstr_t IQueryDef::GetPrefixClause ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PrefixClause(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IQueryDef::PutPrefixClause ( _bstr_t pVal ) {
+    HRESULT _hr = put_PrefixClause(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ISQLCheck wrapper method implementations
+//
+
+inline _bstr_t ISQLCheck::CheckSelectList ( _bstr_t SelectList ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_CheckSelectList(SelectList, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISQLCheck::CheckWhereClause ( _bstr_t WhereClause ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_CheckWhereClause(WhereClause, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISQLCheck::CheckSQLStatement ( _bstr_t SQL ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_CheckSQLStatement(SQL, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IConflict wrapper method implementations
+//
+
+inline VARIANT_BOOL IConflict::GetHasConflicts ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasConflicts(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IConflict::GetConflictsIds ( _bstr_t ClassName ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetConflictsIds(ClassName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IFeatureProgress wrapper method implementations
+//
+
+inline __int64 IFeatureProgress::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFeatureProgress::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviReplicateOperation IFeatureProgress::GetCurrentOperation ( ) {
+    enum gviReplicateOperation _result;
+    HRESULT _hr = get_CurrentOperation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IFeatureProgress::GetOperationCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_OperationCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IFeatureProgress::GetFeatureOwner ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FeatureOwner(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline long IFeatureProgress::GetCurrentFeatureCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_CurrentFeatureCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IFeatureProgress::GetTotalFeatureCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_TotalFeatureCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IFeatureProgress::GetOperations ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_Operations(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IFeatureProgress::Cancel ( ) {
+    HRESULT _hr = raw_Cancel();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IEnumResName wrapper method implementations
+//
+
+inline VARIANT_BOOL IEnumResName::MoveNext ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_MoveNext(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IEnumResName::GetCurrent ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Current(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IJunctionNetworkSource wrapper method implementations
+//
+
+inline enum gviNetworkJunctionConnectivityPolicy IJunctionNetworkSource::GetConnectivityPolicy ( ) {
+    enum gviNetworkJunctionConnectivityPolicy _result;
+    HRESULT _hr = get_ConnectivityPolicy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IJunctionNetworkSource::PutConnectivityPolicy ( enum gviNetworkJunctionConnectivityPolicy pVal ) {
+    HRESULT _hr = put_ConnectivityPolicy(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IJunctionNetworkSource::GetElevationFieldName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ElevationFieldName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IJunctionNetworkSource::PutElevationFieldName ( _bstr_t pVal ) {
+    HRESULT _hr = put_ElevationFieldName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline SAFEARRAY * IJunctionNetworkSource::GetClassConnectivityGroups ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetClassConnectivityGroups(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IJunctionNetworkSource::SetClassConnectivityGroup ( long GroupId ) {
+    HRESULT _hr = raw_SetClassConnectivityGroup(GroupId);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IPropertySetPtr IJunctionNetworkSource::GetSubTypeConnectivityGroups ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = raw_GetSubTypeConnectivityGroups(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+inline HRESULT IJunctionNetworkSource::SetSubTypeConnectivityGroups ( long SubTypeCode, long GroupId ) {
+    HRESULT _hr = raw_SetSubTypeConnectivityGroups(SubTypeCode, GroupId);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IJunctionNetworkSource::GetSourceSinkField ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_SourceSinkField(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IJunctionNetworkSource::PutSourceSinkField ( _bstr_t pVal ) {
+    HRESULT _hr = put_SourceSinkField(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IJunctionNetworkSource::GetDefaultSourceSinkField ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_DefaultSourceSinkField(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IEdgeNetworkSource wrapper method implementations
+//
+
+inline enum gviNetworkEdgeConnectivityPolicy IEdgeNetworkSource::GetConnectivityPolicy ( ) {
+    enum gviNetworkEdgeConnectivityPolicy _result;
+    HRESULT _hr = get_ConnectivityPolicy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEdgeNetworkSource::PutConnectivityPolicy ( enum gviNetworkEdgeConnectivityPolicy pVal ) {
+    HRESULT _hr = put_ConnectivityPolicy(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IEdgeNetworkSource::GetFromElevationFieldName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FromElevationFieldName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IEdgeNetworkSource::PutFromElevationFieldName ( _bstr_t pVal ) {
+    HRESULT _hr = put_FromElevationFieldName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IEdgeNetworkSource::GetToElevationFieldName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ToElevationFieldName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IEdgeNetworkSource::PutToElevationFieldName ( _bstr_t pVal ) {
+    HRESULT _hr = put_ToElevationFieldName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IEdgeNetworkSource::GetClassConnectivityGroup ( ) {
+    long _result = 0;
+    HRESULT _hr = get_ClassConnectivityGroup(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEdgeNetworkSource::PutClassConnectivityGroup ( long pVal ) {
+    HRESULT _hr = put_ClassConnectivityGroup(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IPropertySetPtr IEdgeNetworkSource::GetSubTypeConnectivityGroups ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = raw_GetSubTypeConnectivityGroups(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+inline HRESULT IEdgeNetworkSource::SetSubTypeConnectivityGroups ( long SubTypeCode, long GroupId ) {
+    HRESULT _hr = raw_SetSubTypeConnectivityGroups(SubTypeCode, GroupId);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IEdgeNetworkSource::GetDirectionFieldName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_DirectionFieldName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IEdgeNetworkSource::PutDirectionFieldName ( _bstr_t pVal ) {
+    HRESULT _hr = put_DirectionFieldName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetworkFieldEvaluator wrapper method implementations
+//
+
+inline _bstr_t INetworkFieldEvaluator::GetFieldName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FieldName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkFieldEvaluator::PutFieldName ( _bstr_t pVal ) {
+    HRESULT _hr = put_FieldName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetworkConstantEvaluator wrapper method implementations
+//
+
+inline _variant_t INetworkConstantEvaluator::GetConstantValue ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_ConstantValue(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void INetworkConstantEvaluator::PutConstantValue ( const _variant_t & pVal ) {
+    HRESULT _hr = put_ConstantValue(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetworkScriptEvaluator wrapper method implementations
+//
+
+inline _bstr_t INetworkScriptEvaluator::GetFunctionScript ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FunctionScript(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkScriptEvaluator::PutFunctionScript ( _bstr_t pVal ) {
+    HRESULT _hr = put_FunctionScript(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetworkScriptEvaluator::GetExpressionScript ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ExpressionScript(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetworkScriptEvaluator::PutExpressionScript ( _bstr_t pVal ) {
+    HRESULT _hr = put_ExpressionScript(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IResourceManager wrapper method implementations
+//
+
+inline VARIANT_BOOL IResourceManager::AddModel ( _bstr_t Name, struct IModel * Model, struct IModel * SimplifiedModel ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddModel(Name, Model, SimplifiedModel, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::DeleteModel ( _bstr_t Name ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DeleteModel(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::UpdateModel ( _bstr_t Name, struct IModel * Model ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_UpdateModel(Name, Model, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::UpdateSimplifiedModel ( _bstr_t Name, struct IModel * Model ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_UpdateSimplifiedModel(Name, Model, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::ModelExist ( _bstr_t Name ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ModelExist(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IResourceManager::GetModelCount ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetModelCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IModelPtr IResourceManager::GetModel ( _bstr_t Name ) {
+    struct IModel * _result = 0;
+    HRESULT _hr = raw_GetModel(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IModelPtr(_result, false);
+}
+
+inline IModelPtr IResourceManager::GetSimplifiedModel ( _bstr_t Name ) {
+    struct IModel * _result = 0;
+    HRESULT _hr = raw_GetSimplifiedModel(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IModelPtr(_result, false);
+}
+
+inline IEnumResNamePtr IResourceManager::GetModelNames ( ) {
+    struct IEnumResName * _result = 0;
+    HRESULT _hr = raw_GetModelNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnumResNamePtr(_result, false);
+}
+
+inline VARIANT_BOOL IResourceManager::AddImage ( _bstr_t Name, struct IImage * Image ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddImage(Name, Image, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::DeleteImage ( _bstr_t Name ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DeleteImage(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::UpdateImage ( _bstr_t Name, struct IImage * Image ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_UpdateImage(Name, Image, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::ImageExist ( _bstr_t Name ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ImageExist(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IImagePtr IResourceManager::GetImage ( _bstr_t Name ) {
+    struct IImage * _result = 0;
+    HRESULT _hr = raw_GetImage(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IImagePtr(_result, false);
+}
+
+inline long IResourceManager::GetImageCount ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetImageCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IEnumResNamePtr IResourceManager::GetImageNames ( ) {
+    struct IEnumResName * _result = 0;
+    HRESULT _hr = raw_GetImageNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnumResNamePtr(_result, false);
+}
+
+inline VARIANT_BOOL IResourceManager::WriteModelAndImageToFile ( _bstr_t ModelName, _bstr_t FileName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_WriteModelAndImageToFile(ModelName, FileName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::RebuildSimplifiedModel ( _bstr_t ModelName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RebuildSimplifiedModel(ModelName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::CheckResourceName ( _bstr_t ResourceName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CheckResourceName(ResourceName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline DATE IResourceManager::GetModelLastUpdateTime ( _bstr_t Name ) {
+    DATE _result = 0;
+    HRESULT _hr = raw_GetModelLastUpdateTime(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline DATE IResourceManager::GetImageLastUpdateTime ( _bstr_t Name ) {
+    DATE _result = 0;
+    HRESULT _hr = raw_GetImageLastUpdateTime(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::EncryptModel ( _bstr_t Password, IDispatch * ProcessingCallback ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EncryptModel(Password, ProcessingCallback, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::GetIsModelEncrypted ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsModelEncrypted(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::EncryptImage ( _bstr_t Password, IDispatch * ProcessingCallback ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_EncryptImage(Password, ProcessingCallback, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IResourceManager::GetIsImageEncrypted ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsImageEncrypted(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ICodedValueDomain wrapper method implementations
+//
+
+inline HRESULT ICodedValueDomain::AddCode ( const _variant_t & Value, _bstr_t Name ) {
+    HRESULT _hr = raw_AddCode(Value, Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long ICodedValueDomain::GetCodeCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_CodeCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT ICodedValueDomain::DeleteCode ( const _variant_t & Value ) {
+    HRESULT _hr = raw_DeleteCode(Value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t ICodedValueDomain::GetCodeValue ( long Position ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetCodeValue(Position, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _bstr_t ICodedValueDomain::GetCodeName ( long Position ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetCodeName(Position, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ICodedValueDomain::GetCodeNameByValue ( const _variant_t & Value ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetCodeNameByValue(Value, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IRangeDomain wrapper method implementations
+//
+
+inline _variant_t IRangeDomain::GetMinValue ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_MinValue(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IRangeDomain::PutMinValue ( const _variant_t & pVal ) {
+    HRESULT _hr = put_MinValue(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IRangeDomain::GetMaxValue ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_MaxValue(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IRangeDomain::PutMaxValue ( const _variant_t & pVal ) {
+    HRESULT _hr = put_MaxValue(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IRowBufferFactory wrapper method implementations
+//
+
+inline IRowBufferPtr IRowBufferFactory::CreateRowBuffer ( struct IFieldInfoCollection * Fields ) {
+    struct IRowBuffer * _result = 0;
+    HRESULT _hr = raw_CreateRowBuffer(Fields, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRowBufferPtr(_result, false);
+}
+
+//
+// interface IDomainFactory wrapper method implementations
+//
+
+inline ICodedValueDomainPtr IDomainFactory::CreateCodedValueDomain ( _bstr_t DomainName, enum gviFieldType FieldType ) {
+    struct ICodedValueDomain * _result = 0;
+    HRESULT _hr = raw_CreateCodedValueDomain(DomainName, FieldType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICodedValueDomainPtr(_result, false);
+}
+
+inline IRangeDomainPtr IDomainFactory::CreateRangeDomain ( _bstr_t DomainName, enum gviFieldType FieldType ) {
+    struct IRangeDomain * _result = 0;
+    HRESULT _hr = raw_CreateRangeDomain(DomainName, FieldType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRangeDomainPtr(_result, false);
+}
+
+//
+// interface IDataSourcePluginManager wrapper method implementations
+//
+
+inline GUID IDataSourcePluginManager::Register ( _bstr_t PluginPath ) {
+    GUID _result;
+    HRESULT _hr = raw_Register(PluginPath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IDataSourcePluginManager::Unregister ( GUID PluginGuid ) {
+    HRESULT _hr = raw_Unregister(PluginGuid);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IEdgeBarrier wrapper method implementations
+//
+
+inline enum gviNetworkSide IEdgeBarrier::GetBarrierSide ( ) {
+    enum gviNetworkSide _result;
+    HRESULT _hr = get_BarrierSide(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IEdgeBarrier::PutBarrierSide ( enum gviNetworkSide pVal ) {
+    HRESULT _hr = put_BarrierSide(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ITable wrapper method implementations
+//
+
+inline __int64 ITable::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ITable::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT ITable::AddField ( struct IFieldInfo * Field ) {
+    HRESULT _hr = raw_AddField(Field);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITable::ModifyField ( struct IFieldInfo * Field ) {
+    HRESULT _hr = raw_ModifyField(Field);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITable::DeleteField ( _bstr_t FieldName ) {
+    HRESULT _hr = raw_DeleteField(FieldName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IFieldInfoCollectionPtr ITable::GetFields ( ) {
+    struct IFieldInfoCollection * _result = 0;
+    HRESULT _hr = raw_GetFields(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFieldInfoCollectionPtr(_result, false);
+}
+
+inline HRESULT ITable::AddDbIndex ( struct IDbIndexInfo * Index ) {
+    HRESULT _hr = raw_AddDbIndex(Index);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITable::DeleteDbIndex ( _bstr_t IndexName ) {
+    HRESULT _hr = raw_DeleteDbIndex(IndexName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITable::RebuildDbIndex ( _bstr_t IndexName ) {
+    HRESULT _hr = raw_RebuildDbIndex(IndexName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IDbIndexInfoCollectionPtr ITable::GetDbIndexInfos ( ) {
+    struct IDbIndexInfoCollection * _result = 0;
+    HRESULT _hr = raw_GetDbIndexInfos(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDbIndexInfoCollectionPtr(_result, false);
+}
+
+inline _bstr_t ITable::GetTableName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_TableName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline enum gviDataSetType ITable::GetType ( ) {
+    enum gviDataSetType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRowBufferPtr ITable::CreateRowBuffer ( ) {
+    struct IRowBuffer * _result = 0;
+    HRESULT _hr = raw_CreateRowBuffer(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRowBufferPtr(_result, false);
+}
+
+inline IRowBufferPtr ITable::GetRow ( long Id ) {
+    struct IRowBuffer * _result = 0;
+    HRESULT _hr = raw_GetRow(Id, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRowBufferPtr(_result, false);
+}
+
+inline HRESULT ITable::DeleteRow ( long Id ) {
+    HRESULT _hr = raw_DeleteRow(Id);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITable::Store ( struct IRowBuffer * Row ) {
+    HRESULT _hr = raw_Store(Row);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IFdeCursorPtr ITable::Update ( struct IQueryFilter * Filter ) {
+    struct IFdeCursor * _result = 0;
+    HRESULT _hr = raw_Update(Filter, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFdeCursorPtr(_result, false);
+}
+
+inline IFdeCursorPtr ITable::Insert ( ) {
+    struct IFdeCursor * _result = 0;
+    HRESULT _hr = raw_Insert(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFdeCursorPtr(_result, false);
+}
+
+inline long ITable::Delete ( struct IQueryFilter * Filter ) {
+    long _result = 0;
+    HRESULT _hr = raw_Delete(Filter, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IFdeCursorPtr ITable::Search ( struct IQueryFilter * Filter, VARIANT_BOOL ReuseRow ) {
+    struct IFdeCursor * _result = 0;
+    HRESULT _hr = raw_Search(Filter, ReuseRow, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFdeCursorPtr(_result, false);
+}
+
+inline long ITable::GetCount ( struct IQueryFilter * Filter ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetCount(Filter, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IFdeCursorPtr ITable::GetRows ( SAFEARRAY * Ids, VARIANT_BOOL ReuseRow ) {
+    struct IFdeCursor * _result = 0;
+    HRESULT _hr = raw_GetRows(Ids, ReuseRow, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFdeCursorPtr(_result, false);
+}
+
+inline HRESULT ITable::UpdateRows ( struct IRowBufferCollection * Rows, VARIANT_BOOL UpdateNotChangeValue ) {
+    HRESULT _hr = raw_UpdateRows(Rows, UpdateNotChangeValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITable::Truncate ( ) {
+    HRESULT _hr = raw_Truncate();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IDataSourcePtr ITable::GetDataSource ( ) {
+    struct IDataSource * _result = 0;
+    HRESULT _hr = get_DataSource(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDataSourcePtr(_result, false);
+}
+
+inline SAFEARRAY * ITable::GetPrimaryKeys ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = get_PrimaryKeys(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IDataSource wrapper method implementations
+//
+
+inline __int64 IDataSource::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IDataSource::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IDataSource::StartEditing ( ) {
+    HRESULT _hr = raw_StartEditing();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataSource::StopEditing ( VARIANT_BOOL Save ) {
+    HRESULT _hr = raw_StopEditing(Save);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IDataSource::GetIsEditing ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsEditing(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IConnectionInfoPtr IDataSource::GetConnectionInfo ( ) {
+    struct IConnectionInfo * _result = 0;
+    HRESULT _hr = get_ConnectionInfo(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IConnectionInfoPtr(_result, false);
+}
+
+inline _bstr_t IDataSource::GetFdeSchemaPrefix ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FdeSchemaPrefix(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline DATE IDataSource::GetDatabaseTime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_DatabaseTime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IFeatureDataSetPtr IDataSource::OpenFeatureDataset ( _bstr_t FeatureDataSetName ) {
+    struct IFeatureDataSet * _result = 0;
+    HRESULT _hr = raw_OpenFeatureDataset(FeatureDataSetName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeatureDataSetPtr(_result, false);
+}
+
+inline HRESULT IDataSource::DeleteFeatureDataset ( _bstr_t FeatureDataSetName ) {
+    HRESULT _hr = raw_DeleteFeatureDataset(FeatureDataSetName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IDomainPtr IDataSource::GetDomainByName ( _bstr_t Domain ) {
+    struct IDomain * _result = 0;
+    HRESULT _hr = raw_GetDomainByName(Domain, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDomainPtr(_result, false);
+}
+
+inline HRESULT IDataSource::AddDomain ( struct IDomain * Domain ) {
+    HRESULT _hr = raw_AddDomain(Domain);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataSource::ModifyDomain ( struct IDomain * Domain ) {
+    HRESULT _hr = raw_ModifyDomain(Domain);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataSource::DeleteDomain ( _bstr_t Domain ) {
+    HRESULT _hr = raw_DeleteDomain(Domain);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IFeatureDataSetPtr IDataSource::CreateFeatureDataset ( _bstr_t Name, struct ISpatialCRS * SpatialCRS ) {
+    struct IFeatureDataSet * _result = 0;
+    HRESULT _hr = raw_CreateFeatureDataset(Name, SpatialCRS, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeatureDataSetPtr(_result, false);
+}
+
+inline SAFEARRAY * IDataSource::GetFeatureDatasetNames ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetFeatureDatasetNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IDataSource::HasCapability ( enum gviFdbCapability Capability ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_HasCapability(Capability, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IDataSource::GetDomainNames ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetDomainNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ITablePtr IDataSource::CreateTable ( _bstr_t TableName, _bstr_t PrimaryKey, struct IFieldInfoCollection * Fields ) {
+    struct ITable * _result = 0;
+    HRESULT _hr = raw_CreateTable(TableName, PrimaryKey, Fields, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITablePtr(_result, false);
+}
+
+inline ITablePtr IDataSource::OpenTable ( _bstr_t TableName ) {
+    struct ITable * _result = 0;
+    HRESULT _hr = raw_OpenTable(TableName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITablePtr(_result, false);
+}
+
+inline HRESULT IDataSource::DeleteTableByName ( _bstr_t TableName ) {
+    HRESULT _hr = raw_DeleteTableByName(TableName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IQueryDefPtr IDataSource::CreateQueryDef ( ) {
+    struct IQueryDef * _result = 0;
+    HRESULT _hr = raw_CreateQueryDef(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IQueryDefPtr(_result, false);
+}
+
+inline HRESULT IDataSource::ReOpen ( ) {
+    HRESULT _hr = raw_ReOpen();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IDataSource::Ping ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Ping(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IDataSource::ChangePassword ( _bstr_t NewPassword ) {
+    HRESULT _hr = raw_ChangePassword(NewPassword);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline GUID IDataSource::GetGuid ( ) {
+    GUID _result;
+    HRESULT _hr = get_Guid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IDataSource::GetGuidString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_GuidString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IDataSource::GetDescription ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Description(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IDataSource::PutDescription ( _bstr_t pVal ) {
+    HRESULT _hr = put_Description(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IDataSource::EscapeObjectName ( _bstr_t ObjectName ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_EscapeObjectName(ObjectName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IDataSource::GetLocks ( long ClassId ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetLocks(ClassId, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline SAFEARRAY * IDataSource::QueryDomainRefFields ( long DomainId ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_QueryDomainRefFields(DomainId, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISQLCheckPtr IDataSource::GetSQLCheck ( ) {
+    struct ISQLCheck * _result = 0;
+    HRESULT _hr = get_SQLCheck(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLCheckPtr(_result, false);
+}
+
+inline HRESULT IDataSource::ExecuteUpdate ( _bstr_t SQL ) {
+    HRESULT _hr = raw_ExecuteUpdate(SQL);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline SAFEARRAY * IDataSource::GetTableNames ( VARIANT_BOOL IncludeFdbTable ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetTableNames(IncludeFdbTable, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline DATE IDataSource::GetCreateTime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_CreateTime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IDataSource::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataSource::GetFDBVersion ( long * Major, long * Minor, long * Bugfix ) {
+    HRESULT _hr = raw_GetFDBVersion(Major, Minor, Bugfix);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IDataSource::ValidateName ( enum gviNameType NameType, _bstr_t ObjectName, BSTR * FixedName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ValidateName(NameType, ObjectName, FixedName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IPropertySetPtr IDataSource::GetCustomData ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = get_CustomData(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+inline void IDataSource::PutCustomData ( struct IPropertySet * pVal ) {
+    HRESULT _hr = put_CustomData(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IDataSourceFactory wrapper method implementations
+//
+
+inline IDataSourcePtr IDataSourceFactory::CreateDataSource ( struct IConnectionInfo * ConnectionInfo, _bstr_t Repository ) {
+    struct IDataSource * _result = 0;
+    HRESULT _hr = raw_CreateDataSource(ConnectionInfo, Repository, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDataSourcePtr(_result, false);
+}
+
+inline IDataSourcePtr IDataSourceFactory::OpenDataSource ( struct IConnectionInfo * ConnectionInfo ) {
+    struct IDataSource * _result = 0;
+    HRESULT _hr = raw_OpenDataSource(ConnectionInfo, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDataSourcePtr(_result, false);
+}
+
+inline IDataSourcePtr IDataSourceFactory::OpenDataSourceByString ( _bstr_t ConnectionString ) {
+    struct IDataSource * _result = 0;
+    HRESULT _hr = raw_OpenDataSourceByString(ConnectionString, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDataSourcePtr(_result, false);
+}
+
+inline VARIANT_BOOL IDataSourceFactory::HasDataSource ( struct IConnectionInfo * ConnectionInfo ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_HasDataSource(ConnectionInfo, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IDataSourceFactory::HasDataSourceByString ( _bstr_t ConnectionString ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_HasDataSourceByString(ConnectionString, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IDataSourceFactory::GetDataBaseNames ( struct IConnectionInfo * ConnectionInfo, VARIANT_BOOL OnlyFdb ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetDataBaseNames(ConnectionInfo, OnlyFdb, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IFeatureDataSet wrapper method implementations
+//
+
+inline __int64 IFeatureDataSet::GetInternalObject ( ) {
+    __int64 _result = 0;
+    HRESULT _hr = get_InternalObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IFeatureDataSet::PutInternalObject ( __int64 pVal ) {
+    HRESULT _hr = put_InternalObject(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IDataSourcePtr IFeatureDataSet::GetDataSource ( ) {
+    struct IDataSource * _result = 0;
+    HRESULT _hr = get_DataSource(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDataSourcePtr(_result, false);
+}
+
+inline _bstr_t IFeatureDataSet::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IFeatureDataSet::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IFeatureDataSet::GetAlias ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Alias(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IFeatureDataSet::PutAlias ( _bstr_t pVal ) {
+    HRESULT _hr = put_Alias(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IFeatureClassPtr IFeatureDataSet::CreateFeatureClass ( _bstr_t Name, struct IFieldInfoCollection * Fields ) {
+    struct IFeatureClass * _result = 0;
+    HRESULT _hr = raw_CreateFeatureClass(Name, Fields, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeatureClassPtr(_result, false);
+}
+
+inline IObjectClassPtr IFeatureDataSet::CreateObjectClass ( _bstr_t Name, struct IFieldInfoCollection * Fields ) {
+    struct IObjectClass * _result = 0;
+    HRESULT _hr = raw_CreateObjectClass(Name, Fields, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IObjectClassPtr(_result, false);
+}
+
+inline IFeatureClassPtr IFeatureDataSet::OpenFeatureClass ( _bstr_t Name ) {
+    struct IFeatureClass * _result = 0;
+    HRESULT _hr = raw_OpenFeatureClass(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeatureClassPtr(_result, false);
+}
+
+inline IObjectClassPtr IFeatureDataSet::OpenObjectClass ( _bstr_t Name ) {
+    struct IObjectClass * _result = 0;
+    HRESULT _hr = raw_OpenObjectClass(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IObjectClassPtr(_result, false);
+}
+
+inline VARIANT_BOOL IFeatureDataSet::DeleteByName ( _bstr_t Name ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DeleteByName(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * IFeatureDataSet::GetNamesByType ( enum gviDataSetType DataSetType ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetNamesByType(DataSetType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISpatialCRSPtr IFeatureDataSet::GetSpatialReference ( ) {
+    struct ISpatialCRS * _result = 0;
+    HRESULT _hr = get_SpatialReference(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISpatialCRSPtr(_result, false);
+}
+
+inline void IFeatureDataSet::PutSpatialReference ( struct ISpatialCRS * pVal ) {
+    HRESULT _hr = put_SpatialReference(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline DATE IFeatureDataSet::GetCreateTime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_CreateTime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline DATE IFeatureDataSet::GetLastUpdateTime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_LastUpdateTime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IFeatureDataSet::GetId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Id(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline GUID IFeatureDataSet::GetGuid ( ) {
+    GUID _result;
+    HRESULT _hr = get_Guid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IFeatureDataSet::GetGuidString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_GuidString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL IFeatureDataSet::GetIsCheckOut ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsCheckOut(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IFeatureDataSet::GetIsCheckOutAsMaster ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsCheckOutAsMaster(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IFeatureDataSet::GetDescription ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Description(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IFeatureDataSet::PutDescription ( _bstr_t pVal ) {
+    HRESULT _hr = put_Description(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IPropertySetPtr IFeatureDataSet::GetCustomData ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = get_CustomData(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+inline void IFeatureDataSet::PutCustomData ( struct IPropertySet * pVal ) {
+    HRESULT _hr = put_CustomData(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline INetworkManagerPtr IFeatureDataSet::GetNetworkManager ( ) {
+    struct INetworkManager * _result = 0;
+    HRESULT _hr = raw_GetNetworkManager(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkManagerPtr(_result, false);
+}
+
+//
+// interface IObjectClass wrapper method implementations
+//
+
+inline _bstr_t IObjectClass::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IObjectClass::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IObjectClass::GetId ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Id(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline GUID IObjectClass::GetGuid ( ) {
+    GUID _result;
+    HRESULT _hr = get_Guid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IObjectClass::GetGuidString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_GuidString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IFeatureDataSetPtr IObjectClass::GetFeatureDataSet ( ) {
+    struct IFeatureDataSet * _result = 0;
+    HRESULT _hr = get_FeatureDataSet(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeatureDataSetPtr(_result, false);
+}
+
+inline _bstr_t IObjectClass::GetDescription ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Description(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IObjectClass::PutDescription ( _bstr_t pVal ) {
+    HRESULT _hr = put_Description(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IObjectClass::GetAliasName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_AliasName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IObjectClass::PutAliasName ( _bstr_t pVal ) {
+    HRESULT _hr = put_AliasName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IObjectClass::GetFidFieldName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FidFieldName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline DATE IObjectClass::GetCreateTime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_CreateTime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline DATE IObjectClass::GetLastUpdateTime ( ) {
+    DATE _result = 0;
+    HRESULT _hr = get_LastUpdateTime(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IObjectClass::GetReadOnly ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_ReadOnly(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum gviLockType IObjectClass::GetLockType ( ) {
+    enum gviLockType _result;
+    HRESULT _hr = get_LockType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IObjectClass::PutLockType ( enum gviLockType pVal ) {
+    HRESULT _hr = put_LockType(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IObjectClass::GetLocks ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetLocks(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IObjectClass::AddSubType ( struct ISubTypeInfo * SubType ) {
+    HRESULT _hr = raw_AddSubType(SubType);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IObjectClass::ModifySubType ( struct ISubTypeInfo * SubType ) {
+    HRESULT _hr = raw_ModifySubType(SubType);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IObjectClass::DeleteSubType ( long SubTypeCode ) {
+    HRESULT _hr = raw_DeleteSubType(SubTypeCode);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ISubTypeInfoPtr IObjectClass::GetSubType ( long Index ) {
+    struct ISubTypeInfo * _result = 0;
+    HRESULT _hr = raw_GetSubType(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISubTypeInfoPtr(_result, false);
+}
+
+inline long IObjectClass::GetSubTypeFieldIndex ( ) {
+    long _result = 0;
+    HRESULT _hr = get_SubTypeFieldIndex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IObjectClass::GetSubTypeFieldName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_SubTypeFieldName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IObjectClass::PutSubTypeFieldName ( _bstr_t pVal ) {
+    HRESULT _hr = put_SubTypeFieldName(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IObjectClass::GetHasSubTypes ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_HasSubTypes(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IObjectClass::GetSubTypeCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_SubTypeCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IObjectClass::GetDefaultSubTypeCode ( ) {
+    long _result = 0;
+    HRESULT _hr = get_DefaultSubTypeCode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IObjectClass::PutDefaultSubTypeCode ( long pVal ) {
+    HRESULT _hr = put_DefaultSubTypeCode(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IObjectClass::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IObjectClass::EnableAttachment ( ) {
+    HRESULT _hr = raw_EnableAttachment();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IObjectClass::DisableAttachment ( ) {
+    HRESULT _hr = raw_DisableAttachment();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IObjectClass::HasAttachments ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_HasAttachments(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IAttachmentManagerPtr IObjectClass::GetAttachmentManager ( ) {
+    struct IAttachmentManager * _result = 0;
+    HRESULT _hr = raw_GetAttachmentManager(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAttachmentManagerPtr(_result, false);
+}
+
+inline VARIANT_BOOL IObjectClass::HasTemporal ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_HasTemporal(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IObjectClass::EnableTemporal ( DATE DefaultBirthDatetime, _bstr_t BirthDateColumn, _bstr_t DeathDateColumn ) {
+    HRESULT _hr = raw_EnableTemporal(DefaultBirthDatetime, BirthDateColumn, DeathDateColumn);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IObjectClass::DisableTemporal ( ) {
+    HRESULT _hr = raw_DisableTemporal();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ITemporalManagerPtr IObjectClass::GetTemporalManager ( ) {
+    struct ITemporalManager * _result = 0;
+    HRESULT _hr = get_TemporalManager(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ITemporalManagerPtr(_result, false);
+}
+
+inline _bstr_t IObjectClass::GetTemporalColumnName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_TemporalColumnName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IPropertySetPtr IObjectClass::GetCustomData ( ) {
+    struct IPropertySet * _result = 0;
+    HRESULT _hr = get_CustomData(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IPropertySetPtr(_result, false);
+}
+
+inline void IObjectClass::PutCustomData ( struct IPropertySet * pVal ) {
+    HRESULT _hr = put_CustomData(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IFeatureClass wrapper method implementations
+//
+
+inline IIndexInfoCollectionPtr IFeatureClass::GetSpatialIndexInfos ( ) {
+    struct IIndexInfoCollection * _result = 0;
+    HRESULT _hr = raw_GetSpatialIndexInfos(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IIndexInfoCollectionPtr(_result, false);
+}
+
+inline HRESULT IFeatureClass::AddSpatialIndex ( struct IIndexInfo * IndexInfo ) {
+    HRESULT _hr = raw_AddSpatialIndex(IndexInfo);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFeatureClass::DeleteSpatialIndex ( _bstr_t GeoField ) {
+    HRESULT _hr = raw_DeleteSpatialIndex(GeoField);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFeatureClass::RebuildSpatialIndex ( _bstr_t GeoFieldName ) {
+    HRESULT _hr = raw_RebuildSpatialIndex(GeoFieldName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IIndexInfoCollectionPtr IFeatureClass::GetRenderIndexInfos ( ) {
+    struct IIndexInfoCollection * _result = 0;
+    HRESULT _hr = raw_GetRenderIndexInfos(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IIndexInfoCollectionPtr(_result, false);
+}
+
+inline HRESULT IFeatureClass::AddRenderIndex ( struct IRenderIndexInfo * IndexInfo ) {
+    HRESULT _hr = raw_AddRenderIndex(IndexInfo);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFeatureClass::DeleteRenderIndex ( _bstr_t GeoField ) {
+    HRESULT _hr = raw_DeleteRenderIndex(GeoField);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFeatureClass::RebuildRenderIndex ( _bstr_t GeoField, enum gviRenderIndexRebuildType RebuildType ) {
+    HRESULT _hr = raw_RebuildRenderIndex(GeoField, RebuildType);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IEnvelopePtr IFeatureClass::GetFeaturesEnvelope ( SAFEARRAY * FidArray, _bstr_t GeoField ) {
+    struct IEnvelope * _result = 0;
+    HRESULT _hr = raw_GetFeaturesEnvelope(FidArray, GeoField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnvelopePtr(_result, false);
+}
+
+inline HRESULT IFeatureClass::UpdateExtent ( _bstr_t GeoField ) {
+    HRESULT _hr = raw_UpdateExtent(GeoField);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IFeatureClass::SetRenderIndexEnabled ( _bstr_t GeoField, VARIANT_BOOL Enabled ) {
+    HRESULT _hr = raw_SetRenderIndexEnabled(GeoField, Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IGridIndexInfoPtr IFeatureClass::CalculateDefaultGridIndex ( _bstr_t GeoFieldName ) {
+    struct IGridIndexInfo * _result = 0;
+    HRESULT _hr = raw_CalculateDefaultGridIndex(GeoFieldName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IGridIndexInfoPtr(_result, false);
+}
+
+inline IRenderIndexInfoPtr IFeatureClass::CalculateDefaultRenderIndex ( _bstr_t GeoFieldName ) {
+    struct IRenderIndexInfo * _result = 0;
+    HRESULT _hr = raw_CalculateDefaultRenderIndex(GeoFieldName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRenderIndexInfoPtr(_result, false);
+}
+
+inline IEnvelopePtr IFeatureClass::CalculateExtent ( _bstr_t GeoFieldName ) {
+    struct IEnvelope * _result = 0;
+    HRESULT _hr = raw_CalculateExtent(GeoFieldName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnvelopePtr(_result, false);
+}
+
+inline HRESULT IFeatureClass::PurgeGeometry ( _bstr_t GeoFieldName ) {
+    HRESULT _hr = raw_PurgeGeometry(GeoFieldName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface INetworkClosestFacilitySolver wrapper method implementations
+//
+
+inline HRESULT INetworkClosestFacilitySolver::AddEventLocation ( struct INetworkEventLocation * NetworkEventLocation ) {
+    HRESULT _hr = raw_AddEventLocation(NetworkEventLocation);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long INetworkClosestFacilitySolver::GetEventLocationCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_EventLocationCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkEventLocationPtr INetworkClosestFacilitySolver::GetEventLocation ( long Index ) {
+    struct INetworkEventLocation * _result = 0;
+    HRESULT _hr = raw_GetEventLocation(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEventLocationPtr(_result, false);
+}
+
+inline HRESULT INetworkClosestFacilitySolver::ClearEventLocations ( ) {
+    HRESULT _hr = raw_ClearEventLocations();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkClosestFacilitySolver::AddFacilityLocation ( struct INetworkLocation * NetworkLocation ) {
+    HRESULT _hr = raw_AddFacilityLocation(NetworkLocation);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long INetworkClosestFacilitySolver::GetFacilityLocationCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_FacilityLocationCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkLocationPtr INetworkClosestFacilitySolver::GetFacilityLocation ( long Index ) {
+    struct INetworkLocation * _result = 0;
+    HRESULT _hr = raw_GetFacilityLocation(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkLocationPtr(_result, false);
+}
+
+inline HRESULT INetworkClosestFacilitySolver::ClearFacilityLocations ( ) {
+    HRESULT _hr = raw_ClearFacilityLocations();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkClosestFacilitySolver::LoadFacilityLocationFromFeatureClass ( struct IFeatureClass * FeatureClass, struct IQueryFilter * QueryFilter, _bstr_t GeoColumnName, _bstr_t FacilityNameColumn ) {
+    HRESULT _hr = raw_LoadFacilityLocationFromFeatureClass(FeatureClass, QueryFilter, GeoColumnName, FacilityNameColumn);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long INetworkClosestFacilitySolver::GetRouteCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_RouteCount(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkRoutePtr INetworkClosestFacilitySolver::GetRoute ( long Index ) {
+    struct INetworkRoute * _result = 0;
+    HRESULT _hr = raw_GetRoute(Index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkRoutePtr(_result, false);
+}
+
+//
+// interface IReplication wrapper method implementations
+//
+
+inline IConflictPtr IReplication::GetConflict ( ) {
+    struct IConflict * _result = 0;
+    HRESULT _hr = get_Conflict(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IConflictPtr(_result, false);
+}
+
+inline HRESULT IReplication::MergeFrom ( struct IFeatureDataSet * Source, VARIANT_BOOL Truncate ) {
+    HRESULT _hr = raw_MergeFrom(Source, Truncate);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IReplication::MergeTo ( struct IFeatureDataSet * Destination, VARIANT_BOOL Truncate ) {
+    HRESULT _hr = raw_MergeTo(Destination, Truncate);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IReplication::SetStepValue ( long newVal ) {
+    HRESULT _hr = raw_SetStepValue(newVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline void IReplication::PutOnReplicationStatusChanged ( IDispatch * _arg1 ) {
+    HRESULT _hr = put_OnReplicationStatusChanged(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ICheckOut wrapper method implementations
+//
+
+inline HRESULT ICheckOut::Validate ( ) {
+    HRESULT _hr = raw_Validate();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICheckOut::CheckOut ( ) {
+    HRESULT _hr = raw_CheckOut();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ICheckIn wrapper method implementations
+//
+
+inline HRESULT ICheckIn::Validate ( ) {
+    HRESULT _hr = raw_Validate();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICheckIn::CheckIn ( ) {
+    HRESULT _hr = raw_CheckIn();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ICheckIn::UndoCheckOut ( ) {
+    HRESULT _hr = raw_UndoCheckOut();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IConnectionInfoPtr ICheckIn::GetMasterConnectionInfo ( ) {
+    struct IConnectionInfo * _result = 0;
+    HRESULT _hr = get_MasterConnectionInfo(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IConnectionInfoPtr(_result, false);
+}
+
+inline HRESULT ICheckIn::Commit ( ) {
+    HRESULT _hr = raw_Commit();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IReplicationFactory wrapper method implementations
+//
+
+inline ICheckOutPtr IReplicationFactory::CreateCheckOut ( struct IDataSource * DestinationDataSource, struct IDataSource * SourceDataSource, _bstr_t FeatureDataSetName, enum gviConflictDetectedType ConflictDetectedType ) {
+    struct ICheckOut * _result = 0;
+    HRESULT _hr = raw_CreateCheckOut(DestinationDataSource, SourceDataSource, FeatureDataSetName, ConflictDetectedType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICheckOutPtr(_result, false);
+}
+
+inline ICheckInPtr IReplicationFactory::CreateCheckIn ( struct IDataSource * SourceDataSource, _bstr_t FeatureDataSetName, enum gviConflictDetectedType ConflictDetectedType ) {
+    struct ICheckIn * _result = 0;
+    HRESULT _hr = raw_CreateCheckIn(SourceDataSource, FeatureDataSetName, ConflictDetectedType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ICheckInPtr(_result, false);
+}
+
+inline IReplicationPtr IReplicationFactory::CreateReplicationClass ( struct IConnectionInfo * Connection, _bstr_t FeatureDataSetName ) {
+    struct IReplication * _result = 0;
+    HRESULT _hr = raw_CreateReplicationClass(Connection, FeatureDataSetName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReplicationPtr(_result, false);
+}
+
+inline HRESULT IReplicationFactory::UndoCheckOut ( struct IDataSource * SrcDS, _bstr_t FeatureDataSetName ) {
+    HRESULT _hr = raw_UndoCheckOut(SrcDS, FeatureDataSetName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ITools wrapper method implementations
+//
+
+inline IModelPtr ITools::EstimateLandslideVolumeTool ( struct IFeatureClass * FeatureClass, _bstr_t GeoField, struct IModel * ModelSlope, double Resolution, double * Volume ) {
+    struct IModel * _result = 0;
+    HRESULT _hr = raw_EstimateLandslideVolumeTool(FeatureClass, GeoField, ModelSlope, Resolution, Volume, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IModelPtr(_result, false);
+}
+
+//
+// interface INetworkManager wrapper method implementations
+//
+
+inline INetworkLoaderPtr INetworkManager::CreateNetworkLoader ( ) {
+    struct INetworkLoader * _result = 0;
+    HRESULT _hr = raw_CreateNetworkLoader(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkLoaderPtr(_result, false);
+}
+
+inline SAFEARRAY * INetworkManager::GetNetworkNames ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetNetworkNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkPtr INetworkManager::GetNetwork ( _bstr_t NetworkName ) {
+    struct INetwork * _result = 0;
+    HRESULT _hr = raw_GetNetwork(NetworkName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkPtr(_result, false);
+}
+
+inline HRESULT INetworkManager::DeleteNetwork ( _bstr_t NetworkName ) {
+    HRESULT _hr = raw_DeleteNetwork(NetworkName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetworkManager::ModifyNetwork ( struct INetwork * Network ) {
+    HRESULT _hr = raw_ModifyNetwork(Network);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface INetwork wrapper method implementations
+//
+
+inline _bstr_t INetwork::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetwork::PutName ( _bstr_t pVal ) {
+    HRESULT _hr = put_Name(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT INetwork::AddNetworkAttribute ( struct INetworkAttribute * NetworkAttribute ) {
+    HRESULT _hr = raw_AddNetworkAttribute(NetworkAttribute);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetwork::DeleteNetworkAttribute ( _bstr_t NetworkAttributeName ) {
+    HRESULT _hr = raw_DeleteNetworkAttribute(NetworkAttributeName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline double INetwork::GetDefaultXYTolerance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_DefaultXYTolerance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline double INetwork::GetXYTolerance ( ) {
+    double _result = 0;
+    HRESULT _hr = get_XYTolerance(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetwork::PutXYTolerance ( double pVal ) {
+    HRESULT _hr = put_XYTolerance(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetwork::CanUseFeatureClass ( _bstr_t FeatureClassName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CanUseFeatureClass(FeatureClassName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetwork::BuildNetwork ( ) {
+    HRESULT _hr = raw_BuildNetwork();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL INetwork::GetIsDirty ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsDirty(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline SAFEARRAY * INetwork::GetAttributeNames ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetAttributeNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkAttributePtr INetwork::GetAttribute ( _bstr_t AttributeName ) {
+    struct INetworkAttribute * _result = 0;
+    HRESULT _hr = raw_GetAttribute(AttributeName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkAttributePtr(_result, false);
+}
+
+inline INetworkRouteSolverPtr INetwork::CreateRouteSolver ( ) {
+    struct INetworkRouteSolver * _result = 0;
+    HRESULT _hr = raw_CreateRouteSolver(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkRouteSolverPtr(_result, false);
+}
+
+inline INetworkClosestFacilitySolverPtr INetwork::CreateClosestFacilitySolver ( ) {
+    struct INetworkClosestFacilitySolver * _result = 0;
+    HRESULT _hr = raw_CreateClosestFacilitySolver(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkClosestFacilitySolverPtr(_result, false);
+}
+
+inline HRESULT INetwork::GriddingPolygons ( struct IGeometryCollection * GeoCollection, _bstr_t EdgeNetworkSourceName, _bstr_t EdgeNetworkSourceGeoColumnName, _bstr_t JunctionNetworkSourceName, _bstr_t JunctionNetworkSourceGeoColumnName, double GridSize ) {
+    HRESULT _hr = raw_GriddingPolygons(GeoCollection, EdgeNetworkSourceName, EdgeNetworkSourceGeoColumnName, JunctionNetworkSourceName, JunctionNetworkSourceGeoColumnName, GridSize);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetwork::AddSource ( struct INetworkSource * NetworkSource ) {
+    HRESULT _hr = raw_AddSource(NetworkSource);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetwork::DeleteSource ( _bstr_t SourceName ) {
+    HRESULT _hr = raw_DeleteSource(SourceName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline INetworkSourcePtr INetwork::GetNetworkSource ( _bstr_t SourceName ) {
+    struct INetworkSource * _result = 0;
+    HRESULT _hr = raw_GetNetworkSource(SourceName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkSourcePtr(_result, false);
+}
+
+inline SAFEARRAY * INetwork::GetNetworkSourceNames ( ) {
+    SAFEARRAY * _result = 0;
+    HRESULT _hr = raw_GetNetworkSourceNames(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum gviNetworkType INetwork::GetType ( ) {
+    enum gviNetworkType _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetwork::EstablishFlowDirection ( ) {
+    HRESULT _hr = raw_EstablishFlowDirection();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline INetworkFindConnectedSolverPtr INetwork::CreateFindConnectedSolver ( ) {
+    struct INetworkFindConnectedSolver * _result = 0;
+    HRESULT _hr = raw_CreateFindConnectedSolver(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkFindConnectedSolverPtr(_result, false);
+}
+
+inline INetworkFindDisconnectedSolverPtr INetwork::CreateFindDisconnectedSolver ( ) {
+    struct INetworkFindDisconnectedSolver * _result = 0;
+    HRESULT _hr = raw_CreateFindDisconnectedSolver(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkFindDisconnectedSolverPtr(_result, false);
+}
+
+inline INetworkFindAncestorsSolverPtr INetwork::CreateFindAncestorsSolver ( ) {
+    struct INetworkFindAncestorsSolver * _result = 0;
+    HRESULT _hr = raw_CreateFindAncestorsSolver(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkFindAncestorsSolverPtr(_result, false);
+}
+
+inline INetworkFindLoopsSolverPtr INetwork::CreateFindLoopsSolver ( ) {
+    struct INetworkFindLoopsSolver * _result = 0;
+    HRESULT _hr = raw_CreateFindLoopsSolver(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkFindLoopsSolverPtr(_result, false);
+}
+
+inline INetworkTraceUpstreamSolverPtr INetwork::CreateTraceUpstreamSolver ( ) {
+    struct INetworkTraceUpstreamSolver * _result = 0;
+    HRESULT _hr = raw_CreateTraceUpstreamSolver(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkTraceUpstreamSolverPtr(_result, false);
+}
+
+inline INetworkTraceDownstreamSolverPtr INetwork::CreateTraceDownstreamSolver ( ) {
+    struct INetworkTraceDownstreamSolver * _result = 0;
+    HRESULT _hr = raw_CreateTraceDownstreamSolver(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkTraceDownstreamSolverPtr(_result, false);
+}
+
+inline ILogicalNetworkPtr INetwork::GetLogicalNetwork ( ) {
+    struct ILogicalNetwork * _result = 0;
+    HRESULT _hr = raw_GetLogicalNetwork(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ILogicalNetworkPtr(_result, false);
+}
+
+inline IFeatureDataSetPtr INetwork::GetFeatureDataSet ( ) {
+    struct IFeatureDataSet * _result = 0;
+    HRESULT _hr = get_FeatureDataSet(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IFeatureDataSetPtr(_result, false);
+}
+
+inline void INetwork::PutEdgeDirection ( enum gviEdgeDirection pVal ) {
+    HRESULT _hr = put_EdgeDirection(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviEdgeDirection INetwork::GetEdgeDirection ( ) {
+    enum gviEdgeDirection _result;
+    HRESULT _hr = get_EdgeDirection(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetwork::PutElevationModel ( enum gviNetworkElevationModel pVal ) {
+    HRESULT _hr = put_ElevationModel(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum gviNetworkElevationModel INetwork::GetElevationModel ( ) {
+    enum gviNetworkElevationModel _result;
+    HRESULT _hr = get_ElevationModel(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ILogicalNetwork wrapper method implementations
+//
+
+inline INetworkEdgePtr ILogicalNetwork::GetEdgeElement ( long FeatureClassId, long FeatureId, long SubID ) {
+    struct INetworkEdge * _result = 0;
+    HRESULT _hr = raw_GetEdgeElement(FeatureClassId, FeatureId, SubID, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEdgePtr(_result, false);
+}
+
+inline INetworkEdgeCollectionPtr ILogicalNetwork::GetEdgeElements ( long FeatureClassId, long FeatureId ) {
+    struct INetworkEdgeCollection * _result = 0;
+    HRESULT _hr = raw_GetEdgeElements(FeatureClassId, FeatureId, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEdgeCollectionPtr(_result, false);
+}
+
+inline INetworkJunctionPtr ILogicalNetwork::GetJunctionElement ( long FeatureClassId, long FeatureId ) {
+    struct INetworkJunction * _result = 0;
+    HRESULT _hr = raw_GetJunctionElement(FeatureClassId, FeatureId, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkJunctionPtr(_result, false);
+}
+
+//
+// interface INetworkEdge wrapper method implementations
+//
+
+inline long INetworkEdge::GetSubID ( ) {
+    long _result = 0;
+    HRESULT _hr = get_SubID(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkJunctionPtr INetworkEdge::GetHead ( ) {
+    struct INetworkJunction * _result = 0;
+    HRESULT _hr = get_Head(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkJunctionPtr(_result, false);
+}
+
+inline INetworkJunctionPtr INetworkEdge::GetTail ( ) {
+    struct INetworkJunction * _result = 0;
+    HRESULT _hr = get_Tail(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkJunctionPtr(_result, false);
+}
+
+inline enum gviEdgeDirection INetworkEdge::GetDirection ( ) {
+    enum gviEdgeDirection _result;
+    HRESULT _hr = get_Direction(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface INetworkEdgeCollection wrapper method implementations
+//
+
+inline long INetworkEdgeCollection::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetworkEdgePtr INetworkEdgeCollection::GetItem ( long n ) {
+    struct INetworkEdge * _result = 0;
+    HRESULT _hr = get_Item(n, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEdgePtr(_result, false);
+}
+
+//
+// interface INetworkJunction wrapper method implementations
+//
+
+inline INetworkEdgeCollectionPtr INetworkJunction::GetOutgoningEdges ( ) {
+    struct INetworkEdgeCollection * _result = 0;
+    HRESULT _hr = get_OutgoningEdges(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEdgeCollectionPtr(_result, false);
+}
+
+inline INetworkEdgeCollectionPtr INetworkJunction::GetIncomingEdges ( ) {
+    struct INetworkEdgeCollection * _result = 0;
+    HRESULT _hr = get_IncomingEdges(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetworkEdgeCollectionPtr(_result, false);
+}

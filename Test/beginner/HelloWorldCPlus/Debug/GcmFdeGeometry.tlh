@@ -1,0 +1,3166 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (1ac03771).
+//
+// d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeGeometry.tlh
+//
+// C++ source equivalent of Win32 type library DD663C14-6AFC-47d0-AECE-7FE1DB27FB98
+// compiler-generated file created 09/08/17 at 15:12:59 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("dd663c14-6afc-47d0-aece-7fe1db27fb98"))
+/* LIBID */ __GcmFdeGeometry;
+struct __declspec(uuid("ba31656d-d79a-4c10-9614-0435c0f0eb40"))
+/* dual interface */ IGeometry;
+enum gviGeometryType;
+enum gviGeometryDimension;
+enum gviVertexAttribute;
+struct __declspec(uuid("7cbc7169-da5d-4d19-972d-fde83c66caed"))
+/* interface */ ISpatialCRS;
+struct __declspec(uuid("a0298f71-1612-4e06-b8e9-1143e06bdc18"))
+/* interface */ ICoordinateReferenceSystem;
+enum gviCoordinateReferenceSystemType;
+struct __declspec(uuid("b1c378c7-3d91-4e93-afa7-d5f062c22e59"))
+/* dual interface */ ICurve;
+struct __declspec(uuid("1ed34357-b13e-44b8-8ee8-e41783a2a7c1"))
+/* dual interface */ IPoint;
+struct __declspec(uuid("3c2d9cec-abcf-4673-8ee3-c976253064f5"))
+/* interface */ ICompoundLine;
+struct __declspec(uuid("ae075b6d-9749-4a24-b6e9-90c1a1d6a2ea"))
+/* interface */ IFdeSegment;
+enum gviCurveInterpolationType;
+struct __declspec(uuid("e3b5779e-d29d-47d5-98c8-0b32de2d61e3"))
+/* dual interface */ ISurface;
+struct __declspec(uuid("9234304c-8596-4f89-a788-fe7f787dff4f"))
+/* interface */ IMultiCurve;
+struct __declspec(uuid("63c47811-16b5-48b5-a0bd-01536b6e5021"))
+/* dual interface */ IGeometryCollection;
+struct __declspec(uuid("8d5f233d-2a21-459e-97c2-5d348f16342e"))
+/* dual interface */ ISurfacePatch;
+struct __declspec(uuid("d4f41758-c46b-4c86-bfa0-98f5cf284ca3"))
+/* dual interface */ ITriMesh;
+struct __declspec(uuid("0f518962-aa24-4689-9e26-8d78849be115"))
+/* interface */ ILine;
+struct __declspec(uuid("325d359f-e8d5-47db-9e7b-74ce28fb9972"))
+/* dual interface */ ITopoNode;
+struct __declspec(uuid("17d58d35-e37f-4189-9b4b-17204a4e8763"))
+/* dual interface */ ITopoDirectedEdge;
+struct __declspec(uuid("aecdbb9a-a4f5-497d-bc42-f2e48882ef46"))
+/* dual interface */ ITopoFacet;
+struct __declspec(uuid("7e1b6a0d-beb2-4025-8d9b-b169588549ad"))
+/* dual interface */ IPolygon;
+struct __declspec(uuid("e89e2336-acb2-4a76-aacf-10064325ea67"))
+/* dual interface */ IRing;
+struct __declspec(uuid("aeb2c266-565f-4ed3-897e-abf4c7b8b93a"))
+/* dual interface */ IPolyline;
+enum gviLocateStatus;
+enum gviSurfaceInterpolationType;
+struct __declspec(uuid("2cf5d495-1073-4df4-b1c2-e2a84bfc9aaa"))
+/* interface */ IMultiSurface;
+struct __declspec(uuid("2375dc10-7404-4603-bc49-12ec2b73bf12"))
+/* interface */ IMultiTriMesh;
+struct __declspec(uuid("e362022f-e8bd-4c9a-9994-8a7ec2d5db63"))
+/* interface */ IMultiPolyline;
+enum gviTerrainAnalyseOperation;
+enum gviBufferStyle;
+enum gviRoofType;
+struct __declspec(uuid("15ba82c8-0408-4f08-a7da-d6d50e83e0ad"))
+/* interface */ ITransform;
+struct __declspec(uuid("f7867139-9c90-43d3-8fbb-bb762ed93f71"))
+/* interface */ IRelationalOperator2D;
+struct __declspec(uuid("512cf7ec-74db-4ab4-a7f6-70de21122cf0"))
+/* interface */ IRelationalOperator3D;
+struct __declspec(uuid("9c68ec7b-9beb-4835-a5e7-835b60f734bf"))
+/* interface */ IProximityOperator;
+struct __declspec(uuid("24dbdaa9-2dbf-400f-9f15-2fce3f3ef3b7"))
+/* interface */ ITopologicalOperator2D;
+struct __declspec(uuid("b1620453-c028-4ec1-b08f-75f7b9c046b3"))
+/* interface */ ITopologicalOperator3D;
+struct __declspec(uuid("1c5ed1a4-01f9-4b7d-b966-61e943534192"))
+/* dual interface */ IPointCloud;
+struct __declspec(uuid("f5e3c3c2-c5f3-4281-8938-2836979a4856"))
+/* dual interface */ ICircle;
+struct __declspec(uuid("d0690847-d14e-4ee3-9b69-63a2e59fc093"))
+/* dual interface */ IGeometryFactory;
+struct __declspec(uuid("9ac79c26-9da5-453c-9b99-1c943fc0523d"))
+/* dual interface */ IPOI;
+struct __declspec(uuid("993b26e9-00f0-4e2e-8c5e-cfa019e48b2b"))
+/* dual interface */ IModelPoint;
+struct __declspec(uuid("272d0d67-69a7-4ebb-a0fa-7a034e185396"))
+/* dual interface */ IClosedTriMesh;
+struct __declspec(uuid("7df2eee7-4a9d-4c1d-858e-04fdb91635e9"))
+/* interface */ ICirculeArc;
+struct __declspec(uuid("a8ba0bfa-0fb5-40bf-b27a-c34fd5f2c4bc"))
+/* interface */ IMultiPoint;
+struct __declspec(uuid("617e52cf-39d7-414c-9d0b-c2efb3da13f8"))
+/* interface */ IMultiPolygon;
+struct __declspec(uuid("bf223def-c97c-4bb0-aa43-df3ffc178d03"))
+/* interface */ IGeographicCRS;
+struct __declspec(uuid("32839195-7917-4a0b-b1f8-d294e7dd2129"))
+/* interface */ IProjectedCRS;
+struct __declspec(uuid("aa4b4055-043e-414f-8731-1cbf7bd8cc2e"))
+/* dual interface */ IUnknownCRS;
+struct __declspec(uuid("c6103a7c-11f8-41ce-b373-0770fd4c0ce3"))
+/* dual interface */ IEastNorthUpCRS;
+struct __declspec(uuid("b7689d50-742a-40c7-bc25-cf6ea8a411c9"))
+/* dual interface */ ICRSFactory;
+struct __declspec(uuid("af9eeac0-ff76-48df-be9a-589d6e078a70"))
+/* dual interface */ IGeometryConvertor;
+struct __declspec(uuid("03c71bee-5ff1-4aa7-9969-c5a582fb1cb6"))
+/* dual interface */ ITerrainAnalyse;
+struct __declspec(uuid("6a84bb85-0d63-42e7-8146-583382d32783"))
+/* dual interface */ ICoordinateTransformer;
+struct __declspec(uuid("14105226-e424-4436-8903-6f869cd6e263"))
+/* dual interface */ IGeoTransformer;
+struct __declspec(uuid("dc3f6cf8-1b6b-4f1c-a94d-eae1461ce030"))
+/* dual interface */ IPolynomialTransformer;
+struct __declspec(uuid("d3fe7b5b-2124-4e15-a892-34f50bd73786"))
+/* dual interface */ IParametricModelling;
+struct /* coclass */ Transform;
+struct /* coclass */ GeometryFactory;
+struct /* coclass */ SpatialCRS;
+struct /* coclass */ GeographicCRS;
+struct /* coclass */ ProjectedCRS;
+struct /* coclass */ CRSFactory;
+struct /* coclass */ GeometryConvertor;
+struct /* coclass */ UnknownCRS;
+struct /* coclass */ TerrainAnalyse;
+struct /* coclass */ ParametricModelling;
+struct /* coclass */ GeoTransformer;
+struct /* coclass */ PolynomialTransformer;
+struct /* coclass */ EastNorthUpCRS;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ICoordinateReferenceSystem, __uuidof(ICoordinateReferenceSystem));
+_COM_SMARTPTR_TYPEDEF(ISpatialCRS, __uuidof(ISpatialCRS));
+_COM_SMARTPTR_TYPEDEF(IGeometry, __uuidof(IGeometry));
+_COM_SMARTPTR_TYPEDEF(IPoint, __uuidof(IPoint));
+_COM_SMARTPTR_TYPEDEF(ICurve, __uuidof(ICurve));
+_COM_SMARTPTR_TYPEDEF(IFdeSegment, __uuidof(IFdeSegment));
+_COM_SMARTPTR_TYPEDEF(ICompoundLine, __uuidof(ICompoundLine));
+_COM_SMARTPTR_TYPEDEF(IGeometryCollection, __uuidof(IGeometryCollection));
+_COM_SMARTPTR_TYPEDEF(IMultiCurve, __uuidof(IMultiCurve));
+_COM_SMARTPTR_TYPEDEF(ISurface, __uuidof(ISurface));
+_COM_SMARTPTR_TYPEDEF(ILine, __uuidof(ILine));
+_COM_SMARTPTR_TYPEDEF(IPolyline, __uuidof(IPolyline));
+_COM_SMARTPTR_TYPEDEF(IRing, __uuidof(IRing));
+_COM_SMARTPTR_TYPEDEF(IMultiPolyline, __uuidof(IMultiPolyline));
+_COM_SMARTPTR_TYPEDEF(ITransform, __uuidof(ITransform));
+_COM_SMARTPTR_TYPEDEF(IRelationalOperator2D, __uuidof(IRelationalOperator2D));
+_COM_SMARTPTR_TYPEDEF(IRelationalOperator3D, __uuidof(IRelationalOperator3D));
+_COM_SMARTPTR_TYPEDEF(IProximityOperator, __uuidof(IProximityOperator));
+_COM_SMARTPTR_TYPEDEF(ITopologicalOperator2D, __uuidof(ITopologicalOperator2D));
+_COM_SMARTPTR_TYPEDEF(ITopologicalOperator3D, __uuidof(ITopologicalOperator3D));
+_COM_SMARTPTR_TYPEDEF(IPointCloud, __uuidof(IPointCloud));
+_COM_SMARTPTR_TYPEDEF(ICircle, __uuidof(ICircle));
+_COM_SMARTPTR_TYPEDEF(IGeometryFactory, __uuidof(IGeometryFactory));
+_COM_SMARTPTR_TYPEDEF(IPOI, __uuidof(IPOI));
+_COM_SMARTPTR_TYPEDEF(IModelPoint, __uuidof(IModelPoint));
+_COM_SMARTPTR_TYPEDEF(ICirculeArc, __uuidof(ICirculeArc));
+_COM_SMARTPTR_TYPEDEF(IMultiPoint, __uuidof(IMultiPoint));
+_COM_SMARTPTR_TYPEDEF(IGeographicCRS, __uuidof(IGeographicCRS));
+_COM_SMARTPTR_TYPEDEF(IProjectedCRS, __uuidof(IProjectedCRS));
+_COM_SMARTPTR_TYPEDEF(IUnknownCRS, __uuidof(IUnknownCRS));
+_COM_SMARTPTR_TYPEDEF(IEastNorthUpCRS, __uuidof(IEastNorthUpCRS));
+_COM_SMARTPTR_TYPEDEF(ICRSFactory, __uuidof(ICRSFactory));
+_COM_SMARTPTR_TYPEDEF(ICoordinateTransformer, __uuidof(ICoordinateTransformer));
+_COM_SMARTPTR_TYPEDEF(IGeoTransformer, __uuidof(IGeoTransformer));
+_COM_SMARTPTR_TYPEDEF(IPolynomialTransformer, __uuidof(IPolynomialTransformer));
+_COM_SMARTPTR_TYPEDEF(ISurfacePatch, __uuidof(ISurfacePatch));
+_COM_SMARTPTR_TYPEDEF(IPolygon, __uuidof(IPolygon));
+_COM_SMARTPTR_TYPEDEF(IParametricModelling, __uuidof(IParametricModelling));
+_COM_SMARTPTR_TYPEDEF(ITriMesh, __uuidof(ITriMesh));
+_COM_SMARTPTR_TYPEDEF(IClosedTriMesh, __uuidof(IClosedTriMesh));
+_COM_SMARTPTR_TYPEDEF(ITopoNode, __uuidof(ITopoNode));
+_COM_SMARTPTR_TYPEDEF(ITopoDirectedEdge, __uuidof(ITopoDirectedEdge));
+_COM_SMARTPTR_TYPEDEF(ITopoFacet, __uuidof(ITopoFacet));
+_COM_SMARTPTR_TYPEDEF(IMultiSurface, __uuidof(IMultiSurface));
+_COM_SMARTPTR_TYPEDEF(IMultiTriMesh, __uuidof(IMultiTriMesh));
+_COM_SMARTPTR_TYPEDEF(IMultiPolygon, __uuidof(IMultiPolygon));
+_COM_SMARTPTR_TYPEDEF(IGeometryConvertor, __uuidof(IGeometryConvertor));
+_COM_SMARTPTR_TYPEDEF(ITerrainAnalyse, __uuidof(ITerrainAnalyse));
+
+//
+// Type library items
+//
+
+enum gviGeometryType
+{
+    gviGeometryUnknown = 0,
+    gviGeometryPoint = 1,
+    gviGeometryModelPoint = 2,
+    gviGeometryPOI = 4,
+    gviGeometryCircularArc = 6,
+    gviGeometryLine = 10,
+    gviGeometryCircle = 11,
+    gviGeometryPolyline = 30,
+    gviGeometryRing = 31,
+    gviGeometryCompoundLine = 32,
+    gviGeometryPolygon = 50,
+    gviGeometryTriMesh = 51,
+    gviGeometryCollection = 70,
+    gviGeometryMultiPoint = 71,
+    gviGeometryMultiPolyline = 72,
+    gviGeometryMultiPolygon = 73,
+    gviGeometryMultiTrimesh = 74,
+    gviGeometryClosedTriMesh = 77,
+    gviGeometryPointCloud = 100
+};
+
+enum gviGeometryDimension
+{
+    gviGeometryNoDimension = -1,
+    gviGeometry0Dimension = 0,
+    gviGeometry1Dimension = 1,
+    gviGeometry2Dimension = 2,
+    gviGeometry3Dimension = 3
+};
+
+enum gviVertexAttribute
+{
+    gviVertexAttributeNone = 0,
+    gviVertexAttributeZ = 1,
+    gviVertexAttributeM = 2,
+    gviVertexAttributeID = 4,
+    gviVertexAttributeZM = 3,
+    gviVertexAttributeZID = 5,
+    gviVertexAttributeMID = 6,
+    gviVertexAttributeZMID = 7
+};
+
+enum gviCoordinateReferenceSystemType
+{
+    gviCrsProject = 1,
+    gviCrsGeographic = 2,
+    gviCrsVertical = 3,
+    gviCrsTemporal = 4,
+    gviCrsUnknown = 5,
+    gviCrsENU = 6
+};
+
+struct __declspec(uuid("a0298f71-1612-4e06-b8e9-1143e06bdc18"))
+ICoordinateReferenceSystem : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetName,put=PutName))
+    _bstr_t Name;
+    __declspec(property(get=GetCrsType))
+    enum gviCoordinateReferenceSystemType CrsType;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    _bstr_t AsWKT ( );
+    ICoordinateReferenceSystemPtr Clone ( );
+    _bstr_t GetName ( );
+    void PutName (
+        _bstr_t pVal );
+    VARIANT_BOOL IsSame (
+        struct ICoordinateReferenceSystem * Other );
+    enum gviCoordinateReferenceSystemType GetCrsType ( );
+    VARIANT_BOOL IsProjected ( );
+    VARIANT_BOOL IsGeographic ( );
+    VARIANT_BOOL IsVertical ( );
+    VARIANT_BOOL IsUnknown ( );
+    VARIANT_BOOL IsTemporal ( );
+    VARIANT_BOOL IsENU ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall raw_AsWKT (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Clone (
+        /*[out,retval]*/ struct ICoordinateReferenceSystem * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Name (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsSame (
+        struct ICoordinateReferenceSystem * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_CrsType (
+        /*[out,retval]*/ enum gviCoordinateReferenceSystemType * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsProjected (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsGeographic (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsVertical (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsUnknown (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsTemporal (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsENU (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("7cbc7169-da5d-4d19-972d-fde83c66caed"))
+ISpatialCRS : ICoordinateReferenceSystem
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetHighPrecision,put=PutHighPrecision))
+    VARIANT_BOOL HighPrecision;
+    __declspec(property(get=GetXYTolerance,put=PutXYTolerance))
+    double XYTolerance;
+    __declspec(property(get=GetZTolerance,put=PutZTolerance))
+    double ZTolerance;
+    __declspec(property(get=GetMTolerance,put=PutMTolerance))
+    double MTolerance;
+    __declspec(property(get=GetXYResolution,put=PutXYResolution))
+    double XYResolution;
+    __declspec(property(get=GetZResolution,put=PutZResolution))
+    double ZResolution;
+    __declspec(property(get=GetMResolution,put=PutMResolution))
+    double MResolution;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT GetXYDomain (
+        double * MinX,
+        double * MaxX,
+        double * MinY,
+        double * MaxY );
+    HRESULT SetXYDomain (
+        double MinX,
+        double MaxX,
+        double MinY,
+        double MaxY );
+    HRESULT GetXYFalseOriginAndUnits (
+        double * FalseX,
+        double * FalseY,
+        double * XYUnits );
+    HRESULT SetXYFalseOriginAndUnits (
+        double FalseX,
+        double FalseY,
+        double XYUnits );
+    HRESULT GetZDomain (
+        double * MinZ,
+        double * MaxZ );
+    HRESULT SetZDomain (
+        double MinZ,
+        double MaxZ );
+    HRESULT GetZFalseOriginAndUnits (
+        double * FalseZ,
+        double * ZUnit );
+    HRESULT SetZFalseOriginAndUnits (
+        double FalseZ,
+        double ZUnit );
+    HRESULT GetMDomain (
+        double * MinM,
+        double * MaxM );
+    HRESULT SetMDomain (
+        double MinM,
+        double MaxM );
+    HRESULT GetMFalseOriginAndUnits (
+        double * FalseM,
+        double * MUnit );
+    HRESULT SetMFalseOriginAndUnits (
+        double FalseM,
+        double MUnit );
+    HRESULT ConstructFromHorizon ( );
+    HRESULT SetDefaultXYTolerance ( );
+    HRESULT SetDefaultZTolerance ( );
+    HRESULT SetDefaultMTolerance ( );
+    double GetXYTolerance ( );
+    void PutXYTolerance (
+        double pVal );
+    double GetZTolerance ( );
+    void PutZTolerance (
+        double pVal );
+    double GetMTolerance ( );
+    void PutMTolerance (
+        double pVal );
+    HRESULT SetDefaultXYResolution ( );
+    HRESULT SetDefaultZResolution ( );
+    HRESULT SetDefaultMResolution ( );
+    double GetXYResolution ( );
+    void PutXYResolution (
+        double pVal );
+    double GetZResolution ( );
+    void PutZResolution (
+        double pVal );
+    double GetMResolution ( );
+    void PutMResolution (
+        double pVal );
+    VARIANT_BOOL IsPrecisionEqual (
+        struct ISpatialCRS * Src );
+    VARIANT_BOOL GetHighPrecision ( );
+    void PutHighPrecision (
+        VARIANT_BOOL pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetXYDomain (
+        /*[out]*/ double * MinX,
+        /*[out]*/ double * MaxX,
+        /*[out]*/ double * MinY,
+        /*[out]*/ double * MaxY ) = 0;
+      virtual HRESULT __stdcall raw_SetXYDomain (
+        double MinX,
+        double MaxX,
+        double MinY,
+        double MaxY ) = 0;
+      virtual HRESULT __stdcall raw_GetXYFalseOriginAndUnits (
+        /*[out]*/ double * FalseX,
+        /*[out]*/ double * FalseY,
+        /*[out]*/ double * XYUnits ) = 0;
+      virtual HRESULT __stdcall raw_SetXYFalseOriginAndUnits (
+        double FalseX,
+        double FalseY,
+        double XYUnits ) = 0;
+      virtual HRESULT __stdcall raw_GetZDomain (
+        /*[out]*/ double * MinZ,
+        /*[out]*/ double * MaxZ ) = 0;
+      virtual HRESULT __stdcall raw_SetZDomain (
+        double MinZ,
+        double MaxZ ) = 0;
+      virtual HRESULT __stdcall raw_GetZFalseOriginAndUnits (
+        /*[out]*/ double * FalseZ,
+        /*[out]*/ double * ZUnit ) = 0;
+      virtual HRESULT __stdcall raw_SetZFalseOriginAndUnits (
+        double FalseZ,
+        double ZUnit ) = 0;
+      virtual HRESULT __stdcall raw_GetMDomain (
+        /*[out]*/ double * MinM,
+        /*[out]*/ double * MaxM ) = 0;
+      virtual HRESULT __stdcall raw_SetMDomain (
+        double MinM,
+        double MaxM ) = 0;
+      virtual HRESULT __stdcall raw_GetMFalseOriginAndUnits (
+        /*[out]*/ double * FalseM,
+        /*[out]*/ double * MUnit ) = 0;
+      virtual HRESULT __stdcall raw_SetMFalseOriginAndUnits (
+        double FalseM,
+        double MUnit ) = 0;
+      virtual HRESULT __stdcall raw_ConstructFromHorizon ( ) = 0;
+      virtual HRESULT __stdcall raw_SetDefaultXYTolerance ( ) = 0;
+      virtual HRESULT __stdcall raw_SetDefaultZTolerance ( ) = 0;
+      virtual HRESULT __stdcall raw_SetDefaultMTolerance ( ) = 0;
+      virtual HRESULT __stdcall get_XYTolerance (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_XYTolerance (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_ZTolerance (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_ZTolerance (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_MTolerance (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MTolerance (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetDefaultXYResolution ( ) = 0;
+      virtual HRESULT __stdcall raw_SetDefaultZResolution ( ) = 0;
+      virtual HRESULT __stdcall raw_SetDefaultMResolution ( ) = 0;
+      virtual HRESULT __stdcall get_XYResolution (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_XYResolution (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_ZResolution (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_ZResolution (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_MResolution (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MResolution (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsPrecisionEqual (
+        struct ISpatialCRS * Src,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_HighPrecision (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_HighPrecision (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+};
+
+struct __declspec(uuid("ba31656d-d79a-4c10-9614-0435c0f0eb40"))
+IGeometry : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInternalObject,put=PutInternalObject))
+    __int64 InternalObject;
+    __declspec(property(get=GetGeometryType))
+    enum gviGeometryType GeometryType;
+    __declspec(property(get=GetDimension))
+    enum gviGeometryDimension Dimension;
+    __declspec(property(get=GetEnvelope))
+    IEnvelopePtr Envelope;
+    __declspec(property(get=GetIsEmpty))
+    VARIANT_BOOL IsEmpty;
+    __declspec(property(get=GetIsValid))
+    VARIANT_BOOL IsValid;
+    __declspec(property(get=GetVertexAttribute))
+    enum gviVertexAttribute VertexAttribute;
+    __declspec(property(get=GetSpatialCRS,put=PutSpatialCRS))
+    ISpatialCRSPtr SpatialCRS;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    __int64 GetInternalObject ( );
+    void PutInternalObject (
+        __int64 pVal );
+    enum gviGeometryType GetGeometryType ( );
+    enum gviGeometryDimension GetDimension ( );
+    IEnvelopePtr GetEnvelope ( );
+    VARIANT_BOOL GetIsEmpty ( );
+    HRESULT SetEmpty ( );
+    VARIANT_BOOL GetIsValid ( );
+    IGeometryPtr Clone ( );
+    IGeometryPtr Clone2 (
+        enum gviVertexAttribute VertexAttr );
+    _bstr_t AsWKT ( );
+    VARIANT_BOOL HasM ( );
+    VARIANT_BOOL HasId ( );
+    VARIANT_BOOL HasZ ( );
+    enum gviVertexAttribute GetVertexAttribute ( );
+    IBinaryBufferPtr AsBinary ( );
+    ISpatialCRSPtr GetSpatialCRS ( );
+    void PutSpatialCRS (
+        struct ISpatialCRS * pVal );
+    VARIANT_BOOL Project (
+        struct ISpatialCRS * SRSTarget );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InternalObject (
+        /*[out,retval]*/ __int64 * pVal ) = 0;
+      virtual HRESULT __stdcall put_InternalObject (
+        /*[in]*/ __int64 pVal ) = 0;
+      virtual HRESULT __stdcall get_GeometryType (
+        /*[out,retval]*/ enum gviGeometryType * pVal ) = 0;
+      virtual HRESULT __stdcall get_Dimension (
+        /*[out,retval]*/ enum gviGeometryDimension * pVal ) = 0;
+      virtual HRESULT __stdcall get_Envelope (
+        /*[out,retval]*/ struct IEnvelope * * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsEmpty (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetEmpty ( ) = 0;
+      virtual HRESULT __stdcall get_IsValid (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Clone (
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Clone2 (
+        enum gviVertexAttribute VertexAttr,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AsWKT (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall raw_HasM (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_HasId (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_HasZ (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_VertexAttribute (
+        /*[out,retval]*/ enum gviVertexAttribute * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AsBinary (
+        /*[out,retval]*/ struct IBinaryBuffer * * pVal ) = 0;
+      virtual HRESULT __stdcall get_SpatialCRS (
+        /*[out,retval]*/ struct ISpatialCRS * * pVal ) = 0;
+      virtual HRESULT __stdcall put_SpatialCRS (
+        /*[in]*/ struct ISpatialCRS * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Project (
+        struct ISpatialCRS * SRSTarget,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("1ed34357-b13e-44b8-8ee8-e41783a2a7c1"))
+IPoint : IGeometry
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetX,put=PutX))
+    double X;
+    __declspec(property(get=GetY,put=PutY))
+    double Y;
+    __declspec(property(get=GetZ,put=PutZ))
+    double Z;
+    __declspec(property(get=GetM,put=PutM))
+    double M;
+    __declspec(property(get=GetId,put=PutId))
+    long Id;
+    __declspec(property(get=GetPosition,put=PutPosition))
+    IVector3Ptr Position;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT SetCoords (
+        double X,
+        double Y,
+        double Z,
+        double M,
+        long Id );
+    double GetX ( );
+    void PutX (
+        double pVal );
+    double GetY ( );
+    void PutY (
+        double pVal );
+    double GetZ ( );
+    void PutZ (
+        double pVal );
+    double GetM ( );
+    void PutM (
+        double pVal );
+    long GetId ( );
+    void PutId (
+        long pVal );
+    IVector3Ptr GetPosition ( );
+    void PutPosition (
+        struct IVector3 * pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_SetCoords (
+        double X,
+        double Y,
+        double Z,
+        double M,
+        long Id ) = 0;
+      virtual HRESULT __stdcall get_X (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_X (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Y (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Y (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Z (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Z (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_M (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_M (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Id (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall put_Id (
+        /*[in]*/ long pVal ) = 0;
+      virtual HRESULT __stdcall get_Position (
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Position (
+        /*[in]*/ struct IVector3 * pVal ) = 0;
+};
+
+struct __declspec(uuid("b1c378c7-3d91-4e93-afa7-d5f062c22e59"))
+ICurve : IGeometry
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetStartPoint,put=PutStartPoint))
+    IPointPtr StartPoint;
+    __declspec(property(get=GetEndPoint,put=PutEndPoint))
+    IPointPtr EndPoint;
+    __declspec(property(get=GetLength))
+    double Length;
+    __declspec(property(get=GetIsClosed))
+    VARIANT_BOOL IsClosed;
+    __declspec(property(get=GetMidpoint))
+    IPointPtr Midpoint;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IPointPtr GetStartPoint ( );
+    void PutStartPoint (
+        struct IPoint * pVal );
+    IPointPtr GetEndPoint ( );
+    void PutEndPoint (
+        struct IPoint * pVal );
+    double GetLength ( );
+    VARIANT_BOOL GetIsClosed ( );
+    HRESULT ReverseOrientation ( );
+    IPointPtr GetMidpoint ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_StartPoint (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall put_StartPoint (
+        /*[in]*/ struct IPoint * pVal ) = 0;
+      virtual HRESULT __stdcall get_EndPoint (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall put_EndPoint (
+        /*[in]*/ struct IPoint * pVal ) = 0;
+      virtual HRESULT __stdcall get_Length (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsClosed (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ReverseOrientation ( ) = 0;
+      virtual HRESULT __stdcall get_Midpoint (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+};
+
+enum gviCurveInterpolationType
+{
+    gviCurveInterpolationLinear = 0,
+    gviCurveInterpolationCircle = 1
+};
+
+struct __declspec(uuid("ae075b6d-9749-4a24-b6e9-90c1a1d6a2ea"))
+IFdeSegment : ICurve
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInterpolationType))
+    enum gviCurveInterpolationType InterpolationType;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    enum gviCurveInterpolationType GetInterpolationType ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InterpolationType (
+        /*[out,retval]*/ enum gviCurveInterpolationType * pVal ) = 0;
+};
+
+struct __declspec(uuid("3c2d9cec-abcf-4673-8ee3-c976253064f5"))
+ICompoundLine : ICurve
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetPointCount))
+    long PointCount;
+    __declspec(property(get=GetSegmentCount))
+    long SegmentCount;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetPointCount ( );
+    IPointPtr GetPoint (
+        long Index );
+    long GetSegmentCount ( );
+    IFdeSegmentPtr GetSegment (
+        long Index );
+    VARIANT_BOOL RemoveSegments (
+        long Index,
+        long Count );
+    VARIANT_BOOL RemovePoints (
+        long Index,
+        long Count );
+    VARIANT_BOOL UpdatePoint (
+        long Index,
+        struct IPoint * PointValue );
+    VARIANT_BOOL UpdateSegment (
+        long Index,
+        struct IFdeSegment * Segment );
+    VARIANT_BOOL AppendSegment (
+        struct IFdeSegment * Segment );
+    VARIANT_BOOL AddSegmentAfter (
+        long Index,
+        struct IFdeSegment * Segment );
+    VARIANT_BOOL AddSegmentBefore (
+        long Index,
+        struct IFdeSegment * Segment );
+    HRESULT AppendPoint (
+        struct IPoint * PointValue );
+    VARIANT_BOOL AddPointAfter (
+        long Index,
+        struct IPoint * PointValue );
+    VARIANT_BOOL AddPointBefore (
+        long Index,
+        struct IPoint * PointValue );
+    HRESULT Generalize (
+        double MaxAllowOffset );
+    HRESULT Smooth (
+        double MaxAllowOffset );
+    HRESULT SmoothLocal (
+        long VertexIndex );
+    HRESULT SegmentsChanged ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_PointCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetPoint (
+        long Index,
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall get_SegmentCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetSegment (
+        long Index,
+        /*[out,retval]*/ struct IFdeSegment * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RemoveSegments (
+        long Index,
+        long Count,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RemovePoints (
+        long Index,
+        long Count,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_UpdatePoint (
+        long Index,
+        struct IPoint * PointValue,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_UpdateSegment (
+        long Index,
+        struct IFdeSegment * Segment,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AppendSegment (
+        struct IFdeSegment * Segment,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddSegmentAfter (
+        long Index,
+        struct IFdeSegment * Segment,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddSegmentBefore (
+        long Index,
+        struct IFdeSegment * Segment,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AppendPoint (
+        struct IPoint * PointValue ) = 0;
+      virtual HRESULT __stdcall raw_AddPointAfter (
+        long Index,
+        struct IPoint * PointValue,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddPointBefore (
+        long Index,
+        struct IPoint * PointValue,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Generalize (
+        double MaxAllowOffset ) = 0;
+      virtual HRESULT __stdcall raw_Smooth (
+        double MaxAllowOffset ) = 0;
+      virtual HRESULT __stdcall raw_SmoothLocal (
+        long VertexIndex ) = 0;
+      virtual HRESULT __stdcall raw_SegmentsChanged ( ) = 0;
+};
+
+struct __declspec(uuid("63c47811-16b5-48b5-a0bd-01536b6e5021"))
+IGeometryCollection : IGeometry
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetGeometryCount))
+    long GeometryCount;
+    __declspec(property(get=GetIsOverlap))
+    VARIANT_BOOL IsOverlap;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetGeometryCount ( );
+    IGeometryPtr GetGeometry (
+        long Index );
+    VARIANT_BOOL RemoveGeometry (
+        long Index );
+    VARIANT_BOOL RemoveGeometries (
+        long Index,
+        long Count );
+    VARIANT_BOOL AddGeometry (
+        struct IGeometry * Geometry );
+    VARIANT_BOOL GetIsOverlap ( );
+    HRESULT Clear ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_GeometryCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetGeometry (
+        long Index,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RemoveGeometry (
+        long Index,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RemoveGeometries (
+        long Index,
+        long Count,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddGeometry (
+        struct IGeometry * Geometry,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsOverlap (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Clear ( ) = 0;
+};
+
+struct __declspec(uuid("9234304c-8596-4f89-a788-fe7f787dff4f"))
+IMultiCurve : IGeometryCollection
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetLength))
+    double Length;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL AddCurve (
+        struct ICurve * Curve );
+    double GetLength ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_AddCurve (
+        struct ICurve * Curve,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_Length (
+        /*[out,retval]*/ double * pVal ) = 0;
+};
+
+struct __declspec(uuid("e3b5779e-d29d-47d5-98c8-0b32de2d61e3"))
+ISurface : IGeometry
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCentroid))
+    IPointPtr Centroid;
+    __declspec(property(get=GetPointOnSurface))
+    IPointPtr PointOnSurface;
+    __declspec(property(get=GetIsClosed))
+    VARIANT_BOOL IsClosed;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    double Area ( );
+    IMultiCurvePtr GetBoundary ( );
+    IPointPtr GetCentroid ( );
+    IPointPtr GetPointOnSurface ( );
+    VARIANT_BOOL IsPointOnSurface (
+        struct IPoint * PointValue );
+    VARIANT_BOOL GetIsClosed ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Area (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetBoundary (
+        /*[out,retval]*/ struct IMultiCurve * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Centroid (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall get_PointOnSurface (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsPointOnSurface (
+        struct IPoint * PointValue,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsClosed (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("0f518962-aa24-4689-9e26-8d78849be115"))
+ILine : IFdeSegment
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetIsPoint))
+    VARIANT_BOOL IsPoint;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GetIsPoint ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_IsPoint (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("aeb2c266-565f-4ed3-897e-abf4c7b8b93a"))
+IPolyline : ICompoundLine
+{};
+
+struct __declspec(uuid("e89e2336-acb2-4a76-aacf-10064325ea67"))
+IRing : IPolyline
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Close ( );
+    VARIANT_BOOL IsCCW3D (
+        struct IVector3 * Normal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Close ( ) = 0;
+      virtual HRESULT __stdcall raw_IsCCW3D (
+        struct IVector3 * Normal,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+enum gviLocateStatus
+{
+    gviLocateOutside = 0,
+    gviLocateVertex = 1,
+    gviLocateEdge = 2,
+    gviLocateFacet = 3
+};
+
+enum gviSurfaceInterpolationType
+{
+    gviSurfaceInterpolationPlanar = 0,
+    gviSurfaceInterpolationSpherical = 1,
+    gviSurfaceInterpolationElliptical = 2,
+    gviSurfaceInterpolationParametricCurve = 3
+};
+
+struct __declspec(uuid("e362022f-e8bd-4c9a-9994-8a7ec2d5db63"))
+IMultiPolyline : IMultiCurve
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL AddPolyline (
+        struct IPolyline * Polyline );
+    IPolylinePtr GetPolyline (
+        long Index );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_AddPolyline (
+        struct IPolyline * Polyline,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetPolyline (
+        long Index,
+        /*[out,retval]*/ struct IPolyline * * pVal ) = 0;
+};
+    const int _FDE_GEOMETRY_INVALID_GEOMETRY = -2147218503;
+    const int _FDE_GEOMETRY_ASBINARY_ZCONDITION_NOT_SATISFY = -2147218502;
+    const int _FDE_GEOMETRY_ASBINARY_MCONDITION_NOT_SATISFY = -2147218501;
+    const int _FDE_GEOMETRY_ASBINARY_IDCONDITION_NOT_SATISFY = -2147218500;
+    const int _FDE_GEOMETRY_ASBINARY_MULTIPOINT_WRITEDATA_ERROR = -2147218499;
+    const int _FDE_GEOMETRY_NEW_POINT_FAILED = -2147218498;
+    const int _FDE_GEOMETRY_ADDGEOMETRY_POINT_FAILED = -2147218497;
+    const int _FDE_GEOMETRY_ASBINARY_MULTIPOLYGON_WRITEDATA_ERROR = -2147218496;
+    const int _FDE_GEOMETRY_NEW_POLYGON_FAILED = -2147218495;
+    const int _FDE_GEOMETRY_ADDGEOMETRY_POLYGON_FAILED = -2147218494;
+    const int _FDE_GEOMETRY_ASBINARY_MULTIPOLYLINE_WRITEDATA_ERROR = -2147218493;
+    const int _FDE_GEOMETRY_NEW_POLYLINE_FAILED = -2147218492;
+    const int _FDE_GEOMETRY_ADDGEOMETRY_POLYLINE_FAILED = -2147218491;
+    const int _FDE_GEOMETRY_ASBINARY_POINTARRAY_EMPTY = -2147218490;
+    const int _FDE_GEOMETRY_ADDGEOMETRY_GEOCOLLECTION_FAILED = -2147218489;
+    const int _FDE_GEOMETRY_NEW_GEOMETRY_FAILED = -2147218488;
+    const int _FDE_GEOMETRY_IMPORTWKT_UNSUPPORTED_FORMAT = -2147218487;
+    const int _FDE_GEOMETRY_EXPORTWKT_EMPTY_TREEROOT = -2147218486;
+    const int _FDE_GEOMETRY_EXPORTWKT_FAILED = -2147218485;
+    const int _FDE_GEOMETRY_IMPORTWKT_FAILED = -2147218484;
+    const int _FDE_GEOMETRY_IMPORTWKT_EMPTY_WKT = -2147218483;
+    const int _FDE_GEOMETRY_IMPORTWKT_TYPE_DISMATCH = -2147218482;
+    const int _FDE_GEOMETRY_IMPORTWKT_PRJCS_MISS_GEOGCS = -2147218481;
+    const int _FDE_GEOMETRY_EXPORTWKT_MISS_INFORMATION = -2147218480;
+    const int _FDE_GEOMETRY_ASBINARY_MULTITRIANGLE_WRITEDATA_ERROR = -2147218479;
+    const int _FDE_GEOMETRY_NEW_TRIANGLE_FAILED = -2147218478;
+    const int _FDE_GEOMETRY_ADDGEOMETRY_TRIANGLE_FAILED = -2147218477;
+    const int _FDE_GEOMETRY_TRIMESH_ADDPOINT_FAILED = -2147218476;
+    const int _FDE_GEOMETRY_EMPTYCRS_UNSUPPORTED_PROJ4 = -2147218475;
+    const int _FDE_GEOMETRY_CRS_UNSUPPORTED_PROJ4 = -2147218474;
+    const int _FDE_GEOMETRY_LOADLIBRARY_PROJ4_FAILED = -2147218473;
+    const int _FDE_GEOMETRY_REPROJECTION_SRC_EXPORTTOPROJ4_FAILED = -2147218472;
+    const int _FDE_GEOMETRY_REPROJECTION_INIT_FAILED = -2147218471;
+    const int _FDE_GEOMETRY_REPROJECTION_INIT_SRCPRJ_FAILED = -2147218470;
+    const int _FDE_GEOMETRY_REPROJECTION_DST_EXPORTTOPROJ4_FAILED = -2147218469;
+    const int _FDE_GEOMETRY_TRIMESH_ADDTRIANGLE_SAME_INDEX = -2147218468;
+    const int _FDE_GEOMETRY_TRIMESH_TRIANGLE_KEY_INVALID = -2147218467;
+    const int _FDE_GEOMETRY_CRS_EXPORTTOPROJ4_FAILED = -2147218466;
+    const int _FDE_GEOMETRY_ILLEGALARGUMENT = -2147218465;
+    const int _FDE_GEOMETRY_ASBINARY_MULTITRIMESH_WRITEDATA_ERROR = -2147218464;
+    const int _FDE_GEOMETRY_ILLEGAL_RING_POINT_COUNT = -2147218463;
+
+enum gviTerrainAnalyseOperation
+{
+    gviTerrainGetSurfaceArea = 0,
+    gviTerrainFindWaterSinkBoundary = 1,
+    gviTerrainCalculateCutFill = 2
+};
+
+enum gviBufferStyle
+{
+    gviBufferCapround = 1,
+    gviBufferCapbutt = 2,
+    gviBufferCapsquare = 3
+};
+
+enum gviRoofType
+{
+    gviRoofFlat = 0,
+    gviRoofHip = 1,
+    gviRoofGable = 2
+};
+
+struct __declspec(uuid("15ba82c8-0408-4f08-a7da-d6d50e83e0ad"))
+ITransform : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Move3D (
+        double DX,
+        double DY,
+        double DZ );
+    HRESULT Rotate3D (
+        double AxisX,
+        double AxisY,
+        double AxisZ,
+        double CenterX,
+        double CenterY,
+        double CenterZ,
+        double Angle );
+    HRESULT Scale3D (
+        double ScaleX,
+        double ScaleY,
+        double ScaleZ,
+        double CenterX,
+        double CenterY,
+        double CenterZ );
+    HRESULT Move2D (
+        double DX,
+        double DY );
+    HRESULT Rotate2D (
+        double CenterX,
+        double CenterY,
+        double Angle );
+    HRESULT Scale2D (
+        double ScaleX,
+        double ScaleY,
+        double CenterX,
+        double CenterY );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Move3D (
+        double DX,
+        double DY,
+        double DZ ) = 0;
+      virtual HRESULT __stdcall raw_Rotate3D (
+        double AxisX,
+        double AxisY,
+        double AxisZ,
+        double CenterX,
+        double CenterY,
+        double CenterZ,
+        double Angle ) = 0;
+      virtual HRESULT __stdcall raw_Scale3D (
+        double ScaleX,
+        double ScaleY,
+        double ScaleZ,
+        double CenterX,
+        double CenterY,
+        double CenterZ ) = 0;
+      virtual HRESULT __stdcall raw_Move2D (
+        double DX,
+        double DY ) = 0;
+      virtual HRESULT __stdcall raw_Rotate2D (
+        double CenterX,
+        double CenterY,
+        double Angle ) = 0;
+      virtual HRESULT __stdcall raw_Scale2D (
+        double ScaleX,
+        double ScaleY,
+        double CenterX,
+        double CenterY ) = 0;
+};
+
+struct __declspec(uuid("f7867139-9c90-43d3-8fbb-bb762ed93f71"))
+IRelationalOperator2D : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Equals2D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Disjoint2D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Intersects2D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Overlaps2D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Crosses2D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Touches2D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Within2D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Contains2D (
+        struct IGeometry * Other );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Equals2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Disjoint2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Intersects2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Overlaps2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Crosses2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Touches2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Within2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Contains2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("512cf7ec-74db-4ab4-a7f6-70de21122cf0"))
+IRelationalOperator3D : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Equals3D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Disjoint3D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Intersects3D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Overlaps3D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Crosses3D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Touches3D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Within3D (
+        struct IGeometry * Other );
+    VARIANT_BOOL Contains3D (
+        struct IGeometry * Other );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Equals3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Disjoint3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Intersects3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Overlaps3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Crosses3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Touches3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Within3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Contains3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("9c68ec7b-9beb-4835-a5e7-835b60f734bf"))
+IProximityOperator : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    double DistanceEx2D (
+        struct IGeometry * Other,
+        struct IPoint * * SelfPoint,
+        struct IPoint * * OtherPoint );
+    double Distance2D (
+        struct IGeometry * Other );
+    IPointPtr NearestPoint2D (
+        struct IPoint * Other );
+    double DistanceEx3D (
+        struct IGeometry * Other,
+        struct IPoint * * SelfPoint,
+        struct IPoint * * OtherPoint );
+    double Distance3D (
+        struct IGeometry * Other );
+    IPointPtr NearestPoint3D (
+        struct IPoint * Other );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_DistanceEx2D (
+        struct IGeometry * Other,
+        /*[out]*/ struct IPoint * * SelfPoint,
+        /*[out]*/ struct IPoint * * OtherPoint,
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Distance2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_NearestPoint2D (
+        struct IPoint * Other,
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_DistanceEx3D (
+        struct IGeometry * Other,
+        /*[out]*/ struct IPoint * * SelfPoint,
+        /*[out]*/ struct IPoint * * OtherPoint,
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Distance3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_NearestPoint3D (
+        struct IPoint * Other,
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+};
+
+struct __declspec(uuid("24dbdaa9-2dbf-400f-9f15-2fce3f3ef3b7"))
+ITopologicalOperator2D : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IGeometryPtr Buffer2D (
+        double Dis,
+        enum gviBufferStyle Style );
+    IGeometryPtr ConvexHull2D ( );
+    IGeometryPtr Difference2D (
+        struct IGeometry * Other );
+    IGeometryPtr Intersection2D (
+        struct IGeometry * Other );
+    IGeometryPtr SymmetricDifference2D (
+        struct IGeometry * Other );
+    IGeometryPtr Union2D (
+        struct IGeometry * Other );
+    VARIANT_BOOL IsSimple2D ( );
+    IGeometryPtr Simplify2D ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Buffer2D (
+        double Dis,
+        enum gviBufferStyle Style,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ConvexHull2D (
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Difference2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Intersection2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SymmetricDifference2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Union2D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsSimple2D (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Simplify2D (
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+};
+
+struct __declspec(uuid("b1620453-c028-4ec1-b08f-75f7b9c046b3"))
+ITopologicalOperator3D : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IGeometryPtr Buffer3D (
+        double Dis );
+    IGeometryPtr ConvexHull3D ( );
+    IGeometryPtr Difference3D (
+        struct IGeometry * Other );
+    IGeometryPtr Intersection3D (
+        struct IGeometry * Other );
+    IGeometryPtr SymmetricDifference3D (
+        struct IGeometry * Other );
+    IGeometryPtr Union3D (
+        struct IGeometry * Other );
+    VARIANT_BOOL IsSimple3D ( );
+    IGeometryPtr Simplify3D ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Buffer3D (
+        double Dis,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ConvexHull3D (
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Difference3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Intersection3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SymmetricDifference3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Union3D (
+        struct IGeometry * Other,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IsSimple3D (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Simplify3D (
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+};
+
+struct __declspec(uuid("1c5ed1a4-01f9-4b7d-b966-61e943534192"))
+IPointCloud : IGeometry
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDoubleArrayPtr GetPositions ( );
+    void PutPositions (
+        struct IDoubleArray * pVal );
+    IUInt32ArrayPtr GetColors ( );
+    void PutColors (
+        struct IUInt32Array * pVal );
+    IDoubleArrayPtr GetMeasurements ( );
+    void PutMeasurements (
+        struct IDoubleArray * pVal );
+    IUInt32ArrayPtr GetIds ( );
+    void PutIds (
+        struct IUInt32Array * pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Positions (
+        /*[out,retval]*/ struct IDoubleArray * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Positions (
+        struct IDoubleArray * pVal ) = 0;
+      virtual HRESULT __stdcall get_Colors (
+        /*[out,retval]*/ struct IUInt32Array * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Colors (
+        struct IUInt32Array * pVal ) = 0;
+      virtual HRESULT __stdcall get_Measurements (
+        /*[out,retval]*/ struct IDoubleArray * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Measurements (
+        struct IDoubleArray * pVal ) = 0;
+      virtual HRESULT __stdcall get_Ids (
+        /*[out,retval]*/ struct IUInt32Array * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Ids (
+        struct IUInt32Array * pVal ) = 0;
+};
+
+struct __declspec(uuid("f5e3c3c2-c5f3-4281-8938-2836979a4856"))
+ICircle : ICurve
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCenterPoint,put=PutCenterPoint))
+    IPointPtr CenterPoint;
+    __declspec(property(get=GetRadius,put=PutRadius))
+    double Radius;
+    __declspec(property(get=GetNormal,put=PutNormal))
+    IVector3Ptr Normal;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IPointPtr GetCenterPoint ( );
+    void PutCenterPoint (
+        struct IPoint * pVal );
+    double GetRadius ( );
+    void PutRadius (
+        double pVal );
+    IVector3Ptr GetNormal ( );
+    void PutNormal (
+        struct IVector3 * pVal );
+    VARIANT_BOOL ConstructCenterAndRadius (
+        struct IPoint * Center,
+        double Radius,
+        struct IVector3 * Normal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_CenterPoint (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall put_CenterPoint (
+        /*[in]*/ struct IPoint * pVal ) = 0;
+      virtual HRESULT __stdcall get_Radius (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_Radius (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Normal (
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Normal (
+        /*[in]*/ struct IVector3 * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ConstructCenterAndRadius (
+        struct IPoint * Center,
+        double Radius,
+        struct IVector3 * Normal,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("d0690847-d14e-4ee3-9b69-63a2e59fc093"))
+IGeometryFactory : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IGeometryPtr CreateGeometry (
+        enum gviGeometryType GeometryType,
+        enum gviVertexAttribute VertexAttribute );
+    IGeometryPtr CreateFromBinary (
+        struct IBinaryBuffer * BinaryBuffer );
+    IPointPtr CreatePoint (
+        enum gviVertexAttribute VertexAttribute );
+    IGeometryPtr InternalCreateGeometry (
+        __int64 InternalObject );
+    IGeometryPtr CreateFromWKT (
+        _bstr_t WKT );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_CreateGeometry (
+        enum gviGeometryType GeometryType,
+        enum gviVertexAttribute VertexAttribute,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateFromBinary (
+        struct IBinaryBuffer * BinaryBuffer,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreatePoint (
+        enum gviVertexAttribute VertexAttribute,
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InternalCreateGeometry (
+        __int64 InternalObject,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateFromWKT (
+        BSTR WKT,
+        /*[out,retval]*/ struct IGeometry * * pVal ) = 0;
+};
+
+struct __declspec(uuid("9ac79c26-9da5-453c-9b99-1c943fc0523d"))
+IPOI : IPoint
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetImageName,put=PutImageName))
+    _bstr_t ImageName;
+    __declspec(property(get=GetMinVisibleDistance,put=PutMinVisibleDistance))
+    double MinVisibleDistance;
+    __declspec(property(get=GetMaxVisibleDistance,put=PutMaxVisibleDistance))
+    double MaxVisibleDistance;
+    __declspec(property(get=GetSize,put=PutSize))
+    long Size;
+    __declspec(property(get=GetName,put=PutName))
+    _bstr_t Name;
+    __declspec(property(get=GetShowName,put=PutShowName))
+    VARIANT_BOOL ShowName;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetImageName ( );
+    void PutImageName (
+        _bstr_t pVal );
+    double GetMinVisibleDistance ( );
+    void PutMinVisibleDistance (
+        double pVal );
+    double GetMaxVisibleDistance ( );
+    void PutMaxVisibleDistance (
+        double pVal );
+    long GetSize ( );
+    void PutSize (
+        long pVal );
+    _bstr_t GetName ( );
+    void PutName (
+        _bstr_t pVal );
+    VARIANT_BOOL GetShowName ( );
+    void PutShowName (
+        VARIANT_BOOL pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_ImageName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_ImageName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_MinVisibleDistance (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MinVisibleDistance (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_MaxVisibleDistance (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall put_MaxVisibleDistance (
+        /*[in]*/ double pVal ) = 0;
+      virtual HRESULT __stdcall get_Size (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall put_Size (
+        /*[in]*/ long pVal ) = 0;
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Name (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_ShowName (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall put_ShowName (
+        /*[in]*/ VARIANT_BOOL pVal ) = 0;
+};
+
+struct __declspec(uuid("993b26e9-00f0-4e2e-8c5e-cfa019e48b2b"))
+IModelPoint : IPoint
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetModelName,put=PutModelName))
+    _bstr_t ModelName;
+    __declspec(property(get=GetModelEnvelope,put=PutModelEnvelope))
+    IEnvelopePtr ModelEnvelope;
+    __declspec(property(get=GetMatrix33,put=PutMatrix33))
+    SAFEARRAY * Matrix33;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetModelName ( );
+    void PutModelName (
+        _bstr_t pVal );
+    HRESULT SelfRotate (
+        double AxisX,
+        double AxisY,
+        double AxisZ,
+        double RotationAngle );
+    HRESULT SelfScale (
+        double ScaleX,
+        double ScaleY,
+        double ScaleZ );
+    HRESULT ResetPose ( );
+    IEnvelopePtr GetModelEnvelope ( );
+    void PutModelEnvelope (
+        struct IEnvelope * pVal );
+    SAFEARRAY * GetMatrix33 ( );
+    void PutMatrix33 (
+        SAFEARRAY * pVal );
+    IMatrixPtr AsMatrix ( );
+    HRESULT FromMatrix (
+        struct IMatrix * newVal );
+    IVector3Ptr RayIntersect (
+        struct IModel * Model,
+        struct IPoint * Start,
+        struct IVector3 * Dir );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_ModelName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_ModelName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall raw_SelfRotate (
+        double AxisX,
+        double AxisY,
+        double AxisZ,
+        double RotationAngle ) = 0;
+      virtual HRESULT __stdcall raw_SelfScale (
+        double ScaleX,
+        double ScaleY,
+        double ScaleZ ) = 0;
+      virtual HRESULT __stdcall raw_ResetPose ( ) = 0;
+      virtual HRESULT __stdcall get_ModelEnvelope (
+        /*[out,retval]*/ struct IEnvelope * * pVal ) = 0;
+      virtual HRESULT __stdcall put_ModelEnvelope (
+        /*[in]*/ struct IEnvelope * pVal ) = 0;
+      virtual HRESULT __stdcall get_Matrix33 (
+        /*[out,retval]*/ SAFEARRAY * * pVal ) = 0;
+      virtual HRESULT __stdcall put_Matrix33 (
+        /*[in]*/ SAFEARRAY * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AsMatrix (
+        /*[out,retval]*/ struct IMatrix * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_FromMatrix (
+        struct IMatrix * newVal ) = 0;
+      virtual HRESULT __stdcall raw_RayIntersect (
+        struct IModel * Model,
+        struct IPoint * Start,
+        struct IVector3 * Dir,
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+};
+
+struct __declspec(uuid("7df2eee7-4a9d-4c1d-858e-04fdb91635e9"))
+ICirculeArc : IFdeSegment
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetChordLength))
+    double ChordLength;
+    __declspec(property(get=GetRadius))
+    double Radius;
+    __declspec(property(get=GetIsMinor))
+    VARIANT_BOOL IsMinor;
+    __declspec(property(get=GetIsLine))
+    VARIANT_BOOL IsLine;
+    __declspec(property(get=GetIsPoint))
+    VARIANT_BOOL IsPoint;
+    __declspec(property(get=GetPointOnArc,put=PutPointOnArc))
+    IPointPtr PointOnArc;
+    __declspec(property(get=GetCenterPoint))
+    IPointPtr CenterPoint;
+    __declspec(property(get=GetCentralAngle))
+    double CentralAngle;
+    __declspec(property(get=GetChordHeight))
+    double ChordHeight;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IPointPtr GetCenterPoint ( );
+    double GetCentralAngle ( );
+    double GetChordHeight ( );
+    double GetChordLength ( );
+    double GetRadius ( );
+    VARIANT_BOOL GetIsMinor ( );
+    VARIANT_BOOL GetIsLine ( );
+    VARIANT_BOOL GetIsPoint ( );
+    IPointPtr GetPointOnArc ( );
+    void PutPointOnArc (
+        struct IPoint * pVal );
+    HRESULT ConstructThreePoints (
+        struct IPoint * FromPoint,
+        struct IPoint * ArcPoint,
+        struct IPoint * ToPoint );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_CenterPoint (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall get_CentralAngle (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall get_ChordHeight (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall get_ChordLength (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall get_Radius (
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsMinor (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsLine (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsPoint (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall get_PointOnArc (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall put_PointOnArc (
+        /*[in]*/ struct IPoint * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ConstructThreePoints (
+        struct IPoint * FromPoint,
+        struct IPoint * ArcPoint,
+        struct IPoint * ToPoint ) = 0;
+};
+
+struct __declspec(uuid("a8ba0bfa-0fb5-40bf-b27a-c34fd5f2c4bc"))
+IMultiPoint : IGeometryCollection
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL AddPoint (
+        struct IPoint * PointValue );
+    IPointPtr GetPoint (
+        long Index );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_AddPoint (
+        struct IPoint * PointValue,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetPoint (
+        long Index,
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+};
+
+struct __declspec(uuid("bf223def-c97c-4bb0-aa43-df3ffc178d03"))
+IGeographicCRS : ISpatialCRS
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GetAngularUnit (
+        BSTR * Name,
+        double * ToRadian );
+    VARIANT_BOOL SetAngularUnit (
+        _bstr_t Name,
+        double ToRadian );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetAngularUnit (
+        /*[out]*/ BSTR * Name,
+        /*[out]*/ double * ToRadian,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetAngularUnit (
+        BSTR Name,
+        double ToRadian,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("32839195-7917-4a0b-b1f8-d294e7dd2129"))
+IProjectedCRS : ISpatialCRS
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GetLinearUnit (
+        BSTR * UnitsName,
+        double * ToMeter );
+    VARIANT_BOOL SetLinearUnit (
+        _bstr_t UnitsName,
+        double ToMeter );
+    VARIANT_BOOL GetParameter (
+        _bstr_t Name,
+        double * Value );
+    VARIANT_BOOL SetParameter (
+        _bstr_t Name,
+        double Value );
+    VARIANT_BOOL SetProjection (
+        _bstr_t Projection );
+    IGeographicCRSPtr GetGeographicCRS ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetLinearUnit (
+        /*[out]*/ BSTR * UnitsName,
+        /*[out]*/ double * ToMeter,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetLinearUnit (
+        BSTR UnitsName,
+        double ToMeter,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetParameter (
+        BSTR Name,
+        /*[out]*/ double * Value,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetParameter (
+        BSTR Name,
+        double Value,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetProjection (
+        BSTR Projection,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetGeographicCRS (
+        /*[out,retval]*/ struct IGeographicCRS * * pVal ) = 0;
+};
+
+struct __declspec(uuid("aa4b4055-043e-414f-8731-1cbf7bd8cc2e"))
+IUnknownCRS : ISpatialCRS
+{};
+
+struct __declspec(uuid("c6103a7c-11f8-41ce-b373-0770fd4c0ce3"))
+IEastNorthUpCRS : ISpatialCRS
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IGeographicCRSPtr GetGeographicCRS ( );
+    VARIANT_BOOL SetENULocation (
+        _bstr_t Name,
+        struct IVector3 * Value );
+    VARIANT_BOOL SetGEOLocation (
+        _bstr_t Name,
+        struct IVector3 * Value );
+    VARIANT_BOOL GetENULocation (
+        BSTR * Name,
+        struct IVector3 * * Location );
+    VARIANT_BOOL GetGEOLocation (
+        BSTR * Name,
+        struct IVector3 * * Location );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetGeographicCRS (
+        /*[out,retval]*/ struct IGeographicCRS * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetENULocation (
+        BSTR Name,
+        struct IVector3 * Value,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetGEOLocation (
+        BSTR Name,
+        struct IVector3 * Value,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetENULocation (
+        /*[out]*/ BSTR * Name,
+        /*[out]*/ struct IVector3 * * Location,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetGEOLocation (
+        /*[out]*/ BSTR * Name,
+        /*[out]*/ struct IVector3 * * Location,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("b7689d50-742a-40c7-bc25-cf6ea8a411c9"))
+ICRSFactory : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    ICoordinateReferenceSystemPtr CreateFromWKT (
+        _bstr_t WKT );
+    ICoordinateReferenceSystemPtr CreateFromWKID (
+        long WKID );
+    ICoordinateReferenceSystemPtr CreateCRS (
+        enum gviCoordinateReferenceSystemType CrsType );
+    IGeographicCRSPtr CreateWGS84 ( );
+    IGeographicCRSPtr CreateCGCS2000 ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_CreateFromWKT (
+        BSTR WKT,
+        /*[out,retval]*/ struct ICoordinateReferenceSystem * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateFromWKID (
+        long WKID,
+        /*[out,retval]*/ struct ICoordinateReferenceSystem * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateCRS (
+        enum gviCoordinateReferenceSystemType CrsType,
+        /*[out,retval]*/ struct ICoordinateReferenceSystem * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateWGS84 (
+        /*[out,retval]*/ struct IGeographicCRS * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CreateCGCS2000 (
+        /*[out,retval]*/ struct IGeographicCRS * * pVal ) = 0;
+};
+
+struct __declspec(uuid("6a84bb85-0d63-42e7-8146-583382d32783"))
+ICoordinateTransformer : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL TransformXYArray (
+        struct IDoubleArray * * VArray );
+    VARIANT_BOOL TransformXY (
+        double * X,
+        double * Y );
+    VARIANT_BOOL TransformXYZArray (
+        struct IDoubleArray * * VArray );
+    VARIANT_BOOL TransformXYZ (
+        double * X,
+        double * Y,
+        double * Z );
+    VARIANT_BOOL InverseTransformXYArray (
+        struct IDoubleArray * * VArray );
+    VARIANT_BOOL InverseTransformXY (
+        double * X,
+        double * Y );
+    VARIANT_BOOL InverseTransformXYZArray (
+        struct IDoubleArray * * VArray );
+    VARIANT_BOOL InverseTransformXYZ (
+        double * X,
+        double * Y,
+        double * Z );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_TransformXYArray (
+        /*[in,out]*/ struct IDoubleArray * * VArray,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_TransformXY (
+        /*[in,out]*/ double * X,
+        /*[in,out]*/ double * Y,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_TransformXYZArray (
+        /*[in,out]*/ struct IDoubleArray * * VArray,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_TransformXYZ (
+        /*[in,out]*/ double * X,
+        /*[in,out]*/ double * Y,
+        /*[in,out]*/ double * Z,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InverseTransformXYArray (
+        /*[in,out]*/ struct IDoubleArray * * VArray,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InverseTransformXY (
+        /*[in,out]*/ double * X,
+        /*[in,out]*/ double * Y,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InverseTransformXYZArray (
+        /*[in,out]*/ struct IDoubleArray * * VArray,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_InverseTransformXYZ (
+        /*[in,out]*/ double * X,
+        /*[in,out]*/ double * Y,
+        /*[in,out]*/ double * Z,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("14105226-e424-4436-8903-6f869cd6e263"))
+IGeoTransformer : ICoordinateTransformer
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT SetCRS (
+        struct ISpatialCRS * Source,
+        struct ISpatialCRS * Target );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_SetCRS (
+        struct ISpatialCRS * Source,
+        struct ISpatialCRS * Target ) = 0;
+};
+
+struct __declspec(uuid("dc3f6cf8-1b6b-4f1c-a94d-eae1461ce030"))
+IPolynomialTransformer : ICoordinateTransformer
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL SetMatchingPointPairs (
+        struct IDoubleArray * SrcArray,
+        struct IDoubleArray * DstArray,
+        long Degree );
+    VARIANT_BOOL SetCoefficient (
+        struct IDoubleArray * XArray,
+        struct IDoubleArray * YArray );
+    VARIANT_BOOL GetCoefficient (
+        struct IDoubleArray * * XArray,
+        struct IDoubleArray * * YArray );
+    VARIANT_BOOL SetInverseCoefficient (
+        struct IDoubleArray * XCoef,
+        struct IDoubleArray * YCoef );
+    VARIANT_BOOL GetInverseCoefficient (
+        struct IDoubleArray * * XCoef,
+        struct IDoubleArray * * YCoef );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_SetMatchingPointPairs (
+        /*[in]*/ struct IDoubleArray * SrcArray,
+        /*[in]*/ struct IDoubleArray * DstArray,
+        /*[in]*/ long Degree,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetCoefficient (
+        /*[in]*/ struct IDoubleArray * XArray,
+        /*[in]*/ struct IDoubleArray * YArray,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetCoefficient (
+        /*[out]*/ struct IDoubleArray * * XArray,
+        /*[out]*/ struct IDoubleArray * * YArray,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetInverseCoefficient (
+        /*[in]*/ struct IDoubleArray * XCoef,
+        /*[in]*/ struct IDoubleArray * YCoef,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetInverseCoefficient (
+        /*[out]*/ struct IDoubleArray * * XCoef,
+        /*[out]*/ struct IDoubleArray * * YCoef,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("02eb2b8e-0547-40e0-ba16-2eb233e046fa"))
+Transform;
+    // [ default ] interface ITransform
+
+struct __declspec(uuid("2cad2e25-7cde-4252-b0d1-637f6f38c094"))
+GeometryFactory;
+    // [ default ] interface IGeometryFactory
+
+struct __declspec(uuid("74b0f69a-ab2c-4528-8104-7f67c6c487a6"))
+SpatialCRS;
+    // [ default ] interface IDispatch
+    // interface ISpatialCRS
+
+struct __declspec(uuid("77b66670-4a84-4ec4-9c8c-3e1195a1c920"))
+GeographicCRS;
+    // [ default ] interface IDispatch
+    // interface IGeographicCRS
+
+struct __declspec(uuid("517fa76a-518e-47fe-9ab5-3965b908b536"))
+ProjectedCRS;
+    // [ default ] interface IDispatch
+    // interface IProjectedCRS
+
+struct __declspec(uuid("7467b293-b3db-498f-bf53-deefe353700d"))
+CRSFactory;
+    // [ default ] interface ICRSFactory
+
+struct __declspec(uuid("2c4d40eb-6394-4711-8e66-9a176d18b099"))
+GeometryConvertor;
+    // [ default ] interface IGeometryConvertor
+
+struct __declspec(uuid("7a9bf176-181d-49f0-820f-8fb6f32141b3"))
+UnknownCRS;
+    // [ default ] interface IUnknownCRS
+
+struct __declspec(uuid("84ef29cf-f5b8-4f7c-b57c-8ff5d6b403ae"))
+TerrainAnalyse;
+    // [ default ] interface ITerrainAnalyse
+
+struct __declspec(uuid("915be0dd-435a-44e7-b40c-a54c354ae4fd"))
+ParametricModelling;
+    // [ default ] interface IParametricModelling
+
+struct __declspec(uuid("3830ad74-8f08-4730-9550-da2b705e468c"))
+GeoTransformer;
+    // [ default ] interface IGeoTransformer
+
+struct __declspec(uuid("b01acd46-389e-450e-8484-c3df7d4b887c"))
+PolynomialTransformer;
+    // [ default ] interface IPolynomialTransformer
+
+struct __declspec(uuid("6984f17f-65e2-415d-9306-666b3719ec7b"))
+EastNorthUpCRS;
+    // [ default ] interface IDispatch
+    // interface IEastNorthUpCRS
+
+struct __declspec(uuid("8d5f233d-2a21-459e-97c2-5d348f16342e"))
+ISurfacePatch : ISurface
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetSurfaceInterpolationType))
+    enum gviSurfaceInterpolationType SurfaceInterpolationType;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    ITriMeshPtr Convert2Mesh ( );
+    enum gviSurfaceInterpolationType GetSurfaceInterpolationType ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Convert2Mesh (
+        /*[out,retval]*/ struct ITriMesh * * pVal ) = 0;
+      virtual HRESULT __stdcall get_SurfaceInterpolationType (
+        /*[out,retval]*/ enum gviSurfaceInterpolationType * pVal ) = 0;
+};
+
+struct __declspec(uuid("7e1b6a0d-beb2-4025-8d9b-b169588549ad"))
+IPolygon : ISurfacePatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetInteriorRingCount))
+    long InteriorRingCount;
+    __declspec(property(get=GetExteriorRing))
+    IRingPtr ExteriorRing;
+    __declspec(property(get=GetIsCoplanar))
+    VARIANT_BOOL IsCoplanar;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetInteriorRingCount ( );
+    IRingPtr GetInteriorRing (
+        long Index );
+    IRingPtr GetExteriorRing ( );
+    VARIANT_BOOL GetIsCoplanar ( );
+    VARIANT_BOOL AddInteriorRing (
+        struct IRing * InteriorRing );
+    VARIANT_BOOL DeleteInteriorRing (
+        long Index );
+    IVector3Ptr QueryNormal ( );
+    HRESULT Close ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_InteriorRingCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetInteriorRing (
+        long Index,
+        /*[out,retval]*/ struct IRing * * pVal ) = 0;
+      virtual HRESULT __stdcall get_ExteriorRing (
+        /*[out,retval]*/ struct IRing * * pVal ) = 0;
+      virtual HRESULT __stdcall get_IsCoplanar (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddInteriorRing (
+        struct IRing * InteriorRing,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_DeleteInteriorRing (
+        long Index,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_QueryNormal (
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Close ( ) = 0;
+};
+
+struct __declspec(uuid("d3fe7b5b-2124-4e15-a892-34f50bd73786"))
+IParametricModelling : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL PolygonToBuilding (
+        struct IPolygon * Polygon,
+        struct IPropertySet * Params,
+        struct IModelPoint * * ModelPoint,
+        struct IModel * * Model );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_PolygonToBuilding (
+        struct IPolygon * Polygon,
+        struct IPropertySet * Params,
+        /*[out]*/ struct IModelPoint * * ModelPoint,
+        /*[out]*/ struct IModel * * Model,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("d4f41758-c46b-4c86-bfa0-98f5cf284ca3"))
+ITriMesh : ISurface
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL BatchExport (
+        struct IDoubleArray * * VArray,
+        struct IUInt16Array * * IndexArray,
+        struct IFloatArray * * TextureArrayU1V1,
+        struct IFloatArray * * TextureArrayU2V2,
+        struct IDoubleArray * * Norms );
+    IVector3Ptr LineSegmentIntersect (
+        struct ILine * Line );
+    IVector3Ptr RayIntersect (
+        struct IPoint * Start,
+        struct IVector3 * Dir );
+    ITopoNodePtr AddPoint (
+        struct IPoint * Point );
+    VARIANT_BOOL SetPoint (
+        struct ITopoNode * Handle,
+        struct IPoint * Point );
+    IPointPtr GetPoint (
+        struct ITopoNode * Handle );
+    ITopoFacetPtr AddTriangle (
+        struct ITopoNode * Handlef,
+        struct ITopoNode * Handles,
+        struct ITopoNode * Handlet );
+    ITopoFacetPtr BeginFacet ( );
+    ITopoFacetPtr EndFacet ( );
+    ITopoNodePtr BeginVertex ( );
+    ITopoNodePtr EndVertex ( );
+    ITopoDirectedEdgePtr BeginEdge ( );
+    ITopoDirectedEdgePtr EndEdge ( );
+    long get_VertexCount ( );
+    long get_FacetCount ( );
+    long get_DirectedEdgeCount ( );
+    VARIANT_BOOL EraseConnectedEdge (
+        struct ITopoDirectedEdge * Handle );
+    VARIANT_BOOL EraseConnectedFacet (
+        struct ITopoFacet * Handle );
+    VARIANT_BOOL RemoveUnconnectedVertices ( );
+    VARIANT_BOOL EraseFacet (
+        struct ITopoFacet * Handle );
+    ITopoFacetPtr Locate (
+        struct IPoint * Point,
+        enum gviLocateStatus * Locate,
+        long * Index );
+    IGeometryCollectionPtr IntersectPlane (
+        struct IVector3 * Normal,
+        double Constant );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_BatchExport (
+        /*[in,out]*/ struct IDoubleArray * * VArray,
+        /*[in,out]*/ struct IUInt16Array * * IndexArray,
+        /*[in,out]*/ struct IFloatArray * * TextureArrayU1V1,
+        /*[in,out]*/ struct IFloatArray * * TextureArrayU2V2,
+        /*[in,out]*/ struct IDoubleArray * * Norms,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_LineSegmentIntersect (
+        struct ILine * Line,
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RayIntersect (
+        struct IPoint * Start,
+        struct IVector3 * Dir,
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddPoint (
+        struct IPoint * Point,
+        /*[out,retval]*/ struct ITopoNode * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetPoint (
+        struct ITopoNode * Handle,
+        struct IPoint * Point,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetPoint (
+        struct ITopoNode * Handle,
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddTriangle (
+        struct ITopoNode * Handlef,
+        struct ITopoNode * Handles,
+        struct ITopoNode * Handlet,
+        /*[out,retval]*/ struct ITopoFacet * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_BeginFacet (
+        /*[out,retval]*/ struct ITopoFacet * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_EndFacet (
+        /*[out,retval]*/ struct ITopoFacet * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_BeginVertex (
+        /*[out,retval]*/ struct ITopoNode * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_EndVertex (
+        /*[out,retval]*/ struct ITopoNode * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_BeginEdge (
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_EndEdge (
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_get_VertexCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_get_FacetCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_get_DirectedEdgeCount (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_EraseConnectedEdge (
+        struct ITopoDirectedEdge * Handle,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_EraseConnectedFacet (
+        struct ITopoFacet * Handle,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RemoveUnconnectedVertices (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_EraseFacet (
+        struct ITopoFacet * Handle,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Locate (
+        struct IPoint * Point,
+        /*[out]*/ enum gviLocateStatus * Locate,
+        /*[out]*/ long * Index,
+        /*[out,retval]*/ struct ITopoFacet * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_IntersectPlane (
+        struct IVector3 * Normal,
+        double Constant,
+        /*[out,retval]*/ struct IGeometryCollection * * pVal ) = 0;
+};
+
+struct __declspec(uuid("272d0d67-69a7-4ebb-a0fa-7a034e185396"))
+IClosedTriMesh : ITriMesh
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Close ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Close (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("325d359f-e8d5-47db-9e7b-74ce28fb9972"))
+ITopoNode : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetBeginCirculatorVertexAround))
+    long BeginCirculatorVertexAround;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IPointPtr GetLocation ( );
+    HRESULT SetLocation (
+        struct IPoint * newVal );
+    ITopoDirectedEdgePtr GetEdge ( );
+    VARIANT_BOOL Equal (
+        struct ITopoNode * X );
+    VARIANT_BOOL NotEqual (
+        struct ITopoNode * X );
+    ITopoNodePtr Next ( );
+    long GetBeginCirculatorVertexAround ( );
+    ITopoNodePtr CirculatorNext ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetLocation (
+        /*[out,retval]*/ struct IPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SetLocation (
+        /*[in]*/ struct IPoint * newVal ) = 0;
+      virtual HRESULT __stdcall raw_GetEdge (
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Equal (
+        struct ITopoNode * X,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_NotEqual (
+        struct ITopoNode * X,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Next (
+        /*[out,retval]*/ struct ITopoNode * * pVal ) = 0;
+      virtual HRESULT __stdcall get_BeginCirculatorVertexAround (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CirculatorNext (
+        /*[out,retval]*/ struct ITopoNode * * pVal ) = 0;
+};
+
+struct __declspec(uuid("17d58d35-e37f-4189-9b4b-17204a4e8763"))
+ITopoDirectedEdge : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetLocation))
+    ILinePtr Location;
+    __declspec(property(get=GetBorder))
+    VARIANT_BOOL Border;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    ILinePtr GetLocation ( );
+    VARIANT_BOOL GetBorder ( );
+    ITopoNodePtr GetTopoNode ( );
+    ITopoFacetPtr GetFacet ( );
+    ITopoDirectedEdgePtr Next ( );
+    ITopoDirectedEdgePtr Prev ( );
+    ITopoDirectedEdgePtr Opposite ( );
+    VARIANT_BOOL Equal (
+        struct ITopoDirectedEdge * X );
+    VARIANT_BOOL NotEqual (
+        struct ITopoDirectedEdge * X );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Location (
+        /*[out,retval]*/ struct ILine * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Border (
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetTopoNode (
+        /*[out,retval]*/ struct ITopoNode * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetFacet (
+        /*[out,retval]*/ struct ITopoFacet * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Next (
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Prev (
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Opposite (
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Equal (
+        struct ITopoDirectedEdge * X,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_NotEqual (
+        struct ITopoDirectedEdge * X,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("aecdbb9a-a4f5-497d-bc42-f2e48882ef46"))
+ITopoFacet : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetLocation))
+    IPolygonPtr Location;
+    __declspec(property(get=GetDegree))
+    long Degree;
+    __declspec(property(get=GetBeginCirculatorEdgeAround))
+    long BeginCirculatorEdgeAround;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IPolygonPtr GetLocation ( );
+    long GetDegree ( );
+    VARIANT_BOOL Equal (
+        struct ITopoFacet * X );
+    VARIANT_BOOL NotEqual (
+        struct ITopoFacet * X );
+    ITopoFacetPtr Next ( );
+    long GetBeginCirculatorEdgeAround ( );
+    ITopoDirectedEdgePtr CirculatorNext ( );
+    ITopoDirectedEdgePtr GetEdge ( );
+    ITopoDirectedEdgePtr LocateEdge (
+        long Index );
+    ITopoNodePtr LocateTopoNode (
+        long Index );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Location (
+        /*[out,retval]*/ struct IPolygon * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Degree (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Equal (
+        struct ITopoFacet * X,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_NotEqual (
+        struct ITopoFacet * X,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Next (
+        /*[out,retval]*/ struct ITopoFacet * * pVal ) = 0;
+      virtual HRESULT __stdcall get_BeginCirculatorEdgeAround (
+        /*[out,retval]*/ long * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CirculatorNext (
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetEdge (
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_LocateEdge (
+        long Index,
+        /*[out,retval]*/ struct ITopoDirectedEdge * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_LocateTopoNode (
+        long Index,
+        /*[out,retval]*/ struct ITopoNode * * pVal ) = 0;
+};
+
+struct __declspec(uuid("2cf5d495-1073-4df4-b1c2-e2a84bfc9aaa"))
+IMultiSurface : IGeometryCollection
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL AddSurface (
+        struct ISurface * Surface );
+    IMultiTriMeshPtr Generalize (
+        double MaxAllowOffset );
+    double GetArea ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_AddSurface (
+        struct ISurface * Surface,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_Generalize (
+        double MaxAllowOffset,
+        /*[out,retval]*/ struct IMultiTriMesh * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetArea (
+        /*[out,retval]*/ double * pVal ) = 0;
+};
+
+struct __declspec(uuid("2375dc10-7404-4603-bc49-12ec2b73bf12"))
+IMultiTriMesh : IMultiSurface
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IVector3Ptr LineSegmentIntersect (
+        struct ILine * Line );
+    IVector3Ptr RayIntersect (
+        struct IPoint * Start,
+        struct IVector3 * Dir );
+    VARIANT_BOOL AddTriMesh (
+        struct ITriMesh * newVal );
+    ITriMeshPtr GetTriMesh (
+        long Index );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_LineSegmentIntersect (
+        struct ILine * Line,
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_RayIntersect (
+        struct IPoint * Start,
+        struct IVector3 * Dir,
+        /*[out,retval]*/ struct IVector3 * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_AddTriMesh (
+        struct ITriMesh * newVal,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetTriMesh (
+        long Index,
+        /*[out,retval]*/ struct ITriMesh * * pVal ) = 0;
+};
+
+struct __declspec(uuid("617e52cf-39d7-414c-9d0b-c2efb3da13f8"))
+IMultiPolygon : IMultiSurface
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL AddPolygon (
+        struct IPolygon * Polygon );
+    IPolygonPtr GetPolygon (
+        long Index );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_AddPolygon (
+        struct IPolygon * Polygon,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetPolygon (
+        long Index,
+        /*[out,retval]*/ struct IPolygon * * pVal ) = 0;
+};
+
+struct __declspec(uuid("af9eeac0-ff76-48df-be9a-589d6e078a70"))
+IGeometryConvertor : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IMultiTriMeshPtr ModelPointToTriMesh (
+        struct IModel * Model,
+        struct IModelPoint * ModelPoint,
+        VARIANT_BOOL UseTexture );
+    VARIANT_BOOL TriMeshToModelPoint (
+        struct IMultiTriMesh * MultiMesh,
+        struct IModel * * Model,
+        struct IModelPoint * * ModelPoint );
+    IMultiPolygonPtr CutTriMeshToPolygon (
+        struct IMultiTriMesh * MultiMesh,
+        double HeightSpec,
+        double Tol );
+    IMultiPointPtr MultiTriMeshToMultiPoint (
+        struct IMultiTriMesh * MultiMesh,
+        double Tol );
+    ITriMeshPtr ExtrudePolygonToTriMesh (
+        struct IPolygon * Polygon,
+        double Height,
+        VARIANT_BOOL Closed );
+    ITriMeshPtr PolygonToTriMesh (
+        struct IPolygon * Polygon );
+    VARIANT_BOOL PolygonToModelPoint (
+        struct IPolygon * Polygon,
+        struct IModel * * Model,
+        struct IModelPoint * * ModelPoint );
+    IMultiPolygonPtr ProjectTriMeshToPolygon (
+        struct IMultiTriMesh * MultiMesh,
+        double Tol );
+    IMultiPolygonPtr ProjectModelPointToPolygon (
+        struct IModelPoint * ModelPoint,
+        struct IModel * Model,
+        double Tol );
+    VARIANT_BOOL ProjectTrimeshToXYPlane (
+        struct IMultiTriMesh * MultiMesh,
+        struct IMultiPolygon * * Polygon,
+        struct IMultiPolyline * * Polyline );
+    VARIANT_BOOL ProjectModelPointToXYPlane (
+        struct IModelPoint * ModelPoint,
+        struct IModel * Model,
+        struct IMultiPolygon * * Polygon,
+        struct IMultiPolyline * * Polyline );
+    VARIANT_BOOL ExtrudePolygonToModel (
+        struct IPolygon * Polygon,
+        long FloorNumber,
+        double FloorHeight,
+        double SlopeAngle,
+        enum gviRoofType RoofType,
+        _bstr_t FacadeTextureName,
+        _bstr_t RoofTextureName,
+        struct IModelPoint * * ModelPoint,
+        struct IModel * * Model );
+    VARIANT_BOOL CutModelPointByPolygon2D (
+        struct IMultiPolygon * MultiPolygon,
+        struct IModel * ModelSrc,
+        struct IModelPoint * ModelPointSrc,
+        struct IModel * * Model,
+        struct IModelPoint * * ModelPoint );
+    VARIANT_BOOL CutModelPointByPolygon2DWithZ (
+        struct IMultiPolygon * MultiPolygon,
+        struct IModel * ModelSrc,
+        struct IModelPoint * ModelPointSrc,
+        double MinZ,
+        double MaxZ,
+        struct IModel * * Model,
+        struct IModelPoint * * ModelPoint );
+    VARIANT_BOOL SplitModelPointByPolygon2D (
+        struct IMultiPolygon * MultiPolygon,
+        struct IModel * ModelSrc,
+        struct IModelPoint * ModelPointSrc,
+        struct IModel * * ModelInterior,
+        struct IModelPoint * * ModelPointInterior,
+        struct IModel * * ModelExterior,
+        struct IModelPoint * * ModelPointExterior );
+    VARIANT_BOOL SplitModelPointByPolygon2DWithZ (
+        struct IMultiPolygon * MultiPolygon,
+        struct IModel * ModelSrc,
+        struct IModelPoint * ModelPointSrc,
+        double MinZ,
+        double MaxZ,
+        struct IModel * * ModelInterior,
+        struct IModelPoint * * ModelPointInterior,
+        struct IModel * * ModelExterior,
+        struct IModelPoint * * ModelPointExterior );
+    VARIANT_BOOL GetSolidProfile (
+        struct ITriMesh * ClosedTriMesh,
+        struct IPolygon * Polygon,
+        struct IMultiPolygon * * Rectangle );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_ModelPointToTriMesh (
+        struct IModel * Model,
+        struct IModelPoint * ModelPoint,
+        VARIANT_BOOL UseTexture,
+        /*[out,retval]*/ struct IMultiTriMesh * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_TriMeshToModelPoint (
+        struct IMultiTriMesh * MultiMesh,
+        /*[out]*/ struct IModel * * Model,
+        /*[out]*/ struct IModelPoint * * ModelPoint,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CutTriMeshToPolygon (
+        struct IMultiTriMesh * MultiMesh,
+        double HeightSpec,
+        double Tol,
+        /*[out,retval]*/ struct IMultiPolygon * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_MultiTriMeshToMultiPoint (
+        struct IMultiTriMesh * MultiMesh,
+        double Tol,
+        /*[out,retval]*/ struct IMultiPoint * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ExtrudePolygonToTriMesh (
+        struct IPolygon * Polygon,
+        double Height,
+        VARIANT_BOOL Closed,
+        /*[out,retval]*/ struct ITriMesh * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_PolygonToTriMesh (
+        struct IPolygon * Polygon,
+        /*[out,retval]*/ struct ITriMesh * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_PolygonToModelPoint (
+        struct IPolygon * Polygon,
+        /*[out]*/ struct IModel * * Model,
+        /*[out]*/ struct IModelPoint * * ModelPoint,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ProjectTriMeshToPolygon (
+        struct IMultiTriMesh * MultiMesh,
+        double Tol,
+        /*[out,retval]*/ struct IMultiPolygon * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ProjectModelPointToPolygon (
+        struct IModelPoint * ModelPoint,
+        struct IModel * Model,
+        double Tol,
+        /*[out,retval]*/ struct IMultiPolygon * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ProjectTrimeshToXYPlane (
+        struct IMultiTriMesh * MultiMesh,
+        /*[out]*/ struct IMultiPolygon * * Polygon,
+        /*[out]*/ struct IMultiPolyline * * Polyline,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ProjectModelPointToXYPlane (
+        struct IModelPoint * ModelPoint,
+        struct IModel * Model,
+        /*[out]*/ struct IMultiPolygon * * Polygon,
+        /*[out]*/ struct IMultiPolyline * * Polyline,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_ExtrudePolygonToModel (
+        struct IPolygon * Polygon,
+        long FloorNumber,
+        double FloorHeight,
+        double SlopeAngle,
+        enum gviRoofType RoofType,
+        BSTR FacadeTextureName,
+        BSTR RoofTextureName,
+        /*[out]*/ struct IModelPoint * * ModelPoint,
+        /*[out]*/ struct IModel * * Model,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CutModelPointByPolygon2D (
+        struct IMultiPolygon * MultiPolygon,
+        struct IModel * ModelSrc,
+        struct IModelPoint * ModelPointSrc,
+        /*[out]*/ struct IModel * * Model,
+        /*[out]*/ struct IModelPoint * * ModelPoint,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CutModelPointByPolygon2DWithZ (
+        struct IMultiPolygon * MultiPolygon,
+        struct IModel * ModelSrc,
+        struct IModelPoint * ModelPointSrc,
+        double MinZ,
+        double MaxZ,
+        /*[out]*/ struct IModel * * Model,
+        /*[out]*/ struct IModelPoint * * ModelPoint,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SplitModelPointByPolygon2D (
+        struct IMultiPolygon * MultiPolygon,
+        struct IModel * ModelSrc,
+        struct IModelPoint * ModelPointSrc,
+        /*[out]*/ struct IModel * * ModelInterior,
+        /*[out]*/ struct IModelPoint * * ModelPointInterior,
+        /*[out]*/ struct IModel * * ModelExterior,
+        /*[out]*/ struct IModelPoint * * ModelPointExterior,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_SplitModelPointByPolygon2DWithZ (
+        struct IMultiPolygon * MultiPolygon,
+        struct IModel * ModelSrc,
+        struct IModelPoint * ModelPointSrc,
+        double MinZ,
+        double MaxZ,
+        /*[out]*/ struct IModel * * ModelInterior,
+        /*[out]*/ struct IModelPoint * * ModelPointInterior,
+        /*[out]*/ struct IModel * * ModelExterior,
+        /*[out]*/ struct IModelPoint * * ModelPointExterior,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+      virtual HRESULT __stdcall raw_GetSolidProfile (
+        struct ITriMesh * ClosedTriMesh,
+        struct IPolygon * Polygon,
+        /*[out]*/ struct IMultiPolygon * * Rectangle,
+        /*[out,retval]*/ VARIANT_BOOL * pVal ) = 0;
+};
+
+struct __declspec(uuid("03c71bee-5ff1-4aa7-9969-c5a582fb1cb6"))
+ITerrainAnalyse : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(put=PutOnProcessing))
+    IDispatchPtr OnProcessing;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    double GetSurfaceArea (
+        struct IPolygon * Domain,
+        double Tolerance );
+    IMultiPolygonPtr FindWaterSinkBoundary (
+        struct IPolygon * Domain,
+        double Tolerance,
+        double WaterDepth );
+    HRESULT CalculateCutFill (
+        struct IPolygon * Domain,
+        double Tolerance,
+        double ReferenceHeight,
+        struct IMultiPolygon * * CutPolygon,
+        struct IMultiPolygon * * FillPolygon,
+        double * CutVolume,
+        double * FillVolume );
+    void PutOnProcessing (
+        IDispatch * _arg1 );
+    IModelPtr EstimateLandslideVolumeEx (
+        struct IModel * ModelHill,
+        struct IModel * ModelSlope,
+        double Resolution,
+        double * Volume );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetSurfaceArea (
+        struct IPolygon * Domain,
+        double Tolerance,
+        /*[out,retval]*/ double * pVal ) = 0;
+      virtual HRESULT __stdcall raw_FindWaterSinkBoundary (
+        struct IPolygon * Domain,
+        double Tolerance,
+        double WaterDepth,
+        /*[out,retval]*/ struct IMultiPolygon * * pVal ) = 0;
+      virtual HRESULT __stdcall raw_CalculateCutFill (
+        struct IPolygon * Domain,
+        double Tolerance,
+        double ReferenceHeight,
+        struct IMultiPolygon * * CutPolygon,
+        struct IMultiPolygon * * FillPolygon,
+        double * CutVolume,
+        double * FillVolume ) = 0;
+      virtual HRESULT __stdcall put_OnProcessing (
+        /*[in]*/ IDispatch * _arg1 ) = 0;
+      virtual HRESULT __stdcall raw_EstimateLandslideVolumeEx (
+        struct IModel * ModelHill,
+        struct IModel * ModelSlope,
+        double Resolution,
+        double * Volume,
+        /*[out,retval]*/ struct IModel * * pModelIntersect ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_GcmFdeGeometry =
+    {0xdd663c14,0x6afc,0x47d0,{0xae,0xce,0x7f,0xe1,0xdb,0x27,0xfb,0x98}};
+extern "C" const GUID __declspec(selectany) IID_ICoordinateReferenceSystem =
+    {0xa0298f71,0x1612,0x4e06,{0xb8,0xe9,0x11,0x43,0xe0,0x6b,0xdc,0x18}};
+extern "C" const GUID __declspec(selectany) IID_ISpatialCRS =
+    {0x7cbc7169,0xda5d,0x4d19,{0x97,0x2d,0xfd,0xe8,0x3c,0x66,0xca,0xed}};
+extern "C" const GUID __declspec(selectany) IID_IGeometry =
+    {0xba31656d,0xd79a,0x4c10,{0x96,0x14,0x04,0x35,0xc0,0xf0,0xeb,0x40}};
+extern "C" const GUID __declspec(selectany) IID_IPoint =
+    {0x1ed34357,0xb13e,0x44b8,{0x8e,0xe8,0xe4,0x17,0x83,0xa2,0xa7,0xc1}};
+extern "C" const GUID __declspec(selectany) IID_ICurve =
+    {0xb1c378c7,0x3d91,0x4e93,{0xaf,0xa7,0xd5,0xf0,0x62,0xc2,0x2e,0x59}};
+extern "C" const GUID __declspec(selectany) IID_IFdeSegment =
+    {0xae075b6d,0x9749,0x4a24,{0xb6,0xe9,0x90,0xc1,0xa1,0xd6,0xa2,0xea}};
+extern "C" const GUID __declspec(selectany) IID_ICompoundLine =
+    {0x3c2d9cec,0xabcf,0x4673,{0x8e,0xe3,0xc9,0x76,0x25,0x30,0x64,0xf5}};
+extern "C" const GUID __declspec(selectany) IID_IGeometryCollection =
+    {0x63c47811,0x16b5,0x48b5,{0xa0,0xbd,0x01,0x53,0x6b,0x6e,0x50,0x21}};
+extern "C" const GUID __declspec(selectany) IID_IMultiCurve =
+    {0x9234304c,0x8596,0x4f89,{0xa7,0x88,0xfe,0x7f,0x78,0x7d,0xff,0x4f}};
+extern "C" const GUID __declspec(selectany) IID_ISurface =
+    {0xe3b5779e,0xd29d,0x47d5,{0x98,0xc8,0x0b,0x32,0xde,0x2d,0x61,0xe3}};
+extern "C" const GUID __declspec(selectany) IID_ILine =
+    {0x0f518962,0xaa24,0x4689,{0x9e,0x26,0x8d,0x78,0x84,0x9b,0xe1,0x15}};
+extern "C" const GUID __declspec(selectany) IID_IPolyline =
+    {0xaeb2c266,0x565f,0x4ed3,{0x89,0x7e,0xab,0xf4,0xc7,0xb8,0xb9,0x3a}};
+extern "C" const GUID __declspec(selectany) IID_IRing =
+    {0xe89e2336,0xacb2,0x4a76,{0xaa,0xcf,0x10,0x06,0x43,0x25,0xea,0x67}};
+extern "C" const GUID __declspec(selectany) IID_IMultiPolyline =
+    {0xe362022f,0xe8bd,0x4c9a,{0x99,0x94,0x8a,0x7e,0xc2,0xd5,0xdb,0x63}};
+extern "C" const GUID __declspec(selectany) IID_ITransform =
+    {0x15ba82c8,0x0408,0x4f08,{0xa7,0xda,0xd6,0xd5,0x0e,0x83,0xe0,0xad}};
+extern "C" const GUID __declspec(selectany) IID_IRelationalOperator2D =
+    {0xf7867139,0x9c90,0x43d3,{0x8f,0xbb,0xbb,0x76,0x2e,0xd9,0x3f,0x71}};
+extern "C" const GUID __declspec(selectany) IID_IRelationalOperator3D =
+    {0x512cf7ec,0x74db,0x4ab4,{0xa7,0xf6,0x70,0xde,0x21,0x12,0x2c,0xf0}};
+extern "C" const GUID __declspec(selectany) IID_IProximityOperator =
+    {0x9c68ec7b,0x9beb,0x4835,{0xa5,0xe7,0x83,0x5b,0x60,0xf7,0x34,0xbf}};
+extern "C" const GUID __declspec(selectany) IID_ITopologicalOperator2D =
+    {0x24dbdaa9,0x2dbf,0x400f,{0x9f,0x15,0x2f,0xce,0x3f,0x3e,0xf3,0xb7}};
+extern "C" const GUID __declspec(selectany) IID_ITopologicalOperator3D =
+    {0xb1620453,0xc028,0x4ec1,{0xb0,0x8f,0x75,0xf7,0xb9,0xc0,0x46,0xb3}};
+extern "C" const GUID __declspec(selectany) IID_IPointCloud =
+    {0x1c5ed1a4,0x01f9,0x4b7d,{0xb9,0x66,0x61,0xe9,0x43,0x53,0x41,0x92}};
+extern "C" const GUID __declspec(selectany) IID_ICircle =
+    {0xf5e3c3c2,0xc5f3,0x4281,{0x89,0x38,0x28,0x36,0x97,0x9a,0x48,0x56}};
+extern "C" const GUID __declspec(selectany) IID_IGeometryFactory =
+    {0xd0690847,0xd14e,0x4ee3,{0x9b,0x69,0x63,0xa2,0xe5,0x9f,0xc0,0x93}};
+extern "C" const GUID __declspec(selectany) IID_IPOI =
+    {0x9ac79c26,0x9da5,0x453c,{0x9b,0x99,0x1c,0x94,0x3f,0xc0,0x52,0x3d}};
+extern "C" const GUID __declspec(selectany) IID_IModelPoint =
+    {0x993b26e9,0x00f0,0x4e2e,{0x8c,0x5e,0xcf,0xa0,0x19,0xe4,0x8b,0x2b}};
+extern "C" const GUID __declspec(selectany) IID_ICirculeArc =
+    {0x7df2eee7,0x4a9d,0x4c1d,{0x85,0x8e,0x04,0xfd,0xb9,0x16,0x35,0xe9}};
+extern "C" const GUID __declspec(selectany) IID_IMultiPoint =
+    {0xa8ba0bfa,0x0fb5,0x40bf,{0xb2,0x7a,0xc3,0x4f,0xd5,0xf2,0xc4,0xbc}};
+extern "C" const GUID __declspec(selectany) IID_IGeographicCRS =
+    {0xbf223def,0xc97c,0x4bb0,{0xaa,0x43,0xdf,0x3f,0xfc,0x17,0x8d,0x03}};
+extern "C" const GUID __declspec(selectany) IID_IProjectedCRS =
+    {0x32839195,0x7917,0x4a0b,{0xb1,0xf8,0xd2,0x94,0xe7,0xdd,0x21,0x29}};
+extern "C" const GUID __declspec(selectany) IID_IUnknownCRS =
+    {0xaa4b4055,0x043e,0x414f,{0x87,0x31,0x1c,0xbf,0x7b,0xd8,0xcc,0x2e}};
+extern "C" const GUID __declspec(selectany) IID_IEastNorthUpCRS =
+    {0xc6103a7c,0x11f8,0x41ce,{0xb3,0x73,0x07,0x70,0xfd,0x4c,0x0c,0xe3}};
+extern "C" const GUID __declspec(selectany) IID_ICRSFactory =
+    {0xb7689d50,0x742a,0x40c7,{0xbc,0x25,0xcf,0x6e,0xa8,0xa4,0x11,0xc9}};
+extern "C" const GUID __declspec(selectany) IID_ICoordinateTransformer =
+    {0x6a84bb85,0x0d63,0x42e7,{0x81,0x46,0x58,0x33,0x82,0xd3,0x27,0x83}};
+extern "C" const GUID __declspec(selectany) IID_IGeoTransformer =
+    {0x14105226,0xe424,0x4436,{0x89,0x03,0x6f,0x86,0x9c,0xd6,0xe2,0x63}};
+extern "C" const GUID __declspec(selectany) IID_IPolynomialTransformer =
+    {0xdc3f6cf8,0x1b6b,0x4f1c,{0xa9,0x4d,0xea,0xe1,0x46,0x1c,0xe0,0x30}};
+extern "C" const GUID __declspec(selectany) CLSID_Transform =
+    {0x02eb2b8e,0x0547,0x40e0,{0xba,0x16,0x2e,0xb2,0x33,0xe0,0x46,0xfa}};
+extern "C" const GUID __declspec(selectany) CLSID_GeometryFactory =
+    {0x2cad2e25,0x7cde,0x4252,{0xb0,0xd1,0x63,0x7f,0x6f,0x38,0xc0,0x94}};
+extern "C" const GUID __declspec(selectany) CLSID_SpatialCRS =
+    {0x74b0f69a,0xab2c,0x4528,{0x81,0x04,0x7f,0x67,0xc6,0xc4,0x87,0xa6}};
+extern "C" const GUID __declspec(selectany) CLSID_GeographicCRS =
+    {0x77b66670,0x4a84,0x4ec4,{0x9c,0x8c,0x3e,0x11,0x95,0xa1,0xc9,0x20}};
+extern "C" const GUID __declspec(selectany) CLSID_ProjectedCRS =
+    {0x517fa76a,0x518e,0x47fe,{0x9a,0xb5,0x39,0x65,0xb9,0x08,0xb5,0x36}};
+extern "C" const GUID __declspec(selectany) CLSID_CRSFactory =
+    {0x7467b293,0xb3db,0x498f,{0xbf,0x53,0xde,0xef,0xe3,0x53,0x70,0x0d}};
+extern "C" const GUID __declspec(selectany) CLSID_GeometryConvertor =
+    {0x2c4d40eb,0x6394,0x4711,{0x8e,0x66,0x9a,0x17,0x6d,0x18,0xb0,0x99}};
+extern "C" const GUID __declspec(selectany) CLSID_UnknownCRS =
+    {0x7a9bf176,0x181d,0x49f0,{0x82,0x0f,0x8f,0xb6,0xf3,0x21,0x41,0xb3}};
+extern "C" const GUID __declspec(selectany) CLSID_TerrainAnalyse =
+    {0x84ef29cf,0xf5b8,0x4f7c,{0xb5,0x7c,0x8f,0xf5,0xd6,0xb4,0x03,0xae}};
+extern "C" const GUID __declspec(selectany) CLSID_ParametricModelling =
+    {0x915be0dd,0x435a,0x44e7,{0xb4,0x0c,0xa5,0x4c,0x35,0x4a,0xe4,0xfd}};
+extern "C" const GUID __declspec(selectany) CLSID_GeoTransformer =
+    {0x3830ad74,0x8f08,0x4730,{0x95,0x50,0xda,0x2b,0x70,0x5e,0x46,0x8c}};
+extern "C" const GUID __declspec(selectany) CLSID_PolynomialTransformer =
+    {0xb01acd46,0x389e,0x450e,{0x84,0x84,0xc3,0xdf,0x7d,0x4b,0x88,0x7c}};
+extern "C" const GUID __declspec(selectany) CLSID_EastNorthUpCRS =
+    {0x6984f17f,0x65e2,0x415d,{0x93,0x06,0x66,0x6b,0x37,0x19,0xec,0x7b}};
+extern "C" const GUID __declspec(selectany) IID_ISurfacePatch =
+    {0x8d5f233d,0x2a21,0x459e,{0x97,0xc2,0x5d,0x34,0x8f,0x16,0x34,0x2e}};
+extern "C" const GUID __declspec(selectany) IID_IPolygon =
+    {0x7e1b6a0d,0xbeb2,0x4025,{0x8d,0x9b,0xb1,0x69,0x58,0x85,0x49,0xad}};
+extern "C" const GUID __declspec(selectany) IID_IParametricModelling =
+    {0xd3fe7b5b,0x2124,0x4e15,{0xa8,0x92,0x34,0xf5,0x0b,0xd7,0x37,0x86}};
+extern "C" const GUID __declspec(selectany) IID_ITriMesh =
+    {0xd4f41758,0xc46b,0x4c86,{0xbf,0xa0,0x98,0xf5,0xcf,0x28,0x4c,0xa3}};
+extern "C" const GUID __declspec(selectany) IID_IClosedTriMesh =
+    {0x272d0d67,0x69a7,0x4ebb,{0xa0,0xfa,0x7a,0x03,0x4e,0x18,0x53,0x96}};
+extern "C" const GUID __declspec(selectany) IID_ITopoNode =
+    {0x325d359f,0xe8d5,0x47db,{0x9e,0x7b,0x74,0xce,0x28,0xfb,0x99,0x72}};
+extern "C" const GUID __declspec(selectany) IID_ITopoDirectedEdge =
+    {0x17d58d35,0xe37f,0x4189,{0x9b,0x4b,0x17,0x20,0x4a,0x4e,0x87,0x63}};
+extern "C" const GUID __declspec(selectany) IID_ITopoFacet =
+    {0xaecdbb9a,0xa4f5,0x497d,{0xbc,0x42,0xf2,0xe4,0x88,0x82,0xef,0x46}};
+extern "C" const GUID __declspec(selectany) IID_IMultiSurface =
+    {0x2cf5d495,0x1073,0x4df4,{0xb1,0xc2,0xe2,0xa8,0x4b,0xfc,0x9a,0xaa}};
+extern "C" const GUID __declspec(selectany) IID_IMultiTriMesh =
+    {0x2375dc10,0x7404,0x4603,{0xbc,0x49,0x12,0xec,0x2b,0x73,0xbf,0x12}};
+extern "C" const GUID __declspec(selectany) IID_IMultiPolygon =
+    {0x617e52cf,0x39d7,0x414c,{0x9d,0x0b,0xc2,0xef,0xb3,0xda,0x13,0xf8}};
+extern "C" const GUID __declspec(selectany) IID_IGeometryConvertor =
+    {0xaf9eeac0,0xff76,0x48df,{0xbe,0x9a,0x58,0x9d,0x6e,0x07,0x8a,0x70}};
+extern "C" const GUID __declspec(selectany) IID_ITerrainAnalyse =
+    {0x03c71bee,0x5ff1,0x4aa7,{0x99,0x69,0xc5,0xa5,0x82,0xfb,0x1c,0xb6}};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\program files (x86)\citymaker 7\citymaker sdk\samples\csharp\beginner\helloworldcplus\debug\GcmFdeGeometry.tli"
+
+#pragma pack(pop)

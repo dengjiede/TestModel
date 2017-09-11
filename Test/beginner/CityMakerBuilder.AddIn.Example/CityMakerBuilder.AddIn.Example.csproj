@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F9C2E3F-E06C-4FE8-A41A-97255B5C810F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CityMakerBuilder.AddIn.Example</RootNamespace>
+    <AssemblyName>CityMakerBuilder.AddIn.Example</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\x86\Builder\AddIns\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\x86\Builder\AddIns\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Utils.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v11.2, Version=11.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Gvitech.CityMaker.AxControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.AxControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Gvitech.CityMaker.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Gvitech.CityMaker.FdeCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.FdeCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Gvitech.CityMaker.FdeDataInterop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.FdeDataInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="Gvitech.CityMaker.FdeGeometry, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.FdeGeometry.dll</HintPath>
+    </Reference>
+    <Reference Include="Gvitech.CityMaker.FdeUndoRedo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.FdeUndoRedo.dll</HintPath>
+    </Reference>
+    <Reference Include="Gvitech.CityMaker.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="Gvitech.CityMaker.RenderControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.RenderControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Gvitech.CityMaker.Resource, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4af8ecbfa1f04dea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\DeveloperKit_trunk\DotNet\Assemblies\Gvitech.CityMaker.Resource.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\AddTerrainCommand.cs" />
+    <Compile Include="Command\ShowDEMCommand.cs" />
+    <Compile Include="Command\ShowTerrainCommand.cs" />
+    <Compile Include="Command\TerrainOpacityCommand.cs" />
+    <Compile Include="ConditionEvaluator.cs" />
+    <Compile Include="Dialog\TerrainServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\TerrainServerForm.designer.cs">
+      <DependentUpon>TerrainServerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\TerrainSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\TerrainSettingForm.designer.cs">
+      <DependentUpon>TerrainSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExampleProcess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dialog\TerrainServerForm.resx">
+      <DependentUpon>TerrainServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\TerrainSettingForm.resx">
+      <DependentUpon>TerrainSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CityMakerBuilder.Example.addin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CityMakerBuilder.AddIn.Core\CityMakerBuilder.AddIn.Core.v10.csproj">
+      <Project>{4DF53BD7-61AE-4F29-A4E9-EB9941D5BF0B}</Project>
+      <Name>CityMakerBuilder.AddIn.Core.v10</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CityMakerBuilder.AddIn.WinForm\CityMakerBuilder.AddIn.WinForm.v10.csproj">
+      <Project>{A428F793-761C-4FA6-8565-4CF54352285A}</Project>
+      <Name>CityMakerBuilder.AddIn.WinForm.v10</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CityMakerBuilder.UserControls.CommonControls\CityMakerBuilder.UserControls.CommonControls.v10.csproj">
+      <Project>{BAE82091-F128-4EE0-8AD8-4885DE89AE54}</Project>
+      <Name>CityMakerBuilder.UserControls.CommonControls.v10</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CityMakerBuilder.WorkSpace\CityMakerBuilder.WorkSpace.v10.csproj">
+      <Project>{D9DAD69A-FBD7-49B8-A968-F86772F87571}</Project>
+      <Name>CityMakerBuilder.WorkSpace.v10</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

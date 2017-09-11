@@ -1,0 +1,11 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\ParticleEffect.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\ParticleEffect.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ParticleEffect.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ParticleEffect.ComplexPropertyFrm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ParticleEffect.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ParticleEffect.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ParticleEffect.PropertyFrm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ParticleEffect.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ParticleEffect.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Release\ParticleEffect.pdb

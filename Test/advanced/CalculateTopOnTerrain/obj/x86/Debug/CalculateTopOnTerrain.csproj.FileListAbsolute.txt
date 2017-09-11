@@ -1,0 +1,9 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\CalculateTopOnTerrain.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\CalculateTopOnTerrain.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\CalculateTopOnTerrain\obj\x86\Debug\CalculateTopOnTerrain.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\CalculateTopOnTerrain\obj\x86\Debug\CalculateTopOnTerrain.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\CalculateTopOnTerrain\obj\x86\Debug\CalculateTopOnTerrain.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\CalculateTopOnTerrain\obj\x86\Debug\CalculateTopOnTerrain.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\CalculateTopOnTerrain\obj\x86\Debug\CalculateTopOnTerrain.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\CalculateTopOnTerrain\obj\x86\Debug\CalculateTopOnTerrain.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\CalculateTopOnTerrain\obj\x86\Debug\CalculateTopOnTerrain.csprojResolveAssemblyReference.cache

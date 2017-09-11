@@ -1,0 +1,9 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\HighlightHelper.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\HighlightHelper.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HighlightHelper\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HighlightHelper\obj\x86\Release\HighlightHelper.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HighlightHelper\obj\x86\Release\HighlightHelper.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HighlightHelper\obj\x86\Release\HighlightHelper.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HighlightHelper\obj\x86\Release\HighlightHelper.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HighlightHelper\obj\x86\Release\HighlightHelper.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\advanced\HighlightHelper\obj\x86\Release\HighlightHelper.pdb

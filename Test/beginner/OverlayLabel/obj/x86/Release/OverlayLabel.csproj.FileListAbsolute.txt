@@ -1,0 +1,10 @@
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\OverlayLabel.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\bin\OverlayLabel.pdb
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\OverlayLabel\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\OverlayLabel\obj\x86\Release\OverlayLabel.csproj.ResolveComReference.cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\OverlayLabel\obj\x86\Release\OverlayLabel.MainForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\OverlayLabel\obj\x86\Release\OverlayLabel.Properties.Resources.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\OverlayLabel\obj\x86\Release\OverlayLabel.SettingForm.resources
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\OverlayLabel\obj\x86\Release\OverlayLabel.csproj.GenerateResource.Cache
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\OverlayLabel\obj\x86\Release\OverlayLabel.exe
+E:\CityMaker7\7.1\DeveloperKit7\SDK\Samples\CSharp\beginner\OverlayLabel\obj\x86\Release\OverlayLabel.pdb

@@ -1,0 +1,8 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\LabelAndRenderGeometry.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\LabelAndRenderGeometry.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\LabelAndRenderGeometry\obj\x86\Debug\LabelAndRenderGeometry.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\LabelAndRenderGeometry\obj\x86\Debug\LabelAndRenderGeometry.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\LabelAndRenderGeometry\obj\x86\Debug\LabelAndRenderGeometry.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\LabelAndRenderGeometry\obj\x86\Debug\LabelAndRenderGeometry.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\LabelAndRenderGeometry\obj\x86\Debug\LabelAndRenderGeometry.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\intermediate\LabelAndRenderGeometry\obj\x86\Debug\LabelAndRenderGeometry.pdb

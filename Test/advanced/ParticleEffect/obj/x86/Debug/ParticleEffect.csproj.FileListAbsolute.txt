@@ -1,0 +1,10 @@
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\ParticleEffect.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\bin\ParticleEffect.pdb
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Debug\ParticleEffect.csproj.ResolveComReference.cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Debug\ParticleEffect.ComplexPropertyFrm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Debug\ParticleEffect.MainForm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Debug\ParticleEffect.Properties.Resources.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Debug\ParticleEffect.PropertyFrm.resources
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Debug\ParticleEffect.csproj.GenerateResource.Cache
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Debug\ParticleEffect.exe
+D:\Program Files (x86)\CityMaker 7\CityMaker SDK\Samples\CSharp\advanced\ParticleEffect\obj\x86\Debug\ParticleEffect.pdb
